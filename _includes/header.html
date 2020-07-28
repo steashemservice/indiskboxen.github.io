@@ -1,0 +1,36 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header" {% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title | split: ' ' | first}}</strong><!-- <span>{{ site.title | split: ' ' | last}}</span> <span>{{ site.subtitle }}</span> --></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        {% for page in site.pages %}
+		    {% if page.layout == "home" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		<!--{% assign sorted_pages = site.pages | sort:"order" %}
+                {% for page in sorted_pages %}
+		    {% if page.layout != "home" and page.layout != "landing" and page.nav-menu == true %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		    {% endif %}
+		{% endfor %}-->
+		<li><a href="#one" class="button special fit">hur det fungerart</a></li>
+		<li><a href="#three">våra erbjudanden</a></li>
+		<li><a href="#contact">anmäl ditt intresse</a></li>
+	</ul>
+	<!--<ul class="actions vertical">
+		<li><a href="#one" class="button special fit">hur det fungerart</a></li>
+		<li><a href="#erbjudanden">våra erbjudanden</a></li>
+		<li><a href="#contact">anmäl ditt intresse</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>-->
+</nav>

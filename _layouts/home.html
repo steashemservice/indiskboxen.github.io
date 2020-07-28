@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+		    <!-- <li><a href="tel:{{ site.phone }}" class="button"><i class="fa fa-fw fa-phone"></i> Ring oss på {{ site.phone }}</a></li> -->
+		    <li><a href="#one" class="button scrolly"><i class="fas fa-fw fa-lightbulb"></i> hur det fungerar</a></li>
+		    <li><a href="#three" class="button scrolly"><i class="fa fa-fw fa-star"></i> våra erbjudanden</a></li>
+		    <li><a href="#contact" class="button scrolly"><i class="fa fa-fw fa-envelope"></i> anmäl ditt intresse</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+	    
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+		<header class="major">
+                    <h2>Vi hämtar din källsortering vid dörren</h2>
+		    <p>{{ content }}</p>
+		</header>
+		<header class="major">
+                    <h2>Enkel och Bekvamlighet</h2>
+		    <!-- <p> Med abonnemang betalar du för två eller fyra hämtningar per månad till ett fast pris och extra hämtning på beställning via APP. Du får ett lägre pris eftersom vi hämtar källsorteringen även hos dina grannar.</p> -->
+                    <p> Med abonnemang (ingår 1 upphämtningar) betalar du för antal hämtningar per månad och varje hämtning på beställning via APP. Du får ett lägre pris eftersom vi hämtar källsorteringen även hos dina grannar.</p> 
+                    <span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>
+		</header>
+		<!-- <ul class="actions">
+		    <li><a href="#contact" class="button scrolly"><i class="fa fa-fw fa-envelope"></i> anmäl ditt intresse</a></li>
+                    <li><a href="hurfungerardet" class="button next">hur det fungerar</a></li>
+                </ul> -->
+            </div>
+        </section>
+	<!-- Three -->
+        <section id="three">
+            <div class="inner">
+		<header class="major">
+                    <h2>Våra erbjudanden</h2>
+		    <li> 99 SEK / mån </li>
+		    <li> Här ingår 1 upphämtningar per månad </li>
+		    <li> Extra Upphämtning (Så många du vill) - 79 SEK / Upphämtning</li>
+		    <li> Ingen Bindningtid </li>
+		    <li> Pausa och starta när du vill via APP </li>
+		    <li> En engångsavgift för 4 Källsorteringspåsarna (35 l) - 99 SEK </li>
+		</header>
+	    </div>
+        </section>   
+	<!-- One -->
+	{% include howitworks.html %}
+	<!-- 
+        {% include tiles.html %}
+	<div class="inner">
+	  <ul class="actions">
+             <li><a href="se-alla-projekts" class="button next">se alla hemstyling projekts</a></li>
+          </ul>
+	</div>
+        -->
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

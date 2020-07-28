@@ -1,0 +1,205 @@
+<!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+		    <header class="major">
+                    	<h2>Anmäl ditt intresse</h2>
+                    </header>
+		    <form id="contact-form" class="contact-form" method="post" data-success="Ditt intresse har registrerats! Tack för ditt intresse.">
+  			<input type="hidden" name="_next" value="thanks" />
+			<input id="dispnon" name="_prev" type="text" />
+		      	<div class="field">    
+			  <label for="name">Name</label>
+  			  <input id="name" type="text" name="name" class="field" required />
+                        </div>
+			<div class="field">
+  			  <label for="email">E-mail</label>
+  			  <input id="email" type="email" name="email" class="field" required />
+			</div>
+			<div class="field half first">
+			  <label for="region">Län</label>
+			  <select type="text" name="region" id="region" class="field">
+			    <option value="Stockholms">Stockholms</option>
+			  </select>
+			</div>
+			<div class="field half">
+			  <label for="area">Kommun</label>
+			  <select type="text" name="area" id="area" class="field" required>
+			    <option value="">None</option>
+			   <!-- <option value="Stockholm">Stockholm</option>-->
+			    <option value="Solna">Solna</option>
+			    <option value="Sundbyberg">Sundbyberg</option>
+			  </select>  
+			</div>
+			<div class="field">
+			  <label for="message">Meddelande</label>
+			  <textarea name="message" id="message" rows="6"></textarea>
+			</div>
+                        <div class="field">
+			  <input type="checkbox" required id="terms" name="terms">
+			  <label for="terms"> Jag vill ha svar från Steas och samtycker därför till att ni behandlar mina personuppgifter</label>
+			</div>
+			<div id="notice" class="notice" data-exception="Something went wrong. Try again!" data-error="Du har redan registrerat ditt intresse. Tack för ditt intresse."></div>
+  			<button type="submit">Skicka</button>
+		    </form>
+			<!-- <form action="https://formspree.io/{{ site.email }}" method="POST">
+				<input type="hidden" name="_next" value="thanks" />
+				<div class="field half first">
+					<label for="name">Namn</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="city">Stad</label>
+					<select type="text" name="city" id="city">
+						<option value="stockholm">Stockholm</option>
+					</select>
+				</div>
+				<div class="field half first">
+					<label for="email">E-post</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field half">
+					<label for="Telephone">Telefon</label>
+					<input type="text" name="telephone" id="telephone" />
+				</div>
+				<div class="field half first">
+					<label for="Date">Datum</label>
+					<input type="text" name="date" id="date" />
+				</div>
+				<div class="field half">
+					<label for="Discount">Rabattkod?</label>
+					<input type="text" name="discount" id="discount" />
+				</div>
+				<div class="field">
+					<label for="message">Önskad tjänst</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Skicka!" class="special" /></li>
+					<li><input type="reset" value="Klar" /></li>
+				</ul>
+			</form>  -->
+			
+		</section>
+		<!-- <section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fas fa-envelope"></span>
+					<h3>E-post</h3>
+					<a href="#contact">{{ site.email }}</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fas fa-phone"></span>
+					<h3>Telefon</h3>
+					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fas fa-home"></span>
+					<h3>Adress</h3>
+					<span>
+					{% if site.street_address %}
+					    {{ site.street_address }}<br />
+					{% endif %}
+					{% if site.city %}
+					    {{ site.city }},
+					{% endif %}
+					{% if site.state %}
+					    {{ site.state }} 
+					{% endif %}
+					{% if site.zip_code %}
+					    {{ site.zip_code }}<br />
+					{% endif %}
+					{% if site.country %}
+					    {{ site.country }}
+					{% endif %}
+					</span>
+				</div>
+			</section>
+		</section> -->
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				{% if site.twitter_url %}
+				<li><a href="{{ site.twitter_url }}" class="icon alt fab fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+				{% endif %}
+				{% if site.googleplus_url %}
+				<li><a href="{{ site.googleplus_url }}" class="icon alt fab fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
+				{% endif %}
+				{% if site.facebook_url %}
+				<li><a href="{{ site.facebook_url }}" class="icon alt fab fa-3x fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+				{% endif %}
+				{% if site.instagram_url %}
+				<li><a href="{{ site.instagram_url }}" class="icon alt fab fa-3x fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				{% endif %}
+				{% if site.pinterest_url %}
+				<li><a href="{{ site.pinterest_url }}" class="icon alt fab fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+				{% endif %}
+				{% if site.500px_url %}
+				<li><a href="{{ site.500px_url }}" class="icon alt fab fa-500px" target="_blank"><span class="label">500px</span></a></li>
+				{% endif %}
+				{% if site.gitlab_url %}
+				<li><a href="{{ site.gitlab_url }}" class="icon alt fab fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+				{% endif %}
+				{% if site.github_url %}
+				<li><a href="{{ site.github_url }}" class="icon alt fab fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				{% endif %}
+				{% if site.slack_url %}
+				<li><a href="{{ site.slack_url }}" class="icon alt fab fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+				{% endif %}
+				{% if site.linkedin_url %}
+				<li><a href="{{ site.linkedin_url }}" class="icon alt fab fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+			</ul>
+			<ul class="copyright">
+				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li><a href="https://www.freepik.com/free-photos-vectors/background">Banner created by macrovector, Freepik</a></li>
+			</ul>
+		</div>
+	</footer>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.3'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/sv_SE/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="123736931674608"
+  theme_color="#69BE94"
+  greeting_dialog_display="hide"
+  logged_in_greeting="Hej! :) Är det något du undrar så finns jag här för att hjälpa dig"
+  logged_out_greeting="Hej! :) Är det något du undrar så finns jag här för att hjälpa dig">
+</div>
+
+<!-- Scripts -->
+	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+        <script src="{{ "assets/js/jquery-ui.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+        <!--<script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>-->
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
