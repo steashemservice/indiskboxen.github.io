@@ -69,15 +69,13 @@
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
-          form.reset();
-          var formElements = form.querySelector(".form-elements")
-          if (formElements) {
-            formElements.style.display = "none"; // hide form
-          }
-          var thankYouMessage = form.querySelector(".thankyou_message");
-          if (thankYouMessage) {
-            thankYouMessage.style.display = "block";
-          }
+          form.fadeOut(function() {
+            form.html('<div class="field"><h4><em>Thanks</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
+          });
+        } else {
+          form.fadeOut(function() {
+            form.html('<div class="field"><h4><em>Sorry. Something went wrong!</em></h4></div>').fadeIn();
+          });
         }
     };
     // url encode form data for sending as post data
