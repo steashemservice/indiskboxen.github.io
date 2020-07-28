@@ -5,7 +5,7 @@
 		    <header class="major">
                     	<h2>Anmäl ditt intresse</h2>
                     </header>
-		    <form id="contact-form" class="contact-form" method="post" data-success="Ditt intresse har registrerats! Tack för ditt intresse.">
+		    <form id="contact-form" class="contact-form gform" method="post" data-success="Ditt intresse har registrerats! Tack för ditt intresse.">
   			<input type="hidden" name="_next" value="thanks" />
 			<input id="dispnon" name="_prev" type="text" />
 		      	<div class="field">    
@@ -16,15 +16,24 @@
   			  <label for="email">E-mail</label>
   			  <input id="email" type="email" name="email" class="field" required />
 			</div>
-			<div class="field half first">
-			  <label for="region">Län</label>
-			  <select type="text" name="region" id="region" class="field">
+			<div class="field">
+			  <label for="question1">question1</label>
+			  <select type="text" name="question1" id="question1" class="field">
 			    <option value="Stockholms">Stockholms</option>
 			  </select>
 			</div>
-			<div class="field half">
-			  <label for="area">Kommun</label>
-			  <select type="text" name="area" id="area" class="field" required>
+			<div class="field">
+			  <label for="question2">question2</label>
+			  <select type="text" name="question2" id="question2" class="field" required>
+			    <option value="">None</option>
+			   <!-- <option value="Stockholm">Stockholm</option>-->
+			    <option value="Solna">Solna</option>
+			    <option value="Sundbyberg">Sundbyberg</option>
+			  </select>  
+			</div>
+			<div class="field">
+			  <label for="question3">question3</label>
+			  <select type="text" name="question3" id="question3" class="field" required>
 			    <option value="">None</option>
 			   <!-- <option value="Stockholm">Stockholm</option>-->
 			    <option value="Solna">Solna</option>
