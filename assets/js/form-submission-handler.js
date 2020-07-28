@@ -5,7 +5,7 @@
     var honeypot;
 
     var fields = Object.keys(elements).filter(function(k) {
-      if (elements[k].name === "honeypot") {
+      if (elements[k].name === "_prev") {
         honeypot = elements[k].value;
         return false;
       }
