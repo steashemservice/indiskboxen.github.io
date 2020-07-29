@@ -70,7 +70,12 @@
       type: "POST",
       dataType: "json",
       statusCode: {
-        500,404: function() {
+        404: function() {
+          form_e.fadeOut(function() {
+            form_e.html('<div class="field"><h4><em>Sorry. Something went wrong!</em></h4></div>').fadeIn();
+          });
+        },
+        500: function() {
           form_e.fadeOut(function() {
             form_e.html('<div class="field"><h4><em>Sorry. Something went wrong!</em></h4></div>').fadeIn();
           });
