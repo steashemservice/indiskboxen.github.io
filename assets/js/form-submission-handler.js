@@ -1,12 +1,15 @@
-(function() {
+(function($) {
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
-    var honeypot;
-
+    var trap,honeypot;
+    
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "_prev") {
         honeypot = elements[k].value;
+        return false;
+      } else if (elements[k].name === "_next") {
+        trap = elements[k].value;
         return false;
       }
       return true;
@@ -24,10 +27,8 @@
     var formData = {};
     fields.forEach(function(name){
       var element = elements[name];
-      
       // singular form elements just have one value
       formData[name] = element.value;
-
       // when our element has multiple items, get their values
       if (element.length) {
         var data = [];
@@ -44,19 +45,16 @@
     // add form-specific values into the data
     formData.formDataNameOrder = JSON.stringify(fields);
     formData.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
-    formData.formGoogleSendEmail
-      = form.dataset.email || ""; // no email by default
-
-    return {data: formData, honeypot: honeypot};
+    formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+    return {data: formData, honeypot: honeypot, trap:trap};
   }
 
   function handleFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
     var form = event.target;
-    var form_e = jQuery('#contact-form')
+    var form_e = $( "#contact-form" )
     var formData = getFormData(form);
-    // If a honeypot field is filled, assume it was done so by a spam bot.
-    if (formData.honeypot) {
+    if (formData.honeypot || formData.trap !== 'thanks') {
       return false;
     }
     var data = formData.data;
@@ -66,41 +64,24 @@
     }).join('&');
     disableAllButtons(form);
     var url = 'https://script.google.com/macros/s/AKfycbzvfPO-o__LUgpp06Q4YkqAb27w4rAizo6DiUP48W20-HE_RyY/exec';
-    jQuery.ajax({
-      url: "https://script.google.com/macros/s/AKfycbzvfPO-o__LUgpp06Q4YkqAb27w4rAizo6DiUP48W20-HE_RyY/exec",
+    $.ajax({
+      url: url,
       data: encoded,
       type: "POST",
       dataType: "json",
       statusCode: {
-        0: function() {
+        500,404: function() {
           form_e.fadeOut(function() {
-            form_e.html('<div class="field"><h4><em>Thanks0</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
+            form_e.html('<div class="field"><h4><em>Sorry. Something went wrong!</em></h4></div>').fadeIn();
           });
         },
         200: function() {
           form_e.fadeOut(function() {
-            form_e.html('<div class="field"><h4><em>Thanks200</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
+            form_e.html('<div class="field"><h4><em>Thanks</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
           });
         }
       }
     });
-    
-    //var xhr = new XMLHttpRequest();
-    //xhr.open('POST', url);
-    //// xhr.withCredentials = true;
-    //xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    //xhr.onreadystatechange = function() {
-    //    if (xhr.readyState === 4 && xhr.status === 200) {
-    //      form.fadeOut(function() {
-    //        form.html('<div class="field"><h4><em>Thanks</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
-    //     });
-    //    } else {
-    //      form.fadeOut(function() {
-    //        form.html('<div class="field"><h4><em>Sorry. Something went wrong!</em></h4></div>').fadeIn();
-    //      });
-    //    }
-    //};
-    //xhr.send(encoded);
   }
   
   function loaded() {
@@ -118,4 +99,4 @@
       buttons[i].disabled = true;
     }
   }
-})();
+})(jQuery);
