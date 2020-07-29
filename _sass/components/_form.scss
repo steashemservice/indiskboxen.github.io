@@ -166,6 +166,8 @@
 				text-align: center;
 				top: 0;
 				width: (_size(element-height) * 0.6);
+				font-family:"Font Awesome 5 Free";
+				font-weight:900;
 			}
 		}
 
@@ -173,7 +175,7 @@
 			&:before {
 				background: _palette(fg-bold);
 				border-color: _palette(highlight);
-				content: '\f00c';
+				content: '\f046';
 				color: _palette(bg);
 			}
 		}
