@@ -62,7 +62,7 @@
     }
 
     disableAllButtons(form);
-    var url = 'https://script.google.com/macros/s/AKfycbwP5hCE3brRkHriuYf8hwa-aVOgW6uYm3wnmLRv/exec';
+    var url = 'https://script.google.com/macros/s/AKfycbzvfPO-o__LUgpp06Q4YkqAb27w4rAizo6DiUP48W20-HE_RyY/exec';
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
     // xhr.withCredentials = true;
