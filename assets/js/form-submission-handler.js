@@ -53,36 +53,54 @@
   function handleFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
     var form = event.target;
+    var form_e = jQuery('#contact-form')
     var formData = getFormData(form);
-    var data = formData.data;
-
     // If a honeypot field is filled, assume it was done so by a spam bot.
     if (formData.honeypot) {
       return false;
     }
-
-    disableAllButtons(form);
-    var url = 'https://script.google.com/macros/s/AKfycbzvfPO-o__LUgpp06Q4YkqAb27w4rAizo6DiUP48W20-HE_RyY/exec';
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', url);
-    // xhr.withCredentials = true;
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-          form.fadeOut(function() {
-            form.html('<div class="field"><h4><em>Thanks</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
-          });
-        } else {
-          form.fadeOut(function() {
-            form.html('<div class="field"><h4><em>Sorry. Something went wrong!</em></h4></div>').fadeIn();
-          });
-        }
-    };
+    var data = formData.data;
     // url encode form data for sending as post data
     var encoded = Object.keys(data).map(function(k) {
         return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
     }).join('&');
-    xhr.send(encoded);
+    disableAllButtons(form);
+    var url = 'https://script.google.com/macros/s/AKfycbzvfPO-o__LUgpp06Q4YkqAb27w4rAizo6DiUP48W20-HE_RyY/exec';
+    jQuery.ajax({
+      url: "https://script.google.com/macros/s/AKfycbzvfPO-o__LUgpp06Q4YkqAb27w4rAizo6DiUP48W20-HE_RyY/exec",
+      data: encoded,
+      type: "POST",
+      dataType: "json",
+      statusCode: {
+        0: function() {
+          form_e.fadeOut(function() {
+            form_e.html('<div class="field"><h4><em>Thanks0</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
+          });
+        },
+        200: function() {
+          form_e.fadeOut(function() {
+            form_e.html('<div class="field"><h4><em>Thanks200</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
+          });
+        }
+      }
+    });
+    
+    //var xhr = new XMLHttpRequest();
+    //xhr.open('POST', url);
+    //// xhr.withCredentials = true;
+    //xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    //xhr.onreadystatechange = function() {
+    //    if (xhr.readyState === 4 && xhr.status === 200) {
+    //      form.fadeOut(function() {
+    //        form.html('<div class="field"><h4><em>Thanks</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
+    //     });
+    //    } else {
+    //      form.fadeOut(function() {
+    //        form.html('<div class="field"><h4><em>Sorry. Something went wrong!</em></h4></div>').fadeIn();
+    //      });
+    //    }
+    //};
+    //xhr.send(encoded);
   }
   
   function loaded() {
