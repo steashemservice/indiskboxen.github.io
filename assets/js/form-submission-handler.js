@@ -51,8 +51,9 @@
 
   function handleFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
-    var form = event.target;
-    var form_e = $( "#contact-form" )
+    var form = event.target,
+        form_e = $( "#contact-form" ),
+        notice = form_e.find('#notice');
     var formData = getFormData(form);
     if (formData.honeypot || formData.trap !== 'thanks') {
       return false;
@@ -72,17 +73,17 @@
       statusCode: {
         404: function() {
           form_e.fadeOut(function() {
-            form_e.html('<div class="field"><h4><em>Sorry. Something went wrong!</em></h4></div>').fadeIn();
+            form_e.html('<div class="field"><h4>' + notice.data('error') + '</h4></div>').fadeIn();
           });
         },
         500: function() {
           form_e.fadeOut(function() {
-            form_e.html('<div class="field"><h4><em>Sorry. Something went wrong!</em></h4></div>').fadeIn();
+            form_e.html('<div class="field"><h4>' + notice.data('error') + '</h4></div>').fadeIn();
           });
         },
         200: function() {
           form_e.fadeOut(function() {
-            form_e.html('<div class="field"><h4><em>Thanks</em> for contacting us! We will get back to you soon! </h4></div>').fadeIn();
+            form_e.html('<div class="field"><h4>' + form_e.data('success') + '</h4></div>').fadeIn();
           });
         }
       }
