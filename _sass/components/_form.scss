@@ -127,7 +127,9 @@
 	select {
 		height: _size(element-height);
 	}
-
+        select option{
+		background: _palette(bg-alt);
+	}
 	textarea {
 		padding: 0.75em 1em;
 	}
