@@ -137,7 +137,7 @@
 	input[type="checkbox"],
 	input[type="radio"], {
 		@include vendor('appearance', 'none');
-		display: block;
+		display: none;
 		float: left;
 		margin-right: -2em;
 		opacity: 0;
@@ -156,16 +156,17 @@
 
 			&:before {
 				background: _palette(border-bg);
-				content: '';
+				content: '\f096';
 				display: inline-block;
 				height: (_size(element-height) * 0.6);
 				left: 0;
-				letter-spacing: 0;
+				letter-spacing: 10px;
 				line-height: (_size(element-height) * 0.575);
 				position: absolute;
 				text-align: center;
 				top: 0;
 				width: (_size(element-height) * 0.6);
+				font-family: FontAwesome;
 			}
 		}
 
@@ -173,7 +174,7 @@
 			&:before {
 				background: _palette(fg-bold);
 				border-color: _palette(highlight);
-				content: '\f00c';
+				content: '\f046';
 				color: _palette(bg);
 			}
 		}
