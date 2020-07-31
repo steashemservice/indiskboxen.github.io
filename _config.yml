@@ -1,17 +1,17 @@
 # site settings
-title: "Steas "
-subtitle: ""
-email: support@steas.se
+title: "Indiska Boxen"
+subtitle: "indisk mat när som helst"
+email: info@indiskaboxen.se
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
-street_address: Steas Hemservice Handelsbolag<br /> Kanngjutargränd 25<br /> 162 57 Vällingby<br /> Stockholm
+street_address: indiskaboxen Handelsbolag
 city: 
 Län: 
 zip_code: 
 country: 
-phone: 076-082 59 44
+phone: 072-539 83 64
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -19,11 +19,11 @@ tiles-count: 6
 
 # social settings
 500px_url:
-facebook_url: https://www.facebook.com/steasservice/
+facebook_url: https://www.facebook.com/indiskaboxen/
 github_url:
 gitlab_url: 
 googleplus_url: 
-instagram_url: https://www.instagram.com/steas.service/
+instagram_url: https://www.instagram.com/indiskaboxen/
 linkedin_url: 
 pinterest_url:
 slack_url:
