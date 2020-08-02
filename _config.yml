@@ -1,8 +1,8 @@
 # site settings
 title: "Indiska Boxen"
-subtitle: "indisk mat när som helst"
+subtitle: ""
 email: info@indiskaboxen.se
-description: ""
+description: "färdiglagad indisk mat när som helst"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
