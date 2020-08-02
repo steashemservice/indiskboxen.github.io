@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Nu kan du få hjälp med din källsortering'
+landing-title: 'njut av utsökt hemlagad indisk mat i generösa portioner direkt till din dörr'
 description: null
 image: assets/images/Recycle.png
 author: null
