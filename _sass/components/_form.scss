@@ -7,28 +7,24 @@
 /* Form */
         form {
 		margin: 0 0 _size(element-margin) 0;
+		overflow: hidden;
 		input[type="text"].quantity {
 			float: left;
-			width: 40px;
-  			font: bold 20px Helvetica, sans-serif;
-  			padding: 3px 0 0 0;
+			width: 60px;
+  			font-weight: bold;
   			text-align: center;
 		}
-		.dec {
-			margin-right: 5px;
-		}
 		.inc,.dec {
+			margin: 0 0 0 5px;
 			float: left;
 			display: inline-block;
     			vertical-align: middle;
    			width: 41px;
-    			height: 41px;
+    			height: 2.75em;
     			text-align: center;
-    			line-height: 41px;
-    			background: #a96300;
-    			color: #fff;
-    			font-size: 20px;
-    			cursor: pointer;
+    			line-height: 60px;
+    			background: _palette(fg-logo);
+			cursor: pointer;
     			border-radius: 4px;
     			transition: background 0.2s;
 		}
