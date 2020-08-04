@@ -7,14 +7,12 @@
 /* Form */
         form {
 		margin: 0 0 _size(element-margin) 0;
-		div:has(> .inc) {
-			input[type="text"] {
-				float: left;
-				width: 40px;
-  				font: bold 20px Helvetica, sans-serif;
-  				padding: 3px 0 0 0;
-  				text-align: center;
-			}
+		input[type="text"].quantity {
+			float: left;
+			width: 40px;
+  			font: bold 20px Helvetica, sans-serif;
+  			padding: 3px 0 0 0;
+  			text-align: center;
 		}
 		.dec {
 			margin-right: 5px;
