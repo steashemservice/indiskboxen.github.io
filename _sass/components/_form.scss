@@ -7,7 +7,23 @@
 /* Form */
         form {
 		margin: 0 0 _size(element-margin) 0;
-		
+		.dec {
+			margin-right: 5px;
+		}
+		.inc,.dec {
+			display: inline-block;
+    			vertical-align: middle;
+   			width: 41px;
+    			height: 41px;
+    			text-align: center;
+    			line-height: 41px;
+    			background: #a96300;
+    			color: #fff;
+    			font-size: 20px;
+    			cursor: pointer;
+    			border-radius: 4px;
+    			transition: background 0.2s;
+		}
 		.field {
 			margin: 0 0 (_size(element-margin) * 1) 0;
 
