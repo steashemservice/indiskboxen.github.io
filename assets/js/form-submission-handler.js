@@ -106,3 +106,21 @@
     }
   }
 })(jQuery);
+(function($) {
+  $(".inc").on("click", function() {
+    var $button = $(this);
+    var oldValue = $button.parent().find("input").val();
+    var newVal = parseFloat(oldValue) + 1;
+    $button.parent().find("input").val(newVal);
+  });
+  $(".dec").on("click", function() {
+    var $button = $(this);
+    var oldValue = $button.parent().find("input").val();
+    if (oldValue > 0) {
+      var newVal = parseFloat(oldValue) - 1;
+    } else {
+      newVal = 0;
+    }
+    $button.parent().find("input").val(newVal);
+  });
+})(jQuery); 
