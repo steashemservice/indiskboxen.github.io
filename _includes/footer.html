@@ -5,9 +5,13 @@
 		    <header class="major">
                     	<h2>Beställ Egenkomponerade Indiska Boxen</h2>
                     </header>
-		    <form id="contact-form" class="contact-form gform" method="post" data-success="Ditt beställ har registrerats! Tack för din beställning.">
+		    <form id="contact-form" class="contact-form" method="post" data-success="Ditt beställ har registrerats! Tack för din beställning.">
   			<input type="hidden" name="_next" value="thanks" />
 			<input id="dispnon" name="_prev" type="text" />
+			<div class="field">    
+			  <label for="postcode">Postnummer</label>
+  			  <input id="postcode" type="text" name="postcode" class="field" required />
+                        </div>
 		      	<div class="field">    
 			  <label for="name">Name</label>
   			  <input id="name" type="text" name="name" class="field" required />
@@ -17,28 +21,16 @@
   			  <input id="email" type="email" name="email" class="field" required />
 			</div>
 			<div class="field">
-			  <label for="question1">question1</label>
-			  <select type="text" name="question1" id="question1" class="field">
-			    <option value="Stockholms">Stockholms</option>
-			  </select>
-			</div>
-			<div class="field">
-			  <label for="question2">question2</label>
-			  <select type="text" name="question2" id="question2" class="field" required>
-			    <option value="">None</option>
-			   <!-- <option value="Stockholm">Stockholm</option>-->
-			    <option value="Solna">Solna</option>
-			    <option value="Sundbyberg">Sundbyberg</option>
+			  <label for="productsel">Välj Paket</label>
+			  <select name="productsel" id="productsel" class="field" required>
+			    <option selected value="10">10 Boxar</option>
+			    <option value="20">20 Boxar</option>
+			    <option value="30">30 Boxar</option>
 			  </select>  
 			</div>
 			<div class="field">
-			  <label for="question3">question3</label>
-			  <select type="text" name="question3" id="question3" class="field" required>
-			    <option value="">None</option>
-			   <!-- <option value="Stockholm">Stockholm</option>-->
-			    <option value="Solna">Solna</option>
-			    <option value="Sundbyberg">Sundbyberg</option>
-			  </select>  
+			  <label for="Butter Chicken">Butter Chicken</label>
+			  <input type="text" name="Butter Chicken" id="Butter Chicken" value=0">
 			</div>
 			<div class="field">
 			  <label for="message">Meddelande</label>
