@@ -7,6 +7,13 @@
 /* Form */
         form {
 		margin: 0 0 _size(element-margin) 0;
+		.inc,.dec ~ input[type=text] {
+			float: left;
+			width: 40px;
+  			font: bold 20px Helvetica, sans-serif;
+  			padding: 3px 0 0 0;
+  			text-align: center;
+		}
 		.dec {
 			margin-right: 5px;
 		}
