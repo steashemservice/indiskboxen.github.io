@@ -8,7 +8,7 @@
         form {
 		margin: 0 0 _size(element-margin) 0;
 		div:has(> .inc) {
-			input[type=text] {
+			input[type="text"] {
 				float: left;
 				width: 40px;
   				font: bold 20px Helvetica, sans-serif;
