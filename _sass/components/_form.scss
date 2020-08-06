@@ -92,7 +92,7 @@
 		letter-spacing: _font(letter-spacing-alt) * 0.5;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 	}
-        #dispnon {
+        #dispnon,.cblock {
 		display: none;}
 	input[type="text"],
 	input[type="password"],
