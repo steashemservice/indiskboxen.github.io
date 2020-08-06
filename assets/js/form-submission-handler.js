@@ -129,7 +129,7 @@
     // bind to the submit event of our form
     var colls = document.querySelectorAll("button.collapsible");
     for (var i = 0; i < colls.length; i++) {
-      forms[i].addEventListener("click", function() {
+      colls[i].addEventListener("click", function() {
         //this.classList.toggle("active");
         var content = this.nextElementSibling;
         if (content.style.display === "block") {
