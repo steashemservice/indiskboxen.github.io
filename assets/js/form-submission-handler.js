@@ -130,7 +130,7 @@
     var colls = document.querySelectorAll("button.collapsible");
     for (var i = 0; i < colls.length; i++) {
       colls[i].addEventListener("click", function() {
-        this.classList.toggle("active");
+        this.classList.toggle("cblock");
         var content = this.nextElementSibling;
         if (content.style.display === "block") {
           content.style.display = "none";
