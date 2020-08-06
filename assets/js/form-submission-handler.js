@@ -124,3 +124,21 @@
     $button.parent().find("input").val(newVal);
   });
 })(jQuery); 
+(function($) {
+  function addcollapse() {
+    // bind to the submit event of our form
+    var colls = document.querySelectorAll("button.collapsible");
+    for (var i = 0; i < colls.length; i++) {
+      forms[i].addEventListener("click", function() {
+        //this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  };
+  document.addEventListener("DOMContentLoaded", addcollapse, false);
+})(jQuery); 
