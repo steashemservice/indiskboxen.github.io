@@ -127,10 +127,10 @@
 (function($) {
   function addcollapse() {
     // bind to the submit event of our form
-    var colls = document.querySelectorAll("button.collapsible");
+    var colls = document.querySelectorAll("label.collapsible");
     for (var i = 0; i < colls.length; i++) {
       colls[i].addEventListener("click", function() {
-        this.classList.toggle("cblock");
+        //this.classList.toggle("cblock");
         var content = this.nextElementSibling;
         if (content.style.display === "block") {
           content.style.display = "none";
