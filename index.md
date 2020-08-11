@@ -8,8 +8,6 @@ imagec: assets/images/imagec.jpg
 author: null
 tiles-count: 6
 ---
-
-<h4>The health benefits of some of the key ingredients used in Indian cooking are as follows,</h4>
 <ul>
 <li>Turmeric: This spice is packed with antioxidant, anti-viral, anti-bacterial, anti-fungal, anti-carcinogenic, anti-mutagenic and anti-inflammatory properties.</li>
 
