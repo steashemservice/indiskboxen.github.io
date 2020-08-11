@@ -10,7 +10,7 @@ tiles-count: 6
 ---
 
 <h4>The health benefits of some of the key ingredients used in Indian cooking are as follows,</h4>
-<ol>
+<ul>
 <li>Turmeric: This spice is packed with antioxidant, anti-viral, anti-bacterial, anti-fungal, anti-carcinogenic, anti-mutagenic and anti-inflammatory properties.</li>
 
 <li>Cumin: This seed has a bitter taste. It has the ability to aid digestion, improve immunity and treat skin disorders, insomnia, respiratory disorders, asthma, bronchitis and anemia.</li>
@@ -22,4 +22,4 @@ tiles-count: 6
 <li>Cardamom:  A rich source of vitamin A and vitamin C, calcium, iron, and zinc, this spice promotes heart health, helps in digestion, enhances oral health, helps in diabetes, helps fight depression, fights asthma, prevents blood clots and treats skin infections.</li>
 
 <li>Ginger and Garlic: They are widely used in Indian cooking. Garlic is known for its anti-microbial properties and Ginger is used to help digestion, reduce nausea and help fight the flu and common cold.</li>
-</ol>
+</ul>
