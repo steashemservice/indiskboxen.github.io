@@ -16,10 +16,12 @@
 		margin-bottom: -3.25em;
 		@include breakpoint(small) {
 			top: -2.75em;
+			margin-bottom: -2.75em;
 		}
 		@include breakpoint(large) {
 			background-attachment: scroll;
 		}
+		
 	}
 	#banner,#spicebanner {
 		@include vendor('align-items', 'center');
@@ -104,7 +106,7 @@
 		}
 
 		&.major {
-			//height: 75vh;
+			height: 75vh;
 			min-height: 40em;
 			max-height: 50em;
 
@@ -135,7 +137,6 @@
 		@include breakpoint(small) {
 			@include padding(3em, 0, (2em, 0, 0, 0));
 			height: auto;
-			margin-bottom: -2.75em;
 			max-height: none;
 			min-height: 0;
 			h1 {
