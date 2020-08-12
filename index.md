@@ -11,11 +11,13 @@ tiles-count: 6
 <ul>
 <li>Turmeric is packed with antioxidant, anti-viral, anti-bacterial, anti-fungal, anti-carcinogenic, anti-mutagenic and anti-inflammatory properties.</li>
 
-<li>Cumin has a bitter taste. It has the ability to aid digestion, improve immunity and treat skin disorders, insomnia, respiratory disorders, asthma, bronchitis and anemia.</li>
+<li>Cumin has the ability to aid digestion, improve immunity and treat skin disorders, insomnia, respiratory disorders, asthma, bronchitis and anemia.</li>
 
-<li>Coriander is not only beneficial when consumed fresh, adding coriander seeds to your daily food can also be very healthy. Coriander seeds have anti-oxidant properties and dietary fiber that advance the healthy working of the liver and facilitate bowel moments.</li>
+<li>Coriander seeds have anti-oxidant properties and dietary fiber that advance the healthy working of the liver and facilitate bowel moments.</li>
 
-<li>Ginger and Garlic are widely used in Indian cooking. Garlic is known for its anti-microbial properties and Ginger is used to help digestion, reduce nausea and help fight the flu and common cold.</li>
+<li>Garlic is known for its anti-microbial properties.</li>
+
+<li>Ginger is used to help digestion, reduce nausea and help fight the flu and common cold.</li>
 
 <li>Cinnamon has large number of antioxidants which protects body from body diseases and have many anti-inflammatory and is currently trending because of its ability to reduce a tummy bloat.</li>
 
