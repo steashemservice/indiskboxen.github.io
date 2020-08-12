@@ -17,6 +17,9 @@
 		@include breakpoint(small) {
 			top: -2.75em;
 		}
+		@include breakpoint(large) {
+			background-attachment: scroll;
+		}
 	}
 	#banner,#spicebanner {
 		@include vendor('align-items', 'center');
@@ -127,10 +130,6 @@
 				@include vendor('transform', 'translateX(-0.5em)');
 				opacity: 0;
 			}
-		}
-
-		@include breakpoint(large) {
-			background-attachment: scroll;
 		}
 
 		@include breakpoint(small) {
