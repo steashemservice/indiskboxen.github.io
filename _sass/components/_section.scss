@@ -41,6 +41,9 @@
 				font-weight: _font(weight-bold);
 				letter-spacing: _font(letter-spacing-alt);
 				margin-bottom: 0;
+				@include breakpoint(small) {
+					text-align: left;
+				}
 			}
 
 			body.is-ie & {
