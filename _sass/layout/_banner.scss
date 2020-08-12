@@ -10,6 +10,7 @@
 	}
 	#banner {
 		@include vendor('background-image', 'url("../images/Banner.png")');
+		top: -3.25em;
 	}
 	#banner,#spicebanner {
 		@include vendor('align-items', 'center');
@@ -26,8 +27,6 @@
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
-		top: -3.25em;
-
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
