@@ -7,14 +7,18 @@
 /* Banner */
 	#spicebanner {
 		@include vendor('background-image', 'url("../images/spice.jpg")');
+		display: block;
 	}
 	#banner {
 		@include vendor('background-image', 'url("../images/Banner.png")');
+		@include vendor('display', 'flex');
 		top: -3.25em;
+		@include breakpoint(small) {
+			top: -2.75em;
+		}
 	}
 	#banner,#spicebanner {
 		@include vendor('align-items', 'center');
-		@include vendor('display', 'flex');
 		//@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
 		background-position: center;
@@ -135,8 +139,6 @@
 			margin-bottom: -2.75em;
 			max-height: none;
 			min-height: 0;
-			top: -2.75em;
-
 			h1 {
 				font-size: 2em;
 			}
