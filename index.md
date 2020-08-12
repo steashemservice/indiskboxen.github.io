@@ -18,8 +18,4 @@ tiles-count: 6
 <li>Garlic is known for its anti-microbial properties.</li>
 
 <li>Ginger is used to help digestion, reduce nausea and help fight the flu and common cold.</li>
-
-<li>Cinnamon has large number of antioxidants which protects body from body diseases and have many anti-inflammatory and is currently trending because of its ability to reduce a tummy bloat.</li>
-
-<li>Cardamom is a rich source of vitamin A and vitamin C, calcium, iron, and zinc, this spice promotes heart health, helps in digestion, enhances oral health, helps in diabetes, helps fight depression, fights asthma, prevents blood clots and treats skin infections.</li>
 </ul>
