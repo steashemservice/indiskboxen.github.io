@@ -5,22 +5,6 @@
 ///
 
 /* Banner */
-	#spicebanner {
-		@include vendor('background-image', 'url("../images/spice.jpg")');
-		display: block;
-		top: 0;
-		margin-bottom: 0;
-		@include breakpoint(small) {
-			top: 0;
-			margin-bottom: 0;
-		}
-		@include breakpoint(large) {
-			background-attachment: fixed;
-		}
-	}
-	#banner {
-		@include vendor('background-image', 'url("../images/Banner.png")');
-	}
 	#banner,#spicebanner {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
@@ -188,3 +172,20 @@
 			}
 		}
 	}
+	#spicebanner {
+		@include vendor('background-image', 'url("../images/spice.jpg")');
+		display: block;
+		top: 0;
+		margin-bottom: 0;
+		@include breakpoint(small) {
+			top: 0;
+			margin-bottom: 0;
+		}
+		@include breakpoint(large) {
+			background-attachment: fixed;
+		}
+	}
+	#banner {
+		@include vendor('background-image', 'url("../images/Banner.png")');
+	}
+	
