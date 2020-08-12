@@ -41,10 +41,7 @@
 				font-weight: _font(weight-bold);
 				letter-spacing: _font(letter-spacing-alt);
 				margin-bottom: 0;
-				@include breakpoint(small) {
-					text-align: justify;
-                                        text-justify: inter-word;
-				}
+				text-align: left;
 			}
 
 			body.is-ie & {
