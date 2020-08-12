@@ -181,9 +181,6 @@
 			top: 0;
 			margin-bottom: 0;
 		}
-		//@include breakpoint(large) {
-		//	background-attachment: fixed;
-		//}
 	}
 	#banner {
 		@include vendor('background-image', 'url("../images/Banner.png")');
