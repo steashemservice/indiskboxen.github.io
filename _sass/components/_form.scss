@@ -76,6 +76,11 @@
 				}
 			}
 		}
+		p {
+			font-size: 0.8em;
+			letter-spacing: _font(letter-spacing-alt) * 0.5;
+			margin: 0 0 (_size(element-margin) * 0.5) 0;
+		}
 	}
 
 	label {
@@ -92,11 +97,7 @@
 		text-decoration: underline;
 		text-underline-position: under;
 	}
-        p {
-		font-size: 0.8em;
-		letter-spacing: _font(letter-spacing-alt) * 0.5;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
-	}
+        
         #dispnon,.cblock {
 		display: none;}
 	input[type="text"],
@@ -125,7 +126,6 @@
 			box-shadow: 0 0 0 2px _palette(highlight);
 		}
 	}
-
 	.select-wrapper {
 		@include icon;
 		display: block;
