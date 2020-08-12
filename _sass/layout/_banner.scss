@@ -8,7 +8,6 @@
 	#spicebanner {
 		@include vendor('background-image', 'url("../images/spice.jpg")');
 		display: block;
-		height: 200vh;
 	}
 	#banner {
 		@include vendor('background-image', 'url("../images/Banner.png")');
