@@ -7,7 +7,6 @@
     elements['order'].name='order';
     elements['order'].value=d.getFullYear().toString().slice(-2)+('0'+(d.getMonth()+1)).slice(-2)+('0'+d.getDate()).slice(-2)+('0'+d.getHours()).slice(-2)+('0'+d.getMinutes()).slice(-2)+('0'+d.getSeconds()).slice(-2);
     var trap,honeypot;
-    
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "_prev") {
         honeypot = elements[k].value;
@@ -29,8 +28,6 @@
     });
 
     var formData = {};
-    //var d = new Date();
-    //formData['order'] = d.getFullYear().toString().slice(-2)+('0'+(d.getMonth()+1)).slice(-2)+('0'+d.getDate()).slice(-2)+('0'+d.getHours()).slice(-2)+('0'+d.getMinutes()).slice(-2)+('0'+d.getSeconds()).slice(-2);   
     fields.forEach(function(name){
       var element = elements[name];
       // singular form elements just have one value
