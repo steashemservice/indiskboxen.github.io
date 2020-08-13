@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: 'njut av utsökt hemlagad indisk mat direkt till din dörr'
-description: Indian food is characterised by the extensive use of numerous spices that are essential in providing authentic tastes and deliciously unique flavours. Spices and aromatics are the very heart of Indian cooking. Indians have used herbs and spices in their health practices too.
+description: Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Kryddor och aromater är hjärtat i indisk matlagning. Indier har också använt örter och kryddor för hälsan.
 image: assets/images/spice.jpg
 imagec: assets/images/imagec.jpg
 author: null
