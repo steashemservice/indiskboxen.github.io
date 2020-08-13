@@ -177,11 +177,11 @@
 		display: block;
 		top: 0;
 		margin-bottom: 0;
+                @include padding(2em, 0, (0.1em, 0, 0, 0)) !important;
 		@include breakpoint(small) {
 			top: 0;
 			margin-bottom: 0;
-			@include padding(2em, 0, (0.1em, 0, 0, 0));
-		}
+                }
 	}
 	#banner {
 		@include vendor('background-image', 'url("../images/Banner.png")');
