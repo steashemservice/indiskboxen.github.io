@@ -3,10 +3,7 @@
   function getFormData(form) {
     var elements = form.elements;
     var d = new Date();
-    var ordernum = {};
-    ordernum.name = 'order';
-    ordernum.value = d.getFullYear().toString().slice(-2)+('0'+(d.getMonth()+1)).slice(-2)+('0'+d.getDate()).slice(-2)+('0'+d.getHours()).slice(-2)+('0'+d.getMinutes()).slice(-2)+('0'+d.getSeconds()).slice(-2);
-    elements.push(ordernum);
+    elements['order'] = d.getFullYear().toString().slice(-2)+('0'+(d.getMonth()+1)).slice(-2)+('0'+d.getDate()).slice(-2)+('0'+d.getHours()).slice(-2)+('0'+d.getMinutes()).slice(-2)+('0'+d.getSeconds()).slice(-2);
     var trap,honeypot;
     
     var fields = Object.keys(elements).filter(function(k) {
