@@ -51,6 +51,15 @@
 
   function handleFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
+    var sum = 0;
+    var tot = parseInt($('#productsel').val());
+    $(".quantity").each(function(){
+        sum += +$(this).val();
+    });
+    if sum !== tot {
+      alert(sum+" av "+tot+" boxar valda! Öka eller Minska antalet på någon av rätterna..");
+      return false;
+    }
     var form = event.target,
         form_e = $( "#contact-form" ),
         notice = form_e.find('#notice');
