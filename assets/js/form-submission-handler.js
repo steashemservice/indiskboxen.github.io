@@ -56,7 +56,7 @@
     $(".quantity").each(function(){
         sum += +$(this).val();
     });
-    if sum !== tot {
+    if (sum !== tot) {
       alert(sum+" av "+tot+" boxar valda! Öka eller Minska antalet på någon av rätterna..");
       return false;
     }
