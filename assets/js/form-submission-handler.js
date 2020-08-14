@@ -153,4 +153,20 @@
     }
   };
   document.addEventListener("DOMContentLoaded", addcollapse, false);
-})(jQuery); 
+})(jQuery);
+(function($) {
+  function adddelivery() {
+    $("#delivery").datepicker();
+    
+    $("#delivery").datepicker({ 
+        autoSize: true,         // automatically resize the input field 
+        altFormat: 'yy-mm-dd',  // Date Format used
+        minDate: '+4D',
+        maxDate: '+25D'
+        beforeShowDay: function(date) {
+          return [date.getDay() === 0,''];
+        }
+    });    
+  };
+  document.addEventListener("DOMContentLoaded", adddelivery, false);
+})(jQuery);
