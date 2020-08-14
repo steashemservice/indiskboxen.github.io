@@ -9,17 +9,54 @@
   			<input type="hidden" name="_next" value="thanks" />
 			<input id="dispnon" name="_prev" type="text" />
 			<div class="field">    
-			  <label for="postcode">Postnummer</label>
+			  <label for="postcode">Postnummer*</label>
   			  <input id="postcode" type="text" name="postcode" class="field" required />
                         </div>
-		      	<div class="field">    
-			  <label for="name">Name</label>
-  			  <input id="name" type="text" name="name" class="field" required />
-                        </div>
 			<div class="field">
-  			  <label for="email">E-mail</label>
+  			  <label for="email">E-mail*</label>
   			  <input id="email" type="email" name="email" class="field" required />
 			</div>
+			<div class="field">
+  			  <label for="phone">Mobil*</label>
+  			  <input id="phone" type="tel" name="phone" class="field" required />
+			</div>
+		      	<div class="field">    
+			  <label for="firstname">Förnamn*</label>
+  			  <input id="firstname" type="text" name="firstname" class="field" required />
+                        </div>
+			<div class="field">    
+			  <label for="lastname">Efternamn*</label>
+  			  <input id="lastname" type="text" name="lastname" class="field" required />
+                        </div>
+			<div class="field">    
+			  <label for="address">Gatuadress*</label>
+  			  <input id="address" type="text" name="address" class="field" required />
+                        </div> 
+			<div class="field">
+			  <label for="city">Stad</label>
+			  <select type="text" name="city" id="city">
+			    <option value="stockholm">Stockholm</option>
+			  </select>
+		        </div>
+			<div class="field">
+  			  <label for="co">C/O</label>
+  			  <input id="co" type="text" name="co" class="field" />
+			</div>
+			<div class="field">    
+			  <label for="doorcode">Portkod</label>
+  			  <input id="doorcode" type="number" name="doorcode" class="field" />
+                        </div>
+			<div class="field">    
+			  <label for="floor">Våning</label>
+  			  <input id="floor" type="text" name="floor" class="field" />
+                        </div>
+			<div class="field">
+			  <label for="delivery">Leveransdatum*</label>
+			  <select name="delivery" id="delivery" class="field" required>
+			  </select>
+			</div>
+                        <label class="collapsible"> Välj de boxar du vill beställa </label>
+			<div class="cblock">
 			<div class="field">
 			  <label for="productsel">Välj Paket</label>
 			  <select name="productsel" id="productsel" class="field" required>
@@ -27,9 +64,7 @@
 			    <!--<option value="20">20 Boxar</option>
 			    <option value="30">30 Boxar</option>-->
 			  </select>  
-			</div>
-                        <label class="collapsible"> Välj de boxar du vill beställa </label>
-			<div class="cblock">
+			</div>	
 			<div class="field">
 			  <label for="Chicken Korma">Chicken Korma</label>
 			  <p>kycklinglårfilé i smakrik gryta som tillagas med lök, tomat, grön chili, ingefära och garam masala med kokosmjolk</p>
