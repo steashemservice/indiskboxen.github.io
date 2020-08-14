@@ -159,10 +159,12 @@
     $("#delivery").datepicker({ 
         autoSize: true,         // automatically resize the input field 
         altFormat: 'yy-mm-dd',  // Date Format used
+        dateFormat: "DD, d MM yy",
+        firstDay: 1,
         minDate: '+4D',
         maxDate: '+25D',
         beforeShowDay: function(date) {
-          return [date.getDay() === 0,''];
+          return [date.getDay() === 7,''];
         }
     });    
   };
