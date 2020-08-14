@@ -164,7 +164,7 @@
         minDate: '+4D',
         maxDate: '+25D',
         beforeShowDay: function(date) {
-          return [date.getDay() === 7,''];
+          return [date.getDay() === 0,''];
         }
     });    
   };
