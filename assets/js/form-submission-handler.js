@@ -156,15 +156,14 @@
 })(jQuery);
 (function($) {
   function adddelivery() {
-    var date = new Date();
     $("#delivery").datepicker({ 
         autoSize: true,         // automatically resize the input field 
         altFormat: 'yy-mm-dd',  // Date Format used
         minDate: '+4D',
         maxDate: '+25D'
-        beforeShowDay: function(date) {
-          return [date.getDay() === 0,''];
-        }
+        //beforeShowDay: function(date) {
+        //  return [date.getDay() === 0,''];
+        //}
     });    
   };
   document.addEventListener("DOMContentLoaded", adddelivery, false);
