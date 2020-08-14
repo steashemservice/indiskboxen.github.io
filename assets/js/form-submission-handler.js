@@ -156,8 +156,6 @@
 })(jQuery);
 (function($) {
   function adddelivery() {
-    $("#delivery").datepicker();
-    
     $("#delivery").datepicker({ 
         autoSize: true,         // automatically resize the input field 
         altFormat: 'yy-mm-dd',  // Date Format used
