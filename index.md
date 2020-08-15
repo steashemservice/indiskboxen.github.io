@@ -9,7 +9,7 @@ author: null
 tiles-count: 6
 ---
 <ul>
-<li>Turmeric is packed with antioxidant, anti-viral, anti-bacterial, anti-fungal, anti-carcinogenic, anti-mutagenic and anti-inflammatory properties.</li>
+<li>Gurkmeja med den härliga gula färgen är antioxidant med antiinflammatoriska egenskaper.</li>
 
 <li>Cumin has the ability to aid digestion, improve immunity and treat skin disorders, insomnia, respiratory disorders, asthma, bronchitis and anemia.</li>
 
