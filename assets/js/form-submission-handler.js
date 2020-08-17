@@ -143,7 +143,7 @@
     var colls = $("#postcode");
     for (var i = 0; i < colls.length; i++) {
       //colls[i].addEventListener("change paste keyup", function() {
-      colls[i].on("change paste keyup", function() {
+      $(colls[i]).on("change paste keyup", function() {
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).val();
         var pmsg = $(this).siblings('label.collapsible').val();
