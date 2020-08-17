@@ -139,15 +139,15 @@
 (function($) {
   function addcollapse() {
     // bind to the submit event of our form
-    var colls = document.querySelectorAll("label.collapsible");
+    var colls = document.querySelectorAll("#postcode");
     for (var i = 0; i < colls.length; i++) {
-      colls[i].addEventListener("click", function() {
-        //this.classList.toggle("cblock");
+      colls[i].addEventListener("keypress", function() {
         var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
-        } else {
+        var pcode = $(this).val();
+        if(pcode.length == 5 && value == "17464") {
           content.style.display = "block";
+        } else {
+          content.style.display = "none";
         }
       });
     }
