@@ -139,12 +139,12 @@
 (function($) {
   function addcollapse() {
     // bind to the submit event of our form
-    var colls = document.querySelectorAll("#postcode");
+    var colls = document.querySelectorAll("label.collapsible");
     for (var i = 0; i < colls.length; i++) {
-      colls[i].addEventListener("keypress", function() {
+      colls[i].addEventListener("click", function() {
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).val();
-        if(pcode.length == 4 && pcode == "17464") {
+        if(pcode.length == 5 && pcode == "17464") {
           content.css('display', 'block');
         } else {
           content.css('display', 'none');
