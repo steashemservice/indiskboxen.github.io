@@ -142,7 +142,7 @@
     var colls = document.querySelectorAll("#postcode");
     for (var i = 0; i < colls.length; i++) {
       colls[i].addEventListener("keypress", function() {
-        var content = $(this).parent().siblings('.cblock')
+        var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).val();
         if(pcode.length == 5 && pcode == "17464") {
           content.css('display', 'block');
