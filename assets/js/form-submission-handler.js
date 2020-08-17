@@ -139,19 +139,20 @@
 (function($) {
   function addcollapse() {
     // bind to the submit event of our form
-    var colls = document.querySelectorAll("label.collapsible");
+    var colls = document.querySelectorAll("#postcode");
     for (var i = 0; i < colls.length; i++) {
-      colls[i].addEventListener("click", function() {
+      colls[i].addEventListener("change paste keyup", function() {
         var content = $(this).parent().siblings('.cblock');
-        var pcode = $(this).siblings('#postcode').val();
+        var pcode = $(this).val();
+        var pmsg = $(this).siblings('label.collapsible').val();
         if(pcode.length == 5 && pcode == "17464") {
-          $(this).html("Ja, vi levererar i ditt område!");
+          pmsg.html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
         } else if(pcode.length == 5){
-          $(this).html("Vi levererar tyvärr inte till denna ort ännu.");
+          pmsg.html("Vi levererar tyvärr inte till denna ort ännu.");
           content.css('display', 'none');
         } else {
-          $(this).html("Levererar vi hem till dig?");
+          pmsg.html("Kan vi leverera till dig? Skriv in ditt postnummer och kolla");
           content.css('display', 'none');
         }
       });
