@@ -146,7 +146,7 @@
       $(colls[i]).on("change paste keyup", function() {
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).val();
-        var pmsg = $(this).siblings('label.collapsible').val();
+        var pmsg = $(this).siblings('label.collapsible');
         if(pcode.length == 5 && pcode == "17464") {
           pmsg.html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
