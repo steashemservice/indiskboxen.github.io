@@ -8,10 +8,15 @@
 		    <form id="contact-form" class="contact-form" method="post" data-success="Ditt beställ har registrerats! Tack för din beställning.">
   			<input type="hidden" name="_next" value="thanks" />
 			<input id="dispnon" name="_prev" type="text" />
-			<div class="field">    
+			<div class="field half first">    
 			  <label for="postcode">Postnummer*</label>
   			  <input id="postcode" type="text" name="postcode" class="field" required />
                         </div>
+			<div class="field half first">    
+			  <button type="submit">Skicka Beställ</button>
+			</div
+			<label class="collapsible"> Välj de boxar du vill beställa </label>
+			<div class="cblock">
 			<div class="field">
   			  <label for="email">E-mail*</label>
   			  <input id="email" type="email" name="email" class="field" required />
@@ -54,9 +59,7 @@
 			  <label for="delivery">Leveransdatum*</label>
 			  <input id="delivery" type="text" name="delivery" class="field" required />
 			</div>
-                        <label class="collapsible"> Välj de boxar du vill beställa </label>
-			<div class="cblock">
-			<div class="field">
+                        <div class="field">
 			  <label for="productsel">Välj Paket</label>
 			  <select name="productsel" id="productsel" class="field" required>
 			    <option selected value="10">10 Boxar</option>
