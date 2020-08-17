@@ -144,7 +144,7 @@
       colls[i].addEventListener("keypress", function() {
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).val();
-        if(pcode.length == 5 && pcode == "17464") {
+        if(pcode.length == 4 && pcode == "17464") {
           content.css('display', 'block');
         } else {
           content.css('display', 'none');
