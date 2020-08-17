@@ -142,14 +142,15 @@
     var colls = document.querySelectorAll("label.collapsible");
     for (var i = 0; i < colls.length; i++) {
       colls[i].addEventListener("click", function() {
-        $(this).siblings('.cmsg').remove();
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).siblings('#postcode').val();
         if(pcode.length == 5 && pcode == "17464") {
-          $(this).parent().append("<label class='cmsg' >Ja, vi levererar i ditt område!</label>");
+          $(this).parent().siblings('.psuccess').css('display', 'block');
+          $(this).parent().siblings('.pfail').css('display', 'none');
           content.css('display', 'block');
         } else {
-          $(this).parent().append("<label class='cmsg' >Vi levererar tyvärr inte till denna ort ännu.</label>");
+          $(this).parent().siblings('.psuccess').css('display', 'none');
+          $(this).parent().siblings('.pfail').css('display', 'block');
           content.css('display', 'none');
         }
       });
