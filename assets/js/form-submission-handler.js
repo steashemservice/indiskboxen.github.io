@@ -144,13 +144,15 @@
       colls[i].addEventListener("click", function() {
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).siblings('#postcode').val();
+        var psuc = $(this).siblings('.psuccess');
+        var pfai = $(this).siblings('.pfail');
         if(pcode.length == 5 && pcode == "17464") {
-          $(this).parent().siblings('.psuccess').css('display', 'block');
-          $(this).parent().siblings('.pfail').css('display', 'none');
+          psuc.css('display', 'block');
+          pfai.css('display', 'none');
           content.css('display', 'block');
         } else {
-          $(this).parent().siblings('.psuccess').css('display', 'none');
-          $(this).parent().siblings('.pfail').css('display', 'block');
+          psuc.css('display', 'none');
+          pfai.css('display', 'block');
           content.css('display', 'none');
         }
       });
