@@ -144,15 +144,14 @@
       colls[i].addEventListener("click", function() {
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).siblings('#postcode').val();
-        var psuc = $(this).siblings('.psuccess');
-        var pfai = $(this).siblings('.pfail');
         if(pcode.length == 5 && pcode == "17464") {
-          psuc.css('display', 'block');
-          pfai.css('display', 'none');
+          $(this).html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
+        } else if(pcode.length == 5){
+          $(this).html("Vi levererar tyvärr inte till denna ort ännu.");
+          content.css('display', 'none');
         } else {
-          psuc.css('display', 'none');
-          pfai.css('display', 'block');
+          $(this).html("Levererar vi hem till dig?");
           content.css('display', 'none');
         }
       });
