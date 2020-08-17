@@ -143,7 +143,7 @@
     for (var i = 0; i < colls.length; i++) {
       colls[i].addEventListener("click", function() {
         var content = $(this).parent().siblings('.cblock');
-        var pcode = $(this).val();
+        var pcode = $(this).siblings('#postcode').val();
         if(pcode.length == 5 && pcode == "17464") {
           content.css('display', 'block');
         } else {
