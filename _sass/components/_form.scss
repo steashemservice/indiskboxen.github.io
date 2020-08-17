@@ -255,3 +255,6 @@
 		color: _palette(fg-light) !important;
 		opacity: 1.0;
 	}
+        .ui-datepicker th {
+		color: inherit;
+        }
