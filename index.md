@@ -11,11 +11,11 @@ tiles-count: 6
 <ul>
 <li>Gurkmeja med den härliga gula färgen är antioxidant med antiinflammatoriska egenskaper.</li>
 
-<li>Cumin has the ability to aid digestion, improve immunity and treat skin disorders, insomnia, respiratory disorders, asthma, bronchitis and anemia.</li>
+<li>Spiskummin hjälpa till vid ökar din naturliga förbränning och sänk din kolesterolnivå.</li>
 
-<li>Coriander seeds have anti-oxidant properties and dietary fiber that advance the healthy working of the liver and facilitate bowel moments.</li>
+<li>Korrianderfrön har anti-oxidationsegenskaper och kostfiber som främjar det sunda arbetet i levern och underlättar tarmstunder.</li>
 
-<li>Garlic is known for its anti-microbial properties.</li>
+<li>Vitlök anses nämligen kunna förebygga åderförfettning, sänka blodtrycket och skydda mot blodpropp och cancer.</li>
 
-<li>Ginger is used to help digestion, reduce nausea and help fight the flu and common cold.</li>
+<li>Ingefära används för att hjälper matsmältningen, minska illamående och hjälpa till att bekämpa influensa Och förkylning.</li>
 </ul>
