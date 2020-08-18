@@ -137,18 +137,29 @@
   });
 })(jQuery); 
 (function($) {
+  function getRange(range){
+    var arr=range.split("-");
+    return {min:Number(arr[0]),max:Number(arr[1])};
+  }
+  function checkPcode(Pcode, Plist) {
+    return Plist.some(function(Prange) {
+      return Pcode >= Prange.min && Pcode <= Prange.max;
+    });
+  }
   function addcollapse() {
     // bind to the submit event of our form
     var colls = $("#postcode");
-    var plist = ['16','17','18','19'];
+    var plist= ['17400-17499', '17600-17699'];
+    var plists={};
+    for(var i=0;i<plist.length;i++) plists[plist[i]]=getRange(plist[i]);
     for (var i = 0; i < colls.length; i++) {
       $(colls[i]).on("change paste keyup", function() {
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).val();
         var pmsg = $(this).siblings('label.collapsible');
-        if(jQuery.inArray(pcode.slice(0,2), plist) !== -1)
         //if(pcode.length == 5 && pcode == "17464") {
-        if(pcode.length == 5 && jQuery.inArray(pcode.slice(0,2), plist) !== -1) {
+        //if(pcode.length == 5 && jQuery.inArray(pcode.slice(0,3), plist) !== -1) {
+        if(pcode.length == 5 && checkPcode(Number(pcode),plists)) {
           pmsg.html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
         } else if(pcode.length == 5){
