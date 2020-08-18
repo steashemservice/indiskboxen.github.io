@@ -154,7 +154,7 @@
     var colls = $("#postcode");
     var plist= ['17400-17499', '17600-17699'];
     var plists=[];
-    for(var i=0;i<plist.length;i++) plists[plist[i]]=getRange(plist[i]);
+    for(var i=0;i<plist.length;i++) plists[i]=getRange(plist[i]);
     for (var i = 0; i < colls.length; i++) {
       $(colls[i]).on("change paste keyup", function() {
         var content = $(this).parent().siblings('.cblock');
