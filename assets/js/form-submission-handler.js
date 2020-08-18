@@ -142,12 +142,9 @@
     return {min:Number(arr[0]),max:Number(arr[1])};
   }
   function checkPcode(Pcode, Plist) {
-    if (Array.isArray(Plist)) {
-      alert('min ' + Plist[0].min + ' max ' + Plist[0].max);
-      return Plist.some(function(Prange) {
-        return Pcode >= Prange.min && Pcode <= Prange.max;
-      });
-    }
+    return Plist.some(function(Prange) {
+      return Pcode >= Prange.min && Pcode <= Prange.max;
+    });
   }
   function addcollapse() {
     // bind to the submit event of our form
@@ -160,8 +157,6 @@
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).val();
         var pmsg = $(this).siblings('label.collapsible');
-        //if(pcode.length == 5 && pcode == "17464") {
-        //if(pcode.length == 5 && jQuery.inArray(pcode.slice(0,3), plist) !== -1) {
         if(pcode.length == 5 && checkPcode(Number(pcode),plists)) {
           pmsg.html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
