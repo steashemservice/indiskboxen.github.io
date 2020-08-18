@@ -142,7 +142,9 @@
     return {min:Number(arr[0]),max:Number(arr[1])};
   }
   function checkPcode(Pcode, Plist) {
+    alert(Pcode + ' list' + Plist);
     if (Array.isArray(Plist)) {
+      alert('In');
       return Plist.some(function(Prange) {
         return Pcode >= Prange.min && Pcode <= Prange.max;
       });
