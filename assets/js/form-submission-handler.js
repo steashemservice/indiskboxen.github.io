@@ -139,15 +139,16 @@
 (function($) {
   function addcollapse() {
     // bind to the submit event of our form
-    //var colls = document.querySelectorAll("#postcode");
     var colls = $("#postcode");
+    var plist = ['16','17','18','19'];
     for (var i = 0; i < colls.length; i++) {
-      //colls[i].addEventListener("change paste keyup", function() {
       $(colls[i]).on("change paste keyup", function() {
         var content = $(this).parent().siblings('.cblock');
         var pcode = $(this).val();
         var pmsg = $(this).siblings('label.collapsible');
-        if(pcode.length == 5 && pcode == "17464") {
+        if(jQuery.inArray(pcode.slice(0,2), plist) !== -1)
+        //if(pcode.length == 5 && pcode == "17464") {
+        if(pcode.length == 5 && jQuery.inArray(pcode.slice(0,2), plist) !== -1) {
           pmsg.html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
         } else if(pcode.length == 5){
