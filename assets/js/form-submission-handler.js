@@ -142,15 +142,17 @@
     return {min:Number(arr[0]),max:Number(arr[1])};
   }
   function checkPcode(Pcode, Plist) {
-    return Plist.some(function(Prange) {
-      return Pcode >= Prange.min && Pcode <= Prange.max;
-    });
+    if (Array.isArray(Plist)) {
+      return Plist.some(function(Prange) {
+        return Pcode >= Prange.min && Pcode <= Prange.max;
+      });
+    }
   }
   function addcollapse() {
     // bind to the submit event of our form
     var colls = $("#postcode");
     var plist= ['17400-17499', '17600-17699'];
-    var plists={};
+    var plists=[];
     for(var i=0;i<plist.length;i++) plists[plist[i]]=getRange(plist[i]);
     for (var i = 0; i < colls.length; i++) {
       $(colls[i]).on("change paste keyup", function() {
