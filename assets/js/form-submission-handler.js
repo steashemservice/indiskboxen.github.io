@@ -143,8 +143,8 @@
   }
   function checkPcode(Pcode, Plist) {
     if (Array.isArray(Plist)) {
+      alert('min ' + Plist[0].min + ' max ' + Plist[0].max);
       return Plist.some(function(Prange) {
-        alert('min ' + Prange.min + ' max ' + Prange.max);
         return Pcode >= Prange.min && Pcode <= Prange.max;
       });
     }
