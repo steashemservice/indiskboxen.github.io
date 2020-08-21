@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: 'njut av utsökt hemlagad indisk mat direkt till din dörr'
-description: Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Kryddor och aromater är hjärtat i indisk matlagning. Indier har också använt örter och kryddor för hälsan.
+description: Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Kryddor och aromater är hjärtat i indisk matlagning. Indier har också använt örter och kryddor som medicin.
 image: assets/images/spice.jpg
 imagec: assets/images/imagec.jpg
 author: null
