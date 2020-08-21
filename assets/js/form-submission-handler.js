@@ -60,7 +60,7 @@
         sum += +$(this).val();
     });
     if (sum !== tot) {
-      alert(sum+" av "+tot+" boxar valda! Öka eller Minska antalet på någon av rätterna..");
+      alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
       return false;
     }
     var form = event.target,
