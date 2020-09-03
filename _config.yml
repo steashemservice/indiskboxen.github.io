@@ -6,10 +6,11 @@ description: "färdiglagad nyttig näringsrik fryst indisk mat när som helst"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
-street_address: indiskaboxen Handelsbolag
-city: 
+name: Indiska Boxen Handelsbolag
+street_address: Stallknektsgränd 20
+city: Stockholm
 Län: 
-zip_code: 
+zip_code: 165 52
 country: 
 phone: 072-539 83 64
 
