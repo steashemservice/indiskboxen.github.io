@@ -15,7 +15,6 @@
         trap = elements[k].value;
         return false;
       } else if (elements[k].value === "0") {
-        alert("yes");
         return false;
       }
       return true;
