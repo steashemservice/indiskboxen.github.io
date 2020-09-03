@@ -44,7 +44,6 @@
         formData[name] = data.join(', ');
       }
     });
-
     // add form-specific values into the data
     formData.formDataNameOrder = JSON.stringify(fields);
     formData.formGoogleSheetName = form.dataset.sheet || "order"; // default sheet name
