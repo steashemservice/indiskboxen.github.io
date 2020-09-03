@@ -169,15 +169,15 @@
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
 					{% endif %}
+					{% if site.zip_code %
+					    {{ site.zip_code }} 
+					{% endif %}
 					{% if site.city %}
-					    {{ site.zip_code } { site.city }},
+					    {{ site.city }}<br />
 					{% endif %}
 					{% if site.state %}
 					    {{ site.state }} 
 					{% endif %}
-					<!-- {% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}-->
 					{% if site.country %}
 					    {{ site.country }}
 					{% endif %}
