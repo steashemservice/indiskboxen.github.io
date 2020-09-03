@@ -14,6 +14,8 @@
       } else if (elements[k].name === "_next") {
         trap = elements[k].value;
         return false;
+      } else if (elements[k].value === 0) {
+        return false;
       }
       return true;
     }).map(function(k) {
