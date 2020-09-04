@@ -115,7 +115,7 @@
   }
   
   function loaded() {
-    var inputs = document.getElementsByTagName("input.quantity"); 
+    var inputs = document.querySelectorAll("input.quantity"); 
     for (i=0; i<inputs.length; i++){
       inputs[i].addEventListener("change", handleFormChange, false);
     }
