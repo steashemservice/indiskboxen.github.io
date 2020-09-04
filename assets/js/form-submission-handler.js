@@ -52,7 +52,18 @@
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
     return {data: formData, honeypot: honeypot, trap:trap};
   }
-
+  function handleFormChange(event) {  // handles form submit without any jquery
+    event.preventDefault();           // we are submitting via xhr below
+    var sum = 0;
+    var tot = parseInt($('#productsel').val());
+    $(".quantity").each(function(){
+        sum += +$(this).val();
+    });
+    if (sum !== tot) {
+      alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
+      return false;
+    }
+  }
   function handleFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
     var sum = 0;
@@ -106,7 +117,7 @@
   function loaded() {
     var inputs = document.getElementsByTagName("input.quantity"); 
     for (i=0; i<inputs.length; i++){
-      inputs[i].onchange = handleFormSubmit;
+      inputs[i].addEventListener("change", handleFormChange, false);
     }
     // bind to the submit event of our form
     var forms = document.querySelectorAll("form.contact-form");
