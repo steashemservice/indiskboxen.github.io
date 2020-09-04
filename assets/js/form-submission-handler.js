@@ -52,8 +52,8 @@
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
     return {data: formData, honeypot: honeypot, trap:trap};
   }
-  function handleFormChange(event) {  // handles form submit without any jquery
-    event.preventDefault();           // we are submitting via xhr below
+  function handleFormChange(event) {
+    Alert('Hello')
     var sum = 0;
     var tot = parseInt($('#productsel').val());
     $(".quantity").each(function(){
@@ -117,7 +117,7 @@
   function loaded() {
     var inputs = document.querySelectorAll("input.quantity"); 
     for (i=0; i<inputs.length; i++){
-      inputs[i].addEventListener("change", handleFormChange, false);
+      inputs[i].addEventListener("change", handleFormChange);
     }
     // bind to the submit event of our form
     var forms = document.querySelectorAll("form.contact-form");
