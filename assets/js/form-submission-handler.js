@@ -60,9 +60,8 @@
         sum += +$(this).val();
     });
     if (sum !== tot) {
-      $( ".cblock" ).focus(function() {
-        alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
-      });
+      alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
+      $(".cblock" ).focus();
       return false;
     }
     var form = event.target,
