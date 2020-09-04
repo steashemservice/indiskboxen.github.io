@@ -61,7 +61,7 @@
     });
     if (sum !== tot) {
       alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
-      $(".cblock" ).focus();
+      $(".awindow" ).focus();
       return false;
     }
     var form = event.target,
