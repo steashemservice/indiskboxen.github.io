@@ -60,8 +60,8 @@
         sum += +$(this).val();
     });
     if (sum !== tot) {
+      $(".awindow").focus();
       alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
-      $(".awindow" ).focus();
       return false;
     }
     var form = event.target,
