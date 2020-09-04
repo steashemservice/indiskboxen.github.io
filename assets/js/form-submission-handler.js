@@ -104,6 +104,10 @@
   }
   
   function loaded() {
+    var inputs = document.getElementsByTagName("input.quantity"); 
+    for (i=0; i<inputs.length; i++){
+      inputs[i].onchange = handleFormSubmit;
+    }
     // bind to the submit event of our form
     var forms = document.querySelectorAll("form.contact-form");
     for (var i = 0; i < forms.length; i++) {
