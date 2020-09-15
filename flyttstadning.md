@@ -4,7 +4,7 @@ title: FLYTTSTÄDNING
 description: 29 kr / kvm och minst 1350 kr utan RUT.
 image: assets/images/hemstadning.jpg
 nav-menu: true
-published: true
+published: false
 permalink: flyttstadning
 service: true
 order: 3
