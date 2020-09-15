@@ -4,7 +4,7 @@ title: KONTORSSTÄDNING
 description: 289 kr / timme.
 image: assets/images/hemstadning.jpg
 nav-menu: true
-published: true
+published: false
 permalink: kontorsstadning
 service: true
 order: 4
