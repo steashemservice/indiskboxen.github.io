@@ -11,6 +11,6 @@ order: 1
 
 <section id="three">
 	<div class="inner">
-    		<h2>leveranser & beställningar</h2>
+    		<h2>Leveranser & Beställningar</h2>
 	</div>
 </section>
