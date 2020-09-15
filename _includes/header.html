@@ -20,7 +20,6 @@
 		<li><a href="#contact" class="button special fit">beställ</a></li>
 		<li><a href="#one">hur det fungerart</a></li>
 		<li><a href="#three">våra erbjudanden</a>
-		<li><a href="#one">Frågor & svar</a></li>
 		{% assign sorted_pages = site.pages | sort:"order" %}
                 {% for page in sorted_pages %}
 		    {% if page.layout != "home" and page.layout != "landing" and page.nav-menu == true %}
