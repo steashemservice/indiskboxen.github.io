@@ -5,7 +5,6 @@
 <header id="header" {% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong><!-- <span>{{ site.title | split: ' ' | last}}</span>--> <span>{{ site.subtitle }}</span> </a>
 	<nav>
-		<a href="#one">Frågor & svar</a>
 		<a href="#menu">Menu</a>
 	</nav>
 </header>
@@ -14,18 +13,19 @@
 <nav id="menu">
 	<ul class="links">
         {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+		{% if page.layout == "home" %}
+			<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 	    	{% endif %}
-		{% endfor %}
-		<!--{% assign sorted_pages = site.pages | sort:"order" %}
+	{% endfor %}
+		<li><a href="#contact" class="button special fit">beställ</a></li>
+		<li><a href="#one">hur det fungerart</a></li>
+		<li><a href="#three">våra erbjudanden</a>
+		<li><a href="#one">Frågor & svar</a></li>
+		{% assign sorted_pages = site.pages | sort:"order" %}
                 {% for page in sorted_pages %}
 		    {% if page.layout != "home" and page.layout != "landing" and page.nav-menu == true %}
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
-		{% endfor %}-->
-		<li><a href="#one" class="button special fit">hur det fungerart</a></li>
-		<li><a href="#three">våra erbjudanden</a></li>
-		<li><a href="#contact">beställ</a></li>
+		{% endfor %}
 	</ul>
 </nav>
