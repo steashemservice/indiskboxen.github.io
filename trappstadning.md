@@ -4,7 +4,7 @@ title: TRAPPSTÄDNING
 description: 289 kr / timme.
 image: assets/images/hemstadning.jpg
 nav-menu: true
-published: true
+published: false
 permalink: trappstadning
 service: true
 order: 5
