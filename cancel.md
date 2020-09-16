@@ -15,7 +15,7 @@ order: 999
 		    <header class="major">
           		<h2>Avslutar Abonnemang</h2>
         	    </header>
-		    <form id="cancel-form" class="contact-form" method="post" data-success="ditt begäran om avslutning av prenumeration har registrerats!">
+		    <form id="cancel-form" class="contact-form" method="post" data-success="Ditt begäran om avslutning av prenumeration har registrerats!">
   			  <input type="hidden" name="_next" value="thanks" />
 			  <input id="dispnon" name="_prev" type="text" />
           		  <div class="field">    
