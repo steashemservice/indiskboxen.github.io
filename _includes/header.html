@@ -12,18 +12,18 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
-		{% if page.layout == "home" %}
-			<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+        {% for ipage in site.pages %}
+		{% if ipage.layout == "home" %}
+			<li><a href="{{ "" | absolute_url }}/">{{ ipage.title }}</a></li>
 	    	{% endif %}
 	{% endfor %}
-		<li><a href="#contact" class="button special fit">beställ</a></li>
-		<li><a href="#one">hur det fungerart</a></li>
-		<li><a href="#three">våra erbjudanden</a>
+		<li><a href="/#contact" class="button special fit">beställ</a></li>
+		<li><a href="/#one">hur det fungerart</a></li>
+		<li><a href="/#three">våra erbjudanden</a>
 		{% assign sorted_pages = site.pages | sort:"order" %}
-                {% for page in sorted_pages %}
-		    {% if page.layout != "home" and page.layout != "landing" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+                {% for ipage in sorted_pages %}
+		    {% if ipage.layout != "home" and ipage.layout != "landing" and ipage.nav-menu == true %}
+		        <li><a href="{{ ipage.url | absolute_url }}">{{ ipage.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
 	</ul>
