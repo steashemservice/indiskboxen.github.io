@@ -108,10 +108,11 @@
         form_e = $( "#cancel-form" ),
         notice = form_e.find('#notice');
     var formData = getFormData(form);
-    if (formData.honeypot || formData.trap !== 'thanks' || formData.order) {
+    if (formData.honeypot || formData.trap !== 'thanks') {
       return false;
     }
     var data = formData.data;
+    delete data.order;
     // url encode form data for sending as post data
     var encoded = Object.keys(data).map(function(k) {
         return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
