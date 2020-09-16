@@ -12,5 +12,11 @@ order: 1
 <section id="three">
 	<div class="inner">
     		<h2>Leveranser & Beställningar</h2>
+		<div id="accordion">
+			<h3>Section 1</h3>
+			<div>
+      				<p>sample.</p>
+  			</div>
+		</div>
 	</div>
 </section>
