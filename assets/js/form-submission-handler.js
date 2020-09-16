@@ -52,7 +52,7 @@
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
     return {data: formData, honeypot: honeypot, trap:trap};
   }
-  function handleFormSubmit(event) {  // handles form submit without any jquery
+  function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
     var sum = 0;
     var tot = parseInt($('#productsel').val());
@@ -102,12 +102,56 @@
       }
     });
   }
+  function handlecancelFormSubmit(event) {  // handles form submit without any jquery
+    event.preventDefault();           // we are submitting via xhr below
+    var form = event.target,
+        form_e = $( "#cancel-form" ),
+        notice = form_e.find('#notice');
+    var formData = getFormData(form);
+    if (formData.honeypot || formData.trap !== 'thanks') {
+      return false;
+    }
+    var data = formData.data;
+    // url encode form data for sending as post data
+    var encoded = Object.keys(data).map(function(k) {
+        return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+    }).join('&');
+    disableAllButtons(form);
+    var url = 'https://script.google.com/macros/s/AKfycbwJTJ5pQhROi3f0OVyAJvmrpNgmkw7Zy_HuS3ok/exec';
+    $.ajax({
+      url: url,
+      data: encoded,
+      type: "POST",
+      dataType: "json",
+      statusCode: {
+        404: function() {
+          form_e.fadeOut(function() {
+            form_e.html('<div class="field"><h4>' + notice.data('error') + '</h4></div>').fadeIn();
+          });
+        },
+        500: function() {
+          form_e.fadeOut(function() {
+            form_e.html('<div class="field"><h4>' + notice.data('error') + '</h4></div>').fadeIn();
+          });
+        },
+        200: function() {
+          form_e.fadeOut(function() {
+            form_e.html('<div class="field"><h4>' + form_e.data('success') + '</h4></div>').fadeIn();
+          });
+        }
+      }
+    });
+  }
   
   function loaded() {
     // bind to the submit event of our form
-    var forms = document.querySelectorAll("form.contact-form");
+    var forms = document.querySelectorAll("form#contact-form");
     for (var i = 0; i < forms.length; i++) {
-      forms[i].addEventListener("submit", handleFormSubmit, false);
+      forms[i].addEventListener("submit", handlecontactFormSubmit, false);
+    }
+    var forms = document.querySelectorAll("form#cancel-form");
+    for (var i = 0; i < forms.length; i++) {
+      forms[i].addEventListener("submit", handlecancelFormSubmit, false);
     }
   };
   document.addEventListener("DOMContentLoaded", loaded, false);
