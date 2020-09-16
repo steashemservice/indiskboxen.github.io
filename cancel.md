@@ -22,7 +22,7 @@ order: 999
   			    <label for="email">E-mail*</label>
   			    <input id="email" type="email" name="email" class="field" required />
 			    </div>
-			    <button type="submit">Skicka Beställ</button>
+			    <button type="submit">Skicka</button>
 		    </form>
 		</section>
   </div>
