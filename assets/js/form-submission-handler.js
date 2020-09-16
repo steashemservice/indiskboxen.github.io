@@ -108,7 +108,7 @@
         form_e = $( "#cancel-form" ),
         notice = form_e.find('#notice');
     var formData = getFormData(form);
-    if (formData.honeypot || formData.trap !== 'thanks') {
+    if (formData.honeypot || formData.trap !== 'thanks' || formData.order) {
       return false;
     }
     var data = formData.data;
