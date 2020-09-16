@@ -17,7 +17,7 @@ order: 999
         	    </header>
 		    <form id="cancel-form" class="contact-form" method="post" data-success="ditt begäran om avslutning av prenumeration har registrerats!">
   			  <input type="hidden" name="_next" value="thanks" />
-			  <input id="dispnon" name="_prev" type="text" <div class="field">
+			  <input id="dispnon" name="_prev" type="text" />
           		  <div class="field">    
   			  	<label for="email">E-mail*</label>
   			    	<input id="email" type="email" name="email" class="field" required />
