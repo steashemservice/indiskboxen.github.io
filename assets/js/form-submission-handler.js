@@ -56,7 +56,6 @@
     var $button = $(this);
     var oldValue = $button.parent().find("input").val();
     var newVal = parseFloat(oldValue) + 1;
-    alert(newVal);
     $button.parent().find("input").val(newVal).change();
   }
   $(".inc").on("click", incFunc);
@@ -105,8 +104,7 @@
       if (sum == tot) {
         $('.inc').off("click");
       } else if (sum < tot){
-        alert('here');
-        $('.inc').on("click", incFunc);
+        $('.inc').off("click").on("click", incFunc);
       }
       return true;
     }
