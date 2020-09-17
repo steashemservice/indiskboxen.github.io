@@ -104,8 +104,7 @@
       if (sum == tot) {
         $('.inc').off("click");
       } else if (sum < tot){
-        alert('less');
-        $('.inc').on("click", incFunc);
+        //$('.inc').on("click", incFunc);
       }
       return true;
     }
