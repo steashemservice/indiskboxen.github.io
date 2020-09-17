@@ -105,6 +105,7 @@
       if (sum == tot) {
         $('.inc').off("click");
       } else if (sum < tot){
+        alert('here');
         $('.inc').on("click", incFunc);
       }
       return true;
