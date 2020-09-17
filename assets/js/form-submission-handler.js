@@ -70,7 +70,7 @@
     $button.parent().find("input").val(newVal).change();
   }
   $(".dec").on("click", decFunc);
-  function foverlow(sub) {
+  function foverflow(sub) {
     var sum = 0;
     var tot = parseInt($('#productsel').val());
     $(".quantity").each(function(){
@@ -94,7 +94,7 @@
     }
   }
   $('.quantity').change(function() {
-    foverlow(false);
+    foverflow(false);
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
@@ -108,8 +108,8 @@
     //  alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
     //  return false;
     //}
-    var cresult = foverflow(true);
-    if (cresult == false) {
+    //var cresult = foverflow(true);
+    if (foverflow(true) == false) {
       return false;
     }
     var form = event.target,
