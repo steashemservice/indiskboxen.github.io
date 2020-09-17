@@ -59,12 +59,6 @@
     $button.parent().find("input").val(newVal).change();
   }
   $(".inc").on("click", incFunc);
-  //$(".inc").on("click", function() {
-  //  var $button = $(this);
-  //  var oldValue = $button.parent().find("input").val();
-  //  var newVal = parseFloat(oldValue) + 1;
-  //  $button.parent().find("input").val(newVal).change();
-  //});
   var decFunc = function(event){
     var $button = $(this);
     var oldValue = $button.parent().find("input").val();
@@ -76,16 +70,6 @@
     $button.parent().find("input").val(newVal).change();
   }
   $(".dec").on("click", decFunc);
-  //$(".dec").on("click", function() {
-  //  var $button = $(this);
-  //  var oldValue = $button.parent().find("input").val();
-  //  if (oldValue > 0) {
-  //    var newVal = parseFloat(oldValue) - 1;
-  //  } else {
-  //    newVal = 0;
-  //  }
-  //  $button.parent().find("input").val(newVal).change();
-  //});
   function foverlow(sub) {
     var sum = 0;
     var tot = parseInt($('#productsel').val());
@@ -124,9 +108,10 @@
     //  alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
     //  return false;
     //}
-    //if (foverflow(true) == false) {
-    //  return false;
-    //}
+    var cresult = foverflow(true);
+    if (cresult == false) {
+      return false;
+    }
     var form = event.target,
         form_e = $( "#contact-form" ),
         notice = form_e.find('#notice');
