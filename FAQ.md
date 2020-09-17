@@ -15,11 +15,11 @@ order: 1
 		<div id="accordion">
 			<h3>Hur betalar jag?</h3>
 			<div>
-      				<p>.</p>
+      				<p></p>
   			</div>
 			<h3>Hur pausar eller avslutar jag mitt abonnemang?</h3>
 			<div>
-      				<p>Du kan mejla till vår kundtjänst på info@indiskaboxen.se så pausar vi ditt abonnemang under den period du önskar. Vill du avsluta ditt abonnemang  gör du det på vår hemsida eller så kontaktar du oss via mejl.</p>
+      				<p>Du kan mejla till vår kundtjänst på info@indiskaboxen.se så pausar vi ditt abonnemang under den period du önskar. Vill du avsluta ditt abonnemang  gör du det på vår hemsida <a href="/avsluta">avsluta abonnemang</a> eller så kontaktar du oss via mejl.</p>
   			</div>
 			<h3>Kan jag avboka eller flytta fram min leverans?</h3>
 			<div>
