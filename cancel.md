@@ -3,8 +3,8 @@ layout: page
 title: AVSLUTA ABONNEMANG
 description: Vill du pausar ditt abonnemang kontaktar du oss via mejl på info@indiskaboxen.se så pausar vi ditt abonnemang under den period du önskar.
 image: 
-nav-menu: true
-published: false
+nav-menu: false
+published: true
 permalink: avsluta
 order: 999
 ---
