@@ -98,17 +98,6 @@
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
-    //var sum = 0;
-    //var tot = parseInt($('#productsel').val());
-    //$(".quantity").each(function(){
-    //    sum += +$(this).val();
-    //});
-    //if (sum !== tot) {
-    //  $(".awindow").focus();
-    //  alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
-    //  return false;
-    //}
-    //var cresult = foverflow(true);
     if (foverflow(true) == false) {
       return false;
     }
