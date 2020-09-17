@@ -52,6 +52,25 @@
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
     return {data: formData, honeypot: honeypot, trap:trap};
   }
+  function foverlow() {
+    var sum = 0;
+    var tot = parseInt($('#productsel').val());
+    $(".quantity").each(function(){
+        sum += +$(this).val();
+    });
+    if (sum !== tot) {
+      $(".awindow").focus();
+      alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
+      return false;
+    } else {
+      alert(sum);
+      return true;
+    }
+  }
+  $('.quantity').change(function() {
+    alert('work');
+    foverlow();
+  });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
     var sum = 0;
@@ -169,7 +188,7 @@
     var $button = $(this);
     var oldValue = $button.parent().find("input").val();
     var newVal = parseFloat(oldValue) + 1;
-    $button.parent().find("input").val(newVal);
+    $button.parent().find("input").val(newVal).change();
   });
   $(".dec").on("click", function() {
     var $button = $(this);
@@ -179,7 +198,7 @@
     } else {
       newVal = 0;
     }
-    $button.parent().find("input").val(newVal);
+    $button.parent().find("input").val(newVal).change();
   });
 })(jQuery); 
 (function($) {
