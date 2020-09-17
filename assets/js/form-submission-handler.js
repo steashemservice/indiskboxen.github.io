@@ -70,7 +70,8 @@
       if (sum == tot) {
         $('.inc').off("click");
       } else if (sum < tot){
-        $('.inc').on("click");;
+        alert('less');
+        $('.inc').on("click");
       }
       return true;
     }
