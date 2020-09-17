@@ -52,6 +52,40 @@
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
     return {data: formData, honeypot: honeypot, trap:trap};
   }
+  var incFunc = function(event){
+    var $button = $(this);
+    var oldValue = $button.parent().find("input").val();
+    var newVal = parseFloat(oldValue) + 1;
+    $button.parent().find("input").val(newVal).change();
+  }
+  //$(".inc").on("click", function() {
+  //  var $button = $(this);
+  //  var oldValue = $button.parent().find("input").val();
+  //  var newVal = parseFloat(oldValue) + 1;
+  //  $button.parent().find("input").val(newVal).change();
+  //});
+  var decFunc = function(event){
+    var $button = $(this);
+    var oldValue = $button.parent().find("input").val();
+    if (oldValue > 0) {
+      var newVal = parseFloat(oldValue) - 1;
+    } else {
+      newVal = 0;
+    }
+    $button.parent().find("input").val(newVal).change();
+  }
+  $(".inc").on("click", incFunc);
+  $(".dec").on("click", decFunc);
+  //$(".dec").on("click", function() {
+  //  var $button = $(this);
+  //  var oldValue = $button.parent().find("input").val();
+  //  if (oldValue > 0) {
+  //    var newVal = parseFloat(oldValue) - 1;
+  //  } else {
+  //    newVal = 0;
+  //  }
+  //  $button.parent().find("input").val(newVal).change();
+  //});
   function foverlow(sub) {
     var sum = 0;
     var tot = parseInt($('#productsel').val());
@@ -71,7 +105,7 @@
         $('.inc').off("click");
       } else if (sum < tot){
         alert('less');
-        $('.inc').on("click");
+        $('.inc').on("click", incFunc);
       }
       return true;
     }
@@ -194,24 +228,6 @@
     }
   }
 })(jQuery);
-(function($) {
-  $(".inc").on("click", function() {
-    var $button = $(this);
-    var oldValue = $button.parent().find("input").val();
-    var newVal = parseFloat(oldValue) + 1;
-    $button.parent().find("input").val(newVal).change();
-  });
-  $(".dec").on("click", function() {
-    var $button = $(this);
-    var oldValue = $button.parent().find("input").val();
-    if (oldValue > 0) {
-      var newVal = parseFloat(oldValue) - 1;
-    } else {
-      newVal = 0;
-    }
-    $button.parent().find("input").val(newVal).change();
-  });
-})(jQuery); 
 (function($) {
   function getRange(range){
     var arr=range.split("-");
