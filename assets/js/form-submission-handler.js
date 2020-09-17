@@ -59,7 +59,6 @@
         sum += +$(this).val();
     });
     if (sub == true) {
-      alert('true');
       if (sum !== tot) {
         $(".awindow").focus();
         alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
@@ -68,13 +67,10 @@
         return true;
       }
     } else {
-      alert('false');
       if (sum == tot) {
-        alert('more');
-        $('.inc').click(false);
+        $('.inc').off("click");
       } else if (sum < tot){
-        alert('less');
-        $('.inc').click(true);
+        $('.inc').on("click");;
       }
       return true;
     }
