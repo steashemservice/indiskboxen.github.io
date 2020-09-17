@@ -52,35 +52,45 @@
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
     return {data: formData, honeypot: honeypot, trap:trap};
   }
-  function foverlow() {
+  function foverlow(sub) {
     var sum = 0;
     var tot = parseInt($('#productsel').val());
     $(".quantity").each(function(){
         sum += +$(this).val();
     });
-    if (sum !== tot) {
-      $(".awindow").focus();
-      alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
-      return false;
+    if (sub == true) {
+      if (sum !== tot) {
+        $(".awindow").focus();
+        alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
+        return false;
+      } else {
+        return true;
+      }
     } else {
-      alert(sum);
+      if (sum == tot) {
+        $('.inc').click(false);
+      } else if (sum < tot){
+        $('.inc').click(true);
+      }
       return true;
     }
   }
   $('.quantity').change(function() {
-    alert('work');
-    foverlow();
+    foverlow(false);
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
-    var sum = 0;
-    var tot = parseInt($('#productsel').val());
-    $(".quantity").each(function(){
-        sum += +$(this).val();
-    });
-    if (sum !== tot) {
-      $(".awindow").focus();
-      alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
+    //var sum = 0;
+    //var tot = parseInt($('#productsel').val());
+    //$(".quantity").each(function(){
+    //    sum += +$(this).val();
+    //});
+    //if (sum !== tot) {
+    //  $(".awindow").focus();
+    //  alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
+    //  return false;
+    //}
+    if (foverflow(true) == false) {
       return false;
     }
     var form = event.target,
