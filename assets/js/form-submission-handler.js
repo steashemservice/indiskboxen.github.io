@@ -56,8 +56,10 @@
     var $button = $(this);
     var oldValue = $button.parent().find("input").val();
     var newVal = parseFloat(oldValue) + 1;
+    alert(newVal);
     $button.parent().find("input").val(newVal).change();
   }
+  $(".inc").on("click", incFunc);
   //$(".inc").on("click", function() {
   //  var $button = $(this);
   //  var oldValue = $button.parent().find("input").val();
@@ -74,7 +76,6 @@
     }
     $button.parent().find("input").val(newVal).change();
   }
-  $(".inc").on("click", incFunc);
   $(".dec").on("click", decFunc);
   //$(".dec").on("click", function() {
   //  var $button = $(this);
