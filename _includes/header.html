@@ -5,6 +5,7 @@
 <header id="header" {% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong><!-- <span>{{ site.title | split: ' ' | last}}</span>--> <span>{{ site.subtitle }}</span> </a>
 	<nav>
+		<a href="/#contact">beställ</a>
 		<a href="#menu">Menu</a>
 	</nav>
 </header>
@@ -17,8 +18,7 @@
 			<li><a href="{{ "" | absolute_url }}/">{{ ipage.title }}</a></li>
 	    	{% endif %}
 	{% endfor %}
-		<li><a href="/#contact" class="button special fit">beställ</a></li>
-		<li><a href="/#one">hur det fungerart</a></li>
+		<li><a href="/#one" class="button special fit">hur det fungerart</a></li>
 		{% assign sorted_pages = site.pages | sort:"order" %}
                 {% for ipage in sorted_pages %}
 		    {% if ipage.layout != "home" and ipage.layout != "landing" and ipage.nav-menu == true %}
