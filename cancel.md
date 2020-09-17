@@ -1,20 +1,20 @@
 ---
 layout: page
-title: AVSLUTAR
+title: AVSLUTA ABONNEMANG
 description: Vill du pausar ditt abonnemang kontaktar du oss via mejl på info@indiskaboxen.se så pausar vi ditt abonnemang under den period du önskar.
 image: 
 nav-menu: true
-published: true
-permalink: avslutar
+published: false
+permalink: avsluta
 order: 999
 ---
 
 <section id="contact">
 	<div class="inner">
 		<section>
-		    <header class="major">
+		    <!--<header class="major">
           		<h2>Avsluta Abonnemang</h2>
-        	    </header>
+        	    </header>-->
 		    <form id="cancel-form" class="contact-form" method="post" data-success="Ditt begäran om avslutning av prenumeration har registrerats!">
   			  <input type="hidden" name="_next" value="thanks" />
 			  <input id="dispnon" name="_prev" type="text" />
