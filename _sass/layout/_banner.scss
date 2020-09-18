@@ -183,6 +183,17 @@
 			margin-bottom: 0;
                 }
 	}
+        #climatebanner {
+		@include vendor('background-image', 'url("../images/climate.jpg")');
+		display: block;
+		top: 0;
+		margin-bottom: 0;
+                @include padding(1em, 0, (0.1em, 0, 0, 0));
+		@include breakpoint(small) {
+			top: 0;
+			margin-bottom: 0;
+                }
+	}
 	#banner {
 		@include vendor('background-image', 'url("../images/Banner.png")');
 	}
