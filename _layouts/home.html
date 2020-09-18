@@ -11,59 +11,13 @@
 <body>
 
     {% include header.html %}
-
     <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ site.landing-title }}</h1>
-		<p style="text-transform: uppercase;">{{ site.description }}</p>
-            </header>
-            <div class="content">
-                <ul class="actions">
-		    <!-- <li><a href="tel:{{ site.phone }}" class="button"><i class="fa fa-fw fa-phone"></i> Ring oss på {{ site.phone }}</a></li> -->
-		    <li><a href="#one" class="button scrolly"><i class="fas fa-fw fa-lightbulb"></i> hur det fungerar</a></li>
-		    <li><a href="#three" class="button scrolly"><i class="fa fa-fw fa-star"></i> våra erbjudanden</a></li>
-		    <li><a href="#contact" class="button scrolly"><i class="fa fa-fw fa-shopping-cart"></i> beställ</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    {% include banner.html %}
 
     <!-- Main -->
     <div id="main">
-	
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-		<header class="major">
-                    <h2>Ät Klimatsmart</h2>
-		    <!--<span class="image main"><img src="{{ site.baseurl }}/{{ page.imagec }}" alt="" /></span>-->
-		    <p>Fryst mat bidrar till att minska matsvinn genom att plocka fram precis antal portioner som behövs och låta resten ligga kvar i frysen. Du sparar pengar och miljön.</p></br>
-                    <p><a href="https://www.wwf.se/mat-och-jordbruk/vad-ska-jag-ata/">WWFs One Planet Plate</a> har satt en så kallad klimatbudget för mat. Denna klimatbudget visar hur mycket klimatpåverkan våra måltider kan ha för att vi ska kunna nå målet om maximalt 1,5 graders global uppvärmning. Budgeten är 11 kg koldioxidekvivalenter (CO2e) per vecka och per person.</p></br><!-- På indiskaboxen.se klimatkompenseras varje box.</p></br>-->
-		    <p>Indiska boxen är smakrikt och klimatsmart, <a href="#contact">beställ</a> indiska boxen idag!</p>
-                </header>
-                <header class="major">
-                    <h2>Varför är fryst mat så bra?</h2>
-                    <p>Frysning är ett naturligt sätt att bevara mat, därför behövs inga konserveringsmedel. Maten får en naturlig lång hållbarhet och behåller samtidigt smak, arom, näringsvärde och konsistens.</p>
-                </header>
-		<header class="major">
-                    <h2>Full av smakar och nyttigheter</h2>
-		    <p>{{ page.description }}</p>
-
-                </header>
-            </div>
-        </section>
-	<!-- Banner -->
-    	<section id="spicebanner" class="major">
-        	<div class="inner">
-			<header class="major">
-                		<h1>{{ page.landing-title }}</h1>
-				{{ content }}
-			</header>
-            	</div>
-    	</section>
-        <!-- One -->
+	{% include body.html %}
+	<!-- One -->
 	{% include howitworks.html %}
 	<!-- Three -->
         <section id="three" class="border">
