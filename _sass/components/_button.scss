@@ -24,7 +24,7 @@
 		color: _palette(fg-bold);
 		cursor: pointer;
 		display: inline-block;
-		//font-size: 0.9em;
+		font-size: 0.9em;
 		font-weight: _font(weight-bold);
 		height: 3.5em;
 		letter-spacing: _font(letter-spacing-alt);
@@ -35,7 +35,7 @@
 		text-transform: uppercase;
 		white-space: nowrap;
                 @include breakpoint(large) {
-			font-size: 0.9em;
+			font-size: 1em;
 		}
 		&:hover, &:active {
 			box-shadow: inset 0 0 0 2px _palette(highlight);
