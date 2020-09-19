@@ -173,7 +173,7 @@
 		}
 	}
 	#spicebanner {
-		@include vendor('background-image', 'url("../images/spice.jpg")');
+		@include vendor('background', 'url("../images/spice.jpg")');
 		display: block;
 		background-size: cover;
 		top: 0;
@@ -186,7 +186,7 @@
 	}
         #climatebanner {
 		@include vendor('background-image', 'url("../images/climate.jpg")');
-		background-size: cover;
+		background-size: contain;
 		display: block;
 		top: 0;
 		margin-bottom: 0;
@@ -197,7 +197,7 @@
                 }
 	}
 	#banner {
-		@include vendor('background-image', 'url("../images/Banner.png")');
+		@include vendor('background', 'url("../images/Banner.png")');
 		background-size: cover;
 	}
 	
