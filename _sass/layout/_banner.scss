@@ -173,7 +173,7 @@
 		}
 	}
 	#spicebanner {
-		@include vendor('background', 'url("../images/spice.jpg")');
+		@include vendor('background-image', 'url("../images/spice.jpg")');
 		display: block;
 		background-size: cover;
 		top: 0;
@@ -197,7 +197,7 @@
                 }
 	}
 	#banner {
-		@include vendor('background', 'url("../images/Banner.png")');
+		@include vendor('background-image', 'url("../images/Banner.png")');
 		background-size: cover;
 	}
 	
