@@ -8,7 +8,7 @@ email: info@indiskaboxen.se
 landing-title: "njut av fantastiskt god hemlagad indisk mat direkt till din dörr"
 description: "Färdiglagad nyttig näringsrik fryst indisk mat när som helst"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://www.indiskaboxen.se" # the base hostname & protocol for your site
 author:
 name: Indiska Boxen Handelsbolag
 street_address: Stallknektsgränd 20
