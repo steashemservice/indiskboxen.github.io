@@ -211,7 +211,7 @@
   }
   function savepostcode(pc_pre,pc_notpre) {  // handles form submit without any jquery
     var formData = {};
-    if pc_pre != '' {
+    if pc_pre !== '' {
       formData['postcode present'] = pc_pre;
     } else {
       formData['postcode not present'] = pc_notpre;
