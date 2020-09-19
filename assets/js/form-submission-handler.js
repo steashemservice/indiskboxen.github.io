@@ -179,24 +179,6 @@
       }
     });
   }
-  function savepostcode(postcode) {  // handles form submit without any jquery
-    var formData = {};
-    formData['postcode'] = postcode;
-    formData.formGoogleSheetName = "order";
-    formData.formGoogleSendEmail = "";
-    // url encode form data for sending as post data
-    var encoded = Object.keys(formData).map(function(k) {
-        return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
-    }).join('&');
-    var url = 'https://script.google.com/macros/s/AKfycbz6gH6NedwGRP26Xn-0DxLHEncJldZTOZgmwXeMpGt0qWkfCbCO/exec';
-    $.ajax({
-      url: url,
-      data: encoded,
-      type: "POST",
-      dataType: "json",
-      statusCode: {}
-    });
-  }
   function loaded() {
     // bind to the submit event of our form
     var forms = document.querySelectorAll("form#contact-form");
@@ -225,6 +207,24 @@
   function checkPcode(Pcode, Plist) {
     return Plist.some(function(Prange) {
       return Pcode >= Prange.min && Pcode <= Prange.max;
+    });
+  }
+  function savepostcode(postcode) {  // handles form submit without any jquery
+    var formData = {};
+    formData['postcode'] = postcode;
+    formData.formGoogleSheetName = "order";
+    formData.formGoogleSendEmail = "";
+    // url encode form data for sending as post data
+    var encoded = Object.keys(formData).map(function(k) {
+        return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
+    }).join('&');
+    var url = 'https://script.google.com/macros/s/AKfycbz6gH6NedwGRP26Xn-0DxLHEncJldZTOZgmwXeMpGt0qWkfCbCO/exec';
+    $.ajax({
+      url: url,
+      data: encoded,
+      type: "POST",
+      dataType: "json",
+      statusCode: {}
     });
   }
   function addcollapse() {
