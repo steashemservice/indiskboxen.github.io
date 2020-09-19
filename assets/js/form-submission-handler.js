@@ -241,11 +241,15 @@
         if(pcode.length == 5 && checkPcode(Number(pcode),plists)) {
           pmsg.html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
-          savepostcode(pcode);
+          if( $(this).data('last') != val ){
+            savepostcode(pcode);
+          }
         } else if(pcode.length == 5){
           pmsg.html("Vi levererar tyvärr inte till denna ort ännu.");
           content.css('display', 'none');
-          savepostcode(pcode);
+          if( $(this).data('last') != val ){
+            savepostcode(pcode);
+          }
         } else {
           pmsg.html("Kan vi leverera till dig? Skriv in ditt postnummer och kolla");
           content.css('display', 'none');
