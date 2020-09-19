@@ -37,6 +37,9 @@
                 @include breakpoint(large) {
 			font-size: 1em;
 		}
+		@include breakpoint(xxsmall) {
+			padding: 0.5em;
+		}
 		&:hover, &:active {
 			box-shadow: inset 0 0 0 2px _palette(highlight);
 			color: _palette(highlight);
