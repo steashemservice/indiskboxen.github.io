@@ -28,7 +28,6 @@
     }).filter(function(item, pos, self) {
       return self.indexOf(item) == pos && item;
     });
-
     var formData = {};
     fields.forEach(function(name){
       var element = elements[name];
@@ -180,7 +179,24 @@
       }
     });
   }
-  
+  function savepostcode(postcode) {  // handles form submit without any jquery
+    var formData = {};
+    formData['postcode'] = postcode;
+    formData.formGoogleSheetName = "order";
+    formData.formGoogleSendEmail = "";
+    // url encode form data for sending as post data
+    var encoded = Object.keys(formData).map(function(k) {
+        return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
+    }).join('&');
+    var url = 'https://script.google.com/macros/s/AKfycbz6gH6NedwGRP26Xn-0DxLHEncJldZTOZgmwXeMpGt0qWkfCbCO/exec';
+    $.ajax({
+      url: url,
+      data: encoded,
+      type: "POST",
+      dataType: "json",
+      statusCode: {}
+    });
+  }
   function loaded() {
     // bind to the submit event of our form
     var forms = document.querySelectorAll("form#contact-form");
@@ -220,14 +236,16 @@
     for (var i = 0; i < colls.length; i++) {
       $(colls[i]).on("change paste keyup", function() {
         var content = $(this).parent().siblings('.cblock');
-        var pcode = $(this).val().split(" ").join("");
+        var pcode = $(this).val();
         var pmsg = $(this).siblings('label.collapsible');
         if(pcode.length == 5 && checkPcode(Number(pcode),plists)) {
           pmsg.html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
+          savepostcode(pcode);
         } else if(pcode.length == 5){
           pmsg.html("Vi levererar tyvärr inte till denna ort ännu.");
           content.css('display', 'none');
+          savepostcode(pcode);
         } else {
           pmsg.html("Kan vi leverera till dig? Skriv in ditt postnummer och kolla");
           content.css('display', 'none');
