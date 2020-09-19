@@ -211,7 +211,7 @@
   }
   function savepostcode(pc_pre,pc_notpre) {  // handles form submit without any jquery
     var formData = {};
-    if pc_pre !== '' {
+    if (pc_pre !== "") {
       formData['postcode present'] = pc_pre;
     } else {
       formData['postcode not present'] = pc_notpre;
@@ -246,14 +246,14 @@
           pmsg.html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
           if( $(this).data('last') != pcode ){
-            savepostcode(pcode,'');
+            savepostcode(pcode,"");
           }
           $(this).data('last',pcode);
         } else if(pcode.length == 5){
           pmsg.html("Vi levererar tyvärr inte till denna ort ännu.");
           content.css('display', 'none');
           if( $(this).data('last') != pcode ){
-            savepostcode('',pcode);
+            savepostcode("",pcode);
           }
           $(this).data('last',pcode);
         } else {
