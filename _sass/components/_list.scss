@@ -49,9 +49,9 @@
 				display: inline-block;
 				padding: 0 1em 0 0;
 
-				//&:last-child {
-				//	padding-right: 0;
-				//}
+				&:last-child {
+					padding-right: 0;
+				}
 			}
 
 			@include breakpoint(small) {
@@ -77,9 +77,9 @@
 				padding: (_size(element-margin) * 0.25) (_size(element-margin) * 0.5) (_size(element-margin) * 0.25) 0;
 				vertical-align: middle;
 
-				&:last-child {
-					padding-right: 0;
-				}
+				//&:last-child {
+				//	padding-right: 0;
+				//}
 			}
 
 			&.small {
