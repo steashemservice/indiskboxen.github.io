@@ -80,8 +80,9 @@
 				padding: (_size(element-margin) * 0.25) (_size(element-margin) * 0.5) (_size(element-margin) * 0.25) 0;
 				vertical-align: middle;
 				&:last-child {
+					padding-right: 0;
 					@include breakpoint(medium) {
-						padding-right: 0;
+						padding-right: (_size(element-margin) * 0.5);
 					}
 				}
 			}
