@@ -197,7 +197,7 @@
                 }
 	}
 	#banner {
-		@include vendor('background', 'url("../images/Banner.png")');
+		@include vendor('background-image', 'url("../images/Banner.png")');
 		background-size: cover;
 	}
 	
