@@ -79,9 +79,9 @@
 				padding: (_size(element-margin) * 0.25) (_size(element-margin) * 0.5) (_size(element-margin) * 0.25) 0;
 				vertical-align: middle;
 
-				//&:last-child {
-				//	padding-right: 0;
-				//}
+				&:last-child {
+					padding: 0;
+				}
 			}
 
 			&.small {
