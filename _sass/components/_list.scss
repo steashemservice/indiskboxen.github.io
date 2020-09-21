@@ -62,9 +62,10 @@
 		}
 
 		&.actions {
-			@include breakpoint(medium) {
-				text-align: center;
-			}
+			text-align: center;
+			//@include breakpoint(medium) {
+			//	text-align: center;
+			//}
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -78,7 +79,6 @@
 				display: inline-block;
 				padding: (_size(element-margin) * 0.25) (_size(element-margin) * 0.5) (_size(element-margin) * 0.25) 0;
 				vertical-align: middle;
-
 				&:last-child {
 					padding-right: 0;
 				}
