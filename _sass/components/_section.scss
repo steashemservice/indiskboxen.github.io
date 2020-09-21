@@ -59,7 +59,7 @@
 			}
 		}
 
-		@include breakpoint(small) {
+		@include breakpoint(medium) {
 			&.major {
 				width: 100%;
 				text-align: center;
