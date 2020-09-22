@@ -8,7 +8,7 @@
 	#banner,#spicebanner,#climatebanner {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
-		//@include padding(4em, 0, (2em, 0, 0, 0));
+		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -49,7 +49,7 @@
 				'filter 0.5s ease',
 				'-webkit-filter 0.5s ease'
 			));
-			padding: 0 !important;
+			//padding: 0 !important;
 			position: relative;
 			z-index: 2;
 
@@ -175,7 +175,7 @@
 	#spicebanner {
 		@include vendor('background', 'url("../images/spice.jpg")');
 		background-size: cover;
-		@include padding(4em, 0, (0, 0, 2, 0));
+		//@include padding(4em, 0, (0, 0, 2, 0));
 		//display: block;
 		top: 0;
 		margin-bottom: 0;
@@ -187,7 +187,7 @@
         #climatebanner {
 		@include vendor('background-image', 'url("../images/climate.jpg")');
 		background-size: cover;
-		@include padding(4em, 0, (0, 0, 2, 0));
+		//@include padding(4em, 0, (0, 0, 2, 0));
 		//display: block;
 		top: 0;
 		margin-bottom: 0;
@@ -199,6 +199,6 @@
 	#banner {
 		@include vendor('background-image', 'url("../images/Banner.png")');
 		background-size: cover;
-		padding: 10em 0 4em 0;
+		//padding: 10em 0 4em 0;
 	}
 	
