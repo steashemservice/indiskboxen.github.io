@@ -248,26 +248,26 @@
 					}
 
 			});
-			$spicebanner.each(function() {
+			//$spicebanner.each(function() {
 
-				var $this = $(this),
-					$image = $this.find('.image'), $img = $image.find('img');
+			//	var $this = $(this),
+			//		$image = $this.find('.image'), $img = $image.find('img');
 
 				// Parallax.
 					//$this._parallax(0.275);
 
 				// Image.
-					if ($image.length > 0) {
+			//		if ($image.length > 0) {
 
 						// Set image.
-							$this.css('background-image', 'url(' + $img.attr('src') + ')');
+			//				$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
 						// Hide original.
-							$image.hide();
+			//				$image.hide();
 
-					}
+			//		}
 
-			});
+			//});
 		// Menu.
 			var $menu = $('#menu'),
 				$menuInner;
