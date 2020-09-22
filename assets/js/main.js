@@ -98,7 +98,7 @@
 			$body = $('body'),
 			$wrapper = $('#wrapper'),
 			$header = $('#header'),
-			$banner = $('#banner');
+			$banner = $('#banner,#spicebanner,#climatebanner');
 		        $spicebanner = $('#spicebanner');
 
 		// Disable animations/transitions until the page has loaded.
