@@ -98,8 +98,9 @@
 			$body = $('body'),
 			$wrapper = $('#wrapper'),
 			$header = $('#header'),
-			$banner = $('#banner,#spicebanner,#climatebanner');
+			$banner = $('#banner');
 		        $spicebanner = $('#spicebanner');
+		        $climatebanner = $('#climatebanner');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -268,6 +269,46 @@
 			//		}
 
 			//});
+		        $spicebanner.each(function() {
+
+				var $this = $(this),
+					$image = $this.find('.image'), $img = $image.find('img');
+
+				// Parallax.
+					$this._parallax(0.275);
+
+				// Image.
+					if ($image.length > 0) {
+
+						// Set image.
+							$this.css('background-image', 'url(' + $img.attr('src') + ')');
+
+						// Hide original.
+							$image.hide();
+
+					}
+
+			});
+		        $climatebanner.each(function() {
+
+				var $this = $(this),
+					$image = $this.find('.image'), $img = $image.find('img');
+
+				// Parallax.
+					$this._parallax(0.275);
+
+				// Image.
+					if ($image.length > 0) {
+
+						// Set image.
+							$this.css('background-image', 'url(' + $img.attr('src') + ')');
+
+						// Hide original.
+							$image.hide();
+
+					}
+
+			});
 		// Menu.
 			var $menu = $('#menu'),
 				$menuInner;
