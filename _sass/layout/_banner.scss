@@ -175,7 +175,7 @@
 	#spicebanner {
 		@include vendor('background', 'url("../images/spice.jpg")');
 		background-size: cover;
-		@include padding(4em, 0, (0, 4, 0, 0));
+		@include padding(4em, 0, (0, 0, 2, 0));
 		//display: block;
 		top: 0;
 		margin-bottom: 0;
@@ -187,7 +187,7 @@
         #climatebanner {
 		@include vendor('background-image', 'url("../images/climate.jpg")');
 		background-size: cover;
-		@include padding(4em, 0, (0, 4, 0, 0));
+		@include padding(4em, 0, (0, 0, 2, 0));
 		//display: block;
 		top: 0;
 		margin-bottom: 0;
