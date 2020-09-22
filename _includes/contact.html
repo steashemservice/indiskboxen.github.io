@@ -16,11 +16,12 @@
 			<div class="cblock">
 			<div class="field">
 			  <label for="productsel">Välj Paket</label>
-			  <select name="productsel" id="productsel" required>
-			    <option selected value="5">5 BOXAR 349 kr/mån (319 kr vid första leverans)</option>
-                            <option value="10">10 BOXAR 649 kr/mån (599 kr vid första leverans)</option>
-			    <option value="20">20 BOXAR 1199 kr/mån (1099 kr vid första leverans)</option>
-			  </select>  
+			  <input id="productsel" type="text" name="productsel" class="field" list="productlist" required />
+			  <datalist id="productlist">
+			  <!--<select name="productsel" id="productsel" required>-->
+			    <option value="10">10 BOXAR 649 kr/mån (599 kr vid första leverans)</option>
+			  <!--</select>-->
+			  </datalist>
 			</div>
 			<!--<div class="field">
 			  <label class="field first half" for="Paneer Tikka Masala">Paneer Tikka Masala</label>
