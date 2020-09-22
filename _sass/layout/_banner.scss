@@ -174,12 +174,12 @@
 	}
 	#spicebanner {
 		@include vendor('background', 'url("../images/spice.jpg")');
-		display: block;
 		background-size: cover;
+		@include padding(2em, 0, (0, 0, 0, 0));
+		//display: block;
 		top: 0;
 		margin-bottom: 0;
-                @include padding(2em, 0, (0, 0, 0, 0));
-		@include breakpoint(small) {
+                @include breakpoint(small) {
 			top: 0;
 			margin-bottom: 0;
                 }
@@ -187,11 +187,11 @@
         #climatebanner {
 		@include vendor('background-image', 'url("../images/climate.jpg")');
 		background-size: cover;
-		display: block;
+		@include padding(2em, 0, (0, 0, 0, 0));
+		//display: block;
 		top: 0;
 		margin-bottom: 0;
-                @include padding(2em, 0, (0, 0, 0, 0));
-		@include breakpoint(small) {
+                @include breakpoint(small) {
 			top: 0;
 			margin-bottom: 0;
                 }
