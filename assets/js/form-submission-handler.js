@@ -61,7 +61,9 @@
   var decFunc = function(event){
     var $button = $(this);
     var oldValue = $button.parent().find("input").val();
-    if (oldValue > 0) {
+    var minValue = $button.parent().find("input").attr("min");
+    alert(minValue);
+    if (oldValue > 0 and oldValue > minValue) {
       var newVal = parseFloat(oldValue) - 1;
     } else {
       newVal = 0;
@@ -281,9 +283,3 @@
   };
   document.addEventListener("DOMContentLoaded", adddelivery, false);
 })(jQuery);
-$(document).ready(function() {
-  $("#productsel").attr({
-    "max" : 30,
-    "min" : 5
-  });
-});
