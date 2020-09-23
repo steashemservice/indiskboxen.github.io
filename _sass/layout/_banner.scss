@@ -120,9 +120,9 @@
 			}
 		}
 
-		//@include breakpoint(large) {
-		//	background-attachment: scroll;
-		//}
+		@include breakpoint(large) {
+			background-attachment: scroll;
+		}
 
 		@include breakpoint(small) {
 			@include padding(3em, 0, (2em, 0, 0, 0));
