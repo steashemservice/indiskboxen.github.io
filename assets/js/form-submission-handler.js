@@ -154,7 +154,7 @@
         return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
     }).join('&');
     disableAllButtons(form);
-    var url = 'https://script.google.com/macros/s/AKfycbwJTJ5pQhROi3f0OVyAJvmrpNgmkw7Zy_HuS3ok/exec';
+    var url = 'https://script.google.com/macros/s/AKfycbzwv0ktJwdAk_4G2FVqsNE_PXe56e3A9Uy8Ss667hx3F-6hjDY/exec';
     $.ajax({
       url: url,
       data: encoded,
@@ -222,7 +222,7 @@
     var encoded = Object.keys(formData).map(function(k) {
         return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
     }).join('&');
-    var url = 'https://script.google.com/macros/s/AKfycbz6gH6NedwGRP26Xn-0DxLHEncJldZTOZgmwXeMpGt0qWkfCbCO/exec';
+    var url = 'https://script.google.com/macros/s/AKfycbwR621wFIgtgm1eLjUYanem-Q0Zs59tV8ktHMYZwPboFx1O_gXu/exec';
     $.ajax({
       url: url,
       data: encoded,
