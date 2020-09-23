@@ -396,6 +396,9 @@
       		collapsible: true,
 		heightStyle: "content"
     	});
+	$('a.subscription').click(function(e) { 
+  		$('#contact-form input[name=subscription]').prop("checked", true); 
+	});
   } );
 
 })(jQuery);
