@@ -85,9 +85,9 @@
       }
     } else {
       if (sum == tot) {
-        $('.inc').off("click");
+        $('.item.inc').off("click");
       } else if (sum < tot){
-        $('.inc').off("click").on("click", incFunc);
+        $('.item.inc').off("click").on("click", incFunc);
       }
       return true;
     }
