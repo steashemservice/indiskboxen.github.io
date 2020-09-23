@@ -63,7 +63,7 @@
     var oldValue = $button.parent().find("input").val();
     var minValue = $button.parent().find("input").attr("min");
     alert(minValue);
-    if (oldValue > 0 and oldValue > minValue) {
+    if (oldValue > 0 && oldValue > minValue) {
       var newVal = parseFloat(oldValue) - 1;
     } else {
       newVal = 0;
