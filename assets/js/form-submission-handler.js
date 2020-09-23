@@ -51,10 +51,6 @@
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
     return {data: formData, honeypot: honeypot, trap:trap};
   }
-  $("#productsel").attr({
-       "max" : 30,
-       "min" : 5
-  });
   var incFunc = function(event){
     var $button = $(this);
     var oldValue = $button.parent().find("input").val();
@@ -285,3 +281,9 @@
   };
   document.addEventListener("DOMContentLoaded", adddelivery, false);
 })(jQuery);
+$(document).ready(function() {
+  $("#productsel").attr({
+    "max" : 30,
+    "min" : 5
+  });
+});
