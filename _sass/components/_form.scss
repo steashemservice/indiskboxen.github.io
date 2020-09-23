@@ -179,7 +179,7 @@
 			color: _palette(fg);
 			cursor: pointer;
 			display: inline-block;
-			font-weight: _font(weight);
+			font-weight: _font(weight-bold);
 			padding-left: (_size(element-height) * 0.6) + 1em;
 			padding-right: 0.75em;
 			position: relative;
