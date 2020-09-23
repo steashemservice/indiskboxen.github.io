@@ -113,7 +113,7 @@
         return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
     }).join('&');
     disableAllButtons(form);
-    var url = 'https://script.google.com/macros/s/AKfycbzvfPO-o__LUgpp06Q4YkqAb27w4rAizo6DiUP48W20-HE_RyY/exec';
+    var url = 'https://script.google.com/macros/s/AKfycbzrCDB3cFfu_86VM83Lvb4Xn5v1Z6wx86kvKzfVv7QOQVeCmNs/exec';
     $.ajax({
       url: url,
       data: encoded,
