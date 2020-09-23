@@ -60,10 +60,10 @@
   $(".inc").on("click", incFunc);
   var decFunc = function(event){
     var $button = $(this);
-    var oldValue = $button.parent().find("input").val();
-    var minValue = $button.parent().find("input").attr("min");
-    if (oldValue > 0 ) {
-      var newVal = parseFloat(oldValue) - 1;
+    var oldValue = parseFloat($button.parent().find("input").val());
+    var minValue = parseFloat($button.parent().find("input").attr("min"));
+    if (oldValue > 0 && oldValue > minValue) {
+      var newVal = oldValue - 1;
     } else {
       newVal = oldValue;
     }
