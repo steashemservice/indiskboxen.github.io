@@ -10,7 +10,36 @@
 		0% { top: -4em; opacity: 0; }
 		100% { top: 0; opacity: 1; }
 	}
-
+        nav {
+		#menubar {
+  			display: none;
+		}
+	}
+	@include breakpoint(large) {
+		nav {
+			a:not(:first-child) {
+				display: none;
+			}
+			#menubar {
+				float: right;
+    				display: block;
+  			}
+			&.responsive {
+				position: relative;
+				a {
+					float: none;
+    					display: block;
+    					text-align: left;
+					&#menubar {
+						position: absolute;
+    						right: 0;
+    						top: 0;
+					}
+					
+				}
+			}
+		}
+	}
 	#header {
 		@include vendor('display', 'flex');
 		background-color: _palette(bg-alt);
