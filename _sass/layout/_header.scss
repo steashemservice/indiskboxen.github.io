@@ -136,13 +136,14 @@
     					display: block;
   				}
 				&.responsive {
-					position: relative;
+					position: absolute;
+					width: 100%;
 					background-color: _palette(bg-alt);
                                         padding-bottom: 50px;
 					a {
 						float: none;
     						display: block;
-    						text-align: right;
+    						text-align: center;
 						top: 50px;
 						&#menubar {
 							position: absolute;
