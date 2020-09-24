@@ -11,7 +11,14 @@
 			text-align: center;
 		}
 	}
-
+        .menuitem {
+		> h3 {
+			display: inline;
+		}
+		> p {
+			margin: 0;
+		}	
+	}
 	header {
 		&.major {
 			width: -moz-max-content;
