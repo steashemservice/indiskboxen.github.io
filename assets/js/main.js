@@ -94,7 +94,7 @@
 		$("#menubar").on('click', function(event) {
 			event.stopPropagation();
 			event.preventDefault();
-			$('nav').toggleClass('responsive');
+			$('.nav').toggleClass('responsive');
 		});
 		$( "#date" ).datepicker({
                     minDate: 0
