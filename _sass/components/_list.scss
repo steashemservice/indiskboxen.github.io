@@ -63,14 +63,14 @@
 
 		&.actions {
 			text-align: center;
-			//@include breakpoint(medium) {
-			//	text-align: center;
-			//}
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
 
 			li {
+				@include breakpoint(small) {
+					width: 100%;
+				}
 				a {
 					height:7em;
 					span {
