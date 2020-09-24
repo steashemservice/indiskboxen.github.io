@@ -11,12 +11,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.indiskaboxen.se" # the base hostname & protocol for your site
 author:
 name: Indiska Boxen Handelsbolag
-street_address: Stallknektsgränd 20
+street_address:
 city: Stockholm
 Län: 
-zip_code: 165 52
+zip_code:
 country: 
-phone: 072-539 83 64
+phone:
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
