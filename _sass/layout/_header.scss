@@ -137,6 +137,8 @@
   				}
 				&.responsive {
 					position: relative;
+					backdrop-filter: blur(100px);
+                                        padding-bottom: 50px;
 					a {
 						float: none;
     						display: block;
