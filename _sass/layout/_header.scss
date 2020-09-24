@@ -33,7 +33,7 @@
 			}
 			@include breakpoint(large) {
 				a {
-					display: none;
+					display: none !important;
 				}
 				#menubar {
 					float: right;
