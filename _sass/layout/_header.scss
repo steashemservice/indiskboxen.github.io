@@ -32,7 +32,7 @@
   				display: none;
 			}
 			@include breakpoint(large) {
-				a:not(:first-child) {
+				a {
 					display: none;
 				}
 				#menubar {
