@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VÅR MENY
-description: 
+description: Indiska boxen är klimatsmart och full av smakar och nyttigheter
 image: 
 nav-menu: false
 published: true
@@ -12,9 +12,10 @@ order: 999
 <div id="main">
   <section id="spicebanner" class="major">
     <div class="inner">
-      /*<header class="major">
-        <h2>Så här funkar det</h2>
-      </header>*/
+      <header class="major">
+        <h2>Ät Klimatsmart</h2>
+	<p>Varje box från Indiska boxen släpper ut mellan 0,3-0,6 CO2e, vilket han jämföras med en biffrätt som släpper ut 5 CO2e. Våra bas ingredienser är producerade i Sverige och vi har fler smakrika vegetarisk/vegan rätter att välja emellan.</p>
+      </header>
       <section id="concept">
       <div class="field">
 			  <label class="field first half" for="Palak Paneer">Palak Paneer</label>
