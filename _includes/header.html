@@ -6,8 +6,7 @@
 	<a href="{{ "" | absolute_url }}" class="logo"><strong>{{ site.title }}</strong><!-- <span>{{ site.title | split: ' ' | last}}</span>--> <span>{{ site.subtitle }}</span> </a>
 	<nav>
 		<a href="/#contact" class="button special">beställ</a>
-		<a href="/menu">Vår meny</a>
-		<a href="#menu"></a>
+		<a href="#menu">Menu</a>
 	</nav>
 </header>
 
@@ -20,6 +19,7 @@
 	    	{% endif %}
 	{% endfor %}
 		<li><a href="/#one" class="button special fit">hur det fungerart</a></li>
+		<li><a href="/menu">vår meny</a></li>
 		<li><a href="/#three">våra erbjudanden</a></li>
 		{% assign sorted_pages = site.pages | sort:"order" %}
                 {% for ipage in sorted_pages %}
