@@ -92,6 +92,8 @@
         
 	$(function() {
 		$("#menubar").on('click', function(event) {
+			event.stopPropagation();
+			event.preventDefault();
 			$('nav').toggleClass('responsive');
 		});
 		$( "#date" ).datepicker({
