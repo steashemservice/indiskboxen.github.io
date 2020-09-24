@@ -91,6 +91,9 @@
 	};
         
 	$(function() {
+		$("#menubar").on('click', function(event) {
+			$('nav').toggleClass('responsive');
+		});
 		$( "#date" ).datepicker({
                     minDate: 0
                 });
