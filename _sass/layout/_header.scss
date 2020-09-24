@@ -11,7 +11,7 @@
 		100% { top: 0; opacity: 1; }
 	}
         nav {
-		#menubar {
+		a#menubar {
   			display: none;
 		}
 	}
@@ -20,7 +20,7 @@
 			a:not(:first-child) {
 				display: none;
 			}
-			#menubar {
+			a#menubar {
 				float: right;
     				display: block;
   			}
