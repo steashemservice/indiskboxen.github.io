@@ -27,7 +27,7 @@
 		padding: 0.8em 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
-		.nav {
+		nav {
 			#menubar {
   				display: none;
 			}
@@ -89,8 +89,8 @@
 			}
 		}
 
-		.nav {
-			@include vendor('display', 'flex');
+		nav {
+			@include vendor('display', 'block');
 			@include vendor('justify-content', 'flex-end');
 			@include vendor('flex-grow', '1');
 			height: inherit;
@@ -179,7 +179,7 @@
 		}
 
 		@include breakpoint(xlarge) {
-			.nav {
+			nav {
 				a {
 					&[href="#menu"] {
 						padding-right: 3.75em !important;
@@ -199,7 +199,7 @@
 					font-size: 90%;
 				}
 			}
-			.nav {
+			nav {
 				//height: 50% !important;
 				a {
 					&[href="#menu"] {
@@ -222,7 +222,7 @@
 				padding: 0 1em;
 			}
 
-			.nav {
+			nav {
 				a {
 					padding: 0 0.5em;
 
@@ -256,7 +256,7 @@
 				}
 			}
 
-			.nav {
+			nav {
 				a {
 					&[href="#menu"] {
 						overflow: hidden;
