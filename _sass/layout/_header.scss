@@ -127,7 +127,7 @@
 			#menubar {
   				display: none;
 			}
-			@include breakpoint(large) {
+			@include breakpoint(small) {
 				a {
 					display: none;
 				}
