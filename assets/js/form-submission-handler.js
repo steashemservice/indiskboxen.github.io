@@ -70,7 +70,7 @@
     $button.parent().find("input").val(newVal).change();
   }
   $(".dec").on("click", decFunc);
-  function foverflow(sub) {
+  function foverflow(sub,e) {
     var sum = 0;
     var tot = parseInt($('#productsel').val());
     $(".quantity").each(function(){
@@ -91,12 +91,13 @@
         $('.item.inc').off("click").on("click", incFunc);
       } else if (sum > tot) {
         alert(sum+" av "+tot+" boxar valda!\nMinska antalet på någon av rätterna.");
+        e.preventDefault();
       }
       return true;
     }
   }
-  $('.quantity,#productsel').change(function() {
-    foverflow(false);
+  $('.quantity,#productsel').change(function(e) {
+    foverflow(false,e);
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
