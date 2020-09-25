@@ -96,9 +96,6 @@
 			event.preventDefault();
 			$('nav').toggleClass('responsive');
 		});
-		//$("nav.responsive a").on('click', function(event) {
-		//	$('nav').toggleClass('responsive');
-		//});
 		$(document).click(function (event) {
 			$('nav.responsive').toggleClass('responsive');
     		});
