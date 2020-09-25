@@ -96,6 +96,12 @@
 			event.preventDefault();
 			$('nav').toggleClass('responsive');
 		});
+		//$("nav.responsive a").on('click', function(event) {
+		//	$('nav').toggleClass('responsive');
+		//});
+		$(document).click(function (event) {
+			$('nav').toggleClass('responsive');
+    		});
 		$( "#date" ).datepicker({
                     minDate: 0
                 });
