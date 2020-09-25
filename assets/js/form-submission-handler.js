@@ -64,10 +64,8 @@
     var minValue = parseFloat($button.parent().find("input").attr("min"));
     if (oldValue > 0 && oldValue > minValue) {
       var newVal = oldValue - 1;
-    } else {
-      newVal = oldValue;
+      $button.parent().find("input").val(newVal).change();
     }
-    $button.parent().find("input").val(newVal).change();
   }
   $(".dec").on("click", decFunc);
   function foverflow(sub) {
