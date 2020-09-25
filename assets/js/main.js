@@ -100,7 +100,7 @@
 		//	$('nav').toggleClass('responsive');
 		//});
 		$(document).click(function (event) {
-			$('nav').toggleClass('responsive');
+			$('nav.responsive').toggleClass('responsive');
     		});
 		$( "#date" ).datepicker({
                     minDate: 0
