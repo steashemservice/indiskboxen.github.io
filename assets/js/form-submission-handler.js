@@ -88,7 +88,7 @@
       if (sum == tot) {
         $('.item.inc').off("click");
         $('.prodsel.dec').off("click");
-        alert(sum+" av "+tot+" boxar valda!");
+        alert(sum+" av "+tot+" boxar valda! \nÖka antal paket eller minska antalet på någon av rätterna.");
       } else if (sum < tot){
         $('.item.inc').off("click").on("click", incFunc);
         $('.prodsel.dec').off("click").on("click", decFunc);
