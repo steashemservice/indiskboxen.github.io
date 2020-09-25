@@ -70,7 +70,7 @@
     $button.parent().find("input").val(newVal).change();
   }
   $(".dec").on("click", decFunc);
-  function foverflow(sub,e) {
+  function foverflow(sub) {
     var sum = 0;
     var tot = parseInt($('#productsel').val());
     $(".quantity").each(function(){
@@ -87,18 +87,18 @@
     } else {
       if (sum == tot) {
         $('.item.inc').off("click");
+        $('.prodsel.dec').off("click");
       } else if (sum < tot){
         $('.item.inc').off("click").on("click", incFunc);
+        $('.prodsel.dec').off("click").on("click", decFunc);
       } else if (sum > tot) {
-        e.preventDefault();
-        e.stopPropagation();
         alert(sum+" av "+tot+" boxar valda!\nMinska antalet på någon av rätterna.");
       }
       return true;
     }
   }
   $('.quantity,#productsel').change(function(e) {
-    foverflow(false,e);
+    foverflow(false);
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
