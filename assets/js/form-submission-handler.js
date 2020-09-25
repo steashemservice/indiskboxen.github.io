@@ -90,8 +90,9 @@
       } else if (sum < tot){
         $('.item.inc').off("click").on("click", incFunc);
       } else if (sum > tot) {
-        alert(sum+" av "+tot+" boxar valda!\nMinska antalet på någon av rätterna.");
         e.preventDefault();
+        e.stopPropagation();
+        alert(sum+" av "+tot+" boxar valda!\nMinska antalet på någon av rätterna.");
       }
       return true;
     }
