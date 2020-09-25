@@ -70,6 +70,7 @@
 			li {
 				@include breakpoint(small) {
 					width: 100%;
+					padding: 1em 0;
 				}
 				a {
 					height:7em;
@@ -85,9 +86,6 @@
 				vertical-align: middle;
 				&:last-child {
 					padding-right: 0;
-					@include breakpoint(medium) {
-						padding-right: (_size(element-margin) * 0.5);
-					}
 				}
 			}
 
