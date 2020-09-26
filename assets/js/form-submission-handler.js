@@ -97,8 +97,8 @@
     //  } else if (sum > tot) {
     //    alert(sum+" av "+tot+" boxar valda!\nMinska antalet på någon av rätterna.");
     //  }
-      return true;
-    }
+    //  return true;
+    //}
   }
   //$('.quantity,#productsel').change(function(e) {
   //  foverflow(false);
