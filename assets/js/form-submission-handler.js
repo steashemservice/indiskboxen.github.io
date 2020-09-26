@@ -74,15 +74,15 @@
     $(".quantity").each(function(){
         sum += +$(this).val();
     });
+    $("#productsel").val(sum).change();
+    var total = $("#subscription").prop('checked') ? 59*sum : 65*sum;
+    $("#total").val(sum).change(total);
     if (sub == true) {
       if (sum < min) {
         $(".awindow").focus();
         alert(sum+" boxar valda!\nBeställ minst "+min+" matlådor.");
         return false;
       } else {
-        $("#productsel").val(sum).change();
-        var total = $("#subscription").prop('checked') ? 59*sum : 65*sum;
-        $("#total").val(sum).change(total);
         return true;
       }
     }
@@ -101,7 +101,7 @@
     //}
   }
   $(".quantity").change(function(e) {
-    foverflow(true);
+    foverflow(false);
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
