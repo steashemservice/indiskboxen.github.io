@@ -100,9 +100,9 @@
     //  return true;
     //}
   }
-  //$('.quantity,#productsel').change(function(e) {
-  //  foverflow(false);
-  //});
+  $('.quantity).change(function(e) {
+    foverflow(true);
+  });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
     if (foverflow(true) == false) {
