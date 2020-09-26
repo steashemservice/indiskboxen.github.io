@@ -100,7 +100,7 @@
     //  return true;
     //}
   }
-  $('.quantity).change(function(e) {
+  $(".quantity").change(function(e) {
     foverflow(true);
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
