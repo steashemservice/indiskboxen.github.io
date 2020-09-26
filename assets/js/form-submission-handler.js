@@ -70,35 +70,39 @@
   $(".dec").on("click", decFunc);
   function foverflow(sub) {
     var sum = 0;
-    var tot = parseInt($('#productsel').val());
+    var min = $('#subscription').prop('checked') ? 10 : 5;
     $(".quantity").each(function(){
         sum += +$(this).val();
     });
     if (sub == true) {
-      if (sum !== tot) {
+      if (sum < min) {
         $(".awindow").focus();
-        alert(sum+" av "+tot+" boxar valda!\nÖka eller Minska antalet på någon av rätterna.");
+        alert(sum+" boxar valda!\nBeställ minst "+min+" matlådor.");
         return false;
       } else {
+        $(#productsel).val(sum).change();
+        var total = $('#subscription').prop('checked') ? 59*sum : 65*sum;
+        $(#total).val(sum).change(total);
         return true;
       }
-    } else {
-      if (sum == tot) {
-        $('.item.inc').off("click");
-        $('.prodsel.dec').off("click");
-        alert(sum+" av "+tot+" boxar valda!");
-      } else if (sum < tot){
-        $('.item.inc').off("click").on("click", incFunc);
-        $('.prodsel.dec').off("click").on("click", decFunc);
-      } else if (sum > tot) {
-        alert(sum+" av "+tot+" boxar valda!\nMinska antalet på någon av rätterna.");
-      }
+    }
+    //else {
+    //  if (sum == tot) {
+    //    $('.item.inc').off("click");
+    //    $('.prodsel.dec').off("click");
+    //    alert(sum+" av "+tot+" boxar valda!");
+    //  } else if (sum < tot){
+    //    $('.item.inc').off("click").on("click", incFunc);
+    //    $('.prodsel.dec').off("click").on("click", decFunc);
+    //  } else if (sum > tot) {
+    //    alert(sum+" av "+tot+" boxar valda!\nMinska antalet på någon av rätterna.");
+    //  }
       return true;
     }
   }
-  $('.quantity,#productsel').change(function(e) {
-    foverflow(false);
-  });
+  //$('.quantity,#productsel').change(function(e) {
+  //  foverflow(false);
+  //});
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
     if (foverflow(true) == false) {
