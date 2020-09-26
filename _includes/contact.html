@@ -15,12 +15,6 @@
 			</div>
 			<div class="cblock">
 			<div class="field">
-			  <label for="productsel">Antal Paket (MINST 5 MATLÅDOR)</label>
-			  <input type="number" name="productsel" id="productsel" min="5" value=5 disabled>
-			  <span class="prodsel dec"><i class="fas fa-minus"></i></span>
-                          <span class="inc"><i class="fas fa-plus"></i></span>
-			</div>
-			<div class="field">
 			  <input type="checkbox" id="subscription" name="subscription">
 			  <label for="subscription">Prenumeration - Matlådorna leverans första söndagen varje månad så länge du önskar utan bindningstid</label>
 			</div>
@@ -145,6 +139,20 @@
 			<div class="field">    
 			  <label for="floor">Våning</label>
   			  <input id="floor" type="text" name="floor" class="field" />
+                        </div>
+			<!--<div class="field">
+			  <label for="productsel">Antal Paket (MINST 5 MATLÅDOR)</label>
+			  <input type="number" name="productsel" id="productsel" min="5" value=5 disabled>
+			  <span class="prodsel dec"><i class="fas fa-minus"></i></span>
+                          <span class="inc"><i class="fas fa-plus"></i></span>
+			</div>-->
+			<div class="field">    
+			  <label for="productsel">Antal Matlådor</label>
+  			  <input id="productsel" type="number" name="productsel" class="out field" value=0 disabled/>
+                        </div>
+			<div class="field">    
+			  <label for="total">Totalsumma</label>
+  			  <input id="total" type="number" name="total" class="out field" value=0 disabled/> kr
                         </div>
 			<div class="field">
 			  <input type="checkbox" required id="terms" name="terms">
