@@ -74,9 +74,9 @@
     $(".quantity").each(function(){
         sum += +$(this).val();
     });
-    $("#productsel").val(sum).change();
+    $("#productsel").val(sum);
     var total = $("#subscription").prop('checked') ? 59*sum : 65*sum;
-    $("#total").val(sum).change(total);
+    $("#total").val(total);
     if (sub == true) {
       if (sum < min) {
         $(".awindow").focus();
