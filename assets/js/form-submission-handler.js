@@ -80,9 +80,9 @@
         alert(sum+" boxar valda!\nBeställ minst "+min+" matlådor.");
         return false;
       } else {
-        $(#productsel).val(sum).change();
-        var total = $('#subscription').prop('checked') ? 59*sum : 65*sum;
-        $(#total).val(sum).change(total);
+        $("#productsel").val(sum).change();
+        var total = $("#subscription").prop('checked') ? 59*sum : 65*sum;
+        $("#total").val(sum).change(total);
         return true;
       }
     }
