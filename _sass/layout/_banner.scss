@@ -120,7 +120,7 @@
 			}
 		}
 
-		@include breakpoint(large) {
+		@include breakpoint(small) {
 			background-attachment: scroll;
 		}
 
