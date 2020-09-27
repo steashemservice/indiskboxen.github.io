@@ -68,7 +68,7 @@
     }
   }
   $(".dec").on("click", decFunc);
-  function foverflow(sub) {
+  function foverflow() {
     var sum = 0;
     var min = $('#subscription').prop('checked') ? 10 : 5;
     $(".quantity").each(function(){
@@ -77,37 +77,21 @@
     $("#productsel").val(sum);
     var total = $("#subscription").prop('checked') ? 59*sum : 65*sum;
     $("#total").val(total);
-    if (sub == true) {
-      if (sum < min) {
-        $(".awindow").focus();
-        alert(sum+" boxar valda!\nBeställ minst "+min+" matlådor.");
-        return false;
-      } else {
-        return true;
-      }
+    if (sum < min) {
+      $("#minorder").show();
+      $("#contact-form button").disabled = true;
+      return false;
+    } else {
+      $("#minorder").hide();
+      $("#contact-form button").disabled = false;
+      return true;
     }
-    //else {
-    //  if (sum == tot) {
-    //    $('.item.inc').off("click");
-    //    $('.prodsel.dec').off("click");
-    //    alert(sum+" av "+tot+" boxar valda!");
-    //  } else if (sum < tot){
-    //    $('.item.inc').off("click").on("click", incFunc);
-    //    $('.prodsel.dec').off("click").on("click", decFunc);
-    //  } else if (sum > tot) {
-    //    alert(sum+" av "+tot+" boxar valda!\nMinska antalet på någon av rätterna.");
-    //  }
-    //  return true;
-    //}
   }
   $(".quantity,#subscription").change(function(e) {
-    foverflow(false);
+    foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
     event.preventDefault();           // we are submitting via xhr below
-    if (foverflow(true) == false) {
-      return false;
-    }
     var form = event.target,
         form_e = $( "#contact-form" ),
         notice = form_e.find('#notice');
