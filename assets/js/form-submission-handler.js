@@ -79,11 +79,11 @@
     $("#total").val(total);
     if (sum < min) {
       $("#minorder").show();
-      $("#orderbtn").disabled = true;
+      $("#orderbtn").prop('disabled', true);
       return false;
     } else {
       $("#minorder").hide();
-      $("#orderbtn").disabled = false;
+      $("#orderbtn").prop('disabled', false);
       return true;
     }
   }
