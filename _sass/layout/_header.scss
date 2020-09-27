@@ -87,7 +87,7 @@
 			#menubar {
   				display: none;
 			}
-			@include breakpoint(small) {
+			@include breakpoint(medium) {
 				a {
 					display: none;
 				}
