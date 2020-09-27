@@ -69,7 +69,6 @@
   }
   $(".dec").on("click", decFunc);
   function foverflow(sub) {
-    alert('yes');
     var sum = 0;
     var min = $('#subscription').prop('checked') ? 10 : 5;
     $(".quantity").each(function(){
@@ -101,7 +100,7 @@
     //  return true;
     //}
   }
-  $(".quantity,#subscription").change(function(e) {
+  $(".quantity").change(function(e) {
     foverflow(false);
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
