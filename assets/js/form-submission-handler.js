@@ -69,6 +69,7 @@
   }
   $(".dec").on("click", decFunc);
   function foverflow(sub) {
+    alert('yes');
     var sum = 0;
     var min = $('#subscription').prop('checked') ? 10 : 5;
     $(".quantity").each(function(){
