@@ -9,7 +9,7 @@
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
+		medium: '(max-width: 1000px)',
 		small: '(max-width: 860px)',
 		xsmall: '(max-width: 480px)',
 		xxsmall: '(max-width: 360px)'
