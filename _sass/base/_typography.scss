@@ -94,24 +94,24 @@
 	h6 {
 		font-size: 0.7em;
 	}
-        @include breakpoint(medium) {
+        //@include breakpoint(medium) {
+	//	h1 {
+	//		font-size: 2.5em;
+	//	}
+	//}
+	@include breakpoint(small) {
 		h1 {
-			font-size: 2.5em;
+			font-size: 1.5em;
+		}
+
+		h2 {
+			font-size: 1.4em;
+		}
+
+		h3 {
+			font-size: 1.25em;
 		}
 	}
-	//@include breakpoint(small) {
-		//h1 {
-		//	font-size: 2em;
-		//}
-
-		//h2 {
-		//	font-size: 1.5em;
-		//}
-
-		//h3 {
-		//	font-size: 1.25em;
-		//}
-	//}
 
 	sub {
 		font-size: 0.8em;
