@@ -1,12 +1,12 @@
 # site settings
 title: "Indiska Boxen"
-meta_title: "Färdiglagad nyttig näringsrik fryst indisk mat när som helst"
-meta_desc: "njut av fantastiskt god hemlagad indisk mat direkt till din dörr"
+meta_title: "Färdiglagad nyttig näringsrik fryst indisk mat med råvaror från Sverige levererar direkt till din dörr"
+meta_desc: "njut av fantastiskt god indisk mat när som helst"
 meta_keywords: "matlåda indiskmat lunchbox indianfood"
 subtitle: ""
 email: info@indiskaboxen.se
-landing-title: "njut av fantastiskt god hemlagad indisk mat direkt till din dörr"
-description: "Färdiglagad nyttig näringsrik fryst indisk mat när som helst"
+landing-title: "Färdiglagad nyttig näringsrik fryst indisk mat med råvaror från Sverige levererar direkt till din dörr"
+description: "njut av fantastiskt god indisk mat när som helst"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.indiskaboxen.se" # the base hostname & protocol for your site
 author:
