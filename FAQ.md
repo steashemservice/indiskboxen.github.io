@@ -1,7 +1,8 @@
 ---
 layout: page
 title: FRÅGOR & SVAR
-description: Här hittar du svar på de vanligaste frågorna våra kunder har. Om det är något annat du undrar över får du gärna mejla oss på info@indiskaboxen.se!
+description: Här hittar du svar på de vanligaste frågorna våra kunder har. Om det är något annat du undrar över får du gärna mejla oss på 
+extra: info@indiskaboxen.se
 image: 
 nav-menu: true
 published: true
