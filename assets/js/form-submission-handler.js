@@ -226,7 +226,7 @@
   function addcollapse() {
     // bind to the submit event of our form
     var colls = $("#postcode");
-    var plist= ['16000-17799', '19100-19299'];
+    var plist= ['100001-11999', '16000-17799', '19100-19299'];
     var plists=[];
     for(var i=0;i<plist.length;i++) plists[i]=getRange(plist[i]);
     for (var i = 0; i < colls.length; i++) {
