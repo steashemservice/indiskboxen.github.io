@@ -4,7 +4,7 @@
   function goToUri(uri) {
     var start, end, elapsed;
     start = new Date().getTime();
-    document.location = uri;
+    document.location.assign(uri);
     end = new Date().getTime();
     elapsed = (end - start);
     if (elapsed < 1) {
