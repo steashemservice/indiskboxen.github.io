@@ -18,7 +18,7 @@ order: 999
 			<div id="swish-qr" class="modal" onclick="this.style.display='none'">
     				<!--<span class="close">&times;</span>-->
     				<div class="modal-content">
-					<h5>Enter the order number in the message: <span id="orderid"></span>Amount to Pay: <span id="ordertotal"></span> kr</h5>
+					<h5>Amount to Pay: <span id="ordertotal"></span> kr<br>Enter the order number <span id="orderid"></span> in the message</h5>
       					<img src="{{ site.baseurl }}/assets/images/indiskaboxenswish.png" >
 					<h5>Scan the QR code with the Swish app to start payment</h5>
 					
