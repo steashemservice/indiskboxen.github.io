@@ -18,7 +18,7 @@
     var req = "swish://payment?data="+dataenc;
     goToUri(req);
   }
-  //$(".swish-link").on("click", swishFunc);
+  $(".swish-link").on("click", swishFunc);
   function GetURLParameter(sParam) {
     var sPageURL = window.location.search.substring(1);
     var sParameterName = sPageURL.split('=');
@@ -26,5 +26,5 @@
       alert(sParameterName[1]);
     }
   }
-  $(".swish-link").on("click", GetURLParameter('res'));
+  
 })(jQuery);
