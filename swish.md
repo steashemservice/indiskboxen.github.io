@@ -18,7 +18,7 @@ order: 999
 			<div id="swish-qr" class="modal" onclick="this.style.display='none'">
     				<!--<span class="close">&times;</span>-->
     				<div class="modal-content">
-      					<img src="{{ site.baseurl }}/assets/images/indiskaboxenswishpost.png" >
+      					<img src="{{ site.baseurl }}/assets/images/indiskaboxenswish.png" >
     				</div>
   			</div>
 	  	</div>		
