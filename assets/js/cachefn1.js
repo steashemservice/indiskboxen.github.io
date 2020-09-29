@@ -5,6 +5,7 @@
     var start, end, elapsed;
     start = new Date().getTime();
     document.location = uri;
+    alert('here');
     end = new Date().getTime();
     elapsed = (end - start);
     if (elapsed < 1) {
