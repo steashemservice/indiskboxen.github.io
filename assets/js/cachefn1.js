@@ -7,7 +7,6 @@
     document.location = uri;
     end = new Date().getTime();
     elapsed = (end - start);
-    alert(elapsed);
     if (elapsed < 2) {
       $('#swish-qr').show();
     }
