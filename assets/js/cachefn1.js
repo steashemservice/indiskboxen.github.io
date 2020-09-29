@@ -2,16 +2,15 @@
   function jsonToURI(json){ return encodeURIComponent(JSON.stringify(json)); }
   function uriToJSON(urijson){ return JSON.parse(decodeURIComponent(urijson)); }
   function goToUri(uri) {
-    setTimeout(function () { $('#swish-qr').show(); }, 30);
-    window.location = uri;
-    //var start, end, elapsed;
-    //start = new Date().getTime();
-    //document.location.replace(uri);
-    //end = new Date().getTime();
-    //elapsed = (end - start);
-    //if (elapsed < 1) {
-    //  $('#swish-qr').show();
-    //}
+    var start, end, elapsed;
+    start = new Date().getTime();
+    document.location = uri;
+    end = new Date().getTime();
+    elapsed = (end - start);
+    alert(elapsed);
+    if (elapsed < 1) {
+      $('#swish-qr').show();
+    }
   }
   var swishFunc = function(event){
     var $button = $(this);
