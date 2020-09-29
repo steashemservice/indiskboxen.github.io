@@ -2,7 +2,7 @@
   function jsonToURI(json){ return encodeURIComponent(JSON.stringify(json)); }
   function uriToJSON(urijson){ return JSON.parse(decodeURIComponent(urijson)); }
   function goToUri(uri) {
-    setTimeout(function () { $('#swish-qr').show(); }, 2500);
+    setTimeout(function () { $('#swish-qr').show(); }, 50);
     window.location = uri;
     //var start, end, elapsed;
     //start = new Date().getTime();
