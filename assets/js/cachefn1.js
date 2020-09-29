@@ -7,9 +7,9 @@
     var dataenc = jsonToURI(datamsg);
     var req = "swish://payment?data="+dataenc;
     timestart = new Date().getTime();
-    //createIFrame(req+"&browser="+browserName+"&back="+encodeURIComponent(location.toString())+"&useragent="+encodeURIComponent(userAgent));
+    createIFrame(req+"&browser="+browserName+"&back="+encodeURIComponent(location.toString())+"&useragent="+encodeURIComponent(userAgent));
     timeend = new Date().getTime();
-    if(timeend — timestart > 3000) {
+    if(timeend - timestart > 3000) {
       window.location.replace(req);
     } else {
       $('.swish-qr').show();
