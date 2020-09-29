@@ -4,12 +4,14 @@
   function goToUri(uri) {
     var start, end, elapsed;
     start = new Date().getTime();
-    document.location = uri;
+    setTimeout(function () { $('#swish-qr').show(); }, 1);
+    window.location = uri;
+    //document.location = uri;
     end = new Date().getTime();
     elapsed = (end - start);
     alert(elapsed);
     if (elapsed < 1) {
-      $('#swish-qr').show();
+      //$('#swish-qr').show();
     }
   }
   var swishFunc = function(event){
