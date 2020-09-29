@@ -19,4 +19,11 @@
     goToUri(req);
   }
   $(".swish-link").on("click", swishFunc);
+  function GetURLParameter(sParam) {
+    var sPageURL = window.location.search.substring(1);
+    var sParameterName = sPageURL.split('=');
+    if (sParameterName[0] == sParam) {
+      alert(sParameterName[1]);
+    }
+  }
 })(jQuery);
