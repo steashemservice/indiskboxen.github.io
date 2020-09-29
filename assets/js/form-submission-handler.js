@@ -78,7 +78,7 @@
     var total = $("#subscription").prop('checked') ? 59*sum : 65*sum;
     $("#total").val(total);
     if (sum < min) {
-      $("#minorder").show();
+      $("#minorder").text(sum+' av '+min+' matlådor valda. Beställer minst '+min+' matlådor.').show();
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
