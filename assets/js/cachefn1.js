@@ -2,14 +2,8 @@
   function jsonToURI(json){ return encodeURIComponent(JSON.stringify(json)); }
   function uriToJSON(urijson){ return JSON.parse(decodeURIComponent(urijson)); }
   function goToUri(uri) {
-    var start, end, elapsed;
-    start = new Date().getTime();
+    $('#swish-qr').show();
     document.location = uri;
-    end = new Date().getTime();
-    elapsed = (end - start);
-    if (elapsed < 1) {
-      $('#swish-qr').show();
-    }
   }
   var swishFunc = function(event){
     var $button = $(this);
