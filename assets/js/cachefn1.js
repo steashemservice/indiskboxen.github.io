@@ -7,8 +7,8 @@
   }
   var swishFunc = function(event){
     var $button = $(this);
-    var total = $('.ordertotal').eq(0).text();
-    var order = $('.orderid').eq(0).text();
+    var total = $('.ordertotal').eq(0).text().replace(/\"/g, "");
+    var order = $('.orderid').eq(0).text().replace(/\"/g, "");
     var datamsg = {"amount":{"value":total,"editable":false},"message":{"value":order,"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
     alert(datamsg);
     var dataenc = jsonToURI(datamsg);
