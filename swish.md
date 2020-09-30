@@ -11,7 +11,7 @@ order: 999
 
 <div id="main">
 	<section class="major">
-		<div class="paydiv">
+		<div class="paydiv inner">
 			<h5>Beställningsnummer: <span class="orderid"></span><br>Summa att betala (kr): <span class="ordertotal"></span></h5>
 			<h6>Du kan betala för din beställning via Swish. Ange ditt beställningsnummer i meddelandet.</h6>
 	  	    	<button class="link swish-link">Betala med Swish</button>
