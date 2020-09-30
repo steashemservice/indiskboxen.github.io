@@ -12,7 +12,6 @@
     var datamsg = {"amount":{"value":eval(total),"editable":false},"message":{"value":order,"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
     var dataenc = jsonToURI(datamsg);
     var req = "swish://payment?data="+dataenc;
-    alert(req);
     //$('.orderid').text("TEST");
     //$('.ordertotal').text("1000");
     goToUri(req);
