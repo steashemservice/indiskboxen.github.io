@@ -17,8 +17,7 @@
     elements['swish'] = {};
     elements['swish'].name='swish';
     elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value);
-    $('#swish-uri').text(elements['order'].value);
-    alert(elements['swish'].value);
+    $('#swish-uri').text(elements['swish'].value);
     var trap,honeypot;
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "_prev") {
