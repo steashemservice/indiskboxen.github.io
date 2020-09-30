@@ -1,6 +1,4 @@
 (function($) {
-  function jsonToURI(json){ return encodeURIComponent(JSON.stringify(json)); }
-  function uriToJSON(urijson){ return JSON.parse(decodeURIComponent(urijson)); }
   function goToUri(uri) {
     $('#swish-qr').show();
     document.location = uri;
@@ -13,8 +11,6 @@
     //var dataenc = jsonToURI(datamsg);
     //var req = "swish://payment?data="+dataenc;
     var req = $('#swish-uri').text();
-    //$('.orderid').text("TEST");
-    //$('.ordertotal').text("1000");
     goToUri(req);
   }
   $(".swish-link").on("click", swishFunc);
