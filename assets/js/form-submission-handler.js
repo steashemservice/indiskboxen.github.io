@@ -128,7 +128,7 @@
           form_e.fadeOut(function() {
             form_e.html('<div class="field"><h4>' + form_e.data('success') + '</h4></div>').fadeIn();
           });
-          $(.paydiv).show();
+          $(".paydiv").show();
         }
       }
     });
