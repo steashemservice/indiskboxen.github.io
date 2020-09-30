@@ -7,11 +7,11 @@
   }
   var swishFunc = function(event){
     var $button = $(this);
-    var datamsg = {"amount":{"value":1000,"editable":false},"message":{"value":"TEST","editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
+    var datamsg = {"amount":{"value":$('.ordertotal').val(),"editable":false},"message":{"value":$('.orderid').val(),"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
     var dataenc = jsonToURI(datamsg);
     var req = "swish://payment?data="+dataenc;
-    $('.orderid').text("TEST");
-    $('.ordertotal').text("1000");
+    //$('.orderid').text("TEST");
+    //$('.ordertotal').text("1000");
     goToUri(req);
   }
   $(".swish-link").on("click", swishFunc);
