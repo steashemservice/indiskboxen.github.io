@@ -1,4 +1,11 @@
 (function($) {
+  function jsonToURI(json){ return encodeURIComponent(JSON.stringify(json)); }
+  function uriToJSON(urijson){ return JSON.parse(decodeURIComponent(urijson)); }
+  function preq(t,o) {
+    var datamsg = {"amount":{"value":eval(t),"editable":false},"message":{"value":o,"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
+    var dataenc = jsonToURI(datamsg);
+    return dataenc;
+  }
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
@@ -7,6 +14,10 @@
     elements['order'].name='order';
     elements['order'].value=Math.floor(Math.random()*10)+('0'+d.getDate()).slice(-2)+('0'+d.getHours()).slice(-2)+('0'+d.getMinutes()).slice(-2);
     $('.orderid').text(elements['order'].value);
+    elements['swish'] = {};
+    elements['swish'].name='swish';
+    elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value);
+    alert(elements['swish'].value);
     var trap,honeypot;
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "_prev") {
