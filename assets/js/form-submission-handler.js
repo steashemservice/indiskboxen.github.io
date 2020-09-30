@@ -6,6 +6,7 @@
     elements['order'] = {};
     elements['order'].name='order';
     elements['order'].value=Math.floor(Math.random()*10)+('0'+d.getDate()).slice(-2)+('0'+d.getHours()).slice(-2)+('0'+d.getMinutes()).slice(-2);
+    $('.orderid').text(elements['order'].value);
     var trap,honeypot;
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "_prev") {
@@ -77,6 +78,7 @@
     $("#productsel").val(sum);
     var total = $("#subscription").prop('checked') ? 59*sum : 65*sum;
     $("#total").val(total);
+    $('.ordertotal').text(total);
     if (sum < min) {
       $("#minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+sum+' av '+min+' matlådor valda. Beställer minst '+min+' matlådor.').show();
       $("#orderbtn").prop('disabled', true);
@@ -126,6 +128,7 @@
           form_e.fadeOut(function() {
             form_e.html('<div class="field"><h4>' + form_e.data('success') + '</h4></div>').fadeIn();
           });
+          $(.paydiv).show();
         }
       }
     });
