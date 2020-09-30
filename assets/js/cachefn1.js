@@ -7,8 +7,6 @@
   }
   var swishFunc = function(event){
     var $button = $(this);
-    alert($('.ordertotal').eq(0).text());
-    alert($('.orderid').eq(0).text());
     var datamsg = {"amount":{"value":$('.ordertotal').eq(0).text(),"editable":false},"message":{"value":$('.orderid').eq(0).text(),"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
     var dataenc = jsonToURI(datamsg);
     var req = "swish://payment?data="+dataenc;
