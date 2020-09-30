@@ -156,6 +156,7 @@
     }
     var data = formData.data;
     delete data.order;
+    delete data.swish;
     // url encode form data for sending as post data
     var encoded = Object.keys(data).map(function(k) {
         return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
