@@ -7,9 +7,9 @@
   }
   var swishFunc = function(event){
     var $button = $(this);
-    alert($('.ordertotal').val());
-    alert($('.orderid').val());
-    var datamsg = {"amount":{"value":$('.ordertotal').val(),"editable":false},"message":{"value":$('.orderid').val(),"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
+    alert($('.ordertotal').text());
+    alert($('.orderid').text());
+    var datamsg = {"amount":{"value":$('.ordertotal').text(),"editable":false},"message":{"value":$('.orderid').text(),"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
     var dataenc = jsonToURI(datamsg);
     var req = "swish://payment?data="+dataenc;
     //$('.orderid').text("TEST");
