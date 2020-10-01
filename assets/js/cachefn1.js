@@ -19,27 +19,32 @@
         formData["status"] = decodeJSON.result;
       }
     }
-    // url encode form data for sending as post data
-    var encoded = Object.keys(formData).map(function(k) {
+    if (formData["status"].value === "paid") {
+      // url encode form data for sending as post data
+      var encoded = Object.keys(formData).map(function(k) {
         return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
-    }).join('&');
-    var url = 'https://script.google.com/macros/s/AKfycbxTFQx9GwgAnlKzOPmvTV1Oiib_dTD_fEgnkxT1fhHI2DDIGb4/exec';
-    $.ajax({
-      url: url,
-      data: encoded,
-      type: "POST",
-      dataType: "json",
-      statusCode: {
-        404: function() {
-          window.location.replace("https://www.indiskaboxen.se/fail.html");
-        },
-        500: function() {
-          window.location.replace("https://www.indiskaboxen.se/fail.html");
-        },
-        200: function() {
-          window.location.replace("https://www.indiskaboxen.se/thanks.html");
+      }).join('&');
+      var url = 'https://script.google.com/macros/s/AKfycbxTFQx9GwgAnlKzOPmvTV1Oiib_dTD_fEgnkxT1fhHI2DDIGb4/exec';
+      $.ajax({
+        url: url,
+        data: encoded,
+        type: "POST",
+        dataType: "json",
+        statusCode: {
+          404: function() {
+            window.location.replace("https://www.indiskaboxen.se/thanks.html");
+          },
+          500: function() {
+            window.location.replace("https://www.indiskaboxen.se/thanks.html");
+          },
+          200: function() {
+            window.location.replace("https://www.indiskaboxen.se/thanks.html");
+          }
         }
-      }
-    });
+      });
+    } else {
+      alert('Payment failed! If this is incorrect please email info@indiskaboxen.se');
+      window.location.replace("https://www.indiskaboxen.se");
+    }
   });
 })(jQuery);
