@@ -1,7 +1,7 @@
 ---
 layout: page
-title: AVSLUTA ABONNEMANG
-description: Vill du pausar ditt abonnemang kontaktar du oss via mejl på info@indiskaboxen.se så pausar vi ditt abonnemang under den period du önskar.
+title: AVSLUTA PRENUMERATION
+description: Vill du pausar ditt prenumeration kontaktar du oss via mejl på info@indiskaboxen.se så pausar vi ditt prenumeration under den period du önskar.
 image: 
 nav-menu: false
 published: true
@@ -13,7 +13,7 @@ order: 999
 	<div class="inner">
 		<section>
 		    <!--<header class="major">
-          		<h2>Avsluta Abonnemang</h2>
+          		<h2>Avsluta Prenumeration</h2>
         	    </header>-->
 		    <form id="cancel-form" class="contact-form" method="post" data-success="Ditt begäran om avslutning av prenumeration har registrerats!">
   			  <input type="hidden" name="_next" value="thanks" />
