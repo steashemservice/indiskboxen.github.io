@@ -9,7 +9,13 @@
 img {
     max-width: 100%;
 }
-
+a.swish-link {
+	border-bottom: none;
+	cursor: pointer;
+	img {
+		width:200px;
+	}
+}
 .image {
 		border: 0;
 		display: inline-block;
