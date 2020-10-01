@@ -26,8 +26,9 @@
     $('.orderid').text(elements['order'].value);
     elements['swish'] = {};
     elements['swish'].name='swish';
-    elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall.html")+"&callbackresultparameter=res";
+    elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall.html?email="+elements['email'].value+"&order="+elements['order'].value+"&total="+elements['total'].value)+"&callbackresultparameter=res";
     $('#swish-uri').text(elements['swish'].value);
+    alert(elements['swish'].value);
     var trap,honeypot;
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "_prev") {
