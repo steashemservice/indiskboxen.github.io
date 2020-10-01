@@ -13,6 +13,7 @@
     formData["order"] = 'TEST';
     formData["total"] = '1000';
     formData["status"] = 'pass';
+    formData["email"] = 'dilipfeb@gmail.com';
     formData.formGoogleSendEmail = 'dilipfeb@gmail.com';
     // url encode form data for sending as post data
     var encoded = Object.keys(formData).map(function(k) {
