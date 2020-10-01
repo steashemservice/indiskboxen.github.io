@@ -1,20 +1,24 @@
 (function($) {
   function uriToJSON(urijson){ return JSON.parse(decodeURIComponent(urijson)); }
-  function GetURLParameter(sParam) {
-    var sPageURL = window.location.search.substring(1);
-    var sParameterName = sPageURL.split('=');
-    if (sParameterName[0] == sParam) {
-      alert(sParameterName[1]);
-    }
-  }
   $(function() {
-    GetURLParameter("res");
+    const sPageURL = window.location.search;
+    const urlParams = new URLSearchParams(sPageURL);
     var formData = {};
-    formData["order"] = 'TEST';
-    formData["total"] = '1000';
-    formData["status"] = 'pass';
-    formData["email"] = 'dilipfeb@gmail.com';
-    formData.formGoogleSendEmail = 'dilipfeb@gmail.com';
+    if (urlParams.has('order')) {
+      formData["order"] = urlParams.get('order');
+    }
+    if (urlParams.has('total')) {
+      formData["total"] = urlParams.get('total');
+    }
+    if (urlParams.has('email')) {
+      formData["email"] = urlParams.get('email');
+    }
+    if (urlParams.has('res')) {
+      const decodeJSON = uriToJSON(urlParams.get('res'));
+      if (decodeJSON.hasOwnProperty('result')) {
+        formData["status"] = decodeJSON.result;
+      }
+    }
     // url encode form data for sending as post data
     var encoded = Object.keys(formData).map(function(k) {
         return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
