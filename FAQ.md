@@ -16,12 +16,11 @@ order: 1
 		<div id="accordion">
 			<h3>Hur betalar jag?</h3>
 			<div>
-      				<p>Du kan betala för din beställning med Swish till vår swishnummer 123 342 54 44. Beställningsnummer och summa att betala skickas i beställningsbekräftelsen via e-post. Ange ditt beställningsnummer i meddelandet.</p>
-				<span class="image"><img src="{{ site.baseurl }}/assets/images/indiskaboxenswish.png" alt="" /></span>
+      				<p>Betala med Swish. Du kan även använda länk på orderbekräftelse mailet för betalning med Swish via mobilen.</p>
   			</div>
 			<h3>Hur pausar eller avslutar jag mitt abonnemang?</h3>
 			<div>
-      				<p>Du kan mejla till vår kundtjänst på info@indiskaboxen.se så pausar vi ditt abonnemang under den period du önskar. Vill du avsluta ditt abonnemang  gör du det på vår hemsida <a href="/avsluta">avsluta abonnemang</a> eller så kontaktar du oss via mejl.</p>
+      				<p>Du kan mejla till vår kundtjänst på info@indiskaboxen.se så pausar vi ditt prenumeration under den period du önskar. Vill du avsluta ditt prenumeration gör du det på vår hemsida <a href="/avsluta">avsluta prenumeration</a> eller så kontaktar du oss via mejl.</p>
   			</div>
 			<h3>Kan jag avboka eller flytta fram min leverans?</h3>
 			<div>
