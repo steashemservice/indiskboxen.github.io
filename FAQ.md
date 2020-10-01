@@ -17,7 +17,7 @@ order: 1
 			<h3>Hur betalar jag?</h3>
 			<div>
       				<p>Du kan betala för din beställning med Swish till vår swishnummer 123 342 54 44. Beställningsnummer och summa att betala skickas i beställningsbekräftelsen via e-post. Ange ditt beställningsnummer i meddelandet.</p>
-				<span class="image"><img src="{{ site.baseurl }}/assets/images/indiskaboxenswishpost.png" alt="" /></span>
+				<span class="image"><img src="{{ site.baseurl }}/assets/images/indiskaboxenswish.png" alt="" /></span>
   			</div>
 			<h3>Hur pausar eller avslutar jag mitt abonnemang?</h3>
 			<div>
