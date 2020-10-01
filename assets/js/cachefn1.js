@@ -9,5 +9,6 @@
   }
   $(function() {
     GetURLParameter("res");
+    window.location.replace("https://www.indiskaboxen.se/thanks.html");
   });
 })(jQuery);
