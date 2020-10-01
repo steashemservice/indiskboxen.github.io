@@ -26,7 +26,7 @@
     $('.orderid').text(elements['order'].value);
     elements['swish'] = {};
     elements['swish'].name='swish';
-    elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value);
+    elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall.html")+"&callbackresultparameter=res";
     $('#swish-uri').text(elements['swish'].value);
     var trap,honeypot;
     var fields = Object.keys(elements).filter(function(k) {
