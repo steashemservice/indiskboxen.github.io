@@ -4,6 +4,7 @@
     const sPageURL = window.location.search;
     const urlParams = new URLSearchParams(sPageURL);
     var formData = {};
+    formData["status"] = "";
     if (urlParams.has('order')) {
       formData["order"] = urlParams.get('order');
     }
