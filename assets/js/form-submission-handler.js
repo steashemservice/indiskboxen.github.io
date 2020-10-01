@@ -6,6 +6,16 @@
     var dataenc = jsonToURI(datamsg);
     return dataenc;
   }
+  function goToUri(uri) {
+    $('#swish-qr').show();
+    document.location = uri;
+  }
+  var swishFunc = function(event){
+    var $button = $(this);
+    var req = $('#swish-uri').text();
+    goToUri(req);
+  }
+  $(".swish-link").on("click", swishFunc);
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
