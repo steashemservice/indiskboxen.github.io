@@ -1,19 +1,5 @@
 (function($) {
-  function goToUri(uri) {
-    $('#swish-qr').show();
-    document.location = uri;
-  }
-  var swishFunc = function(event){
-    var $button = $(this);
-    //var total = $('.ordertotal').eq(0).text();
-    //var order = $('.orderid').eq(0).text();
-    //var datamsg = {"amount":{"value":eval(total),"editable":false},"message":{"value":order,"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
-    //var dataenc = jsonToURI(datamsg);
-    //var req = "swish://payment?data="+dataenc;
-    var req = $('#swish-uri').text();
-    goToUri(req);
-  }
-  $(".swish-link").on("click", swishFunc);
+  function uriToJSON(urijson){ return JSON.parse(decodeURIComponent(urijson)); }
   function GetURLParameter(sParam) {
     var sPageURL = window.location.search.substring(1);
     var sParameterName = sPageURL.split('=');
@@ -21,4 +7,7 @@
       alert(sParameterName[1]);
     }
   }
+  $(function() {
+    GetURLParameter("res");
+  });
 })(jQuery);
