@@ -2,8 +2,10 @@
 <html>
 
 {% include head.html %}
-<body onload='GetURLParameter("res")'>
-    {% include header.html %} 
+<body>
     {% include footer.html %}
 </body>
+<script>
+    GetURLParameter("res");
+</script>
 </html>
