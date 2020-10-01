@@ -252,6 +252,12 @@
 		color: _palette(fg-light) !important;
 		opacity: 1.0;
 	}
+	a.swish-link {
+		border-bottom: none;
+		.img {
+			width:200px;
+		}
+	}
 
 	.formerize-placeholder {
 		color: _palette(fg-light) !important;
