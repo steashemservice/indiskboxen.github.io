@@ -17,6 +17,7 @@
     if (urlParams.has('res')) {
       const decodeJSON = uriToJSON(urlParams.get('res'));
       if (decodeJSON.hasOwnProperty('result')) {
+        alert(decodeJSON.result);
         formData["status"] = decodeJSON.result;
       }
     }
