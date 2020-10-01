@@ -166,7 +166,10 @@
 		    <div id="paydiv">
 			<h4>Beställningsnummer: <span class="orderid"></span><br>Summa att betala: <span class="ordertotal"></span> kr</h4>
 			<h4>Du kan betala för din beställning via Swish. Ange ditt beställningsnummer i meddelandet.</h4>
-	  	    	<button class="link swish-link">Betala med Swish</button>
+			<a class="link swish-link">
+				<img src="{{ site.baseurl }}/assets/images/Swish_Vertical.png" alt-src="Betala med Swish">
+			</a>
+	  	    	<!--<button class="link swish-link">Betala med Swish</button>-->
 			<a id="swish-uri"></a>
       			<div id="swish-qr" class="modal" onclick="this.style.display='none'">
     				<div class="modal-content">
