@@ -20,7 +20,7 @@
         formData["status"] = decodeJSON.result;
       }
     }
-    if (formData["status"].value === "paid") {
+    if (formData["status"] === "paid") {
       // url encode form data for sending as post data
       var encoded = Object.keys(formData).map(function(k) {
         return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
