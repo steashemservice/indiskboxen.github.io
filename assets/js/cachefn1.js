@@ -9,7 +9,8 @@
       formData["order"] = urlParams.get('order');
     }
     if (urlParams.has('total')) {
-      formData["total"] = urlParams.get('total');
+      //formData["total"] = urlParams.get('total');
+      formData["total"] = 1;
     }
     if (urlParams.has('email')) {
       formData["email"] = urlParams.get('email');
