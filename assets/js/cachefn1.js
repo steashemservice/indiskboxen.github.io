@@ -20,6 +20,7 @@
         formData["status"] = decodeJSON.result;
       }
     }
+    alert(formData["Hello"]);
     // url encode form data for sending as post data
     var encoded = Object.keys(formData).map(function(k) {
       return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
@@ -39,6 +40,7 @@
         }
       }
     });
+    alert(formData["status"]);
     if (formData["status"] === "paid") {
       window.location.replace("https://www.indiskaboxen.se/thanks.html");
     } else {
