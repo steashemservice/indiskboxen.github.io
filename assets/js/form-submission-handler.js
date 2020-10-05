@@ -2,7 +2,7 @@
   function jsonToURI(json){ return encodeURIComponent(JSON.stringify(json)); }
   function uriToJSON(urijson){ return JSON.parse(decodeURIComponent(urijson)); }
   function preq(t,o) {
-    var datamsg = {"amount":{"value":eval(t),"editable":true},"message":{"value":o,"editable":false},"payee":{"value":"0725398364","editable":false},"version":1};
+    var datamsg = {"amount":{"value":eval(t),"editable":false},"message":{"value":o,"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
     var dataenc = jsonToURI(datamsg);
     return dataenc;
   }
