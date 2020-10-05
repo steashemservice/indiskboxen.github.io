@@ -39,7 +39,6 @@
         }
       }
     });
-    alert('var'+formData["status"]+'after');
     if (formData["status"] === "paid") {
       window.location.replace("https://www.indiskaboxen.se/thanks.html");
     } else {
