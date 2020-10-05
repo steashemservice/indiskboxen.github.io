@@ -9,7 +9,7 @@
       formData["order"] = urlParams.get('order');
     }
     if (urlParams.has('total')) {
-      formData["total"] = 1;
+      formData["total"] = urlParams.get('total');
     }
     if (urlParams.has('email')) {
       formData["email"] = urlParams.get('email');
@@ -20,29 +20,27 @@
         formData["status"] = decodeJSON.result;
       }
     }
-    if (formData["status"] === "paid") {
-      // url encode form data for sending as post data
-      var encoded = Object.keys(formData).map(function(k) {
-        return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
-      }).join('&');
-      var url = 'https://script.google.com/macros/s/AKfycbxTFQx9GwgAnlKzOPmvTV1Oiib_dTD_fEgnkxT1fhHI2DDIGb4/exec';
-      $.ajax({
-        url: url,
-        data: encoded,
-        type: "POST",
-        dataType: "json",
-        statusCode: {
-          404: function() {
-            window.location.replace("https://www.indiskaboxen.se/thanks.html");
-          },
-          500: function() {
-            window.location.replace("https://www.indiskaboxen.se/thanks.html");
-          },
-          200: function() {
-            window.location.replace("https://www.indiskaboxen.se/thanks.html");
-          }
+    // url encode form data for sending as post data
+    var encoded = Object.keys(formData).map(function(k) {
+      return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
+    }).join('&');
+    var url = 'https://script.google.com/macros/s/AKfycbxTFQx9GwgAnlKzOPmvTV1Oiib_dTD_fEgnkxT1fhHI2DDIGb4/exec';
+    $.ajax({
+      url: url,
+      data: encoded,
+      type: "POST",
+      dataType: "json",
+      statusCode: {
+        404: function() {
+        },
+        500: function() {
+        },
+        200: function() {
         }
-      });
+      }
+    });
+    if (formData["status"] === "paid") {
+      window.location.replace("https://www.indiskaboxen.se/thanks.html");
     } else {
       alert('Payment failed! If this is incorrect please email info@indiskaboxen.se');
       window.location.replace("https://www.indiskaboxen.se");
