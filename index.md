@@ -17,11 +17,11 @@ lang: se
             </header>
             <div class="content">
                 <ul class="actions">
-			<li><a href="#contact" class="button scrolly"> 69 kr/matlåda\</br\><span>beställ</span></a></li>
-		        <li><a href="#contact" class="button scrolly"> 59 kr/matlåda med prenumeration\</br\><span>beställ</span></a></li>
+			<li><a href="#contact" class="button scrolly"> 69 kr/matlåda<br/><span>beställ</span></a></li>
+		        <li><a href="#contact" class="button scrolly"> 59 kr/matlåda med prenumeration<br/><span>beställ</span></a></li>
                 </ul>
             </div>
-	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans\</br\><i class="fa fa-fw fa-info"></i> Beställer minst 5 matlådor (prenumeration minst 10 matlådor)\</br\><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</span></p>
+	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans<br/><i class="fa fa-fw fa-info"></i> Beställer minst 5 matlådor (prenumeration minst 10 matlådor)<br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</span></p>
         </div>
     </section>
     
