@@ -17,7 +17,8 @@ Län:
 zip_code:
 country: 
 phone:
-
+lang: se
+languages: ["en", "se"]
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
