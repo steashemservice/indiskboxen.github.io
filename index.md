@@ -39,9 +39,9 @@ lang: se
 			<div>
 		  	<p>Fryst mat bidrar till att minska matsvinn genom att plocka fram precis antal portioner som behövs och låta resten ligga kvar i frysen. Du sparar pengar och miljön.</p>
       			<p>Varje box från Indiska boxen släpper ut mellan 0,3-0,6 CO2e, vilket han jämföras med en biffrätt som släpper ut 5 CO2e (<a href="https://www.wwf.se/mat-och-jordbruk/vad-ska-jag-ata/">Vad ska jag äta</a>). Våra bas ingredienser är producerade i Sverige och vi har fler smakrika vegetarisk/vegan rätter att välja emellan.</p></div>
-                </header>
-		<a href="menu" class="button next"><i class="fa fa-fw fa-utensils"></i> se vår meny</a>
-    		<header class="major">
+			<a href="menu" class="button next"><i class="fa fa-fw fa-utensils"></i> se vår meny</a>
+    		</header>
+		<header class="major">
       			<h2>Full av smakar och nyttigheter</h2>
 		  	<div><p>Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Kryddor och aromater är hjärtat i indisk matlagning. Indier har också använt örter och kryddor som medicin. Frysning är ett naturligt sätt att bevara mat, därför behövs inga konserveringsmedel. Maten får en naturlig lång hållbarhet och behåller samtidigt smak, arom, näringsvärde och konsistens.</p>
     		        <p>Indiska boxen är smakrikt och klimatsmart <a href="#contact">beställ indiska boxen idag</a>!</p></div>
