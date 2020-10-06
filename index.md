@@ -21,7 +21,7 @@ lang: se
 		        <li><a href="#contact" class="button scrolly"> 59 kr/matlåda med prenumeration<span></br>beställ</span></a></li>
                 </ul>
             </div>
-	    <p style="text-transform: uppercase;"><span><i class="fa fa-fw fa-biking"></i> fri hemleverans</span><span><i class="fa fa-fw fa-info"></i> Beställer minst 5 matlådor (prenumeration minst 10 matlådor)</span><span><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</span></p>
+	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans</br><i class="fa fa-fw fa-info"></i> Beställer minst 5 matlådor (prenumeration minst 10 matlådor)</br><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</span></p>
         </div>
     </section>
     
