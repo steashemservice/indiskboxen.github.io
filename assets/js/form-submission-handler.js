@@ -291,6 +291,7 @@
       while(date.getDay() !== 0) {
         date.setDate(date.getDate()+1);
       }
+      alert(date);
       return date;
     }
     $("#delivery").datepicker({ 
