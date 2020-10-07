@@ -66,7 +66,7 @@ lang: se
 	<i class="icon alt fas fa-truck" ></i>   
    	<header class="major">
           <h2>2. leverans</h2>
-	  <p>Vi levererar din mat till din dörr. Leverans första söndagen i månaden, men kan ändras enligt dina önskemål. Du kan ändra rätter och leveransdatum fram till onsdagen före nästa leverans genom att skicka en ny <a href="#contact">beställning</a> med samma e-postadress eller genom att mejla <a href="mailto:info@indiskaboxen.se">{{ site.email }}</a></p>
+	  <p>Vi levererar din mat till din dörr. Leverans första söndagen i månaden, men kan ändras enligt dina önskemål. Du kan ändra rätter och leveransdatum fram till fredagen före nästa leverans genom att skicka en ny <a href="#contact">beställning</a> med samma e-postadress eller genom att mejla <a href="mailto:info@indiskaboxen.se">{{ site.email }}</a></p>
         </header>
      </section>
      <section>
@@ -88,7 +88,8 @@ lang: se
 		    <li> 69 kr/matlåda - Beställer minst 5 matlådor</li>
 	      <li> 59 kr/matlåda med prenumeration av minst 10 matlådor</li>
 	      <li> Fri hemleverans</li>
-		    <li> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</li>
+		    <!--<li> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</li>-->
+	      <li> Med prenumeration av matlådorna sker leverans varje månad (första söndagen) så länge du önskar utan bindningstid</li>
 	    </ul>
 		</header>
 	</div>
