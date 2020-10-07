@@ -284,14 +284,14 @@
   document.addEventListener("DOMContentLoaded", addcollapse, false);
 })(jQuery);
 (function($) {
-  function get_default_date() {
-    var date = new Date();
-    while(!is_valid(date)) {
-      date.setDate(date.getDate()+1);
-    }
-    return date;
-  }
   function adddelivery() {
+    function get_default_date() {
+      var date = new Date();
+      while(!is_valid(date)) {
+        date.setDate(date.getDate()+1);
+      }
+      return date;
+    }
     $("#delivery").datepicker({ 
         autoSize: true,         // automatically resize the input field 
         altFormat: 'yy-mm-dd',  // Date Format used
