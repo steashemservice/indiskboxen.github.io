@@ -39,7 +39,7 @@
       } else if (elements[k].value === "0") {
         return false;
       } else if (elements[k].name === "subscription") {
-        alert(elements[k].value);
+        alert(elements[k].prop("checked"));
       }
       return true;
     }).map(function(k) {
