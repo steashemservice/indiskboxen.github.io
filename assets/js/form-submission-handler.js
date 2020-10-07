@@ -38,6 +38,8 @@
         return false;
       } else if (elements[k].value === "0") {
         return false;
+      } else if (elements[k].name === "subscription") {
+        alert(lements[k].value);
       }
       return true;
     }).map(function(k) {
