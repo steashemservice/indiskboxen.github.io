@@ -286,7 +286,8 @@
 (function($) {
   function adddelivery() {
     function get_default_date() {
-      var date = new Date()+4;
+      var date = new Date();
+      date.setDate(date.getDate()+4);
       while(date.getDay() !== 0) {
         date.setDate(date.getDate()+1);
       }
