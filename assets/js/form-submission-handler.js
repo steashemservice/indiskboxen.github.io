@@ -285,12 +285,9 @@
 })(jQuery);
 (function($) {
   function adddelivery() {
-    function is_valid(date) {
-      return [date.getDay() === 0,''];
-    }
     function get_default_date() {
-      var date = new Date();
-      while(!is_valid(date)) {
+      var date = new Date()+4;
+      while(date.getDay() !== 0) {
         date.setDate(date.getDate()+1);
       }
       return date;
