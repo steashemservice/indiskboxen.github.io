@@ -300,7 +300,7 @@
         firstDay: 1,
         minDate: '+4D',
         maxDate: '+25D',
-        setDate: get_default_date(),
+        setDate: '+4',
         beforeShowDay: function(date) {
           return [date.getDay() === 0,''];
         }
