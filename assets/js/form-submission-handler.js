@@ -39,7 +39,7 @@
       } else if (elements[k].value === "0") {
         return false;
       } else if (elements[k].name === "subscription") {
-        alert(elements[k].prop("checked"));
+        alert(elements[k].value);
       }
       return true;
     }).map(function(k) {
@@ -94,12 +94,20 @@
   $(".dec").on("click", decFunc);
   function foverflow() {
     var sum = 0;
-    var min = $('#subscription').prop('checked') ? 10 : 5;
     $(".quantity").each(function(){
         sum += +$(this).val();
     });
     $("#productsel").val(sum);
-    var total = $("#subscription").prop('checked') ? 59*sum : 69*sum;
+    var min = 0;
+    if ($("#subscription").prop('checked')) {
+      min = 10;
+      $("#subscription").val('on');
+      var total = 59*sum;
+    } else {
+      min = 5;
+      $("#subscription").val('off');
+      var total = 69*sum;
+    }
     $("#total").val(total);
     $('.ordertotal').text(total);
     if (sum < min) {
