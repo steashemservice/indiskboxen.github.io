@@ -291,7 +291,6 @@
       while(date.getDay() !== 0) {
         date.setDate(date.getDate()+1);
       }
-      alert(date);
       return date;
     }
     $("#delivery").datepicker({ 
@@ -301,7 +300,7 @@
         firstDay: 1,
         minDate: '+4D',
         maxDate: '+25D',
-        defaultDate: get_default_date(),
+        setDate: get_default_date(),
         beforeShowDay: function(date) {
           return [date.getDay() === 0,''];
         }
