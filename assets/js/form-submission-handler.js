@@ -284,6 +284,13 @@
   document.addEventListener("DOMContentLoaded", addcollapse, false);
 })(jQuery);
 (function($) {
+  function get_default_date() {
+    var date = new Date();
+    while(!is_valid(date)) {
+      date.setDate(date.getDate()+1);
+    }
+    return date;
+  }
   function adddelivery() {
     $("#delivery").datepicker({ 
         autoSize: true,         // automatically resize the input field 
@@ -292,6 +299,7 @@
         firstDay: 1,
         minDate: '+4D',
         maxDate: '+25D',
+        defaultDate: get_default_date(),
         beforeShowDay: function(date) {
           return [date.getDay() === 0,''];
         }
