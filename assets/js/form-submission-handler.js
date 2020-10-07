@@ -287,7 +287,7 @@
   function adddelivery() {
     function get_default_date() {
       var date = new Date();
-      date.setDate(date.getDate()+4);
+      date.setDate(date.getDate()+2);
       while(date.getDay() !== 0) {
         date.setDate(date.getDate()+1);
       }
@@ -298,7 +298,8 @@
         altFormat: 'yy-mm-dd',  // Date Format used
         dateFormat: "DD, d MM yy",
         firstDay: 1,
-        minDate: '+4D',
+        //minDate: '+4D',
+        minDate: '+2D',
         maxDate: '+25D',
         beforeShowDay: function(date) {
           return [date.getDay() === 0,''];
