@@ -300,11 +300,11 @@
         firstDay: 1,
         minDate: '+4D',
         maxDate: '+25D',
-        setDate: '+4',
         beforeShowDay: function(date) {
           return [date.getDay() === 0,''];
         }
-    });    
+    });
+    $("#delivery").datepicker('setDate', get_default_date());
   };
   document.addEventListener("DOMContentLoaded", adddelivery, false);
 })(jQuery);
