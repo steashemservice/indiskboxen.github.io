@@ -16,7 +16,7 @@ order: 1
 		<div id="accordion">
 			<h3>Hur betalar jag?</h3>
 			<div>
-      				<p>Betala med Swish. Du kan även använda länk på orderbekräftelse mailet för betalning med Swish via mobilen.</p>
+      				<p>Om du inte redan har betalat du kan betala för din beställning med Swish till vår Swish nummer 123 342 54 44. Fyll ditt beställningsnummer i meddelandet.</p>
   			</div>
 			<h3>Hur pausar eller avslutar jag mitt abonnemang?</h3>
 			<div>
