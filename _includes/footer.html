@@ -38,6 +38,30 @@
 				<li>Banner by <a href="https://unsplash.com/@pratiksha_mohanty?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Pratiksha Mohanty</a></li>
 			</ul>
 		</div>
+		<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="108149104330046"
+  theme_color="#2A2F4A">
+      </div>
 	</footer>
 
 <!-- Scripts -->
@@ -47,7 +71,6 @@
 	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
-        <!--<script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>-->
-	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+        <!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
         <script data-cfasync="false" type="text/javascript" src="{{ "assets/js/form-submission-handler.js" | absolute_url }}"></script>
