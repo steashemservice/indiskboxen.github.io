@@ -298,34 +298,36 @@
     while(date.getDay() !== 0) {
       date.setDate(date.getDate()+1);
     }
+    var time = "";
     for(var i=0; i < 4; i++){
-      $('#delivery').append($('<option>', {value: date,text: date}));
+      time = date.toDateString()+' Delivery 17:00 - 20:00';
+      $('#delivery').append($('<option>', {value: time,text: time}));
       date.setDate(date.getDate()+7);
     }
   }
   document.addEventListener("DOMContentLoaded", get_delivery_date, false);
-  function adddelivery() {
-    function get_default_date() {
-      var date = new Date();
-      date.setDate(date.getDate()+2);
-      while(date.getDay() !== 0) {
-        date.setDate(date.getDate()+1);
-      }
-      return date;
-    }
-    $("#delivery").datepicker({ 
-        autoSize: true,         // automatically resize the input field 
-        altFormat: 'yy-mm-dd',  // Date Format used
-        dateFormat: "DD, d MM yy",
-        firstDay: 1,
+  //function adddelivery() {
+  //  function get_default_date() {
+  //    var date = new Date();
+  //    date.setDate(date.getDate()+2);
+  //    while(date.getDay() !== 0) {
+  //      date.setDate(date.getDate()+1);
+  //    }
+  //    return date;
+  //  }
+  //  $("#delivery").datepicker({ 
+  //      autoSize: true,         // automatically resize the input field 
+  //      altFormat: 'yy-mm-dd',  // Date Format used
+  //      dateFormat: "DD, d MM yy",
+  //      firstDay: 1,
         //minDate: '+4D',
-        minDate: '+2D',
-        maxDate: '+25D',
-        beforeShowDay: function(date) {
-          return [date.getDay() === 0,''];
-        }
-    });
-    $("#delivery").datepicker('setDate', get_default_date());
-  };
+  //      minDate: '+2D',
+  //      maxDate: '+25D',
+  //      beforeShowDay: function(date) {
+  //        return [date.getDay() === 0,''];
+  //      }
+  //  });
+  //  $("#delivery").datepicker('setDate', get_default_date());
+  //};
   //document.addEventListener("DOMContentLoaded", adddelivery, false);
 })(jQuery);
