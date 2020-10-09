@@ -292,6 +292,18 @@
   document.addEventListener("DOMContentLoaded", addcollapse, false);
 })(jQuery);
 (function($) {
+  function get_delivery_date() {
+    var date = new Date();
+    date.setDate(date.getDate()+2);
+    while(date.getDay() !== 0) {
+      date.setDate(date.getDate()+1);
+    }
+    for(var i=0; i < 4; i++){
+      $('#delivery').append($('<option>', {value: date,text: date}));
+      date.setDate(date.getDate()+7);
+    }
+  }
+  document.addEventListener("DOMContentLoaded", get_delivery_date, false);
   function adddelivery() {
     function get_default_date() {
       var date = new Date();
@@ -315,5 +327,5 @@
     });
     $("#delivery").datepicker('setDate', get_default_date());
   };
-  document.addEventListener("DOMContentLoaded", adddelivery, false);
+  //document.addEventListener("DOMContentLoaded", adddelivery, false);
 })(jQuery);
