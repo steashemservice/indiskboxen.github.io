@@ -33,7 +33,7 @@ lang: se
   				<div class="slidetxt">Butter Chicken</div>
 			</div>
 			<div class="mySlides fade">
-  				<img class="slideimg" src="/assets/food/butter_chicken.jpg" style="width:100%">
+  				<img class="slideimg" src="/assets/food/eggplant_curry.jpg" style="width:100%">
   				<div class="slidetxt">Ennai Kathirikai Kuzhambu</div>
 			</div>
 		</div>
