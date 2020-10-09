@@ -29,12 +29,12 @@ lang: se
 	<section class="major">
 		<div class="slideshow-container">
 			<div class="mySlides fade">
-  				<img src="/assets/food/butter_chicken.jpg" style="width:100%">
-  				<div class="text">Butter Chicken</div>
+  				<img class="slideimg" src="/assets/food/butter_chicken.jpg" style="width:100%">
+  				<div class="slidetxt">Butter Chicken</div>
 			</div>
 			<div class="mySlides fade">
-  				<img src="/assets/food/butter_chicken.jpg" style="width:100%">
-  				<div class="text">Ennai Kathirikai Kuzhambu</div>
+  				<img class="slideimg" src="/assets/food/butter_chicken.jpg" style="width:100%">
+  				<div class="slidetxt">Ennai Kathirikai Kuzhambu</div>
 			</div>
 		</div>
 	</section>
