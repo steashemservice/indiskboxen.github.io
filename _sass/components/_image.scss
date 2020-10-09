@@ -122,3 +122,16 @@ a.swish-link {
   position: relative;
   margin: auto;
 }
+.active {
+  background-color: #717171;
+}
+.slideimg {vertical-align: middle;}
+.slidetxt {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
