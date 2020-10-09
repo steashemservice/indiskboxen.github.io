@@ -25,7 +25,19 @@ lang: se
         </div>
     </section>
     
-<div id="main">    
+<div id="main">
+	<section class="major">
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+  				<img src="/assets/food/butter_chicken.jpg" style="width:100%">
+  				<div class="text">Butter Chicken</div>
+			</div>
+			<div class="mySlides fade">
+  				<img src="/assets/food/butter_chicken.jpg" style="width:100%">
+  				<div class="text">Ennai Kathirikai Kuzhambu</div>
+			</div>
+		</div>
+	</section>
 <!-- Two -->
 <section id="climatebanner" class="major">
   	<div class="inner">
