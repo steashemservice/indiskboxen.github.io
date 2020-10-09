@@ -28,11 +28,11 @@ lang: se
 <div id="main">
 	<section class="major">
 		<div class="slideshow-container">
-			<div class="mySlides fade">
+			<div class="mySlides slidefade">
   				<img class="slideimg" src="/assets/food/butter_chicken.jpg" style="width:100%">
   				<div class="slidetxt">Butter Chicken</div>
 			</div>
-			<div class="mySlides fade">
+			<div class="mySlides slidefade">
   				<img class="slideimg" src="/assets/food/eggplant_curry.jpg" style="width:100%">
   				<div class="slidetxt">Ennai Kathirikai Kuzhambu</div>
 			</div>
