@@ -308,8 +308,8 @@
   		$('#contact-form input[name=subscription]').prop("checked", true); 
 	});
   } );
+  var slideIndex = 0;
   function showSlides() {
-    var slideIndex = 0;
     var i;
     var slides = document.getElementsByClassName("mySlides");
     for (i = 0; i < slides.length; i++) {
