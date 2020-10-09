@@ -109,11 +109,11 @@
     $("#total").val(total);
     $('.ordertotal').text(total);
     if (sum < min) {
-      $("#minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+sum+' av '+min+' matlådor valda. Beställer minst '+min+' matlådor.').show();
+      $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+sum+' av '+min+' matlådor valda. Beställer minst '+min+' matlådor.').show();
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
-      $("#minorder").hide();
+      $(".minorder").hide();
       $("#orderbtn").prop('disabled', false);
       return true;
     }
