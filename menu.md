@@ -12,10 +12,6 @@ order: 999
 <div id="main">
 	<section class="major">
 		<div class="inner">
-			<header class="major">
-				<h2>Ät Klimatsmart</h2>
-				<p>Våra bas ingredienser är producerade i Sverige och vi har fler smakrika vegetarisk/vegan rätter att välja emellan.</p>
-			</header>
 			<div class="menulist">
 				<!--<div class="menuitem">
 				<h3>Paneer Tikka Masala</h3>
