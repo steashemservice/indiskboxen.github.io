@@ -92,6 +92,7 @@
   $(".dec").on("click", decFunc);
   function foverflow() {
     var sum = 0;
+    var stext = '';
     $(".quantity").each(function(){
         sum += +$(this).val();
     });
@@ -99,6 +100,7 @@
     var min = 0;
     if ($("#subscription").prop('checked')) {
       min = 10;
+      stext = ' med prenumeration';
       $("#subscription").val('on');
       var total = 59*sum;
     } else {
@@ -109,7 +111,7 @@
     $("#total").val(total);
     $('.ordertotal').text(total);
     if (sum < min) {
-      $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+sum+' av '+min+' matlådor valda. Beställ minst '+min+' matlådor.').show();
+      $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+sum+' av '+min+' matlådor valda. Beställ minst '+min+' matlådor'+stext+'.').show();
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
