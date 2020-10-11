@@ -39,11 +39,12 @@
         }
       }
     });
-    if (formData["status"] === "paid") {
-      window.location.replace("https://www.indiskaboxen.se/thanks.html");
-    } else {
-      alert('Payment failed! If this is incorrect please email info@indiskaboxen.se');
-      window.location.replace("https://www.indiskaboxen.se");
-    }
+    window.location.replace("https://www.indiskaboxen.se/thanks.html");
+    //if (formData["status"] === "paid") {
+    //  window.location.replace("https://www.indiskaboxen.se/thanks.html");
+    //} else {
+    //  alert('Payment failed! If this is incorrect please email info@indiskaboxen.se');
+    //  window.location.replace("https://www.indiskaboxen.se");
+    //}
   });
 })(jQuery);
