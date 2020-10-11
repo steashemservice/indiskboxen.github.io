@@ -296,7 +296,7 @@
 (function($) {
   function get_delivery_date() {
     var date = new Date();
-    date.setDate(date.getDate()+1);
+    date.setDate(date.getDate()+8);
     while(date.getDay() !== 0) {
       date.setDate(date.getDate()+1);
     }
