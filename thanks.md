@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Din betalning har registrerats! tack för din beställning.
+title: Tack för din beställning. Smaklig måltid!
 description: 
 image:
 permalink: /thanks
