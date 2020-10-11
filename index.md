@@ -21,7 +21,7 @@ lang: se
 		        <li><a href="#contact" class="button scrolly subscription"> 59 kr/matlåda med prenumeration<br/><span>beställ</span></a></li>
                 </ul>
             </div>
-	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans<br/><i class="fa fa-fw fa-info"></i> Beställer minst 5 matlådor (prenumeration minst 10 matlådor)<br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</p>
+	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans<br/><i class="fa fa-fw fa-info"></i> Beställ minst 5 matlådor (prenumeration minst 10 matlådor)<br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</p>
         </div>
     </section>
     
@@ -47,7 +47,7 @@ lang: se
 			</div></div>
 		        <!--<span class="image main"><img src="{{ site.baseurl }}/{{ page.imagec }}" alt="" /></span>-->
 			<p>Fryst mat bidrar till att minska matsvinn genom att plocka fram precis antal portioner som behövs och låta resten ligga kvar i frysen. Du sparar pengar och miljön.<br/>
-      			Varje box från Indiska boxen släpper ut mellan 0,3-0,6 CO2e, vilket han jämföras med en biffrätt som släpper ut 5 CO2e (<a href="https://www.wwf.se/mat-och-jordbruk/vad-ska-jag-ata/">Vad ska jag äta</a>). Våra bas ingredienser är producerade i Sverige och vi har fler smakrika vegetarisk/vegan rätter att välja emellan.</p>
+      			Varje box från Indiska boxen släpper ut mellan 0,3-0,6 CO2e, vilket han jämföras med en biffrätt som släpper ut 5 CO2e (<a href="https://www.wwf.se/mat-och-jordbruk/vad-ska-jag-ata/">Vad ska jag äta</a>). Vi har fler smakrika vegetarisk/vegan rätter att välja emellan.</p>
 			<a href="menu" class="button next"><i class="fa fa-fw fa-utensils"></i> se vår meny</a>
     		</header>
 		<header class="major">
