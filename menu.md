@@ -40,7 +40,7 @@ order: 999
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
 				</div>
 				<div class="menuitem">
-				<h3>Vegetable Korma</h3>
+				<h3>Chole Vegetable Korma</h3>
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,28 kg CO<sub>2</sub>e</span>
 			  	<p>smakrik vegetarisk korma tillagad med färska grönsaker, kikärter och välsmakande kryddor i kokosmjölk</p>
 			  	<p>korma cooked with fresh vegetables, chickpeas and tasty spices in coconut milk</p>
