@@ -102,11 +102,11 @@
       min = 10;
       stext = ' med prenumeration';
       $("#subscription").val('on');
-      var total = 59*sum;
+      var total = 69*sum;
     } else {
       min = 5;
       $("#subscription").val('off');
-      var total = 69*sum;
+      var total = 79*sum;
     }
     $("#total").val(total);
     $('.ordertotal').text(total);
