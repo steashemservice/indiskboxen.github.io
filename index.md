@@ -17,8 +17,8 @@ lang: se
             </header>
             <div class="content">
                 <ul class="actions">
-			<li><a href="#contact" class="button scrolly"> 79 kr/matlåda<br/><span>beställ</span></a></li>
-		        <li><a href="#contact" class="button scrolly subscription"> 69 kr/matlåda med prenumeration<br/><span>beställ</span></a></li>
+			<li><a href="#order" class="button scrolly"> 79 kr/matlåda<br/><span>beställ</span></a></li>
+		        <li><a href="#order" class="button scrolly subscription"> 69 kr/matlåda med prenumeration<br/><span>beställ</span></a></li>
                 </ul>
             </div>
 	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans<br/><i class="fa fa-fw fa-info"></i> Beställ minst 5 matlådor (prenumeration minst 10 matlådor)<br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</p>
