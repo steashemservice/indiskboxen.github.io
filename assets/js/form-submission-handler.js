@@ -89,6 +89,7 @@
       $button.parent().find("input").val(newVal).change();
     }
   }
+  $(".dec").on("click", decFunc);
   function savepostcode(pc_pre,pc_notpre) {  // handles form submit without any jquery
     var formData = {};
     if (pc_pre !== "") {
@@ -111,7 +112,6 @@
       statusCode: {}
     });
   }
-  $(".dec").on("click", decFunc);
   function foverflow() {
     var sum = 0;
     var stext = '';
@@ -137,7 +137,7 @@
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
-      savepostcode(sum,"");
+      savepostcode(total,"");
       $(".minorder").hide();
       $("#orderbtn").prop('disabled', false);
       return true;
@@ -249,8 +249,6 @@
       buttons[i].disabled = true;
     }
   }
-})(jQuery);
-(function($) {
   function getRange(range){
     var arr=range.split("-");
     return {min:Number(arr[0]),max:Number(arr[1])};
