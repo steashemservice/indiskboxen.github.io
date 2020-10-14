@@ -89,6 +89,28 @@
       $button.parent().find("input").val(newVal).change();
     }
   }
+  function savepostcode(pc_pre,pc_notpre) {  // handles form submit without any jquery
+    var formData = {};
+    if (pc_pre !== "") {
+      formData['postcode present'] = pc_pre;
+    } else {
+      formData['postcode not present'] = pc_notpre;
+    }
+    formData.formGoogleSheetName = "order";
+    formData.formGoogleSendEmail = "";
+    // url encode form data for sending as post data
+    var encoded = Object.keys(formData).map(function(k) {
+        return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
+    }).join('&');
+    var url = 'https://script.google.com/macros/s/AKfycbwR621wFIgtgm1eLjUYanem-Q0Zs59tV8ktHMYZwPboFx1O_gXu/exec';
+    $.ajax({
+      url: url,
+      data: encoded,
+      type: "POST",
+      dataType: "json",
+      statusCode: {}
+    });
+  }
   $(".dec").on("click", decFunc);
   function foverflow() {
     var sum = 0;
@@ -236,28 +258,6 @@
   function checkPcode(Pcode, Plist) {
     return Plist.some(function(Prange) {
       return Pcode >= Prange.min && Pcode <= Prange.max;
-    });
-  }
-  function savepostcode(pc_pre,pc_notpre) {  // handles form submit without any jquery
-    var formData = {};
-    if (pc_pre !== "") {
-      formData['postcode present'] = pc_pre;
-    } else {
-      formData['postcode not present'] = pc_notpre;
-    }
-    formData.formGoogleSheetName = "order";
-    formData.formGoogleSendEmail = "";
-    // url encode form data for sending as post data
-    var encoded = Object.keys(formData).map(function(k) {
-        return encodeURIComponent(k) + "=" + encodeURIComponent(formData[k]);
-    }).join('&');
-    var url = 'https://script.google.com/macros/s/AKfycbwR621wFIgtgm1eLjUYanem-Q0Zs59tV8ktHMYZwPboFx1O_gXu/exec';
-    $.ajax({
-      url: url,
-      data: encoded,
-      type: "POST",
-      dataType: "json",
-      statusCode: {}
     });
   }
   function addcollapse() {
