@@ -115,6 +115,7 @@
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
+      savepostcode(sum,"");
       $(".minorder").hide();
       $("#orderbtn").prop('disabled', false);
       return true;
