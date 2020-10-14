@@ -273,6 +273,7 @@
         if(pcode.length == 5 && checkPcode(Number(pcode),plists)) {
           pmsg.html("Ja, vi levererar i ditt område!");
           content.css('display', 'block');
+          $("#postcode_ro").val(sum);
           if( $(this).data('last') != pcode ){
             savepostcode(pcode,"");
           }
