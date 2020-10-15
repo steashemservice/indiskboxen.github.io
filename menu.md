@@ -26,13 +26,15 @@ order: 999
 				<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
 				<p>smakrik indisk färskost i krämig spenatsås kryddad med garam masala, vitlök, ingefära och tomat</p>
 				<p>paneer in creamy spinach sauce spiced with garam masala, garlic, ginger and tomato</p>		
-	         		<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
+	         		<p><b>Ingredienser</b> Basmatiris 35%, Indisk Färskost 20%, Sås 45% (Lök, Tomat, Spenat, Grädde, Mandelmjöl, Smör, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
+			        <p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
    				</div>
 				<div class="menuitem">
 				<h3>Palak Dal (vegan)</h3>
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,27 kg CO<sub>2</sub>e</span>
 			  	<p>gula linser i krämig spenatsås tillagad med rika indiska kryddor som koriander, vitlök, ingefära, kummin och senapsfrön</p>
 			  	<p>yellow lentils i creamy spinach sauce cooked with rich indian spices such as coriander, garlic, ginger, cumin and mustard seeds</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Gula Linser 35%, Sås 30% (Lök, Tomat, Kokosmjölk, Spenat, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
 				</div>
 				<div class="menuitem">
@@ -40,6 +42,7 @@ order: 999
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,28 kg CO<sub>2</sub>e</span>
 			  	<p>smakrik vegetarisk korma tillagad med färska grönsaker, kikärter och välsmakande kryddor i kokosmjölk</p>
 			  	<p>korma cooked with fresh vegetables, chickpeas and tasty spices in coconut milk</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Blandade Grönsaker, Kikärtor, Sås 30% (Lök, Tomat,  Kokosmjölk, Mandelmjöl, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
 				</div>
 				<div class="menuitem">
@@ -47,6 +50,7 @@ order: 999
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,29 kg CO<sub>2</sub>e</span>
 			  	<p> Aubergine i kokosås tillagad med rostade kryddor</p>
 			  	<p>eggplant in curry made with roasted spices and coconut</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Aubergine 35%, Sås 30% (Lök, Tomat, Gula Linser, Kokosmjölk, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
 				</div>
 				<div class="menuitem">
@@ -54,6 +58,7 @@ order: 999
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
 			  	<p>svensk kycklingfilé i smakrik tomat och cashewsås</p>
 			  	<p>swedish chicken fillet in tasty tomato and cashew sauce</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Svensk Kycklingfilé 30%, Sås 35% (Tomat, Lök, Grädde, Mandelmjöl, Smör, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
 				</div>
 				<!--
@@ -70,6 +75,7 @@ order: 999
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
 			  	<p>yoghurtmarinerad svensk kycklingfilé i smakrik spenatsås</p>
 			  	<p>yogurt marinated swedish chicken fillet in tasty spinach curry </p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Svensk Kycklingfilé 30%, Sås 35% (Lök, Tomat, Spenat, Grädde, Mandelmjöl, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
 				</div>
 			</div>
