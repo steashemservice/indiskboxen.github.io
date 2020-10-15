@@ -296,13 +296,13 @@
 (function($) {
   function get_delivery_date() {
     var date = new Date();
-    date.setDate(date.getDate()+8);
+    date.setDate(date.getDate()+4);
     while(date.getDay() !== 0) {
       date.setDate(date.getDate()+1);
     }
     var time = "";
     for(var i=0; i < 4; i++){
-      time = date.toDateString()+' Delivery 17:00 - 20:00';
+      time = date.toDateString()+' Delivery 17:00 - 21:00';
       $('#delivery').append($('<option>', {value: time,text: time}));
       date.setDate(date.getDate()+7);
     }
