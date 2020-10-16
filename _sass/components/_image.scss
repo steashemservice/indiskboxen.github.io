@@ -133,6 +133,15 @@ a.swish-link {
   width: 50%;
   text-align: center;
 }
+.slidetxt {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    font-size: 3vw;
+    span {border-top: 1px solid #F2F2F2;
+    padding: 1em;}
+}
 /* Fading animation */
 .slidefade {
   max-width: 50%;
