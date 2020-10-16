@@ -26,20 +26,6 @@ lang: se
     </section>
     
 <div id="main">
-	<div class="slideshow-container">
-		<div class="mySlides slidefade">
-  			<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
-  			<div class="slidetxt">Palak Paneer</div>
-		</div>
-		<div class="mySlides slidefade">
-  			<img class="slideimg" src="/assets/food/vegkorma.jpg" style="width:100%">
-  			<div class="slidetxt">Chole Vegetable Korma</div>
-		</div>
-		<div class="mySlides slidefade">
-  			<img class="slideimg" src="/assets/food/palakchicken.jpg" style="width:100%">
-  			<div class="slidetxt">Palak Chicken</div>
-		</div>
-	</div>
 <!-- Two -->
 <section id="climatebanner" class="major">
   	<div class="inner">
@@ -107,4 +93,18 @@ lang: se
 		</header>
 	</div>
 </section>
+<div class="slideshow-container">
+	<div class="mySlides slidefade">
+  		<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
+  		<div class="slidetxt">Palak Paneer</div>
+	</div>
+	<div class="mySlides slidefade">
+  		<img class="slideimg" src="/assets/food/vegkorma.jpg" style="width:100%">
+  		<div class="slidetxt">Chole Vegetable Korma</div>
+	</div>
+	<div class="mySlides slidefade">
+  		<img class="slideimg" src="/assets/food/palakchicken.jpg" style="width:100%">
+  		<div class="slidetxt">Palak Chicken</div>
+	</div>
+</div>
 </div>
