@@ -26,7 +26,7 @@ lang: se
     </section>
     
 <div id="main">
-	<div class="slideshow-container">
+	<!--<div class="slideshow-container">
 		<div class="mySlides slidefade">
   			<img class="slideimg" src="/assets/food/butter_chicken.jpg" style="width:100%">
   			<div class="slidetxt">Butter Chicken</div>
@@ -35,7 +35,7 @@ lang: se
   			<img class="slideimg" src="/assets/food/eggplant_curry.jpg" style="width:100%">
   			<div class="slidetxt">Ennai Kathirikai Kuzhambu</div>
 		</div>
-	</div>
+	</div>-->
 <!-- Two -->
 <section id="climatebanner" class="major">
   	<div class="inner">
