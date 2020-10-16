@@ -28,12 +28,16 @@ lang: se
 <div id="main">
 	<div class="slideshow-container">
 		<div class="mySlides slidefade">
-  			<img class="slideimg" src="/assets/food/butter_chicken.jpg" style="width:100%">
-  			<div class="slidetxt">Butter Chicken</div>
+  			<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
+  			<div class="slidetxt">Palak Paneer</div>
 		</div>
 		<div class="mySlides slidefade">
-  			<img class="slideimg" src="/assets/food/eggplant_curry.jpg" style="width:100%">
-  			<div class="slidetxt">Ennai Kathirikai Kuzhambu</div>
+  			<img class="slideimg" src="/assets/food/vegkorma.jpg" style="width:100%">
+  			<div class="slidetxt">Chole Vegetable Korma</div>
+		</div>
+		<div class="mySlides slidefade">
+  			<img class="slideimg" src="/assets/food/palakchicken.jpg" style="width:100%">
+  			<div class="slidetxt">Palak Chicken</div>
 		</div>
 	</div>
 <!-- Two -->
