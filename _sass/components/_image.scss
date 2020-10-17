@@ -134,10 +134,10 @@ a.swish-link {
   text-align: center;
 }
 .slidetitle {
+    grayscale(0.5) opacity(0.8)
     text-transform: uppercase;
     width: 100%;
     position: absolute;
-    top: 50px;
     text-align: center;
     font-size: 3vw;
     span {border-top: 1px solid #F2F2F2;}
