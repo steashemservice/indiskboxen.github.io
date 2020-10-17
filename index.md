@@ -94,7 +94,7 @@ lang: se
 	</div>
 </section>
 <div class="slideshow-container">
-	<div class="slidetitle">{{ site.total }}<br>matlådor levereras<br><span>Antal prenumeranter: {{ site.users }}</span></div>
+	<div class="slidetitle"><h3>{{ site.total }}</h3>matlådor levereras<h3 class="visborder">{{ site.users }}</h3>prenumeranter</div>
 	<div class="mySlides slidefade">
   		<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
   		<div class="slidetxt">Palak Paneer</div>
