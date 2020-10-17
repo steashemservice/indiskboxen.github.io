@@ -94,7 +94,7 @@ lang: se
 	</div>
 </section>
 <div class="slideshow-container">
-	<div class="slidetitle"><h3>{{ site.total }}</h3>boxes delivered<h3 class="visborder"><a href="https://www.saveonethird.org/in-restaurants">fight food waste save 1/3</a></h3></div>
+	<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>
 	<div class="mySlides slidefade">
   		<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
   		<div class="slidetxt">Palak Paneer</div>
