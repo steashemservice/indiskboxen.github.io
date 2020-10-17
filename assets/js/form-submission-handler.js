@@ -137,7 +137,7 @@
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
-      savepostcode(total,"");
+      //savepostcode(total,"");
       $(".minorder").hide();
       $("#orderbtn").prop('disabled', false);
       return true;
