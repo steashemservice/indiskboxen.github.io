@@ -134,6 +134,7 @@ a.swish-link {
   text-align: center;
 }
 .slidetitle {
+    padding: 0.5em 0;
     backdrop-filter: brightness(0.5);
     -webkit-backdrop-filter: brightness(0.5);
     text-transform: uppercase;
@@ -141,7 +142,7 @@ a.swish-link {
     position: absolute;
     top:120px;
     text-align: center;
-    font-size: 7vw;
+    font-size: 5vw;
     span {border-top: 1px solid #F2F2F2;}
 }
 /* Fading animation */
