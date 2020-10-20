@@ -1,6 +1,6 @@
 ---
-layout: page
-title: TEST
+layout: swish
+title: Betala för din beställning
 description: 
 image: 
 nav-menu: false
@@ -11,14 +11,13 @@ order: 999
 
 <div id="main">
 	<section class="major">
-		<div class="paydiv inner">
+		<div class="inner">
 			<h4>Beställningsnummer: <span class="orderid"></span><br>Summa att betala: <span class="ordertotal"></span> kr</h4>
 			<h4>Du kan betala för din beställning via Swish. Ange ditt beställningsnummer i meddelandet.</h4>
 			<a class="link swish-link">
 				<img src="{{ site.baseurl }}/assets/images/Swish_Vertical.png" alt-src="Betala med Swish">
 			</a>
-	  	    	<!--<button class="link swish-link">Betala med Swish</button>-->
-			<a id="swish-uri"></a>
+	  	    	<a id="swish-uri"></a>
       			<div id="swish-qr" class="modal" onclick="this.style.display='none'">
     				<div class="modal-content">
 					<h5>Amount: <span class="ordertotal"></span> kr<br>Message: <span class="orderid"></span></h5>
