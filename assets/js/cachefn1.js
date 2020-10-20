@@ -32,17 +32,17 @@
       dataType: "json",
       statusCode: {
         404: function() {
-          alert('404');
+          window.location.replace("https://www.indiskaboxen.se/thanks");
         },
         500: function() {
-          alert('500');
+          window.location.replace("https://www.indiskaboxen.se/thanks");
         },
         200: function() {
-          alert('200');
+          window.location.replace("https://www.indiskaboxen.se/thanks");
         }
       }
     });
-    window.location.replace("https://www.indiskaboxen.se/thanks");
+    
     //if (formData["status"] === "paid") {
     //  window.location.replace("https://www.indiskaboxen.se/thanks.html");
     //} else {
