@@ -39,7 +39,7 @@
         }
       }
     });
-    window.location.replace("https://www.indiskaboxen.se/thanks.html");
+    window.location.replace("https://www.indiskaboxen.se/thanks");
     //if (formData["status"] === "paid") {
     //  window.location.replace("https://www.indiskaboxen.se/thanks.html");
     //} else {
