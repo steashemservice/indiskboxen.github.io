@@ -10,9 +10,9 @@
       var order = urlParams.get('order');
     }
     alert(order);
-    if (urlParams.has('email')) {
-      var total = urlParams.get('total');
+    if (urlParams.has('amount')) {
+      var amount = urlParams.get('amount');
     }
-    alert(total);
+    alert(amount);
   });
 })(jQuery);
