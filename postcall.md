@@ -3,5 +3,5 @@ layout: postcall
 title: 
 description: 
 image:
-permalink: /postcall.html
+permalink: /postcall
 ---
