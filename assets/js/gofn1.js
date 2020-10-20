@@ -2,17 +2,17 @@
   $(function() {
     const sPageURL = window.location.search;
     const urlParams = new URLSearchParams(sPageURL);
-    if (urlParams.has('swish')) {
-      const surl = urlParams.get('swish');
-      const surlParams = new URLSearchParams(surl);
-      alert(surlParams);
-      if (surlParams.has('callbackurl')) {
-        const iurl = decodeURIComponent(surlParams.get('callbackurl'));
-        const iParams = new URLSearchParams(iurl);
-        if (iParams.has('order')) {
-          alert(iParams.get('order'))
-        }
-      }
+    if (urlParams.has('email')) {
+      var addr = urlParams.get('email');
     }
+    alert(addr);
+    if (urlParams.has('order')) {
+      var order = urlParams.get('order');
+    }
+    alert(order);
+    if (urlParams.has('email')) {
+      var total = urlParams.get('total');
+    }
+    alert(total);
   });
 })(jQuery);
