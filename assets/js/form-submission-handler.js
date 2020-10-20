@@ -16,6 +16,10 @@
     goToUri(req);
   }
   $(".swish-link").on("click", swishFunc);
+  function swishgen(total,order,addr) {
+    var slink = "swish://payment?data="+preq(total,order)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+addr+"&order="+order+"&total="+total)+"&callbackresultparameter=res";
+    return slink;
+  }
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
@@ -26,7 +30,8 @@
     $('.orderid').text(elements['order'].value);
     elements['swish'] = {};
     elements['swish'].name='swish';
-    elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+elements['email'].value+"&order="+elements['order'].value+"&total="+elements['total'].value)+"&callbackresultparameter=res";
+    elements['swish'].value = swishgen(elements['total'].value,elements['order'].value,elements['email'].value);
+    //elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+elements['email'].value+"&order="+elements['order'].value+"&total="+elements['total'].value)+"&callbackresultparameter=res";
     $('#swish-uri').text(elements['swish'].value);
     var trap,honeypot;
     var fields = Object.keys(elements).filter(function(k) {
