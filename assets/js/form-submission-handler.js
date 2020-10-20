@@ -302,7 +302,7 @@
     }
     var time = "";
     for(var i=0; i < 4; i++){
-      time = date.toDateString()+' Delivery 17:00 - 21:00';
+      time = date.toDateString()+' KL 17-21';
       $('#delivery').append($('<option>', {value: time,text: time}));
       date.setDate(date.getDate()+7);
     }
