@@ -1,11 +1,11 @@
 (function($) {
   $(function() {
-    alert("Hello World!");
     const sPageURL = window.location.search;
     const urlParams = new URLSearchParams(sPageURL);
     if (urlParams.has('swish')) {
       const surl = urlParams.get('swish');
       const surlParams = new URLSearchParams(surl);
+      alert(surlParams);
       if (surlParams.has('callbackurl')) {
         const iurl = decodeURIComponent(surlParams.get('callbackurl'));
         const iParams = new URLSearchParams(iurl);
