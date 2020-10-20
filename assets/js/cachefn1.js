@@ -32,10 +32,13 @@
       dataType: "json",
       statusCode: {
         404: function() {
+          alert('404');
         },
         500: function() {
+          alert('500');
         },
         200: function() {
+          alert('200');
         }
       }
     });
