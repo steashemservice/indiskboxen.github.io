@@ -20,7 +20,6 @@ function swishgen(total,order,addr) {
     goToUri(req);
   }
   $(".swish-link").on("click", swishFunc);
-  
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
