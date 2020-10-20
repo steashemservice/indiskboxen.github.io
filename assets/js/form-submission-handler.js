@@ -1,11 +1,16 @@
+function preq(t,o) {
+  var datamsg = {"amount":{"value":eval(t),"editable":false},"message":{"value":o,"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
+  var dataenc = jsonToURI(datamsg);
+  return dataenc;
+}
+function swishgen(total,order,addr) {
+  var slink = "swish://payment?data="+preq(total,order)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+addr+"&order="+order+"&total="+total)+"&callbackresultparameter=res";
+  return slink;
+}
 (function($) {
   function jsonToURI(json){ return encodeURIComponent(JSON.stringify(json)); }
   function uriToJSON(urijson){ return JSON.parse(decodeURIComponent(urijson)); }
-  function preq(t,o) {
-    var datamsg = {"amount":{"value":eval(t),"editable":false},"message":{"value":o,"editable":false},"payee":{"value":"123 342 54 44","editable":false},"version":1};
-    var dataenc = jsonToURI(datamsg);
-    return dataenc;
-  }
+  
   function goToUri(uri) {
     $('#swish-qr').show();
     document.location = uri;
@@ -16,10 +21,7 @@
     goToUri(req);
   }
   $(".swish-link").on("click", swishFunc);
-  function swishgen(total,order,addr) {
-    var slink = "swish://payment?data="+preq(total,order)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+addr+"&order="+order+"&total="+total)+"&callbackresultparameter=res";
-    return slink;
-  }
+  
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
