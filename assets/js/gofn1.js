@@ -1,5 +1,6 @@
 (function($) {
   $(function() {
+    alert("Hello World!");
     const sPageURL = window.location.search;
     const urlParams = new URLSearchParams(sPageURL);
     if (urlParams.has('swish')) {
