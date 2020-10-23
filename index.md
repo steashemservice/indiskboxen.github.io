@@ -88,7 +88,7 @@ lang: se
 	      <li> 69 kr/matlåda med prenumeration av minst 10 matlådor</li>
 	      <li> Fri hemleverans</li>
 		    <!--<li> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</li>-->
-	      <li> Med prenumeration av matlådorna sker leverans varje månad (första söndagen) så länge du önskar utan bindningstid</li>
+	      <li> Med prenumeration av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</li>
 	    </ul>
 		</header>
 	</div>
