@@ -183,8 +183,8 @@ function swishgen(total,order,addr) {
       $("#subscription").val('off');
       var total = 79*sum;
     }
-    if ($("#chappati").prop('checked')) {
-      $("#chappati").val('on');
+    if ($("#Chappati").prop('checked')) {
+      $("#Chappati").val('on');
       total += 89;
     }
     $("#total").val(total);
@@ -200,7 +200,7 @@ function swishgen(total,order,addr) {
       return true;
     }
   }
-  $(".quantity,#subscription,#chappati").change(function(e) {
+  $(".quantity,#subscription,#Chappati").change(function(e) {
     foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
