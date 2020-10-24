@@ -186,6 +186,8 @@ function swishgen(total,order,addr) {
     if ($("#Chappati").prop('checked')) {
       $("#Chappati").val('on');
       total += 89;
+    } else {
+      $("#Chappati").val('off');
     }
     $("#total").val(total);
     $('.ordertotal').text(total);
