@@ -14,6 +14,10 @@ order: 1
 	<div class="inner">
     		<h2>Leveranser & Beställningar</h2>
 		<div id="accordion">
+			<h3>Hur prenumerationen fungerat?</h3>
+			<div>
+      				<p>När du går med i prenumeration första gången, får du leverans det datum du väljer. För nästa leverans skickas ett SMS/Email med en länk för att göra din betalning och välja din nästa leveransdatum. SMS/Email skickas sista söndagen på månaden.</p>
+  			</div>
 			<h3>Hur betalar jag?</h3>
 			<div>
       				<p>Om du inte redan har betalat du kan betala för din beställning med Swish till vår Swish nummer 123 342 54 44. Fyll ditt beställningsnummer i meddelandet.</p>
