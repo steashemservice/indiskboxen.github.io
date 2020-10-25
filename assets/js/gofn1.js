@@ -5,15 +5,16 @@
     if (urlParams.has('email')) {
       var addr = urlParams.get('email');
     }
-    if (urlParams.has('order')) {
-      var order = urlParams.get('order');
+    if (urlParams.has('mobil')) {
+      var mobil = urlParams.get('mobil');
     }
     if (urlParams.has('amount')) {
       var amount = urlParams.get('amount');
     }
-    var slink = swishgen(amount,order,addr);
+    var slink = swishgen(amount,mobil,addr);
     $('#swish-uri').text(slink);
-    $('.orderid').text(order);
+    $('.email').text(addr);
+    $('.mobil').text(mobil);
     $('.ordertotal').text(amount);
   });
 })(jQuery);
