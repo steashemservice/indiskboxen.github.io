@@ -18,6 +18,7 @@
       var amount = urlParams.get('t');
     }
     if (urlParams.has('s')) {
+      if (urlParams.get('s') === 'on')
       $("#subscription").prop("checked", true);
     }
     if (urlParams.has('ch')) {
