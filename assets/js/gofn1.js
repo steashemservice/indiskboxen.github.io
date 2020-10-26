@@ -21,6 +21,7 @@
     $("#paydiv").show();
     $("#contact-form").hide();
     var subflow = function(event){
+      alert('hello');
       $("#paydiv").hide();
       $("#contact-form").show();
     }
