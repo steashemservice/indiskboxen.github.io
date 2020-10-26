@@ -18,25 +18,25 @@
       $("#subscription").prop("checked", true);
     }
     if (urlParams.has('pt')) {
-      $("input[name='Ennai Kathirikai Kuzhambu']").val(urlParams.get('pt'));
+      $("input[name='Paneer Tikka Masala']").val(urlParams.get('pt'));
     }
     if (urlParams.has('pp')) {
-      $("input[name='Ennai Kathirikai Kuzhambu']").val(urlParams.get('pp'));
+      $("input[name='Palak Paneer']").val(urlParams.get('pp'));
     }
     if (urlParams.has('pd')) {
-      $("input[name='Ennai Kathirikai Kuzhambu']").val(urlParams.get('pd'));
+      $("input[name='Palak Dal']").val(urlParams.get('pd'));
     }
     if (urlParams.has('vk')) {
-      $("input[name='Ennai Kathirikai Kuzhambu']").val(urlParams.get('vk'));
+      $("input[name='Vegetable Korma']").val(urlParams.get('vk'));
     }
     if (urlParams.has('kk')) {
       $("input[name='Ennai Kathirikai Kuzhambu']").val(urlParams.get('kk'));
     }
     if (urlParams.has('bc')) {
-      $("input[name='Ennai Kathirikai Kuzhambu']").val(urlParams.get('bc'));
+      $("input[name='Butter Chicken']").val(urlParams.get('bc'));
     }
     if (urlParams.has('pc')) {
-      $("input[name='Ennai Kathirikai Kuzhambu']").val(urlParams.get('pc'));
+      $("input[name='Palak Chicken']").val(urlParams.get('pc'));
     }
     var slink = swishgen(amount,mobil,addr);
     $('#swish-uri').text(slink);
