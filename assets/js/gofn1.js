@@ -23,9 +23,8 @@
     var subflow = function(event){
       event.preventDefault();
       $(event.target).hide();
-      $("#paydiv").hide();
-      $(".sblock").hide();
-      $("#contact-form").show();
+      $("#paydiv,.sblock").hide();
+      $("#contact-form,.cblock").show();
     }
     $("#schoice").on("click", subflow);
   }
