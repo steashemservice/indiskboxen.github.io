@@ -323,7 +323,7 @@ function swishgen(total,order,addr) {
     for(var i=0;i<plist.length;i++) plists[i]=getRange(plist[i]);
     for (var i = 0; i < colls.length; i++) {
       $(colls[i]).on("change paste keyup", function() {
-        var content = $(this).parent().siblings('.cblock');
+        var content = $(this).parent().parent().siblings('.cblock');
         var pcode = $(this).val();
         var pmsg = $(this).siblings('label.collapsible');
         if(pcode.length == 5 && checkPcode(Number(pcode),plists)) {
