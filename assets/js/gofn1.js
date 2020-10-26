@@ -21,11 +21,11 @@
     $("#paydiv").show();
     $("#contact-form").hide();
     var subflow = function(event){
-      alert('hello');
       $("#paydiv").hide();
+      $(".sblock").hide();
       $("#contact-form").show();
     }
-    $("#schoice").on("click", subflow);
+    $("#schoice").on("click", subflow).hide();
   }
   document.addEventListener("DOMContentLoaded", pickclick, false);
 })(jQuery);
