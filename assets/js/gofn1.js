@@ -2,20 +2,26 @@
   $(function() {
     const sPageURL = window.location.search;
     const urlParams = new URLSearchParams(sPageURL);
-    var subs = 'off';
-    if (urlParams.has('email')) {
-      var addr = urlParams.get('email');
+    if (urlParams.has('n')) {
+      var name = urlParams.get('n');
+      $("input[name='firstname']").val(name);
+    }
+    if (urlParams.has('e')) {
+      var addr = urlParams.get('e');
       $("input[name='email']").val(addr);
     }
-    if (urlParams.has('mobil')) {
-      var mobil = urlParams.get('mobil');
+    if (urlParams.has('p')) {
+      var mobil = urlParams.get('p');
       $("input[name='phone']").val(mobil);
     }
-    if (urlParams.has('amount')) {
-      var amount = urlParams.get('amount');
+    if (urlParams.has('t')) {
+      var amount = urlParams.get('t');
     }
     if (urlParams.has('s')) {
       $("#subscription").prop("checked", true);
+    }
+    if (urlParams.has('ch')) {
+      $("#Chappati").prop("checked", true);
     }
     if (urlParams.has('pt')) {
       $("input[name='Paneer Tikka Masala']").val(urlParams.get('pt'));
@@ -38,6 +44,11 @@
     if (urlParams.has('pc')) {
       $("input[name='Palak Chicken']").val(urlParams.get('pc'));
     }
+    $("#terms").prop("checked", true);
+    $("input[name='lastname']").required = False;
+    $("input[name='address']").required = False;
+    $("input[name='city']").required = False;
+    $("input[name='postcode']").required = False;
     var slink = swishgen(amount,mobil,addr);
     $('#swish-uri').text(slink);
     $('.email').text(addr);
