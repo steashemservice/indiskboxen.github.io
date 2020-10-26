@@ -19,4 +19,12 @@
     $('.mobil').text(mobil);
     $('.ordertotal').text(amount);
   });
+  function pickclick() {
+    var subflow = function(event){
+      $("#paydiv").hide();
+      $("#contact-form").show();
+    }
+    $("#schoice").on("click", subflow);
+  }
+  document.addEventListener("DOMContentLoaded", pickclick, false);
 })(jQuery);
