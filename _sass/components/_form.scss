@@ -5,8 +5,8 @@
 ///
 
 /* Form */
+        form,#paydiv {margin: 0 0 _size(element-margin) 0;}
         form {
-		margin: 0 0 _size(element-margin) 0;
 		input[type="number"]::-webkit-inner-spin-button, 
 		input[type="number"]::-webkit-outer-spin-button { 
   			-webkit-appearance: none; 
