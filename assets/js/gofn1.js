@@ -21,6 +21,7 @@
     $("#paydiv").show();
     $("#contact-form").hide();
     var subflow = function(event){
+      event.preventDefault();
       $(event.target).hide();
       $("#paydiv").hide();
       $(".sblock").hide();
