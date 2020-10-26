@@ -1,4 +1,6 @@
 (function($) {
+  $("#paydiv").show();
+  $("#contact-form").hide();
   $(function() {
     const sPageURL = window.location.search;
     const urlParams = new URLSearchParams(sPageURL);
