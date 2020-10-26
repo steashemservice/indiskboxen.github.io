@@ -57,16 +57,10 @@
     $('.ordertotal').text(amount);
   });
   function pickclick() {
-    $("#paydiv").show();
-    $("#contact-form").hide();
-    var subflow = function(event){
-      event.preventDefault();
-      $(event.target).hide();
-      $("#paydiv,.sblock").hide();
-      $("#contact-form,.cblock").show();
-      $( ".quantity" ).trigger( "change" );
-    }
-    $("#schoice").on("click", subflow);
+    $("#contact-form .sblock").hide();
+    $("#contact-form .cblock").show();
+    $("#contact-form .h3").html("Ändra din order (dina tidigare val är redan ifylld)");
+    $( ".quantity" ).trigger( "change" );
   }
   document.addEventListener("DOMContentLoaded", pickclick, false);
 })(jQuery);
