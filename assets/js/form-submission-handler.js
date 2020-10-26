@@ -177,14 +177,14 @@ function swishgen(total,order,addr) {
       var total = 69*sum;
     } else {
       min = 5;
-      $("#subscription").val('off');
+      $("#subscription").val('');
       var total = 79*sum;
     }
     if ($("#Chappati").prop('checked')) {
       $("#Chappati").val('on');
       total += 89;
     } else {
-      $("#Chappati").val('off');
+      $("#Chappati").val('');
     }
     $("#total").val(total);
     $('.ordertotal').text(total);
