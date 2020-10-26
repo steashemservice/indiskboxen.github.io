@@ -15,8 +15,8 @@ order: 999
 			<header class="major">
 				<h1>{{ page.title }}</h1>
 			</header>
+			{% include order.html %}
 			<a href="csub" class="button"> välja andra rätter eller leveransdatum </a>
-			{% include order.html %}  
 		</div>
 	</section>
 </div>
