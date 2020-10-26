@@ -1,6 +1,6 @@
 ---
 layout: swish
-title: Betala för din beställning
+title: Din order för nästa månad
 description: 
 image: 
 nav-menu: false
@@ -16,7 +16,6 @@ order: 999
 				<h1>{{ page.title }}</h1>
 			</header>
 			{% include order.html %}
-			<a href="#" id="schoice" class="button"> välja andra rätter eller leveransdatum </a>
 		</div>
 	</section>
 </div>
