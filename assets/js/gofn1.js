@@ -45,10 +45,10 @@
       $("input[name='Palak Chicken']").val(urlParams.get('pc'));
     }
     $("#terms").prop("checked", true);
-    $("input[name='lastname']").required = false;
-    $("input[name='address']").required = false;
-    $("input[name='city']").required = false;
-    $("input[name='postcode']").required = false;
+    $("input[name='lastname']").prop("disabled", true);
+    $("input[name='address']").prop("disabled", true);
+    $("input[name='city']").prop("disabled", true);
+    $("input[name='postcode']").prop("disabled", true);
     var slink = swishgen(amount,mobil,addr);
     $('#swish-uri').text(slink);
     $('.email').text(addr);
