@@ -59,7 +59,7 @@
   function pickclick() {
     $("#contact-form .sblock").hide();
     $("#contact-form .cblock").show();
-    $("#contact-form .h3").html("Ändra din order (dina tidigare val är redan ifylld)");
+    $("#contact-form .cblock h3").html("Ändra din order (dina tidigare val är redan ifylld)");
     $( ".quantity" ).trigger( "change" );
   }
   document.addEventListener("DOMContentLoaded", pickclick, false);
