@@ -17,7 +17,8 @@
     $('.mobil').text(mobil);
     $('.ordertotal').text(amount);
   });
-  function pickclick() {
+  function pickclick(event) {
+    event.target.hide();
     $("#paydiv").show();
     $("#contact-form").hide();
     var subflow = function(event){
@@ -25,7 +26,7 @@
       $(".sblock").hide();
       $("#contact-form").show();
     }
-    $("#schoice").on("click", subflow).hide();
+    $("#schoice").on("click", subflow);
   }
   document.addEventListener("DOMContentLoaded", pickclick, false);
 })(jQuery);
