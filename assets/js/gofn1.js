@@ -18,7 +18,7 @@
     $('.ordertotal').text(amount);
   });
   function pickclick(event) {
-    event.target.hide();
+    $(event.target).hide();
     $("#paydiv").show();
     $("#contact-form").hide();
     var subflow = function(event){
