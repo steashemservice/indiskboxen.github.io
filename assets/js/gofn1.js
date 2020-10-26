@@ -17,11 +17,11 @@
     $('.mobil').text(mobil);
     $('.ordertotal').text(amount);
   });
-  function pickclick(event) {
-    $(event.target).hide();
+  function pickclick() {
     $("#paydiv").show();
     $("#contact-form").hide();
     var subflow = function(event){
+      $(event.target).hide();
       $("#paydiv").hide();
       $(".sblock").hide();
       $("#contact-form").show();
