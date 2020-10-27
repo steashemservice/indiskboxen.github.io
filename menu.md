@@ -13,15 +13,15 @@ order: 999
 	<section class="major">
 		<div class="inner">
 			<div class="menulist">
-				<!--<div class="menuitem">
-				<h3>Paneer Tikka Masala</h3>
-			   	<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
-			  	<p>smörstekt indisk färskost i krämig tikka masala sås</p>
-			  	<p>butter fried paneer in creamy tikka masala sauce</p>
-			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
-				</div>
-			  	-->
 				<div class="menuitem">
+				<h3>Paneer Tikka Masala, Street Style</h3>
+			   	<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
+			  	<p>indisk färskost i krämig tikka masala sås</p>
+			  	<p>butter fried paneer in creamy tikka masala sauce</p>
+				<p><b>Ingredienser</b> Basmatiris 35%, Indisk Färskost 20%, Sås 45% (Tomat, Lök, Grädde, Mandelmjöl, Smör, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
+			        <p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, spår av Senapsfrö</p>	
+			  	</div>
+			  	<div class="menuitem">
 				<h3>Palak Paneer</h3>
 				<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
 				<p>smakrik indisk färskost i krämig spenatsås kryddad med garam masala, vitlök, ingefära och tomat</p>
