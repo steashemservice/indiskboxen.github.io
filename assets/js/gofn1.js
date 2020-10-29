@@ -6,9 +6,37 @@
       var name = urlParams.get('n');
       $("input[name='firstname']").val(name);
     }
+    if (urlParams.has('l')) {
+      var lname = urlParams.get('l');
+      $("input[name='lastname']").val(lname);
+    }
+    if (urlParams.has('a')) {
+      var addr = urlParams.get('a');
+      $("input[name='address']").val(addr);
+    }
+    if (urlParams.has('i')) {
+      var pcode = urlParams.get('i');
+      $("input[name='postcode']").val(pcode);    
+    }
+    if (urlParams.has('c')) {
+      var city = urlParams.get('c');
+      $("input[name='city']").val(city);
+    }
+    if (urlParams.has('d')) {
+      var code = urlParams.get('d');
+      $("input[name='doorcode']").val(code);
+    }
+    if (urlParams.has('o')) {
+      var co = urlParams.get('o');
+      $("input[name='co']").val(co);
+    }
+    if (urlParams.has('f')) {
+      var floor = urlParams.get('f');
+      $("input[name='floor']").val(floor);
+    }
     if (urlParams.has('e')) {
-      var addr = urlParams.get('e');
-      $("input[name='email']").val(addr);
+      var eaddr = urlParams.get('e');
+      $("input[name='email']").val(eaddr);
     }
     if (urlParams.has('p')) {
       var mobil = urlParams.get('p');
@@ -46,10 +74,6 @@
       $("input[name='Palak Chicken']").val(urlParams.get('pc'));
     }
     $("#terms").prop("checked", true);
-    $("input[name='lastname']").prop("disabled", true);
-    $("input[name='address']").prop("disabled", true);
-    $("input[name='city']").prop("disabled", true);
-    $("input[name='postcode']").prop("disabled", true);
     var slink = swishgen(amount,mobil,addr);
     $('#swish-uri').text(slink);
     $('.email').text(addr);
