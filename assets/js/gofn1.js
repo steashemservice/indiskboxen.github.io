@@ -74,9 +74,9 @@
       $("input[name='Palak Chicken']").val(urlParams.get('pc'));
     }
     $("#terms").prop("checked", true);
-    var slink = swishgen(amount,mobil,addr);
+    var slink = swishgen(amount,mobil,eaddr);
     $('#swish-uri').text(slink);
-    $('.email').text(addr);
+    $('.email').text(eaddr);
     $('.orderid').text(mobil);
     $('.ordertotal').text(amount);
   });
