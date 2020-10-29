@@ -76,7 +76,6 @@
     $("#terms").prop("checked", true);
     var slink = swishgen(amount,mobil,eaddr);
     $('#swish-uri').text(slink);
-    $('.email').text(eaddr);
     $('.orderid').text(mobil);
     $('.ordertotal').text(amount);
   });
