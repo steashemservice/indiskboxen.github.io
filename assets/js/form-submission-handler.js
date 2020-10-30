@@ -315,7 +315,7 @@ function swishgen(total,order,addr) {
   function addcollapse() {
     // bind to the submit event of our form
     var colls = $("#postcode");
-    var plist= ['10001-11999', '16000-17799', '19100-19299', '19400-19499'];
+    var plist= ['10001-11999', '16000-17799', '18200-18399', '19100-19299', '19400-19499'];
     var plists=[];
     for(var i=0;i<plist.length;i++) plists[i]=getRange(plist[i]);
     for (var i = 0; i < colls.length; i++) {
