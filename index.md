@@ -94,8 +94,19 @@ lang: se
 	</div>
 </section>
 <div class="slideshow-container">
-	<!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
+	<div class="slidetitletxt">Testimonials</div>
 	<div class="mySlides slidefade">
+  		<div class="slidetxt">
+			<h2>Karolina D</h2>
+			<p>Jättegod och vällagad mat. Perfekt storlek på måltiden. Enkel att värma i micron eller ugnen. Tack för ni lagar god mat som förenklar vardagen!</p>
+		</div>
+		<div class="slidetxt">
+			<h2>Eva T</h2>
+			<p>Jättegod mat! Ser fram emot mer mat och bröd. Lycka till med ert arbete!</p>
+		</div>
+	</div>
+	<!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
+	<!--<div class="mySlides slidefade">
   		<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
   		<div class="slidetxt">Palak Paneer</div>
 	</div>
@@ -106,6 +117,6 @@ lang: se
 	<div class="mySlides slidefade">
   		<img class="slideimg" src="/assets/food/palakchicken.jpg" style="width:100%">
   		<div class="slidetxt">Palak Chicken</div>
-	</div>
+	</div>-->
 </div>
 </div>
