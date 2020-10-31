@@ -94,7 +94,6 @@ lang: se
 	</div>
 </section>
 <div class="slideshow-container">
-	<div class="slidetitletxt"><h2>Testimonials</h2></div>
 	<div class="mySlides slidefade">
   		<div class="slidetxt">
 			<h2>Karolina D</h2>
