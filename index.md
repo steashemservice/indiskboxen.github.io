@@ -100,6 +100,8 @@ lang: se
 			<h2>Karolina D</h2>
 			<p>Jättegod och vällagad mat. Perfekt storlek på måltiden. Enkel att värma i micron eller ugnen. Tack för ni lagar god mat som förenklar vardagen!</p>
 		</div>
+	</div>
+	<div class="mySlides slidefade">
 		<div class="slidetxt">
 			<h2>Eva T</h2>
 			<p>Jättegod mat! Ser fram emot mer mat och bröd. Lycka till med ert arbete!</p>
