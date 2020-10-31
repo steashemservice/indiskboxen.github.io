@@ -121,23 +121,19 @@ a.swish-link {
   backdrop-filter: grayscale(0.5) opacity(0.3);
   position: relative;
   margin: auto;
-  padding-bottom: 30%;
+  padding-bottom: 40%;
   height: 0;
 } 
 .slideimg {vertical-align: middle;}
-.slidetitletxt {
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  text-align: center;
-}
 .slidetxt {
   padding: 8px 12px;
   position: absolute;
-  bottom: 50%;
+  top: 30%;
   width: 100%;
   text-align: center;
-  p {font-size: 2em;}
+  p {font-size: 1.5em;
+     max-width: 800px;
+     margin: auto;}
 }
 .slidetitle {
     z-index: 9999;
