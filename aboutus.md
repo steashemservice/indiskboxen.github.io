@@ -2,7 +2,7 @@
 layout: page
 title: About Us
 description: 
-image: assets/images/aboutus.jpg
+image: 
 nav-menu: true
 published: true
 permalink: aboutus
