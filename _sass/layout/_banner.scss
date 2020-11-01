@@ -5,7 +5,7 @@
 ///
 
 /* Banner */
-	#banner,#spicebanner,#climatebanner,#pagebanner {
+	#banner,#spicebanner,#climatebanner {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 		//@include padding(4em, 0, (2em, 0, 0, 0));
