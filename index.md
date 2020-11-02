@@ -103,7 +103,7 @@ lang: se
 	<div class="mySlides slidefade">
 		<div class="slidetxt">
 			<h2>Eva T</h2>
-			<p>Jättegod mat! Ser fram emot mer mat och bröd. Lycka till med ert arbete!</p>
+			<p>Jag rekommenderar verkligen Indiska Boxen. God och smakrik indisk mat som frysts efter tillagningen i lagom stora portionsformar. Chapatibrödet är utmärkt tillbehör. Så lätt att värma mat och bröd. Perfekt med hemleverans i dessa tider.</p>
 		</div>
 	</div>
 	<!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
