@@ -43,7 +43,7 @@ lang: se
 		<header class="major">
       			<h2>Full av smakar och nyttigheter</h2>
 		  	<p>Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Kryddor och aromater är hjärtat i indisk matlagning. Indier har också använt örter och kryddor som medicin. Frysning är ett naturligt sätt att bevara mat, därför behövs inga konserveringsmedel. Maten får en naturlig lång hållbarhet och behåller samtidigt smak, arom, näringsvärde och konsistens.<br/>
-    		        Indiska boxen är smakrikt och klimatsmart <a href="#contact">beställ indiska boxen idag</a>!</p>
+    		        Indiska boxen är smakrikt och klimatsmart <a href="#order">beställ indiska boxen idag</a>!</p>
                 </header>
         </div>
 </section>
