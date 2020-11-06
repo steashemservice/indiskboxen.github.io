@@ -130,10 +130,11 @@ a.swish-link {
   top: 50px;
   padding: 8px 12px;
   width: 100%;
-  text-align: left;
+  text-align: center;
   p {font-size: 1.5em;
      max-width: 800px;
-     margin: auto;}
+     margin: auto;
+     text-align: left;}
 }
 .slidetitle {
     z-index: 9999;
