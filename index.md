@@ -31,7 +31,7 @@ lang: se
         <div class="mySlides slidefade">
   		<div class="slidetxt">
 			<h2>{{ site.total }} boxes delivered</h2>
-			<p><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></p>
+			<a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a>
 		</div>
 	</div>
 	<div class="mySlides slidefade">
