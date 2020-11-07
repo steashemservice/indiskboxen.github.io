@@ -29,7 +29,7 @@ lang: se
 
 <div class="slideshow-container">
         <div class="mySlides slidefade">
-  		<div class="slidetxt">
+  		<div class="slidetxt notice">
 			<h2>{{ site.total }} boxes delivered</h2>
 			<a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a>
 		</div>
