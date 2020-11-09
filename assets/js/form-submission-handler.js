@@ -357,7 +357,7 @@ function swishgen(total,order,addr) {
     var time = "";
     for(var i=0; i < 4; i++){
       var day = date.getDate();
-      if((day>7 && day<=14) || (day>21 && day<=28)) {
+      if((day<=7) || (day>14 && day<=21)) {
         date.setDate(day+7);
       }
       time = date.toDateString()+' KL 17-21';
