@@ -356,10 +356,9 @@ function swishgen(total,order,addr) {
     }
     var time = "";
     for(var i=0; i < 4; i++){
-      var day = date.getDay();
-      alert(day);
+      var day = date.getDate();
       if((day>7 && day<=14) || (day>21 && day<=28)) {
-        date.setDate(date.getDate()+7);
+        date.setDate(day+7);
       }
       time = date.toDateString()+' KL 17-21';
       $('#delivery').append($('<option>', {value: time,text: time}));
