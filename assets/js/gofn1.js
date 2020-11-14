@@ -53,25 +53,46 @@
       $("#Chappati").prop("checked", true);
     }
     if (urlParams.has('pt')) {
-      $("input[name='Paneer Tikka Masala']").val(urlParams.get('pt'));
+      $("input[name='Paneer Tikka Masala Matlåda']").val(urlParams.get('pt'));
     }
     if (urlParams.has('pp')) {
-      $("input[name='Palak Paneer']").val(urlParams.get('pp'));
+      $("input[name='Palak Paneer Matlåda']").val(urlParams.get('pp'));
     }
     if (urlParams.has('pd')) {
-      $("input[name='Palak Dal']").val(urlParams.get('pd'));
+      $("input[name='Palak Dal Matlåda']").val(urlParams.get('pd'));
     }
     if (urlParams.has('vk')) {
-      $("input[name='Vegetable Korma']").val(urlParams.get('vk'));
+      $("input[name='Vegetable Korma Matlåda']").val(urlParams.get('vk'));
     }
     if (urlParams.has('kk')) {
-      $("input[name='Ennai Kathirikai Kuzhambu']").val(urlParams.get('kk'));
+      $("input[name='Ennai Kathirikai Kuzhambu Matlåda']").val(urlParams.get('kk'));
     }
     if (urlParams.has('bc')) {
-      $("input[name='Butter Chicken']").val(urlParams.get('bc'));
+      $("input[name='Butter Chicken Matlåda']").val(urlParams.get('bc'));
     }
     if (urlParams.has('pc')) {
-      $("input[name='Palak Chicken']").val(urlParams.get('pc'));
+      $("input[name='Palak Chicken Matlåda']").val(urlParams.get('pc'));
+    }
+    if (urlParams.has('ptc')) {
+      $("input[name='Paneer Tikka Masala Matlåda']").val(urlParams.get('ptc'));
+    }
+    if (urlParams.has('ppc')) {
+      $("input[name='Palak Paneer Currylåda']").val(urlParams.get('ppc'));
+    }
+    if (urlParams.has('pdc')) {
+      $("input[name='Palak Dal Currylåda']").val(urlParams.get('pdc'));
+    }
+    if (urlParams.has('vkc')) {
+      $("input[name='Vegetable Korma Currylåda']").val(urlParams.get('vkc'));
+    }
+    if (urlParams.has('kkc')) {
+      $("input[name='Ennai Kathirikai Kuzhambu Currylåda']").val(urlParams.get('kkc'));
+    }
+    if (urlParams.has('bcc')) {
+      $("input[name='Butter Chicken Currylåda']").val(urlParams.get('bcc'));
+    }
+    if (urlParams.has('pcc')) {
+      $("input[name='Palak Chicken Currylåda']").val(urlParams.get('pcc'));
     }
     $("#terms").prop("checked", true);
     var slink = swishgen(amount,mobil,eaddr);
