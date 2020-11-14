@@ -86,6 +86,8 @@ function swishgen(total,order,addr) {
       } else if (elements[k].name === "_next") {
         trap = elements[k].value;
         return false;
+      } else if (elements[k].name === "postcode_ro") {
+        return false;
       } else if (elements[k].value === "0") {
         return false;
       }
