@@ -166,11 +166,15 @@ function swishgen(total,order,addr) {
   }
   function foverflow() {
     var sum = 0;
+    var curry = 0;
     var stext = '';
-    $(".quantity").each(function(){
+    $(".quantity").not(".special").each(function(){
         sum += +$(this).val();
     });
-    $("#productsel").val(sum);
+    $(".special").each(function(){
+        curry += +$(this).val();
+    });
+    $("#productsel").val(sum+curry);
     var min = 0;
     if ($("#subscription").prop('checked')) {
       min = 10;
@@ -182,6 +186,7 @@ function swishgen(total,order,addr) {
       $("#subscription").val('');
       var total = 79*sum;
     }
+    total += 99*curry;
     if ($("#Chappati").prop('checked')) {
       $("#Chappati").val('on');
       total += 89;
