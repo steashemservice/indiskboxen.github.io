@@ -174,7 +174,8 @@ function swishgen(total,order,addr) {
     $(".special").each(function(){
         curry += +$(this).val();
     });
-    $("#productsel").val(sum+curry);
+    var box = sum+curry;
+    $("#productsel").val(box);
     var min = 0;
     if ($("#subscription").prop('checked')) {
       min = 10;
@@ -195,8 +196,8 @@ function swishgen(total,order,addr) {
     }
     $("#total").val(total);
     $('.ordertotal').text(total);
-    if (sum < min) {
-      $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+sum+' av '+min+' matlådor valda. Beställ minst '+min+' matlådor'+stext+'.').show();
+    if (box < min) {
+      $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+box+' av '+min+' lådor valda. Beställ minst '+min+' lådor'+stext+'.').show();
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
