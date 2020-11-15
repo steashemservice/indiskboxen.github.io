@@ -14,7 +14,7 @@ order: 9
     <header class="major">
       <h2>Vision</h2>
     </header>
-    <p>We started Indiska Boxen to bring climate-smart Indian food to swedish homes and at same time convey how nutritious and tasty it can be to eat climate-smart. Indian food is nutritious, flavourful, healthy, but also good for the climate. We select our dishes carefully, all our dishes are made in eco-friendly one-pot and wholesome food. Our food comes in recyclable eco-friendly bambu boxes.</p>
+    <p>To bring climart-smart, nutritous and tasty ready to eat frozen Indian meals to Swedish homes.</p>
     <header class="major">
       <h2>Mission</h2>
     </header>
@@ -29,6 +29,7 @@ order: 9
     <li><img src="/assets/images/person2.jpeg" style="height: 200px;"></li>
     <li>Sujatha who loves healthy eating and sustainability</li>
   </ul>
+	  <p>We started Indiska Boxen to bring climate-smart Indian food to swedish homes and at same time convey how nutritious and tasty it can be to eat climate-smart. Indian food is nutritious, flavourful, healthy, but also good for the climate. We select our dishes carefully, all our dishes are made in eco-friendly one-pot and wholesome food. Our food comes in recyclable eco-friendly bambu boxes.</p>
   
 	</div>
 </section>
