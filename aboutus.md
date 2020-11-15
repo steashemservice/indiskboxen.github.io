@@ -14,7 +14,7 @@ order: 9
     <header class="major">
       <h2>Vision</h2>
     </header>
-    <p>To bring climart-smart, nutritous and tasty ready to eat frozen Indian meals to Swedish homes.</p>
+    <p>To bring climart-smart, nutritious and tasty frozen Indian meals ready to eat to Swedish homes.</p>
     <header class="major">
       <h2>Mission</h2>
     </header>
