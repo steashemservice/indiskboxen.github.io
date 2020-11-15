@@ -34,7 +34,19 @@ lang: se
 			<a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a>
 		</div>
 	</div>
-	<div class="mySlides slidefade">
+        <div class="mySlides slidefade">
+  		<div class="slidetxt">
+			<h2>Moa A</h2>
+			<p> Jag ger den 5/5!✨ Vi beställde för två veckor sedan på prov - prisvärt och gott! Smidigt att beställa och betala med swish på hemsidan, bra uppdatering via sms innan leverans. Enda anledningen till att vi inte beställt igen är att vi håller på att äta ut frysen för att få plats med fler ♥️</p>
+		</div>
+	</div>
+        <div class="mySlides slidefade">
+		<div class="slidetxt">
+			<h2>Jasmin B</h2>
+			<p>Mycket fräschare och varierade smaker än standardmenyer hos indiska krogar i stan! Smakar hemlagat!</p>
+		</div>
+	</div>
+        <div class="mySlides slidefade">
   		<div class="slidetxt">
 			<h2>Karolina D</h2>
 			<p>Jättegod och vällagad mat. Perfekt storlek på måltiden. Enkel att värma i micron eller ugnen. Tack för ni lagar god mat som förenklar vardagen!</p>
@@ -46,13 +58,7 @@ lang: se
 			<p>Jag rekommenderar verkligen Indiska Boxen. God och smakrik indisk mat som frysts efter tillagningen i lagom stora portionsformar. Chapatibrödet är utmärkt tillbehör. Så lätt att värma mat och bröd. Perfekt med hemleverans i dessa tider.</p>
 		</div>
 	</div>
-	<div class="mySlides slidefade">
-		<div class="slidetxt">
-			<h2>Jasmin B</h2>
-			<p>Mycket fräschare och varierade smaker än standardmenyer hos indiska krogar i stan! Smakar hemlagat!</p>
-		</div>
-	</div>
-	<!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
+        <!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
 	<!--<div class="mySlides slidefade">
   		<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
   		<div class="slidetxt">Palak Paneer</div>
