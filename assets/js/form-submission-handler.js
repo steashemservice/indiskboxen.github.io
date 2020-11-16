@@ -187,7 +187,7 @@ function swishgen(total,order,addr) {
       $("#subscription").val('');
       var total = 79*sum;
     }
-    total += 99*curry;
+    total += 119*curry;
     if ($("#Chappati").prop('checked')) {
       $("#Chappati").val('on');
       total += 89;
