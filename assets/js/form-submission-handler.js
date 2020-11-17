@@ -358,7 +358,7 @@ function swishgen(total,order,addr) {
 (function($) {
   function get_delivery_date() {
     var date = new Date();
-    date.setDate(date.getDate()+4);
+    date.setDate(date.getDate()+6);
     while(date.getDay() !== 0) {
       date.setDate(date.getDate()+1);
     }
