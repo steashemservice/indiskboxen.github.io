@@ -36,8 +36,9 @@ lang: se
 	</div>
         <div class="mySlides slidefade">
   		<div class="slidetxt">
-			<h2>Moa A</h2>
-			<p> Jag ger den 5/5!✨ Vi beställde för två veckor sedan på prov - prisvärt och gott! Smidigt att beställa och betala med swish på hemsidan, bra uppdatering via sms innan leverans. Enda anledningen till att vi inte beställt igen är att vi håller på att äta ut frysen för att få plats med fler ♥️</p>
+			<!--<h2>Moa A</h2>
+			<p> Jag ger den 5/5!✨ Vi beställde för två veckor sedan på prov - prisvärt och gott! Smidigt att beställa och betala med swish på hemsidan, bra uppdatering via sms innan leverans. Enda anledningen till att vi inte beställt igen är att vi håller på att äta ut frysen för att få plats med fler ♥️</p>-->
+			<div class="fb-post" data-href="https://www.facebook.com/pingvinfabriken/posts/10157704264093148" data-show-text="false" data-width=""><blockquote cite="https://www.facebook.com/pingvinfabriken/posts/10157704264093148" class="fb-xfbml-parse-ignore"><p>Jag ger den 5/5!✨ Vi beställde för två veckor sedan på prov - prisvärt och gott! Smidigt att beställa och betala med...</p>Posted by <a href="#" role="button">Moa Andersson</a> on&nbsp;<a href="https://www.facebook.com/pingvinfabriken/posts/10157704264093148">Sunday, November 15, 2020</a></blockquote></div>
 		</div>
 	</div>
         <div class="mySlides slidefade">
