@@ -121,8 +121,8 @@ a.swish-link {
   background-color: #48936e;
   position: relative;
   margin: auto;
-  padding-bottom: 200px;
-  height: 0;
+  /*padding-bottom: 200px;
+  height: 0;*/
 } 
 .slideimg {vertical-align: middle;}
 .slidetxt {
@@ -157,12 +157,23 @@ a.swish-link {
   text-align: center;
   overflow: hidden;
   /*margin: auto;*/
+  padding-bottom: 200px;
+  height: 0;
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
+.fb_iframe_widget {
+    display: inline-block;
+    vertical-align: middle;
+}
+.slidefade:after {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    height: inherit;
+}
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
