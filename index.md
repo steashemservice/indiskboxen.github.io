@@ -28,12 +28,12 @@ lang: se
 <div id="main">
 
 <div class="slideshow-container">
-        <div class="mySlides slidefade">
+        <!--<div class="mySlides slidefade">
   		<div class="slidetxt notice">
-			<!--<h2>{{ site.total }} boxes delivered</h2>-->
+			<h2>{{ site.total }} boxes delivered</h2>
 			<a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a>
 		</div>
-	</div>
+	</div>-->
         <div class="mySlides slidefade">
   		<div class="slidetxt">
 			<!--<h2>Moa A</h2>
@@ -43,22 +43,26 @@ lang: se
 	</div>
         <div class="mySlides slidefade">
 		<div class="slidetxt">
-			<h2>Jasmin B</h2>
-			<p>Mycket fräschare och varierade smaker än standardmenyer hos indiska krogar i stan! Smakar hemlagat!</p>
+			<div class="fb-post" data-href="https://www.facebook.com/jasmin.blossom/posts/10158689723107165" data-show-text="false" data-width=""><blockquote cite="https://www.facebook.com/jasmin.blossom/posts/10158689723107165" class="fb-xfbml-parse-ignore"><p>Mycket fräschare och varierade smaker än standardmenyer hos indiska krogar i stan! Smakar hemlagat!</p>Posted by <a href="#" role="button">Jasmin Blossom</a> on&nbsp;<a href="https://www.facebook.com/jasmin.blossom/posts/10158689723107165">Tuesday, November 10, 2020</a></blockquote></div>
 		</div>
 	</div>
         <div class="mySlides slidefade">
-  		<div class="slidetxt">
-			<h2>Karolina D</h2>
-			<p>Jättegod och vällagad mat. Perfekt storlek på måltiden. Enkel att värma i micron eller ugnen. Tack för ni lagar god mat som förenklar vardagen!</p>
+		<div class="slidetxt">
+			<div class="fb-post" data-href="https://www.facebook.com/eva.tsakalou/posts/3425663714181486" data-show-text="false" data-width=""><blockquote cite="https://www.facebook.com/eva.tsakalou/posts/3425663714181486" class="fb-xfbml-parse-ignore"><p>Jag rekommenderar verkligen Indiska Boxen.
+God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Posted by <a href="https://www.facebook.com/eva.tsakalou">Eva Tsakalou</a> on&nbsp;<a href="https://www.facebook.com/eva.tsakalou/posts/3425663714181486">Sunday, November 1, 2020</a></blockquote></div>
 		</div>
 	</div>
 	<div class="mySlides slidefade">
-		<div class="slidetxt">
-			<h2>Eva T</h2>
-			<p>Jag rekommenderar verkligen Indiska Boxen. God och smakrik indisk mat som frysts efter tillagningen i lagom stora portionsformar. Chapatibrödet är utmärkt tillbehör. Så lätt att värma mat och bröd. Perfekt med hemleverans i dessa tider.</p>
+  		<div class="slidetxt">
+			<div class="fb-post" data-href="https://www.facebook.com/myrra.ullis.osterlund/posts/10160315449444392" data-show-text="false" data-width=""><blockquote cite="https://www.facebook.com/myrra.ullis.osterlund/posts/10160315449444392" class="fb-xfbml-parse-ignore"><p>Fantastisk god mat! Jag har testat de vegetariska och veganska som smakar lagom starkt och hemlagat. Mycket nöjd! Väntar nu på en länk så jag kan beställa flera matlådor.</p>Posted by <a href="#" role="button">Myrra Ullis Österlund</a> on&nbsp;<a href="https://www.facebook.com/myrra.ullis.osterlund/posts/10160315449444392">Sunday, November 29, 2020</a></blockquote></div>
 		</div>
 	</div>
+	<div class="mySlides slidefade">
+  		<div class="slidetxt">
+			<div class="fb-post" data-href="https://www.facebook.com/karolina.nilsson.585/posts/10158009285536799" data-show-text="false" data-width=""><blockquote cite="https://www.facebook.com/karolina.nilsson.585/posts/10158009285536799" class="fb-xfbml-parse-ignore"><p>Jättegod och vällagad mat. Perfekt storlek på måltiden. Enkel att värma i micron eller ugnen. Tack för ni lagar god mat som förenklar vardagen!</p>Posted by <a href="#" role="button">Karolina Dejemyr</a> on&nbsp;<a href="https://www.facebook.com/karolina.nilsson.585/posts/10158009285536799">Tuesday, October 20, 2020</a></blockquote></div>
+		</div>
+	</div>
+	
         <!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
 	<!--<div class="mySlides slidefade">
   		<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
