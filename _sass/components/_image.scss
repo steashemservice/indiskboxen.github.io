@@ -121,8 +121,8 @@ a.swish-link {
   background-color: #48936e;
   position: relative;
   margin: auto;
-  padding-bottom: 500px;
-  height: 0;
+  /*padding-bottom: 500px;
+  height: 0;*/
 } 
 .slideimg {vertical-align: middle;}
 .slidetxt {
@@ -154,7 +154,8 @@ a.swish-link {
 /* Fading animation */
 .slidefade {
   max-width: 100%;
-  margin: auto;
+  text-align: center;
+  /*margin: auto;*/
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
