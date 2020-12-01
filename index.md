@@ -54,8 +54,10 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 	<div class="mySlides slidefade">
 		<div class="fb-post" data-href="https://www.facebook.com/karolina.nilsson.585/posts/10158009285536799" data-show-text="false" data-width="auto"><blockquote cite="https://www.facebook.com/karolina.nilsson.585/posts/10158009285536799" class="fb-xfbml-parse-ignore"><p>Jättegod och vällagad mat. Perfekt storlek på måltiden. Enkel att värma i micron eller ugnen. Tack för ni lagar god mat som förenklar vardagen!</p>Posted by <a href="#" role="button">Karolina Dejemyr</a> on&nbsp;<a href="https://www.facebook.com/karolina.nilsson.585/posts/10158009285536799">Tuesday, October 20, 2020</a></blockquote></div>
 	</div>
-	
-        <!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
+	<div class="mySlides slidefade">
+		<div class="fb-post" data-href="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886" data-show-text="false" data-width=""><blockquote cite="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886" class="fb-xfbml-parse-ignore"><p>Fantastiskt god indisk mat, perfekt för mig som jobbar hemifrån och saknat en god curry!</p>Posted by <a href="#" role="button">Adam Wallin Fd Axelsson</a> on&nbsp;<a href="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886">Tuesday, December 1, 2020</a></blockquote></div>
+	</div>
+	<!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
 	<!--<div class="mySlides slidefade">
   		<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
   		<div class="slidetxt">Palak Paneer</div>
