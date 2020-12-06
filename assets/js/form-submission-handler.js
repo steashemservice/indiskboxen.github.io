@@ -182,12 +182,13 @@ function swishgen(total,order,addr) {
       stext = ' med prenumeration';
       $("#subscription").val('on');
       var total = 69*sum;
+      total += 119*curry;
     } else {
       min = 5;
       $("#subscription").val('');
       var total = 79*sum;
+      total += 129*curry;
     }
-    total += 119*curry;
     if ($("#Chappati").prop('checked')) {
       $("#Chappati").val('on');
       total += 89;
