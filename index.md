@@ -34,6 +34,11 @@ lang: se
 			<a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a>
 		</div>
 	</div>-->
+	<div class="mySlides slidefade">
+		<div class="fb-post" data-href="https://www.facebook.com/emma.vonk/posts/10160362377011521" data-show-text="false" data-width="auto"><blockquote cite="https://www.facebook.com/emma.vonk/posts/10160362377011521" class="fb-xfbml-parse-ignore"><p>Grymt god mat och förträffligt bra service! 
+Trots att dom inte levererar till mitt område så gjorde dom det ändå pga personliga omständigheter, helt fantastiskt! 
+⭐️⭐️⭐️⭐️⭐️</p>Posted by <a href="#" role="button">Emma Lindh</a> on&nbsp;<a href="https://www.facebook.com/emma.vonk/posts/10160362377011521">Wednesday, December 2, 2020</a></blockquote></div>
+	</div>
         <div class="mySlides slidefade">
 		<div class="fb-post" data-href="https://www.facebook.com/pingvinfabriken/posts/10157704264093148" data-show-text="false" data-width="auto"><blockquote cite="https://www.facebook.com/pingvinfabriken/posts/10157704264093148" class="fb-xfbml-parse-ignore"><p>Jag ger den 5/5!✨ Vi beställde för två veckor sedan på prov - prisvärt och gott! Smidigt att beställa och betala med...</p>Posted by <a href="#" role="button">Moa Andersson</a> on&nbsp;<a href="https://www.facebook.com/pingvinfabriken/posts/10157704264093148">Sunday, November 15, 2020</a></blockquote></div>
   		<!--<div class="slidetxt">
@@ -55,7 +60,7 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 		<div class="fb-post" data-href="https://www.facebook.com/karolina.nilsson.585/posts/10158009285536799" data-show-text="false" data-width="auto"><blockquote cite="https://www.facebook.com/karolina.nilsson.585/posts/10158009285536799" class="fb-xfbml-parse-ignore"><p>Jättegod och vällagad mat. Perfekt storlek på måltiden. Enkel att värma i micron eller ugnen. Tack för ni lagar god mat som förenklar vardagen!</p>Posted by <a href="#" role="button">Karolina Dejemyr</a> on&nbsp;<a href="https://www.facebook.com/karolina.nilsson.585/posts/10158009285536799">Tuesday, October 20, 2020</a></blockquote></div>
 	</div>
 	<div class="mySlides slidefade">
-		<div class="fb-post" data-href="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886" data-show-text="false" data-width=""><blockquote cite="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886" class="fb-xfbml-parse-ignore"><p>Fantastiskt god indisk mat, perfekt för mig som jobbar hemifrån och saknat en god curry!</p>Posted by <a href="#" role="button">Adam Wallin Fd Axelsson</a> on&nbsp;<a href="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886">Tuesday, December 1, 2020</a></blockquote></div>
+		<div class="fb-post" data-href="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886" data-show-text="false" data-width="auto"><blockquote cite="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886" class="fb-xfbml-parse-ignore"><p>Fantastiskt god indisk mat, perfekt för mig som jobbar hemifrån och saknat en god curry!</p>Posted by <a href="#" role="button">Adam Wallin Fd Axelsson</a> on&nbsp;<a href="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886">Tuesday, December 1, 2020</a></blockquote></div>
 	</div>
 	<!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
 	<!--<div class="mySlides slidefade">
