@@ -371,7 +371,7 @@ function swishgen(total,order,addr) {
       } else if(day>28) {
         date.setDate(day+14);
       }
-      time = date.toDateString()+' KL 17-21';
+      time = date.toDateString()+' KL 12-21';
       $('#delivery').append($('<option>', {value: time,text: time}));
       date.setDate(date.getDate()+7);
     }
