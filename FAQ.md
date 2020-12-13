@@ -23,7 +23,11 @@ order: 1
 	<div class="inner">
     		<h2>Leveranser & Beställningar</h2>
 		<div class="accordion">
-			<h3>Hur prenumerationen fungerat?</h3>
+                        <h3>Hur och när levereras maten hem till mig?</h3>
+                        <div>
+                            <p>Leveranser sker mellan kl 12 och kl 21 på söndagar. På torsdag eftermiddag, efter ruttplanering, får du ett SMS med en uppskattad leveranstid på +/- 60 minuter.</p>
+                        </div>
+                        <h3>Hur prenumerationen fungerat?</h3>
 			<div>
       				<p>När du går med i prenumeration första gången, får du leverans det datum du väljer. För nästa leverans skickas ett SMS/Email med en länk för att göra din betalning och välja din nästa leveransdatum. SMS/Email skickas sista söndagen på månaden.</p>
   			</div>
