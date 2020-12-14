@@ -25,7 +25,7 @@ order: 1
 		<div class="accordion">
                         <h3>Hur och när levereras maten hem till mig?</h3>
                         <div>
-                            <p>Leveranser sker mellan kl 12 och kl 21 på söndagar. På torsdag eftermiddag, efter ruttplanering, får du ett SMS med en uppskattad leveranstid på +/- 60 minuter.</p>
+                            <p>Leveranser sker mellan kl 12 och kl 21 på söndagar. På torsdag eftermiddag, efter ruttplanering, får du ett SMS med en uppskattad leveranstid på +/- 40 minuter.</p>
                         </div>
                         <h3>Hur prenumerationen fungerat?</h3>
 			<div>
