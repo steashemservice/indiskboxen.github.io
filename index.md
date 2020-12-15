@@ -13,7 +13,7 @@ lang: se
         <div class="inner">
             <header class="major">
                 <h1>{{ site.landing-title }}</h1>
-		<p style="text-transform: uppercase;">{{ site.description }}</p>
+		<p style="text-transform: uppercase;">indisk mattradition direkt till din dörr</p>
             </header>
             <div class="content">
                 <ul class="actions">
