@@ -81,13 +81,13 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
   	<div class="inner">
 		<header class="major">
       			<h2>Ät Klimatsmart</h2>
+			<p>Indiska Boxen erbjuder portionspackat frysta matlådor som har låg klimatpåverkan och förlängd livslängd. Vi förhindrar matsvinn genom att frysa in nylagad mat. Vi tror på ett proaktivt tillvägagångssätt som fokuserar på att eliminera matsvinn innan de har en chans att dyka upp.</p>
 			<div class="video-container">
 			<div class="embed-container">
 			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-xUDTp8lTO4?start=3&end=64;rel=0&amp;modestbranding=1" frameborder='0' allowfullscreen></iframe>
 			</div></div>
 		        <!--<span class="image main"><img src="{{ site.baseurl }}/{{ page.imagec }}" alt="" /></span>-->
-			<p>Fryst mat bidrar till att minska matsvinn genom att plocka fram precis antal portioner som behövs och låta resten ligga kvar i frysen. Du sparar pengar och miljön.<br/>
-      			Varje box från Indiska boxen släpper ut mellan 0,3-0,6 CO2e, vilket han jämföras med en biffrätt som släpper ut 5 CO2e (<a href="https://www.wwf.se/mat-och-jordbruk/vad-ska-jag-ata/">Vad ska jag äta</a>). Vi har fler smakrika vegetarisk/vegan rätter att välja emellan.</p>
+			<p>Fryst mat bidrar till att minska matsvinn genom att plocka fram precis antal portioner som behövs och låta resten ligga kvar i frysen. Du sparar pengar och miljön. Varje box från Indiska boxen släpper ut mellan 0,3-0,6 CO2e, vilket han jämföras med en biffrätt som släpper ut 5 CO2e (<a href="https://www.wwf.se/mat-och-jordbruk/vad-ska-jag-ata/">Vad ska jag äta</a>). Vi har fler smakrika vegetarisk/vegan rätter att välja emellan.</p>
 			<a href="menu" class="button next"><i class="fa fa-fw fa-utensils"></i> se vår meny</a>
     		</header>
 		<header class="major">
