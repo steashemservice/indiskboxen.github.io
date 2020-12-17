@@ -16,7 +16,7 @@ order: 1
 		<div class="accordion">
 			<h3>Behöver jag tillaga maten?</h3>
 			<div>
-      				<p>Våra matlåda är redo att äta efter uppvärmning i mikrovågsugnen eller ugn. I vanlig ugn värmer du maten på låg temperatur i i sin förpackning ca 30-40 min. I micro tar det ca 8 min (800W) att värma maten direkt från frysen. Om du vill snabba på uppvärmningen kan du tina maten innan.</p>
+      				<p>Våra matlåda är redo att äta efter uppvärmning i mikrovågsugnen eller ugn. I vanlig ugn värmer du maten på låg temperatur (170°C) i sin förpackning ca 30-40 min. I micro tar det ca 8 min (800W) att värma maten direkt från frysen. Om du vill snabba på uppvärmningen kan du tina maten innan.</p>
   			</div>
                 </div>
 	</div>
