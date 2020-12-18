@@ -69,7 +69,6 @@ order: 999
 			  	<p>swedish chicken fillet in tasty curry cooked with onion, tomato, green chili, ginger and garam masala with coconut milk </p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
 				</div>
-				-->
 				<div class="menuitem">
 			  	<h3>Palak Chicken</h3>
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
@@ -77,7 +76,7 @@ order: 999
 			  	<p>yogurt marinated swedish chicken fillet in tasty spinach curry </p>
 			  	<p><b>Ingredienser</b> Basmatiris 35%, Svensk Kycklingfilé 30%, Sås 35% (Lök, Tomat, Spenat, Grädde, Mandelmjöl, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
-				</div>
+				</div>-->
 			</div>
     		</div>
 	</section>
