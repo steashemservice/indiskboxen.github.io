@@ -50,7 +50,7 @@
       $("#subscription").prop("checked", true);
     }
     if (urlParams.has('ch')) {
-      $("#Chappati").prop("checked", true);
+      $("input[name='Chappatilåda']").val(urlParams.get('ch'));
     }
     if (urlParams.has('pt')) {
       $("input[name='Paneer Tikka Masala Matlåda']").val(urlParams.get('pt'));
