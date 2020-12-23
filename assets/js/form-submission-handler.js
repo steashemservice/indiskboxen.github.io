@@ -179,7 +179,7 @@ function swishgen(total,order,addr) {
         chappati += +$(this).val();
     });
     var box = sum+curry;
-    $("#productsel").val(box);
+    $("#productsel").val(box+chappati);
     var min = 0;
     if ($("#subscription").prop('checked')) {
       min = 10;
