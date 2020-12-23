@@ -169,7 +169,7 @@ function swishgen(total,order,addr) {
     var curry = 0;
     var chappati = 0;
     var stext = '';
-    $(".quantity").not(".special").not(".chappati").each(function(){
+    $(".quantity").not(".special,.chappati").each(function(){
         sum += +$(this).val();
     });
     $(".special").each(function(){
