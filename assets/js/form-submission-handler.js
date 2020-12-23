@@ -167,12 +167,16 @@ function swishgen(total,order,addr) {
   function foverflow() {
     var sum = 0;
     var curry = 0;
+    var chappati = 0;
     var stext = '';
     $(".quantity").not(".special").each(function(){
         sum += +$(this).val();
     });
     $(".special").each(function(){
         curry += +$(this).val();
+    });
+    $(".chappati").each(function(){
+        chappati += +$(this).val();
     });
     var box = sum+curry;
     $("#productsel").val(box);
@@ -189,12 +193,13 @@ function swishgen(total,order,addr) {
       var total = 79*sum;
       total += 129*curry;
     }
-    if ($("#Chappati").prop('checked')) {
-      $("#Chappati").val('on');
-      total += 89;
-    } else {
-      $("#Chappati").val('');
-    }
+    //if ($("#Chappati").prop('checked')) {
+    //  $("#Chappati").val('on');
+    //  total += 89;
+    //} else {
+    //  $("#Chappati").val('');
+    //}
+    total += 89*chappati;
     $("#total").val(total);
     $('.ordertotal').text(total);
     if (box < min) {
@@ -208,7 +213,7 @@ function swishgen(total,order,addr) {
       return true;
     }
   }
-  $(".quantity,#subscription,#Chappati").change(function(e) {
+  $(".quantity,#subscription,.Chappati").change(function(e) {
     foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
