@@ -213,7 +213,7 @@ function swishgen(total,order,addr) {
       return true;
     }
   }
-  $(".quantity,#subscription,.Chappati").change(function(e) {
+  $(".quantity,#subscription").change(function(e) {
     foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
