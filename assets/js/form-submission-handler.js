@@ -371,7 +371,8 @@ function swishgen(total,order,addr) {
     var time = "";
     for(var i=0; i < 2; i++){
       var day = date.getDate();
-      if((day<=7) || (day>14 && day<=21)) {
+      //if((day<=7) || (day>14 && day<=21)) {
+      if(day>14 && day<=21) {
         date.setDate(day+7);
       } else if(day>28) {
         date.setDate(day+14);
