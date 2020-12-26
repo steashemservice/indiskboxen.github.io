@@ -1,7 +1,7 @@
 const container = document.querySelector(".instagram-widget");
 
 const widgetSettings = {
-  id: container.dataset.user,
+  id: container.dataset.username,
   color: container.dataset.color,
   showHeader: container.dataset.header,
   width: container.dataset.width,
