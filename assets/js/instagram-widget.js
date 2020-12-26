@@ -1,4 +1,4 @@
-const container = document.querySelector(".instagram__widget");
+const container = document.querySelector(".instagram-widget");
 
 const widgetSettings = {
   id: container.dataset.user,
