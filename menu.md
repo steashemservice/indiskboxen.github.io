@@ -56,9 +56,9 @@ order: 999
 				<div class="menuitem">
 				<h3>Butter Chicken</h3>
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
-			  	<p>svensk kycklingfilé i smakrik tomat och cashewsås</p>
-			  	<p>swedish chicken fillet in tasty tomato and cashew sauce</p>
-			  	<p><b>Ingredienser</b> Basmatiris 35%, Svensk Kycklingfilé 30%, Sås 35% (Tomat, Lök, Grädde, Mandelmjöl, Smör, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
+			  	<p>kycklingfilé i smakrik tomat och cashewsås</p>
+			  	<p>chicken fillet in tasty tomato and cashew sauce</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Kycklingfilé 30%, Sås 35% (Tomat, Lök, Grädde, Mandelmjöl, Smör, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
 				</div>
 				<!--
