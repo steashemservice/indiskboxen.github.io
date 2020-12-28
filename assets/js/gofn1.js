@@ -94,6 +94,18 @@
     if (urlParams.has('pcc')) {
       $("input[name='Palak Chicken Currylåda']").val(urlParams.get('pcc'));
     }
+    if (urlParams.has('cm')) {
+      $("input[name='Chana Masala Matlåda']").val(urlParams.get('cm'));
+    }
+    if (urlParams.has('cmc')) {
+      $("input[name='Chana Masala Currylåda']").val(urlParams.get('cmc'));
+    }
+    if (urlParams.has('sr')) {
+      $("input[name='Sambar Rice Matlåda']").val(urlParams.get('sr'));
+    }
+    if (urlParams.has('src')) {
+      $("input[name='Sambar Currylåda']").val(urlParams.get('src'));
+    }
     $("#terms").prop("checked", true);
     var slink = swishgen(amount,mobil,eaddr);
     $('#swish-uri').text(slink);
