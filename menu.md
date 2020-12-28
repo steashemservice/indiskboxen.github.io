@@ -14,20 +14,36 @@ order: 999
 		<div class="inner">
 			<div class="menulist">
 				<div class="menuitem">
-				<h3>Paneer Tikka Masala, Street Style</h3>
+				<h3>Chana Masala (vegan)</h3>
+			   	<span><i class="fas fa-fw fa-globe-americas"></i>TBD CO<sub>2</sub>e</span>
+			  	<p>kikärter med lök, tomat, kryddor och citronsaft</p>
+			        <p>chickpea curry with onion, tomato, garam masala and lemon juice</p>
+				<p><b>Ingredienser</b> Basmatiris 35%, Kikärtor, Sås 30% (Lök, Tomat, Vitlök, Ingefära, Rapsolja, Citronsaft, Salt och Garam Masala Kryddor)</p>
+			        <p><b>Allergener</b> Kan innehålla spår av Mjölk, Laktos, Senapsfrö, Cashewnötter och Mandelmjöl</p>	
+			  	</div>
+				<div class="menuitem">
+				<h3>Sambar Rice (vegan)</h3>
+			   	<span><i class="fas fa-fw fa-globe-americas"></i>TBD CO<sub>2</sub>e</span>
+			  	<p>ett traditionellt södra indiskt recept. linser och ris tillagad med grönsaker och välsmakande kryddor.</p>
+			        <p>Sambar rice is made with lentils, rice, mixed vegetables, spices & herbs. A traditional recipe from south india.</p>
+			        <p><b>Ingredienser</b> ris 37%, sambar 63% (Linser, Blandade Grönsaker, Lök, Tomat, Vitlök, Ingefära, Rapsolja, Tamarind, Vallmofrö, Senapsfrö, Garam Masala Kryddor och Salt)</p>
+			        <p><b>Allergener</b> Senapsfrö, Vallmofrö, Kan innehålla spår av Mjölk, Laktos, Senapsfrö, Cashewnötter och Mandelmjöl</p>	
+			  	</div>
+				<div class="menuitem">
+				<h3>Paneer Tikka Masala (vegetariskt)</h3>
 			   	<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
 			  	<p>indisk färskost i krämig tikka masala sås</p>
-			  	<p>butter fried paneer in creamy tikka masala sauce</p>
-				<p><b>Ingredienser</b> Basmatiris 35%, Indisk Färskost 20%, Sås 45% (Tomat, Lök, Grädde, Mandelmjöl, Smör, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
-			        <p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, spår av Senapsfrö</p>	
+			        <p>paneer in creamy tikka masala sauce</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Indisk Färskost 20%, Sås 45% (Tomat, Lök, Grädde, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
+			  	<p><b>Allergener</b> Mjölk, Laktos, Kan innehålla spår av Senapsfrö, Cashewnötter och Mandelmjöl</p>	
 			  	</div>
 			  	<div class="menuitem">
-				<h3>Palak Paneer</h3>
+				<h3>Palak Paneer (vegetariskt)</h3>
 				<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
 				<p>smakrik indisk färskost i krämig spenatsås kryddad med garam masala, vitlök, ingefära och tomat</p>
-				<p>paneer in creamy spinach sauce spiced with garam masala, garlic, ginger and tomato</p>		
-	         		<p><b>Ingredienser</b> Basmatiris 35%, Indisk Färskost 20%, Sås 45% (Lök, Tomat, Spenat, Grädde, Mandelmjöl, Smör, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
-			        <p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
+			  	<p>paneer in creamy spinach sauce spiced with garam masala, garlic, ginger and tomato</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Indisk Färskost 20%, Sås 45% (Tomat, Lök, Spenat, Grädde, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
+			  	<p><b>Allergener</b> Mjölk, Laktos, Kan innehålla spår av Senapsfrö, Cashewnötter och Mandelmjöl</p>
    				</div>
 				<div class="menuitem">
 				<h3>Palak Dal (vegan)</h3>
@@ -35,31 +51,31 @@ order: 999
 			  	<p>gula linser i krämig spenatsås tillagad med rika indiska kryddor som koriander, vitlök, ingefära, kummin och senapsfrön</p>
 			  	<p>yellow lentils i creamy spinach sauce cooked with rich indian spices such as coriander, garlic, ginger, cumin and mustard seeds</p>
 			  	<p><b>Ingredienser</b> Basmatiris 35%, Gula Linser 35%, Sås 30% (Lök, Tomat, Kokosmjölk, Spenat, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
-			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
+			  	<p><b>Allergener</b> Spår av Cashewnötter, Mandelmjöl och Senapsfrö</p>
 				</div>
 				<div class="menuitem">
 				<h3>Chole Vegetable Korma (vegan)</h3>
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,28 kg CO<sub>2</sub>e</span>
-			  	<p>smakrik vegetarisk korma tillagad med färska grönsaker, kikärter och välsmakande kryddor i kokosmjölk</p>
-			  	<p>korma cooked with fresh vegetables, chickpeas and tasty spices in coconut milk</p>
+			  	<p>smakrik vegetarisk korma tillagad med grönsaker, kikärter och välsmakande kryddor i kokosmjölk</p>
+			  	<p>korma cooked with vegetables, chickpeas and tasty spices in coconut milk</p>
 			  	<p><b>Ingredienser</b> Basmatiris 35%, Blandade Grönsaker, Kikärtor, Sås 30% (Lök, Tomat,  Kokosmjölk, Mandelmjöl, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
-			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
+			  	<p><b>Allergener</b> Spår av Cashewnötter, Mandelmjöl, Senapsfrö</p>
 				</div>
 				<div class="menuitem">
 				<h3>Ennai Kathirikai Kuzhambu (vegan)</h3>
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,29 kg CO<sub>2</sub>e</span>
-			  	<p> Aubergine i kokosås tillagad med rostade kryddor</p>
-			  	<p>eggplant in curry made with roasted spices and coconut</p>
+			  	<p>Aubergine i kokosås tillagad med rostade kryddor</p>
+			  	<p>Eggplant in curry made with roasted spices and coconut</p>
 			  	<p><b>Ingredienser</b> Basmatiris 35%, Aubergine 35%, Sås 30% (Lök, Tomat, Gula Linser, Kokosmjölk, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
-			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
+			  	<p><b>Allergener</b> Spår av Cashewnötter, Mandelmjöl och Senapsfrö</p>
 				</div>
 				<div class="menuitem">
 				<h3>Butter Chicken</h3>
 			  	<span><i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</span>
 			  	<p>kycklingfilé i smakrik tomat och cashewsås</p>
 			  	<p>chicken fillet in tasty tomato and cashew sauce</p>
-			  	<p><b>Ingredienser</b> Basmatiris 35%, Kycklingfilé 30%, Sås 35% (Tomat, Lök, Grädde, Mandelmjöl, Smör, Yogurt, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
-			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Mjölk, Laktos, Senap</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Kycklingfilé 30%, Sås 35% (Tomat, Lök, Grädde, Yogurt, Smör, Vitlök, Ingefära, Rapsolja, Salt, Bockhornsklöver Blad och Garam Masala Kryddor)</p>
+			  	<p><b>Allergener</b> Mjölk, Laktos, Kan innehålla spår av Senapsfrö, Cashewnötter och Mandelmjöl</p>
 				</div>
 				<!--
 				<div class="menuitem">
