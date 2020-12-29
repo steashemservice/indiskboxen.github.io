@@ -84,28 +84,26 @@ const nFormat = (num) => {
         let galleryCount =0;
         photos.forEach((photo) => {
           let picture = document.createElement("p");
-          photo.caption = photo.caption ? photo.caption.node.text : "";
-          photo.likesCount =
+          let caption = photo.caption ? photo.caption.node.text : "";
+          let likesCount =
             photo.likesCount > 0
               ? "<span>&#x2764;</span> " + nFormat(photo.likesCount)
               : "";
-          photo.commentCount =
+          let commentCount =
             photo.commentCount > 0
               ? "<span>&#x1F4AC;</span> " + nFormat(photo.commentCount)
               : "";
           picture.innerHTML = `
                     <a href="${photo.url}" target="_blank" rel="noopener noreferrer" class="photo__link">
-                        <img src="${photo.thumbnailUrl}" alt="${photo.caption}" class="photo__image">
+                        <img src="${photo.thumbnailUrl}" alt="${caption}" class="photo__image">
                         <div class="photo__caption">
-                            <p>${photo.caption}</br>
-                               ${photo.likesCount} ${photo.commentCount}</br>
+                            <p>${caption}</br>
+                               ${likesCount} ${commentCount}</br>
                             </p>
                         </div>
                     </a>
                     `;
-          alert(photo.likesCount);
-          alert(galleryCount);
-          if (photo.likesCount >10 && galleryCount <4)  {
+          if (likesCount >10 && galleryCount <4)  {
             galleryCount = galleryCount+1;
             gallery.appendChild(picture);
           }
