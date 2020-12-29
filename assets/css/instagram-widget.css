@@ -45,7 +45,7 @@
   }
 }
 .header__logo {
-  margin-left: auto;
+  margin: 0 auto;
 }
 .header__logo svg {
   fill: #ffffff;
