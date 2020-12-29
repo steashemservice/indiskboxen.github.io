@@ -81,6 +81,7 @@ const nFormat = (num) => {
         return photos;
       })
       .then((photos) => {
+        let galleryCount =0;
         photos.forEach((photo) => {
           let picture = document.createElement("p");
           photo.caption = photo.caption ? photo.caption.node.text : "";
@@ -102,7 +103,10 @@ const nFormat = (num) => {
                         </div>
                     </a>
                     `;
-          gallery.appendChild(picture);
+          if (picture.likesCount >10 && galleryCount <4)  {
+              galleryCount = galleryCount+1;
+              gallery.appendChild(picture);
+          }
         });
         // Create widget footer section
         footer.classList.add("widget__footer");
