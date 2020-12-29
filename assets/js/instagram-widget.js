@@ -104,8 +104,10 @@ const nFormat = (num) => {
                     </a>
                     `;
           if (photo.likesCount >10 && galleryCount <4)  {
-              galleryCount = galleryCount+1;
-              gallery.appendChild(picture);
+            alert(photo.likesCount);
+            alert(galleryCount);
+            galleryCount = galleryCount+1;
+            gallery.appendChild(picture);
           }
         });
         // Create widget footer section
