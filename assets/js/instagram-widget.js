@@ -103,9 +103,9 @@ const nFormat = (num) => {
                         </div>
                     </a>
                     `;
+          alert(photo.likesCount);
+          alert(galleryCount);
           if (photo.likesCount >10 && galleryCount <4)  {
-            alert(photo.likesCount);
-            alert(galleryCount);
             galleryCount = galleryCount+1;
             gallery.appendChild(picture);
           }
