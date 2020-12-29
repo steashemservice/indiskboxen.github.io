@@ -21,6 +21,7 @@
   padding: 10px 20px;
 }
 .header__avatar {
+  display:none;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -28,21 +29,12 @@
   border-style: none;
 }
 .header__username {
+  display:none;
   padding-left: 15px;
   width: 35vw;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-@media (max-width: 450px) {
-  .header__username {
-    width: 35vw;
-    line-height: 14px;
-    overflow: hidden;
-    display: inline-block;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
 }
 .header__logo {
   margin: 0 auto;
