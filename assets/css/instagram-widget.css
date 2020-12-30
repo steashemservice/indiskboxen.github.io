@@ -5,7 +5,7 @@
   box-shadow: 0px 6px 15px -10px rgba(0, 0, 0, 0.75);*/
 }
 .widget__header {
-  display: flex;
+  display: none;
   align-items: center;
   position: relative;
   border-bottom: none !important;
