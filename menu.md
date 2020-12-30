@@ -22,10 +22,11 @@ order: 999
 			        <p><b>Allergener</b> Kan innehålla spår av Mjölk, Laktos, Senapsfrö, Cashewnötter och Mandelmjöl</p>	
 			  	</div>
 				<div class="menuitem">
-				<h3>Sambar Rice (vegan)</h3>
+				<h3>Sambar (vegan)</h3>
 			   	<span><i class="fas fa-fw fa-globe-americas"></i>TBD CO<sub>2</sub>e</span>
-			  	<p>Ett traditionellt recept ifrån södra Indien. Linser och ris tillagad med grönsaker och välsmakande kryddor.</p>
-			        <p>Sambar rice is made with lentils, rice, mixed vegetables, spices & herbs. A traditional recipe from south india.</p>
+			  	<p>Ett traditionellt recept ifrån södra Indien tillagad med linser, ris, grönsaker och välsmakande kryddor.</p>
+			  	<p>A traditional recipe from south india made with lentils, rice, mixed vegetables, spices & herbs.</p>
+				<p>Available both with and withour rice</p>
 			        <p><b>Ingredienser</b> ris 37%, sambar 63% (Linser, Blandade Grönsaker, Lök, Tomat, Vitlök, Ingefära, Rapsolja, Tamarind, Vallmofrö, Senapsfrö, Garam Masala Kryddor och Salt)</p>
 			        <p><b>Allergener</b> Senapsfrö, Vallmofrö, Kan innehålla spår av Mjölk, Laktos, Senapsfrö, Cashewnötter och Mandelmjöl</p>	
 			  	</div>
