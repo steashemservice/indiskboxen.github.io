@@ -2,7 +2,7 @@
 layout: page
 title: VÅR MENY
 description: Indiska boxen är klimatsmart och full av smakar och nyttigheter. Varje box från Indiska boxen släpper ut mellan 0,3-0,6 CO2e.
-image: 
+image: assets/images/menu.jpg
 nav-menu: false
 published: true
 permalink: menu
