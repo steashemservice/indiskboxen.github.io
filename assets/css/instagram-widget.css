@@ -72,7 +72,6 @@
   grid-template-columns: auto auto auto auto;
   grid-gap: 15px;
   margin: 15px;
-  a {border-bottom: none;}
 }
 @media (max-width: 850px) {
   .widget__gallery {
@@ -111,6 +110,7 @@
   overflow: hidden;
   max-width: 100%;
   height: auto;
+  border-bottom: none;
 }
 .photo__image {
   max-width: 100%;
