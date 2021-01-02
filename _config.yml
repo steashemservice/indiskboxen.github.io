@@ -12,7 +12,7 @@ description: "Indiska Boxen erbjuder portionspackat frysta matlådor som har lå
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.indiskaboxen.se" # the base hostname & protocol for your site
 author:
-name: Indiska Boxen Handelsbolag
+name: Indiska Boxen AB
 street_address:
 city: Stockholm
 Län: 
