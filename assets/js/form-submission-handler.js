@@ -329,7 +329,7 @@ function swishgen(total,order,addr) {
   function addcollapse() {
     // bind to the submit event of our form
     var colls = $("#postcode");
-    var plist= ['10001-12999', '13100-13199', '16000-17799', '18200-18399', '19100-19299', '19400-19499'];
+    var plist= ['10001-12999', '13100-13199', '16000-17799', '18200-18399', '18700-18799', '19100-19299', '19400-19499'];
     var plists=[];
     for(var i=0;i<plist.length;i++) plists[i]=getRange(plist[i]);
     for (var i = 0; i < colls.length; i++) {
@@ -386,7 +386,7 @@ function swishgen(total,order,addr) {
   //function adddelivery() {
   //  function get_default_date() {
   //    var date = new Date();
-  //    date.setDate(date.getDate()+2);
+  //    date.setDate(date.getDate()+3);
   //    while(date.getDay() !== 0) {
   //      date.setDate(date.getDate()+1);
   //    }
