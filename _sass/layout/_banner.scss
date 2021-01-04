@@ -173,7 +173,7 @@
 		}
 	}
 	#spicebanner {
-		@include vendor('background', 'url("../images/spice.jpg")');
+		@include vendor('background-image', 'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../images/spice.jpg")');
 		background-size: cover;
 		@include padding(2em, 0, (2, 0, 2, 0));
 		//display: block;
@@ -185,7 +185,7 @@
                 }
 	}
         #climatebanner {
-		@include vendor('background-image', 'url("../images/climate.jpg")');
+		@include vendor('background-image', 'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../images/climate.jpg")');
 		background-size: cover;
 		@include padding(2em, 0, (2, 0, 2, 0));
 		//display: block;
@@ -197,7 +197,7 @@
                 }
 	}
 	#banner {
-		@include vendor('background-image', 'url("../images/Banner.png")');
+		@include vendor('background-image', 'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../images/Banner.png")');
 		background-size: cover;
 		@include padding(4em, 0, (4, 0, 0, 0));
 		//padding: 10em 0 4em 0;
