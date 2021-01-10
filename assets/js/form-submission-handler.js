@@ -364,7 +364,7 @@ function swishgen(total,order,addr) {
 (function($) {
   function get_delivery_date() {
     var date = new Date();
-    date.setDate(date.getDate()+2);
+    date.setDate(date.getDate()+3);
     while(date.getDay() !== 0) {
       date.setDate(date.getDate()+1);
     }
@@ -372,11 +372,11 @@ function swishgen(total,order,addr) {
     for(var i=0; i < 2; i++){
       var day = date.getDate();
       //if((day<=7) || (day>14 && day<=21)) {
-      if(day>14 && day<=21) {
-        date.setDate(day+7);
-      } else if(day>28) {
-        date.setDate(day+14);
-      }
+      //if(day>14 && day<=21) {
+      //  date.setDate(day+7);
+      //} else if(day>28) {
+      //  date.setDate(day+14);
+      //}
       time = date.toDateString()+' KL 12-21';
       $('#delivery').append($('<option>', {value: time,text: time}));
       date.setDate(date.getDate()+7);
@@ -390,7 +390,7 @@ function swishgen(total,order,addr) {
   //    while(date.getDay() !== 0) {
   //      date.setDate(date.getDate()+1);
   //    }
-  //    return date;
+  //    return date; 
   //  }
   //  $("#delivery").datepicker({ 
   //      autoSize: true,         // automatically resize the input field 
