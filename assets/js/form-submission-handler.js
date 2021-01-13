@@ -208,12 +208,12 @@ function swishgen(total,order,addr) {
       return false;
     } else {
       if (box < 7){
-        $(".minorder").html('<i class="fa fa-fw fa-info"></i> Leveransavgift 59kr. Beställ minst 7 lådor för fri hemleverans.').show();
         $("#total").val(total+59);
         $('.ordertotal').text(total+59);
       } else {
-        $(".minorder").hide();
+        $(".minorderdeliv").hide();
       }
+      $(".minorder").hide();
       //savepostcode(total,"");
       $("#orderbtn").prop('disabled', false);
       return true;
