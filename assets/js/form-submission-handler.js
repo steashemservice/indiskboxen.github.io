@@ -178,8 +178,8 @@ function swishgen(total,order,addr) {
     $(".chappati").each(function(){
         chappati += +$(this).val();
     });
-    var box = sum+curry;
-    $("#productsel").val(box+chappati);
+    var box = sum+curry+chappati;
+    $("#productsel").val(box);
     var min = 1;
     if ($("#subscription").prop('checked')) {
       min = 10;
