@@ -207,7 +207,7 @@ function swishgen(total,order,addr) {
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
-      if (box < 7){
+      if (box < 6){
         $(".minorderdeliv").show();
         $("#total").val(total+59);
         $('.ordertotal').text(total+59);
