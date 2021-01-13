@@ -208,6 +208,7 @@ function swishgen(total,order,addr) {
       return false;
     } else {
       if (box < 7){
+        $(".minorderdeliv").show();
         $("#total").val(total+59);
         $('.ordertotal').text(total+59);
       } else {
