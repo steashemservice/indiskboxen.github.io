@@ -180,7 +180,7 @@ function swishgen(total,order,addr) {
     });
     var box = sum+curry;
     $("#productsel").val(box+chappati);
-    var min = 0;
+    var min = 1;
     if ($("#subscription").prop('checked')) {
       min = 10;
       stext = ' med prenumeration';
@@ -188,7 +188,6 @@ function swishgen(total,order,addr) {
       var total = 69*sum;
       total += 119*curry;
     } else {
-      min = 7;
       $("#subscription").val('');
       var total = 79*sum;
       total += 129*curry;
@@ -200,15 +199,22 @@ function swishgen(total,order,addr) {
     //  $("#Chappati").val('');
     //}
     total += 89*chappati;
-    $("#total").val(total);
-    $('.ordertotal').text(total);
     if (box < min) {
+      //$(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> 0 lådor valda. Beställ minst 1 lådor.').show();
       $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+box+' av '+min+' lådor valda. Beställ minst '+min+' lådor'+stext+'.').show();
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
+      if (box < 7){
+        $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> Beställ minst 7 lådor för fri hemleverans.').show();
+        $("#total").val(total+59);
+        $('.ordertotal').text(total+59);
+      } else {
+        $(".minorder").hide();
+        $("#total").val(total);
+        $('.ordertotal').text(total);
+      }
       //savepostcode(total,"");
-      $(".minorder").hide();
       $("#orderbtn").prop('disabled', false);
       return true;
     }
