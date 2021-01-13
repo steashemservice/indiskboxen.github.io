@@ -10,8 +10,16 @@
     {{ content }}
     {% include contact.html %}
     {% include footer.html %}
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="{{ "assets/js/instagram-widget.js" | absolute_url }}"></script>
+    <script type="text/javascript">
+/* curator-feed-default-feed-layout */
+(function(){
+var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+i.src = "https://cdn.curator.io/published/c2144663-8863-4fcd-b852-c35420a8128b.js";
+e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
+    <!--<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="{{ "assets/js/instagram-widget.js" | absolute_url }}"></script>-->
 </body>
 
 </html>
