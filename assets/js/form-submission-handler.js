@@ -199,6 +199,8 @@ function swishgen(total,order,addr) {
     //  $("#Chappati").val('');
     //}
     total += 89*chappati;
+    $("#total").val(total);
+    $('.ordertotal').text(total);
     if (box < min) {
       //$(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> 0 lådor valda. Beställ minst 1 lådor.').show();
       $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+box+' av '+min+' lådor valda. Beställ minst '+min+' lådor'+stext+'.').show();
@@ -206,13 +208,11 @@ function swishgen(total,order,addr) {
       return false;
     } else {
       if (box < 7){
-        $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> Beställ minst 7 lådor för fri hemleverans.').show();
+        $(".minorder").html('<i class="fa fa-fw fa-info"></i> Leveransavgift 59kr. Beställ minst 7 lådor för fri hemleverans.').show();
         $("#total").val(total+59);
         $('.ordertotal').text(total+59);
       } else {
         $(".minorder").hide();
-        $("#total").val(total);
-        $('.ordertotal').text(total);
       }
       //savepostcode(total,"");
       $("#orderbtn").prop('disabled', false);
