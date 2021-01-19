@@ -164,6 +164,16 @@ function swishgen(total,order,addr) {
       statusCode: {}
     });
   }
+  function summarize() {
+    var lines = "";
+    $(".quantity").each(function(){
+      if ($(this).val()>0) {
+        lines += '<label class="field">'+$(this).attr("name")+'</label>';
+        lines += '<p class="sumitem">'+$(this).val()+'</p>';
+      }
+    });
+    $("#summary").html(lines);
+  };
   function foverflow() {
     var sum = 0;
     var curry = 0;
@@ -192,12 +202,6 @@ function swishgen(total,order,addr) {
       var total = 79*sum;
       total += 129*curry;
     }
-    //if ($("#Chappati").prop('checked')) {
-    //  $("#Chappati").val('on');
-    //  total += 89;
-    //} else {
-    //  $("#Chappati").val('');
-    //}
     total += 89*chappati;
     $("#total").val(total);
     $('.ordertotal').text(total);
@@ -221,6 +225,7 @@ function swishgen(total,order,addr) {
     }
   }
   $(".quantity,#subscription").change(function(e) {
+    summarize();
     foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
