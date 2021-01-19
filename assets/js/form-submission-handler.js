@@ -166,10 +166,29 @@ function swishgen(total,order,addr) {
   }
   function summarize() {
     var lines = "";
-    $(".quantity").each(function(){
+    var sub = 0;
+    if ($("#subscription").prop('checked')) {
+      sub =1;
+    }
+    $(".quantity").not(".special,.chappati").each(function(){
       if ($(this).val()>0) {
-        lines += '<label class="field">'+$(this).attr("name")+'</label>';
-        lines += '<p class="sumitem">'+$(this).val()+'</p>';
+        lines += '<tr><td>'+$(this).attr("name")+'</td>';
+        lines += '<td>'+$(this).val()+'</td>';
+        lines += '<td>'+$(this).val()*79-sub*$(this).val()*10+'</td></tr>';
+      }
+    });
+    $(".special").each(function(){
+      if ($(this).val()>0) {
+        lines += '<tr><td>'+$(this).attr("name")+'</td>';
+        lines += '<td>'+$(this).val()+'</td>';
+        lines += '<td>'+$(this).val()*129-sub*$(this).val()*10+'</td></tr>';
+      }
+    });
+    $(".chappati").each(function(){
+      if ($(this).val()>0) {
+        lines += '<tr><td>'+$(this).attr("name")+'</td>';
+        lines += '<td>'+$(this).val()+'</td>';
+        lines += '<td>'+$(this).val()*89+'</td></tr>';
       }
     });
     $("#summary").html(lines);
