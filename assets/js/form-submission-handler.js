@@ -172,21 +172,21 @@ function swishgen(total,order,addr) {
     }
     $(".quantity").not(".special,.chappati").each(function(){
       if ($(this).val()>0) {
-        lines += '<tr><td>'+$(this).attr("name")+'</td>';
+        lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+'</td>';
         lines += '<td>'+($(this).val()*79-(subch*$(this).val()*10))+' kr</td></tr>';
       }
     });
     $(".special").each(function(){
       if ($(this).val()>0) {
-        lines += '<tr><td>'+$(this).attr("name")+'</td>';
+        lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+'</td>';
         lines += '<td>'+($(this).val()*129-(subch*$(this).val()*10))+' kr</td></tr>';
       }
     });
     $(".chappati").each(function(){
       if ($(this).val()>0) {
-        lines += '<tr><td>'+$(this).attr("name")+'</td>';
+        lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
         lines += '<td>'+($(this).val()*89)+' kr</td></tr>';
       }
