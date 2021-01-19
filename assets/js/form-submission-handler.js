@@ -174,21 +174,21 @@ function swishgen(total,order,addr) {
       if ($(this).val()>0) {
         lines += '<tr><td>'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+'</td>';
-        lines += '<td>'+$(this).val()*79-sub*$(this).val()*10+'</td></tr>';
+        lines += '<td>'+$(this).val()*79-(sub*$(this).val()*10)+' kr</td></tr>';
       }
     });
     $(".special").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td>'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+'</td>';
-        lines += '<td>'+$(this).val()*129-sub*$(this).val()*10+'</td></tr>';
+        lines += '<td>'+$(this).val()*129-(sub*$(this).val()*10)+' kr</td></tr>';
       }
     });
     $(".chappati").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td>'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+'</td>';
-        lines += '<td>'+$(this).val()*89+'</td></tr>';
+        lines += '<td>'+$(this).val()*89+' kr</td></tr>';
       }
     });
     $("#summary").html(lines);
