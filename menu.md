@@ -60,7 +60,7 @@ order: 999
 			  	<p>smakrik vegetarisk korma tillagad med grönsaker, kikärter och välsmakande kryddor i kokosmjölk</p>
 			  	<p>korma cooked with vegetables, chickpeas and tasty spices in coconut milk</p>
 			  	<p><b>Ingredienser</b> Basmatiris 35%, Blandade Grönsaker, Kikärtor, Sås 30% (Lök, Tomat,  Kokosmjölk, Mandelmjöl, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
-			  	<p><b>Allergener</b> Kan innehålla spår av Cashewnötter, Mandelmjöl och Senapsfrö</p>
+			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Kan innehålla spår av Senapsfrö</p>
 				</div>
 				<div class="menuitem">
 				<h3>Ennai Kathirikai Kuzhambu (vegan)</h3>
