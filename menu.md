@@ -19,7 +19,7 @@ order: 999
 			  	<p>kikärter med lök, tomat, kryddor och citronsaft</p>
 			        <p>chickpea curry with onion, tomato, garam masala and lemon juice</p>
 				<p><b>Ingredienser</b> Basmatiris 35%, Kikärtor, Sås 30% (Lök, Tomat, Vitlök, Ingefära, Rapsolja, Citronsaft, Salt och Garam Masala Kryddor)</p>
-			        <p><b>Allergener</b> Kan innehålla spår av Mjölk, Laktos, Senapsfrö, Cashewnötter och Mandelmjöl</p>	
+			        <p><b>Allergener</b> Kan innehålla spår av Senapsfrö, Cashewnötter och Mandelmjöl</p>	
 			  	</div>
 				<div class="menuitem">
 				<h3>Sambar (vegan)</h3>
@@ -28,7 +28,7 @@ order: 999
 			  	<p>A traditional recipe from south india made with lentils, mixed vegetables, spices & herbs.</p>
 				<p>Available only without rice (currylåda)</p>
 			        <p><b>Ingredienser</b> Linser, Blandade Grönsaker, Lök, Tomat, Vitlök, Ingefära, Rapsolja, Tamarind, Vallmofrö, Senapsfrö, Garam Masala Kryddor och Salt</p>
-			        <p><b>Allergener</b> Senapsfrö, Vallmofrö, Kan innehålla spår av Mjölk, Laktos, Senapsfrö, Cashewnötter och Mandelmjöl</p>	
+			        <p><b>Allergener</b> Senapsfrö, Vallmofrö, Kan innehålla spår av Senapsfrö, Cashewnötter och Mandelmjöl</p>	
 			  	</div>
 				<div class="menuitem">
 				<h3>Paneer Tikka Masala (vegetariskt)</h3>
@@ -52,7 +52,7 @@ order: 999
 			  	<p>gula linser i krämig spenatsås tillagad med rika indiska kryddor som koriander, vitlök, ingefära, kummin och senapsfrön</p>
 			  	<p>yellow lentils i creamy spinach sauce cooked with rich indian spices such as coriander, garlic, ginger, cumin and mustard seeds</p>
 			  	<p><b>Ingredienser</b> Basmatiris 35%, Gula Linser 35%, Sås 30% (Lök, Tomat, Kokosmjölk, Spenat, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
-			  	<p><b>Allergener</b> Senapsfrö, Kan innehålla spår av Mjölk, Cashewnötter och Mandelmjöl</p>
+			  	<p><b>Allergener</b> Senapsfrö, Kan innehålla spår av Cashewnötter och Mandelmjöl</p>
 				</div>
 				<div class="menuitem">
 				<h3>Chole Vegetable Korma (vegan)</h3>
