@@ -195,7 +195,7 @@ function swishgen(total,order,addr) {
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*89)+' kr</td></tr>';
+        lines += '<td>'+($(this).val()*30)+' kr</td></tr>';
       }
     });
     $("#summary").html(lines);
