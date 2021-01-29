@@ -215,10 +215,10 @@ function swishgen(total,order,addr) {
     });
     $(".chappati").each(function(){
         chappati += +$(this).val();
-        total += $(this).parent().find('input[name="price"]').val();
+        //total += $(this).parent().find('input[name="price"]').val();
     });
     $(".snacks").each(function(){
-        total += $(this).parent().find('input[name="price"]').val();
+        //total += $(this).parent().find('input[name="price"]').val();
     });
     var box = sum+curry+chappati;
     $("#productsel").val(box);
