@@ -135,7 +135,7 @@ function swishgen(total,order,addr) {
   var decFunc = function(event){
     var $button = $(this);
     var oldValue = parseFloat($button.parent().find('input[name!="price"]').val());
-    var minValue = parseFloat($button.parent().find("input").attr("min"));
+    var minValue = parseFloat($button.parent().find('input[name!="price"]').attr("min"));
     if (oldValue > 0 && oldValue > minValue) {
       var newVal = oldValue - 1;
       $button.parent().find('input[name!="price"]').val(newVal).change();
