@@ -127,18 +127,18 @@ function swishgen(total,order,addr) {
   }
   var incFunc = function(event){
     var $button = $(this);
-    var oldValue = $button.parent().find("input").val();
+    var oldValue = $button.parent().find('input[name!="price"]').val();
     var newVal = parseFloat(oldValue) + 1;
-    $button.parent().find("input").val(newVal).change();
+    $button.parent().find('input[name!="price"]').val(newVal).change();
   }
   $(".inc").on("click", incFunc);
   var decFunc = function(event){
     var $button = $(this);
-    var oldValue = parseFloat($button.parent().find("input").val());
+    var oldValue = parseFloat($button.parent().find('input[name!="price"]').val());
     var minValue = parseFloat($button.parent().find("input").attr("min"));
     if (oldValue > 0 && oldValue > minValue) {
       var newVal = oldValue - 1;
-      $button.parent().find("input").val(newVal).change();
+      $button.parent().find('input[name!="price"]').val(newVal).change();
     }
   }
   $(".dec").on("click", decFunc);
@@ -215,10 +215,10 @@ function swishgen(total,order,addr) {
     });
     $(".chappati").each(function(){
         chappati += +$(this).val();
-        //total += $(this).parent().find('input[name="price"]').val();
+        total += $(this).val()*$(this).parent().find('input[name="price"]').val();
     });
     $(".snacks").each(function(){
-        //total += $(this).parent().find('input[name="price"]').val();
+        total += $(this).val()*$(this).parent().find('input[name="price"]').val();
     });
     var box = sum+curry+chappati;
     $("#productsel").val(box);
