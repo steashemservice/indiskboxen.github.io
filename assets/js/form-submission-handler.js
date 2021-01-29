@@ -170,7 +170,7 @@ function swishgen(total,order,addr) {
     if ($("#subscription").prop('checked')) {
       subch =1;
     }
-    $(".quantity").not(".special,.chappati").each(function(){
+    $(".quantity").not(".special,.chappati,.snacks").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
@@ -191,14 +191,22 @@ function swishgen(total,order,addr) {
         lines += '<td>'+($(this).val()*89)+' kr</td></tr>';
       }
     });
+    $(".snacks").each(function(){
+      if ($(this).val()>0) {
+        lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
+        lines += '<td>'+$(this).val()+' st</td>';
+        lines += '<td>'+($(this).val()*89)+' kr</td></tr>';
+      }
+    });
     $("#summary").html(lines);
   };
   function foverflow() {
     var sum = 0;
     var curry = 0;
     var chappati = 0;
+    var snacks = 0;
     var stext = '';
-    $(".quantity").not(".special,.chappati").each(function(){
+    $(".quantity").not(".special,.chappati,.snacks").each(function(){
         sum += +$(this).val();
     });
     $(".special").each(function(){
@@ -206,6 +214,9 @@ function swishgen(total,order,addr) {
     });
     $(".chappati").each(function(){
         chappati += +$(this).val();
+    });
+    $(".snacks").each(function(){
+        snacks += +$(this).val();
     });
     var box = sum+curry+chappati;
     $("#productsel").val(box);
@@ -222,6 +233,7 @@ function swishgen(total,order,addr) {
       total += 129*curry;
     }
     total += 89*chappati;
+    total += 30*snacks;
     $("#total").val(total);
     $('.ordertotal').text(total);
     if (box < min) {
