@@ -192,6 +192,7 @@ function swishgen(total,order,addr) {
       }
     });
     $(".snacks").each(function(){
+      alert($(this).parent().find('input[name="price"]').val());
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
