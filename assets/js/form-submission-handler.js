@@ -188,11 +188,10 @@ function swishgen(total,order,addr) {
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*89)+' kr</td></tr>';
+        lines += '<td>'+($(this).val()*($(this).parent().find('input[name="price"]').val()))+' kr</td></tr>';
       }
     });
     $(".snacks").each(function(){
-      alert($(this).parent().parent().find('input').val());
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
@@ -207,6 +206,7 @@ function swishgen(total,order,addr) {
     var chappati = 0;
     var snacks = 0;
     var stext = '';
+    var total = 0;
     $(".quantity").not(".special,.chappati,.snacks").each(function(){
         sum += +$(this).val();
     });
@@ -215,9 +215,10 @@ function swishgen(total,order,addr) {
     });
     $(".chappati").each(function(){
         chappati += +$(this).val();
+        total += $(this).parent().find('input[name="price"]').val();
     });
     $(".snacks").each(function(){
-        snacks += +$(this).val();
+        total += $(this).parent().find('input[name="price"]').val();
     });
     var box = sum+curry+chappati;
     $("#productsel").val(box);
@@ -226,15 +227,13 @@ function swishgen(total,order,addr) {
       min = 10;
       stext = ' med prenumeration';
       $("#subscription").val('on');
-      var total = 69*sum;
+      total += 69*sum;
       total += 119*curry;
     } else {
       $("#subscription").val('');
-      var total = 79*sum;
+      total += 79*sum;
       total += 129*curry;
     }
-    total += 89*chappati;
-    total += 30*snacks;
     $("#total").val(total);
     $('.ordertotal').text(total);
     if (box < min) {
