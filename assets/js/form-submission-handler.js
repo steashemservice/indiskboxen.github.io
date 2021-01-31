@@ -88,6 +88,8 @@ function swishgen(total,order,addr) {
         return false;
       } else if (elements[k].name === "postcode_ro") {
         return false;
+      } else if (elements[k].name === "price") {
+        return false;
       } else if (elements[k].value === "0") {
         return false;
       }
