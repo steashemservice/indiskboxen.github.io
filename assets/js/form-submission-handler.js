@@ -88,8 +88,6 @@ function swishgen(total,order,addr) {
         return false;
       } else if (elements[k].name === "postcode_ro") {
         return false;
-      } else if (elements[k].name === "price") {
-        return false;
       } else if (elements[k].value === "0") {
         return false;
       }
@@ -129,18 +127,18 @@ function swishgen(total,order,addr) {
   }
   var incFunc = function(event){
     var $button = $(this);
-    var oldValue = $button.parent().find('input[name!="price"]').val();
+    var oldValue = $button.parent().find('input').val();
     var newVal = parseFloat(oldValue) + 1;
-    $button.parent().find('input[name!="price"]').val(newVal).change();
+    $button.parent().find('input').val(newVal).change();
   }
   $(".inc").on("click", incFunc);
   var decFunc = function(event){
     var $button = $(this);
-    var oldValue = parseFloat($button.parent().find('input[name!="price"]').val());
-    var minValue = parseFloat($button.parent().find('input[name!="price"]').attr("min"));
+    var oldValue = parseFloat($button.parent().find('input').val());
+    var minValue = parseFloat($button.parent().find('input').attr("min"));
     if (oldValue > 0 && oldValue > minValue) {
       var newVal = oldValue - 1;
-      $button.parent().find('input[name!="price"]').val(newVal).change();
+      $button.parent().find('input').val(newVal).change();
     }
   }
   $(".dec").on("click", decFunc);
@@ -190,14 +188,14 @@ function swishgen(total,order,addr) {
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*($(this).parent().find('input[name="price"]').val()))+' kr</td></tr>';
+        lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
       }
     });
     $(".snacks").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*($(this).parent().find('input[name="price"]').val()))+' kr</td></tr>';
+        lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
       }
     });
     $("#summary").html(lines);
@@ -217,10 +215,10 @@ function swishgen(total,order,addr) {
     });
     $(".chappati").each(function(){
         chappati += +$(this).val();
-        total += $(this).val()*$(this).parent().find('input[name="price"]').val();
+        total += $(this).val()*$(this).parent().find('input').attr("data-price");
     });
     $(".snacks").each(function(){
-        total += $(this).val()*$(this).parent().find('input[name="price"]').val();
+        total += $(this).val()*$(this).parent().find('input').attr("data-price");
     });
     var box = sum+curry+chappati;
     $("#productsel").val(box);
