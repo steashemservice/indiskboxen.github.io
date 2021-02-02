@@ -21,7 +21,7 @@ order: 999
 				<p><b>Ingredienser</b> Basmatiris 35%, Kikärtor, Sås 30% (Lök, Tomat, Vitlök, Ingefära, Rapsolja, Citronsaft, Salt och Garam Masala Kryddor)</p>
 			        <p><b>Allergener</b> Kan innehålla spår av Senapsfrö</p>	
 			  	</div>
-				<div class="menuitem">
+				<!--<div class="menuitem">
 				<img src="/assets/food/sr.jpg">
 				<h3>Sambar (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,23 CO<sub>2</sub>e</h3>
 			   	<p>Ett traditionellt recept ifrån södra Indien tillagad med linser, ris, grönsaker och välsmakande kryddor.</p>
@@ -29,7 +29,7 @@ order: 999
 				<p>Available only without rice (currylåda)</p>
 			        <p><b>Ingredienser</b> Linser, Blandade Grönsaker, Lök, Tomat, Vitlök, Ingefära, Rapsolja, Tamarind, Vallmofrö, Senapsfrö, Garam Masala Kryddor och Salt</p>
 			        <p><b>Allergener</b> Senapsfrö, Vallmofrö</p>	
-			  	</div>
+			  	</div>-->
 				<div class="menuitem">
 				<img src="/assets/food/pt.jpg">
 				<h3>Paneer Tikka Masala (vegetariskt) <i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</h3>
