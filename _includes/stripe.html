@@ -1,33 +1,14 @@
 <script>
   var loc = window.location.search;//Get the search string of the domain
-  loc = loc.slice(1);
-  console.log('loc: ' + loc)
-
-  var params,Amount,Order;
-  params = loc.replace("&",'","');
-  params = params.replaceAll("=",'":"');
+  var params = loc.slice(1).replace("&",'","').replaceAll("=",'":"');
   params = '{"' + params + '"}';
-  console.log('params: ' + params)
-
   params = JSON.parse(params);
-
-  console.log('params: ' + params)
-
-  Amount = params.amount.toString();
+  var Amount = params.amount.toString();
   console.log('Amount: ' + Amount)
-  Order = params.order.toString();
+  var Order = params.order.toString();
   console.log('Order: ' + Order)
-    
   var myFrame = document.getElementById('gFrame');
-  console.log('myFrame: ' + myFrame)
-
   var frameSrc = myFrame.src.toString();
-  console.log('frameSrc: ' + frameSrc)
-  console.log('typeof frameSrc: ' + typeof frameSrc)
-
-  console.log('theId: ' + theId)
   var newSrc = frameSrc + "?amount=" + Amount + "&order=" + Order;
-  console.log('newSrc: ' + newSrc)
-
   myFrame.src = newSrc;//Set the new src and the iframe will refresh
 </script>
