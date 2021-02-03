@@ -6,7 +6,7 @@
 
     {% include header.html %}
     {{ content }}
-    <script src="https://js.stripe.com/v3/"></script>
+    {% include JS_Stripe_Pay.html %}
     {% include JS_Stripe_Index.html %}
     {% include JS_Stripe_Example4.html %}
     {% include footer.html %}
