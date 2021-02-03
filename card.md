@@ -15,7 +15,7 @@ order: 999
 			<header class="major">
 				<h1>{{ page.title }}</h1>
 			</header>
-			<iframe style="height: 500px; width: 100%;" src="https://script.google.com/macros/s/AKfycbzGoCl6jldADTMNW5VEk32HCidUQO7LBmWwaveb0dZdC30TrIQC/exec"></iframe>
+			<iframe style="height: 500px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbzGoCl6jldADTMNW5VEk32HCidUQO7LBmWwaveb0dZdC30TrIQC/exec"></iframe>
 		</div>
 	</section>
 </div>
