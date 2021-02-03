@@ -1,0 +1,12 @@
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+var stripe = Stripe('pk_test_51HTEn1J7ISeYBLM02ALWVGVlwywXlXGGraQGnfdR6ke7i6891LUhNIsHfMwyGlESpLjlQJfqnt8mTnQnecK62Kmp00cn5UKHvy');
+var paymentRequest = stripe.paymentRequest({
+    country: "SE",
+    currency: "sek",
+    total: {
+      amount: 1,
+      label: "Total"
+    }
+  });
+</script>
