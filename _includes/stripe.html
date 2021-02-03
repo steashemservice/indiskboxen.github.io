@@ -4,7 +4,7 @@
   console.log('loc: ' + loc)
 
   var params,Amount,Order;
-  params = loc.replace("&",",");
+  params = loc.replace("&",'","');
   params = params.replaceAll("=",'":"');
   params = '{"' + params + '"}';
   console.log('params: ' + params)
