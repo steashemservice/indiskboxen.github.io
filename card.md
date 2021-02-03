@@ -1,5 +1,5 @@
 ---
-layout: swish
+layout: card
 title: Pay for your order with card
 description: 
 image: 
