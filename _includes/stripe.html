@@ -5,7 +5,9 @@
   if (!params) {
     myFrame.parentNode.removeChild(myFrame);
   } else {
+    console.log(params);
     params = '{"' + params + '"}';
+    console.log(params);
     params = JSON.parse(params);
     var Name = params.name.toString();
     var Email = params.email.toString();
