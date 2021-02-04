@@ -3,7 +3,7 @@
   var loc = window.location.search;//Get the search string of the domain
   var params = loc.slice(1).replace("&",'","').replaceAll("=",'":"');
   if (!params) {
-    myFrame.src = "";
+    myFrame.parentNode.removeChild(myFrame);
   } else {
     params = '{"' + params + '"}';
     params = JSON.parse(params);
