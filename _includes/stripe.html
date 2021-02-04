@@ -4,11 +4,10 @@
   params = '{"' + params + '"}';
   params = JSON.parse(params);
   var Amount = params.amount.toString();
-  console.log('Amount: ' + Amount)
   var Order = params.order.toString();
-  console.log('Order: ' + Order)
   var myFrame = document.getElementById('gFrame');
   var frameSrc = myFrame.src.toString();
   var newSrc = frameSrc + "?amount=" + Amount + "&order=" + Order;
+  if (!params) myFrame.src = "";
   myFrame.src = newSrc;//Set the new src and the iframe will refresh
 </script>
