@@ -14,5 +14,6 @@
     var frameSrc = myFrame.src.toString();
     var newSrc = frameSrc + "?name=" + Name + "&email=" + Email + "&amount=" + Amount + "&order=" + Order;
     myFrame.src = newSrc;//Set the new src and the iframe will refresh
+    window.location = window.location.split('?')[0];
   }
 </script>
