@@ -1,6 +1,7 @@
 <script>
   var myFrame = document.getElementById('gFrame');
   var loc = window.location.search;//Get the search string of the domain
+  window.history.replaceState(null, null, window.location.pathname);
   var params = loc.slice(1).replaceAll("&",'","').replaceAll("=",'":"');
   if (!params) {
     myFrame.parentNode.removeChild(myFrame);
@@ -14,6 +15,5 @@
     var frameSrc = myFrame.src.toString();
     var newSrc = frameSrc + "?name=" + Name + "&email=" + Email + "&amount=" + Amount + "&order=" + Order;
     myFrame.src = newSrc;//Set the new src and the iframe will refresh
-    window.history.replaceState(null, null, window.location.pathname);
   }
 </script>
