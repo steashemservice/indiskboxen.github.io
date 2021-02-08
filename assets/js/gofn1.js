@@ -48,6 +48,7 @@
     if (urlParams.has('s')) {
       if (urlParams.get('s') === 'on')
       $("#subscription").prop("checked", true);
+      $("#contact-form .spblock").hide();
     }
     if (urlParams.has('ch')) {
       $("input[name='Chappatilåda']").val(urlParams.get('ch'));
@@ -114,6 +115,7 @@
   });
   function pickclick() {
     $("#contact-form .sblock").hide();
+    $("#contact-form .spblock").show();
     $("#contact-form .cblock").show();
     $("#contact-form .cblock h3 .msg").html("Ändra din order (dina tidigare val är redan ifylld)");
     $( ".quantity" ).trigger( "change" );
