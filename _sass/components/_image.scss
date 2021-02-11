@@ -9,9 +9,11 @@
 img {
     max-width: 100%;
 }
-a.swish-link {
+a.swish-link,a.card-link {
 	border-bottom: none;
 	cursor: pointer;
+	display: block;
+	padding-bottom: 1em;
 	img {
 		width:200px;
 	}
