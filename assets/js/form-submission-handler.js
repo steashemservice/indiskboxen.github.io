@@ -9,6 +9,10 @@ function swishgen(total,order,addr) {
   var slink = "swish://payment?data="+preq(total,order)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+addr+"&order="+order+"&total="+total)+"&callbackresultparameter=res";
   return slink;
 }
+function stripegen(fname,lname,addr,total,order) {
+  var slink = "https://www.indiskaboxen.se/card?name="+fname+"%20"+lname+"&email="+addr+"&total="+total+"&order="+order;
+  return slink;
+}
 (function($) {
   function goToUri(uri) {
     $('#swish-qr').show();
@@ -19,7 +23,12 @@ function swishgen(total,order,addr) {
     var req = $('#swish-uri').text();
     goToUri(req);
   }
+  var stripeFunc = function(event){
+    var $button = $(this);
+    document.location = stripegen(elements['firstname'].value,elements['lastname'].value,elements['email'].value,elements['total'].value,elements['order'].value);
+  }
   $(".swish-link").on("click", swishFunc);
+  $(".card-link").on("click", stripeFunc);
   // get all data in form and return object
   function getCancelFormData(form) {
     var elements = form.elements;
