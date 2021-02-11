@@ -28,7 +28,7 @@ function stripegen(fname,lname,addr,total,order) {
     document.location = $('#stripe-uri').text();
   }
   $(".swish-link").on("click", swishFunc);
-  $(".card-link").on("click", stripeFunc);
+  //$(".card-link").on("click", stripeFunc);
   // get all data in form and return object
   function getCancelFormData(form) {
     var elements = form.elements;
@@ -87,7 +87,7 @@ function stripegen(fname,lname,addr,total,order) {
     $('.orderid').text(elements['order'].value);
     //elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+elements['email'].value+"&order="+elements['order'].value+"&total="+elements['total'].value)+"&callbackresultparameter=res";
     $('#swish-uri').text(swishgen(elements['total'].value,elements['order'].value,elements['email'].value));
-    $('#stripe-uri').text(stripegen(elements['firstname'].value,elements['lastname'].value,elements['email'].value,elements['total'].value,elements['order'].value));
+    $('#stripe-uri').attr("href",stripegen(elements['firstname'].value,elements['lastname'].value,elements['email'].value,elements['total'].value,elements['order'].value));
     var trap,honeypot;
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "_prev") {
