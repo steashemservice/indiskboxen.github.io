@@ -10,7 +10,7 @@ function swishgen(total,order,addr) {
   return slink;
 }
 function stripegen(fname,lname,addr,total,order) {
-  var slink = "https://www.indiskaboxen.se/card?name="+fname+"%20"+lname+"&email="+addr+"&total="+total+"&order="+order;
+  var slink = "https://www.indiskaboxen.se/card?name="+fname+"%20"+lname+"&email="+addr+"&amount="+total+"&order="+order;
   return slink;
 }
 (function($) {
