@@ -17,7 +17,7 @@ order: 999
 			</header>
 			<h4>Beställningsnummer: <span class="orderid"></span><br>Summa att betala: <span class="ordertotal"></span> kr</h4>
 			<iframe style="height: 300px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbzGoCl6jldADTMNW5VEk32HCidUQO7LBmWwaveb0dZdC30TrIQC/exec"></iframe>
-			<div id="paydiv">
+			<div>
 				<h4>Betala med Swish</h4>
 				<a class="link swish-link">
 					<img src="{{ site.baseurl }}/assets/images/Swish.png" alt-src="Betala med Swish">
