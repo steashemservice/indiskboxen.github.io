@@ -9,7 +9,7 @@
     var slink = swishgen(urlParams.get('amount'),urlParams.get('order'),urlParams.get('email'));
     $('#swish-uri').text(slink);
     $('.orderid').text(urlParams.get('order'));
-    $('.ordertotal').text(urlParams.get('amount'));
+    $('.ordertotal').text(Number(urlParams.get('amount'))/100);
   } else {
     myFrame.parentNode.removeChild(myFrame);
   }
