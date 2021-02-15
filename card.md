@@ -1,6 +1,6 @@
 ---
 layout: card
-title: Pay for your order with card
+title: Pay for your order with (only) Sodexo Lunch Card
 description: 
 image: 
 nav-menu: false
@@ -16,6 +16,20 @@ order: 999
 				<h1>{{ page.title }}</h1>
 			</header>
 			<iframe style="height: 500px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbzGoCl6jldADTMNW5VEk32HCidUQO7LBmWwaveb0dZdC30TrIQC/exec"></iframe>
+			<div id="paydiv">
+				<h4>Beställningsnummer: <span class="orderid"></span><br>Summa att betala: <span class="ordertotal"></span> kr</h4>
+				<h4>Betala med Swish</h4>
+				<a class="link swish-link">
+					<img src="{{ site.baseurl }}/assets/images/Swish.png" alt-src="Betala med Swish">
+				</a>
+	                	<a id="swish-uri"></a>
+      				<div id="swish-qr" class="modal" onclick="this.style.display='none'">
+    	    				<div class="modal-content">
+					    <h5>Scan the QR code using the Swish app to start payment or manually enter Swish number 123 478 05 32</h5>
+		                            <h5>Amount: <span class="ordertotal"></span> kr<br>Message: <span class="orderid"></span></h5>					    					     <img src="{{ site.baseurl }}/assets/images/indiskaboxenswish.png" >
+				  	</div>
+  				</div>
+ 			</div>
 		</div>
 	</section>
 </div>
