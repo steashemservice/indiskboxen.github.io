@@ -4,7 +4,7 @@ title: Betala med Sodexkortet
 description: 
 image: 
 nav-menu: false
-published: true
+published: false
 permalink: cardv2
 order: 999
 ---
