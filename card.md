@@ -16,7 +16,7 @@ order: 999
 				<h1>{{ page.title }}</h1>
 			</header>
 			<h4>Beställningsnummer: <span class="orderid"></span><br>Summa att betala: <span class="ordertotal"></span> kr</h4>
-			<iframe style="height: 300px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbzGoCl6jldADTMNW5VEk32HCidUQO7LBmWwaveb0dZdC30TrIQC/exec"></iframe>
+			<iframe style="height: 300px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbzDz5bpLAOYri6kbhe1NcRvTIzHArm_hhtITKloobfokWgOAmuA/exec"></iframe>
 			<div>
 				<header class="major">
 					<h1>Betala med Swish</h1>
