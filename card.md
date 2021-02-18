@@ -1,6 +1,6 @@
 ---
 layout: card
-title: Betala med Sodexkortet
+title: Betalkort
 description: 
 image: 
 nav-menu: false
