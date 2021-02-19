@@ -1,14 +1,15 @@
 (function($) {
   $(function() {
     const sPageURL = window.location.search;
-    window.history.replaceState(null, null, window.location.pathname);
+    //window.history.replaceState(null, null, window.location.pathname);
     const urlParams = new URLSearchParams(sPageURL);
     if (urlParams.has('n')) {
       var name = urlParams.get('n');
       $("input[name='firstname']").val(name);
-    } else {
-      window.location.replace("https://www.indiskaboxen.se/#order");
-    }
+    } 
+    //else {
+    //  window.location.replace("https://www.indiskaboxen.se/#order");
+    //}
     if (urlParams.has('l')) {
       var lname = urlParams.get('l');
       $("input[name='lastname']").val(lname);
