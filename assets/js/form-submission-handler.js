@@ -300,8 +300,9 @@ function stripegen(fname,lname,addr,total,order) {
           form_e.fadeOut(function() {
             form_e.html('<div class="field"><h4>' + form_e.data('success') + '</h4></div>').fadeIn();
           });
-          $("#paydiv").show();
-          $("#contact-form")[0].scrollIntoView();
+          window.location.replace($('#stripe-uri').attr("href"));
+          //$("#paydiv").show();
+          //$("#contact-form")[0].scrollIntoView();
         }
       }
     });
