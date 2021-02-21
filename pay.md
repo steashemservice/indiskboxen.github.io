@@ -16,7 +16,9 @@ order: 999
 				<h1>{{ page.title }}</h1>
 			</header>
 			<div>
-				<h2>Betala med Swish</h2>
+				<header class="major">
+					<h2>Betala med Swish</h2>
+				</header>
 				<a class="link swish-link">
 					<img src="{{ site.baseurl }}/assets/images/Swish.png" alt-src="Betala med Swish">
 				</a>
@@ -29,7 +31,9 @@ order: 999
   				</div>
  			</div>
 			<div>
-				<h2>Betalkort</h2>
+				<header class="major">
+					<h2>Betalkort</h2>
+				</header>
 				<iframe style="height: 300px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbzDz5bpLAOYri6kbhe1NcRvTIzHArm_hhtITKloobfokWgOAmuA/exec"></iframe>
 			</div>
 		</div>
