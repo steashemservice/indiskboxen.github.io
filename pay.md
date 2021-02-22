@@ -13,12 +13,10 @@ order: 999
 	<section class="major">
 		<div class="inner">
 			<header class="major">
-				<h1>{{ page.title }}</h1>
+				<h2>{{ page.title }}</h2>
 			</header>
 			<div>
-				<header class="major">
-					<h2>Betala med Swish</h2>
-				</header>
+				<h2>Betala med Swish</h2>
 				<a class="link swish-link">
 					<img src="{{ site.baseurl }}/assets/images/Swish.png" alt-src="Betala med Swish">
 				</a>
@@ -31,9 +29,7 @@ order: 999
   				</div>
  			</div>
 			<div>
-				<header class="major">
-					<h2>Betalkort</h2>
-				</header>
+				<h2>Betalkort</h2>
 				<iframe style="height: 300px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbzDz5bpLAOYri6kbhe1NcRvTIzHArm_hhtITKloobfokWgOAmuA/exec"></iframe>
 			</div>
 		</div>
