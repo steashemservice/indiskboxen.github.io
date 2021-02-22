@@ -12,6 +12,5 @@
     $('.ordertotal').text(Number(urlParams.get('amount'))/100);
   } else {
     myFrame.parentNode.removeChild(myFrame);
-    window.location.replace("https://www.indiskaboxen.se/invalid");
   }
 })(jQuery);
