@@ -33,7 +33,7 @@ order: 1
   			</div>
 			<h3>Hur betalar jag?</h3>
 			<div>
-      				<p>Om du inte redan har betalat du kan betala för din beställning med Swish till vår Swish nummer 123 478 05 32. Fyll ditt beställningsnummer i meddelandet.</p>
+      				<p>Vi tar Swish och Kort. Om du inte redan har betalat du kan betala för din beställning med Swish till vår Swish nummer 123 478 05 32. Fyll ditt beställningsnummer i meddelandet.</p>
   			</div>
 			<h3>Hur pausar eller avslutar jag mitt abonnemang?</h3>
 			<div>
