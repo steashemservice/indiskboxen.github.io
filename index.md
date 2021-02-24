@@ -133,6 +133,7 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 		<header class="major">
       <h2>Våra erbjudanden</h2>
 		  <ul>
+	            <li> Klimatsmart val med mat fylld av smaker och nyttigheter</li>
 		    <li> 79 kr/matlåda och 129 kr/currylåda</li>
 		    <li> 69 kr/matlåda och 119 kr/currylåda med prenumeration</li>
 	            <li> Fri hemleverans (För beställningar under 6 matlådor tillkommer en leveransavgift på 59 kr)</li>
