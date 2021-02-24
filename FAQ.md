@@ -14,10 +14,14 @@ order: 1
         <div class="inner">
     		<h2>Om Maten</h2>
 		<div class="accordion">
+			<h3>Indiska Boxen Matlåda</h3>
+			<div>
+				<p>Indiska boxen är ett klimatsmart val med mat fylld av smaker och nyttigheter. Varje matlåda från Indiska boxen släpper ut mellan 0,3-0,6 CO2e och innehåller ca 400g mat. Currylåda (utan Ris) serverar 2 portioner.</p>
+			</div>
 			<h3>Behöver jag tillaga maten?</h3>
 			<div>
       				<p>Våra matlåda är redo att äta efter uppvärmning i mikrovågsugnen eller ugn. I vanlig ugn värmer du maten på låg temperatur (150°C) i sin förpackning ca 40 min. I micro tar det ca 8 min (800W) att värma maten direkt från frysen. Om du vill snabba på uppvärmningen kan du tina maten innan.</p>
-  			</div>
+  			</div>			
                 </div>
 	</div>
 	<div class="inner">
