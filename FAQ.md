@@ -16,7 +16,7 @@ order: 1
 		<div class="accordion">
 			<h3>Indiska Boxen</h3>
 			<div>
-				<p>Indiska boxen är ett klimatsmart alternativ till vardagsmat. Maten är fylld av smaker och nyttigheter, med inspiration ifrån södra indien. Varje matlåda från Indiska boxen släpper ut mellan 0,3-0,6 CO2e och innehåller ca 400g mat. Currylåda (utan ris) serverar 2 portioner.</p>
+				<p>Indiska boxen är ett klimatsmart alternativ till vardagsmat. Maten är fylld av smaker och nyttigheter, med inspiration ifrån södra indien. Varje matlåda från Indiska boxen släpper ut mellan 0,3-0,6 kg CO2e och innehåller ca 400g mat. Currylåda (utan ris) serverar 2 portioner.</p>
 			</div>
 			<h3>Behöver jag tillaga maten?</h3>
 			<div>
