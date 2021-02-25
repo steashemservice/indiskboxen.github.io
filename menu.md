@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VÅR MENY
-description: Indiska boxen är ett klimatsmart alternativ till vardagsmat. Maten är fylld av smaker och nyttigheter, med inspiration ifrån södra indien. Varje matlåda från Indiska boxen släpper ut mellan 0,3-0,6 CO2e och innehåller ca 400g mat. Currylåda (utan ris) serverar 2 portioner.
+description: Indiska boxen är ett klimatsmart alternativ till vardagsmat. Maten är fylld av smaker och nyttigheter, med inspiration ifrån södra indien. Varje matlåda från Indiska boxen släpper ut mellan 0,3-0,6 CO2e och innehåller ca 400g mat. Currylåda (utan ris) serverar 2 portioner.
 image: assets/images/menu.jpg
 nav-menu: false
 published: true
@@ -15,7 +15,7 @@ order: 999
 			<div class="menulist">
 				<div class="menuitem">
 				<img src="/assets/food/cm.jpg">
-				<h3>Chana Masala (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,23 CO<sub>2</sub>e</h3>
+				<h3>Chana Masala (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,23 kg CO<sub>2</sub>e</h3>
 			   	<p>kikärter med lök, tomat, kryddor och citronsaft</p>
 			        <p>chickpea curry with onion, tomato, garam masala and lemon juice</p>
 				<p><b>Ingredienser</b> Basmatiris 35%, Kikärtor, Sås 30% (Lök, Tomat, Vitlök, Ingefära, Rapsolja, Citronsaft, Salt och Garam Masala Kryddor)</p>
@@ -80,7 +80,7 @@ order: 999
 				</div>
 				<div class="menuitem">
 				<img src="/assets/food/MC.jpg">
-				<h3>Chicken Madras <i class="fas fa-fw fa-globe-americas"></i>0,67 kg CO<sub>2</sub>e</h3>
+				<h3>Chicken Madras <i class="fas fa-fw fa-globe-americas"></i>0,57 kg CO<sub>2</sub>e</h3>
 			  	<p>yoghurtmarinerad kycklinglårfilé tillagad i smakrik kokoskryddsås med doft av ingefära,spiskummin och koriander</p>
 			  	<p>yogurt marinated chicken fillet in rich, fragrant coconut curry</p>
 			  	<p><b>Ingredienser</b> Basmatiris 35%, Svensk Kycklinglårfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, Kokosmjölk, Vitlök, Ingefära, Garam Masala Kryddor och Salt)</p>
