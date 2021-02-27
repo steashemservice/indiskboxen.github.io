@@ -16,6 +16,9 @@ order: 999
 				<h2>{{ page.title }}</h2>
 			</header>
 			<div>
+				<h4>Beställningsnummer: <span class="orderid"></span><br>Summa att betala: <span class="ordertotal"></span> kr</h4>
+			</div>
+			<div>
 				<h2>Betala med Swish</h2>
 				<a class="link swish-link">
 					<img src="{{ site.baseurl }}/assets/images/Swish.png" alt-src="Betala med Swish">
