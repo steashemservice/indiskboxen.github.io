@@ -21,15 +21,14 @@ order: 999
 				<p><b>Ingredienser</b> Basmatiris 35%, Kikärtor, Sås 30% (Lök, Tomat, Vitlök, Ingefära, Rapsolja, Citronsaft, Salt och Garam Masala Kryddor)</p>
 			        <p><b>Allergener</b> Kan innehålla spår av Senapsfrö</p>	
 			  	</div>
-				<!--<div class="menuitem">
-				<img src="/assets/food/sr.jpg">
-				<h3>Sambar (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,23 CO<sub>2</sub>e</h3>
-			   	<p>Ett traditionellt recept ifrån södra Indien tillagad med linser, ris, grönsaker och välsmakande kryddor.</p>
-			  	<p>A traditional recipe from south india made with lentils, mixed vegetables, spices & herbs.</p>
-				<p>Available only without rice (currylåda)</p>
-			        <p><b>Ingredienser</b> Linser, Blandade Grönsaker, Lök, Tomat, Vitlök, Ingefära, Rapsolja, Tamarind, Vallmofrö, Senapsfrö, Garam Masala Kryddor och Salt</p>
-			        <p><b>Allergener</b> Senapsfrö, Vallmofrö</p>	
-			  	</div>-->
+				<div class="menuitem">
+				<img src="/assets/food/km.jpg">
+				<h3>Lentil Kofta Masala (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,23 CO<sub>2</sub>e</h3>
+			   	<p>linsbullar tillagad i smakrik tomatsås.</p>
+			  	<p>lentil balls cooked in spicy, tangy, flavorful curry.</p>
+				<p><b>Ingredienser</b> Basmatiris 35%, Kikärtor, Tomat, Lök, Kokos, Vitlök, Ingefära, Rapsolja, Vetemjöl, Senapsfrön, Kumin, Chili, Korriander, Garam Masala Kryddor och Salt</p>
+			        <p><b>Allergener</b> Senapsfrö, Gluten</p>	
+			  	</div>
 				<div class="menuitem">
 				<img src="/assets/food/pt.jpg">
 				<h3>Paneer Tikka Masala (vegetariskt) <i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</h3>
@@ -59,7 +58,7 @@ order: 999
 				<h3>Chole Vegetable Korma (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,28 kg CO<sub>2</sub>e</h3>
 			  	<p>smakrik vegetarisk korma tillagad med grönsaker, kikärter och välsmakande kryddor i kokosmjölk</p>
 			  	<p>korma cooked with vegetables, chickpeas and tasty spices in coconut milk</p>
-			  	<p><b>Ingredienser</b> Basmatiris 35%, Blandade Grönsaker, Kikärtor, Sås 30% (Lök, Tomat,  Kokosmjölk, Mandelmjöl, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Blandade Grönsaker, Kikärtor, Sås 30% (Lök, Tomat, kokos, Kokosmjölk, Mandelmjöl, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Kan innehålla spår av Senapsfrö</p>
 				</div>
 				<div class="menuitem">
@@ -67,7 +66,7 @@ order: 999
 				<h3>Ennai Kathirikai Kuzhambu (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,29 kg CO<sub>2</sub>e</h3>
 			  	<p>Aubergine i kokosås tillagad med rostade kryddor</p>
 			  	<p>Eggplant in curry made with roasted spices and coconut</p>
-			  	<p><b>Ingredienser</b> Basmatiris 35%, Aubergine 35%, Sås 30% (Lök, Tomat, Gula Linser, Kokosmjölk, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Aubergine 35%, Sås 30% (Lök, Tomat, Gula Linser, kokos, Kokosmjölk, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Kan innehålla spår av Senapsfrö</p>
 				</div>
 				<div class="menuitem">
@@ -83,7 +82,7 @@ order: 999
 				<h3>Chicken Madras <i class="fas fa-fw fa-globe-americas"></i>0,57 kg CO<sub>2</sub>e</h3>
 			  	<p>yoghurtmarinerad kycklinglårfilé tillagad i smakrik kokoskryddsås med doft av ingefära,spiskummin och koriander</p>
 			  	<p>yogurt marinated chicken fillet in rich, fragrant coconut curry</p>
-			  	<p><b>Ingredienser</b> Basmatiris 35%, Svensk Kycklinglårfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, Kokosmjölk, Vitlök, Ingefära, Garam Masala Kryddor och Salt)</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Svensk Kycklinglårfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, kokos, Kokosmjölk, Vitlök, Ingefära, Garam Masala Kryddor och Salt)</p>
 			  	<p><b>Allergener</b> Mjölk, Laktos, Kan innehålla spår av Senapsfrö</p>
 				</div>
 			</div>
