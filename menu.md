@@ -26,8 +26,8 @@ order: 999
 				<h3>Lentil Kofta Masala (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,23 CO<sub>2</sub>e</h3>
 			   	<p>linsbullar tillagad i smakrik tomatsås.</p>
 			  	<p>lentil balls cooked in spicy, tangy, flavorful curry.</p>
-				<p><b>Ingredienser</b> Basmatiris 35%, Kikärtor, Tomat, Lök, Kokos, Vitlök, Ingefära, Rapsolja, Vetemjöl, Senapsfrön, Kumin, Chili, Korriander, Garam Masala Kryddor och Salt</p>
-			        <p><b>Allergener</b> Senapsfrö, Gluten</p>	
+				<p><b>Ingredienser</b> Basmatiris 35%, Gula Linder, Kikärtor, Tomat, Lök, Kokos, Vitlök, Ingefära, Rapsolja, Rismjöl, Senapsfrön, Kumin, Chili, Korriander, Garam Masala Kryddor och Salt</p>
+			        <p><b>Allergener</b> Senapsfrö</p>	
 			  	</div>
 				<div class="menuitem">
 				<img src="/assets/food/pt.jpg">
