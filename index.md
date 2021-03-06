@@ -17,11 +17,12 @@ lang: se
             </header>
             <div class="content">
                 <ul class="actions">
-			<li><a href="#order" class="button scrolly"> 79 kr/matlåda<br/><span> 129 kr/currylåda (2 portioner)</span></a></li>
-		        <li><a href="#order" class="button scrolly subscription"> 69 kr/matlåda med prenumeration<br/><span> 119 kr/currylåda (2 portioner)</span></a></li>
+			<li><a href="#order" class="button scrolly"> 79 kr/matlåda<br/><span> 129 kr/currylåda (2 portioner)</span><br>engångsbeställning</a></li>
+			<li><a href="#order" class="button scrolly subscription"> 74 kr/matlåda<br/><span> 124 kr/currylåda (2 portioner)</span><br>prenumeration 5 lådor eller mer</a></li>
+		        <li><a href="#order" class="button scrolly subscription"> 69 kr/matlåda<br/><span> 119 kr/currylåda (2 portioner)</span><br>prenumeration 10 lådor eller mer</a></li>
                 </ul>
             </div>
-	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans (För beställningar under 5 matlådor tillkommer en leveransavgift på 59 kr)<br/><i class="fa fa-fw fa-info"></i> Beställ minst 10 matlådor med prenumeration till lägre pris<br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</p>
+	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans (För beställningar under 5 matlådor tillkommer en leveransavgift på 59 kr)<br/><i class="fa fa-fw fa-info"></i> Beställ minst 5 matlådor med prenumeration till lägre pris<br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</p>
         </div>
     </section>
     
@@ -133,13 +134,10 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 		<header class="major">
       <h2>Våra erbjudanden</h2>
 		  <ul>
-	            <li> Klimatsmart val med mat fylld av smaker och nyttigheter</li>
-		    <li> 79 kr/matlåda och 129 kr/currylåda</li>
-		    <li> från 69 kr/matlåda och 119 kr/currylåda med prenumeration. -10 kr/låda (minst 10) eller -5 kr/låda (minst 5).</li>
-	            <li> Fri hemleverans (För beställningar under 5 matlådor tillkommer en leveransavgift på 59 kr)</li>
-		    <!--<li> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</li>-->
-	      <li> Med prenumeration av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</li>
-	    </ul>
+	            <li> 79 kr/matlåda och 129 kr/currylåda. Fri hemleverans (För beställningar under 5 lådor tillkommer en leveransavgift på 59 kr)</li>
+		    <li> 74 kr/matlåda och 124 kr/currylåda med prenumeration av 5 lådor eller mer</li>
+		    <li> 69 kr/matlåda och 119 kr/currylåda med prenumeration av 10 lådor eller mer</li>
+	          </ul>
 		</header>
 	</div>
 </section>
