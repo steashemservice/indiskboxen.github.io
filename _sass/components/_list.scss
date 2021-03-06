@@ -70,10 +70,10 @@
 			li {
 				@include breakpoint(small) {
 					width: 100%;
-					padding: 2em 0;
+					padding: 1em 0;
 				}
 				a {
-					height:7em;
+					height:10.5em;
 					span {
 						border-top: 1px solid #F2F2F2;
 						padding: 1em;
