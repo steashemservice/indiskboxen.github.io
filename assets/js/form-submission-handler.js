@@ -169,24 +169,28 @@ function stripegen(fname,lname,addr,total,order) {
       statusCode: {}
     });
   }
-  function summarize() {
+  function summarize(box) {
     var lines = "";
     var subch = 0;
+    var dis = 10;
     if ($("#subscription").prop('checked')) {
       subch =1;
+      if (box<10) {
+        dis = 5;
+      }
     }
     $(".quantity").not(".special,.chappati,.snacks").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*79-(subch*$(this).val()*10))+' kr</td></tr>';
+        lines += '<td>'+($(this).val()*79-(subch*$(this).val()*dis))+' kr</td></tr>';
       }
     });
     $(".special").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*129-(subch*$(this).val()*10))+' kr</td></tr>';
+        lines += '<td>'+($(this).val()*129-(subch*$(this).val()*dis))+' kr</td></tr>';
       }
     });
     $(".chappati").each(function(){
@@ -225,29 +229,34 @@ function stripegen(fname,lname,addr,total,order) {
     $(".snacks").each(function(){
         total += $(this).val()*$(this).parent().find('input').attr("data-price");
     });
-    var box = sum+curry+chappati;
+    var box = sum+curry;
     $("#productsel").val(box);
     var min = 1;
+    var dis = 0;
     if ($("#subscription").prop('checked')) {
       min = 10;
+      dis = 10;
+      if (box<10) {
+        min = 5;
+        dis = 5;
+      }
       stext = ' med prenumeration';
       $("#subscription").val('on');
-      total += 69*sum;
-      total += 119*curry;
     } else {
       $("#subscription").val('');
-      total += 79*sum;
-      total += 129*curry;
     }
+    total += (79-dis)*sum;
+    total += (129-dis)*curry;
     $("#total").val(total);
     $('.ordertotal').text(total);
+    summarize(box);
     if (box < min) {
       //$(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> 0 lådor valda. Beställ minst 1 lådor.').show();
       $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+box+' av '+min+' lådor valda. Beställ minst '+min+' lådor'+stext+'.').show();
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
-      if (box < 6){
+      if (box < 5){
         $(".minorderdeliv").show();
         $("#total").val(total+59);
         $('.ordertotal').text(total+59);
@@ -261,7 +270,6 @@ function stripegen(fname,lname,addr,total,order) {
     }
   }
   $(".quantity,#subscription").change(function(e) {
-    summarize();
     foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
