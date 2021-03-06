@@ -17,9 +17,9 @@ lang: se
             </header>
             <div class="content">
                 <ul class="actions">
-			<li><a href="#order" class="button scrolly"> 79 kr/matlåda<br/><span> 129 kr/currylåda (2 portioner)</span><br>engångsbeställning</a></li>
-			<li><a href="#order" class="button scrolly subscription"> 74 kr/matlåda<br/><span> 124 kr/currylåda (2 portioner)</span><br>prenumeration 5 lådor eller mer</a></li>
-		        <li><a href="#order" class="button scrolly subscription"> 69 kr/matlåda<br/><span> 119 kr/currylåda (2 portioner)</span><br>prenumeration 10 lådor eller mer</a></li>
+			<li><a href="#order" class="button scrolly">engångsbeställning<br>79 kr/matlåda<br/><span>129 kr/currylåda (2 portioner)</span></a></li>
+			<li><a href="#order" class="button scrolly subscription">prenumeration 5 lådor eller mer<br>74 kr/matlåda<br/><span>124 kr/currylåda (2 portioner)</span></a></li>
+		        <li><a href="#order" class="button scrolly subscription">prenumeration 10 lådor eller mer<br>69 kr/matlåda<br/><span>119 kr/currylåda (2 portioner)</span></a></li>
                 </ul>
             </div>
 	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans (För beställningar under 5 matlådor tillkommer en leveransavgift på 59 kr)<br/><i class="fa fa-fw fa-info"></i> Beställ minst 5 matlådor med prenumeration till lägre pris<br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</p>
