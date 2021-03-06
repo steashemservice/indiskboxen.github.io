@@ -21,7 +21,7 @@ lang: se
 		        <li><a href="#order" class="button scrolly subscription"> 69 kr/matlåda med prenumeration<br/><span> 119 kr/currylåda (2 portioner)</span></a></li>
                 </ul>
             </div>
-	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans (För beställningar under 6 matlådor tillkommer en leveransavgift på 59 kr)<br/><i class="fa fa-fw fa-info"></i> Beställ minst 10 matlådor med prenumeration till lägre pris<br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</p>
+	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans (För beställningar under 5 matlådor tillkommer en leveransavgift på 59 kr)<br/><i class="fa fa-fw fa-info"></i> Beställ minst 5 matlådor med prenumeration till lägre pris -10 kr/låda (minst 10) eller -5 kr/låda (minst 5)<br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</p>
         </div>
     </section>
     
@@ -135,8 +135,8 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 		  <ul>
 	            <li> Klimatsmart val med mat fylld av smaker och nyttigheter</li>
 		    <li> 79 kr/matlåda och 129 kr/currylåda</li>
-		    <li> 69 kr/matlåda och 119 kr/currylåda med prenumeration</li>
-	            <li> Fri hemleverans (För beställningar under 6 matlådor tillkommer en leveransavgift på 59 kr)</li>
+		    <li> från 69 kr/matlåda och 119 kr/currylåda med prenumeration. -10 kr/låda (minst 10) eller -5 kr/låda (minst 5).</li>
+	            <li> Fri hemleverans (För beställningar under 5 matlådor tillkommer en leveransavgift på 59 kr)</li>
 		    <!--<li> Med prenumeration av matlådorna sker leverans första söndagen varje månad så länge du önskar utan bindningstid</li>-->
 	      <li> Med prenumeration av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</li>
 	    </ul>
