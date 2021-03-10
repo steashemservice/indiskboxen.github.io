@@ -17,7 +17,9 @@ function stripegen(fname,lname,addr,total,order) {
   function goToUri(uri) {
     $('#swish-qr').show();
     $.ajax(
-      url: uri
+      url: uri,
+      error: function() { 
+      }
     );
     //window.open(uri,'_blank');
     //document.location = uri;
