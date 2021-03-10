@@ -33,7 +33,7 @@ order: 999
  			</div>
 			<div>
 				<h2>Betalkort</h2>
-				<iframe style="height: 300px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbzDz5bpLAOYri6kbhe1NcRvTIzHArm_hhtITKloobfokWgOAmuA/exec"></iframe>
+				<iframe style="height: 300px; width: 100%;" allowpaymentrequest id="gFrame" src="https://script.google.com/macros/s/AKfycbzDz5bpLAOYri6kbhe1NcRvTIzHArm_hhtITKloobfokWgOAmuA/exec"></iframe>
 			</div>
 		</div>
 	</section>
