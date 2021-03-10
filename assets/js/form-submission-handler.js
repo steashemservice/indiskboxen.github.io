@@ -16,11 +16,10 @@ function stripegen(fname,lname,addr,total,order) {
 (function($) {
   function goToUri(uri) {
     $('#swish-qr').show();
-    $.ajax(
-      url: uri,
-      error: function() { 
-      }
-    );
+    var appWindow = window.open(uri,"_blank");
+    setTimeout( function () {if (appWindow) {
+        appWindow.close();}
+    },1000);
     //window.open(uri,'_blank');
     //document.location = uri;
   }
