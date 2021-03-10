@@ -16,7 +16,8 @@ function stripegen(fname,lname,addr,total,order) {
 (function($) {
   function goToUri(uri) {
     $('#swish-qr').show();
-    document.location = uri;
+    window.open(uri,'_blank');
+    //document.location = uri;
   }
   var swishFunc = function(event){
     var $button = $(this);
