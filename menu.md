@@ -69,7 +69,7 @@ order: 999
 			  	<p><b>Ingredienser</b> Basmatiris 35%, Aubergine 35%, Sås 30% (Lök, Tomat, Gula Linser, kokos, Kokosmjölk, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Kan innehålla spår av Senapsfrö</p>
 				</div>
-                                <!--
+                                
 				<div class="menuitem">
 				<img src="/assets/food/bc.jpg">
 				<h3>Butter Chicken <i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</h3>
@@ -86,7 +86,7 @@ order: 999
 			  	<p><b>Ingredienser</b> Basmatiris 35%, Svensk Kycklinglårfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, kokos, Kokosmjölk, Vitlök, Ingefära, Garam Masala Kryddor och Salt)</p>
 			  	<p><b>Allergener</b> Mjölk, Laktos, Kan innehålla spår av Senapsfrö</p>
 				</div>
-                                -->
+                                
 			</div>
     		</div>
 	</section>
