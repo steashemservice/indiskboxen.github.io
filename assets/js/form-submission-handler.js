@@ -439,6 +439,12 @@ function stripegen(fname,lname,addr,total,order) {
       //} else if(day>28) {
       //  date.setDate(day+14);
       //}
+      if(day>21) {
+        date.setDate(day+7);
+        if(date.getDate()<=31) {
+          date.setDate(day+7);
+        }
+      }
       time = date.toDateString()+' KL 12-21';
       $('#delivery').append($('<option>', {value: time,text: time}));
       date.setDate(date.getDate()+7);
