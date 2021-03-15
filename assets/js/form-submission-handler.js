@@ -397,7 +397,7 @@ function stripegen(fname,lname,addr,total,order) {
     for (var i = 0; i < colls.length; i++) {
       $(colls[i]).on("change paste keyup", function() {
         var content = $(this).parent().parent().siblings('.cblock');
-        var pcode = $(this).val();
+        var pcode = $(this).val().replace(/\s/g, '');
         var pmsg = $(this).siblings('label.collapsible');
         if(pcode.length == 5 && checkPcode(Number(pcode),plists)) {
           pmsg.html("Ja, vi levererar i ditt område!");
