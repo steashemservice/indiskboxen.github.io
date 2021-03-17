@@ -66,8 +66,8 @@ order: 999
 				<h3>Ennai Kathirikai Kuzhambu (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,29 kg CO<sub>2</sub>e</h3>
 			  	<p>Aubergine i kokosås tillagad med rostade kryddor</p>
 			  	<p>Eggplant in curry made with roasted spices and coconut</p>
-			  	<p><b>Ingredienser</b> Basmatiris 35%, Aubergine 35%, Sås 30% (Lök, Tomat, Gula Linser, kokos, Kokosmjölk, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
-			  	<p><b>Allergener</b> Kan innehålla spår av Senapsfrö</p>
+			  	<p><b>Ingredienser</b> Basmatiris 35%, Aubergine 35%, Sås 30% (Lök, Tomat, Gula Linser, kokos, Kokosmjölk, Vitlök, Ingefära, Rapsolja, Senapsfrön, Salt och Garam Masala Kryddor)</p>
+			  	<p><b>Allergener</b> Senapsfrö</p>
 				</div>
                                 
 				<div class="menuitem">
