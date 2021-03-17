@@ -22,6 +22,10 @@ order: 999
   			  	<label for="email">E-mail*</label>
   			    	<input id="email" type="email" name="email" class="field" required />
 			  </div>
+			  <div class="field">
+			        <label for="message">Feedback</label>
+			        <textarea name="message" id="message" rows="6"></textarea>
+			  </div>
 			  <button type="submit">Skicka</button>
 		    </form>
 		</section>
