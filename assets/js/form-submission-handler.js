@@ -9,8 +9,8 @@ function swishgen(total,order,addr) {
   var slink = "swish://payment?data="+preq(total,order)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+addr+"&order="+order+"&total="+total)+"&callbackresultparameter=res";
   return slink;
 }
-function stripegen(fname,lname,addr,total,order) {
-  var slink = "https://www.indiskaboxen.se/pay?name="+fname+"%20"+lname+"&email="+addr+"&amount="+total+"00&order="+order;
+function stripegen(gway,fname,lname,addr,total,order) {
+  var slink = "https://www.indiskaboxen.se/"+gway+"?name="+fname+"%20"+lname+"&email="+addr+"&amount="+total+"00&order="+order;
   return slink;
 }
 (function($) {
@@ -79,6 +79,7 @@ function stripegen(fname,lname,addr,total,order) {
     return {data: formData, honeypot: honeypot, trap:trap};
   }
   function getFormData(form) {
+    var gway = 'pay';
     var elements = form.elements;
     var d = new Date();
     elements['order'] = {};
@@ -87,7 +88,10 @@ function stripegen(fname,lname,addr,total,order) {
     $('.orderid').text(elements['order'].value);
     //elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+elements['email'].value+"&order="+elements['order'].value+"&total="+elements['total'].value)+"&callbackresultparameter=res";
     $('#swish-uri').text(swishgen(elements['total'].value,elements['order'].value,elements['email'].value));
-    $('#stripe-uri').attr("href",stripegen(elements['firstname'].value,elements['lastname'].value,elements['email'].value,elements['total'].value,elements['order'].value));
+    if(elements['subscription'].value === 'on') {
+      gway = 'addcard';
+    }
+    $('#stripe-uri').attr("href",stripegen(gway,elements['firstname'].value,elements['lastname'].value,elements['email'].value,elements['total'].value,elements['order'].value));
     var trap,honeypot;
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "_prev") {
