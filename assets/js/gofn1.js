@@ -45,16 +45,16 @@
       var mobil = urlParams.get('p');
       $("input[name='phone']").val(mobil);
     }
-    if (urlParams.has('t')) {
-      var amount = urlParams.get('t');
-    }
     if (urlParams.has('s')) {
       if (urlParams.get('s') === 'on')
       $("#subscription").prop("checked", true);
       $("#contact-form .spblock").hide();
     }
-    if (urlParams.has('ch')) {
-      $("input[name='Chappatilåda']").val(urlParams.get('ch'));
+    if (urlParams.has('bc')) {
+      $("input[name='Butter Chicken Matlåda']").val(urlParams.get('bc'));
+    }
+    if (urlParams.has('mc')) {
+      $("input[name='Chicken Madras Matlåda']").val(urlParams.get('pc'));
     }
     if (urlParams.has('pt')) {
       $("input[name='Paneer Tikka Masala Matlåda']").val(urlParams.get('pt'));
@@ -71,11 +71,17 @@
     if (urlParams.has('kk')) {
       $("input[name='Ennai Kathirikai Kuzhambu Matlåda']").val(urlParams.get('kk'));
     }
-    if (urlParams.has('bc')) {
-      $("input[name='Butter Chicken Matlåda']").val(urlParams.get('bc'));
+    if (urlParams.has('cm')) {
+      $("input[name='Chana Masala Matlåda']").val(urlParams.get('cm'));
     }
-    if (urlParams.has('pc')) {
-      $("input[name='Chicken Madras Matlåda']").val(urlParams.get('pc'));
+    if (urlParams.has('km')) {
+      $("input[name='Lentil Kofta Masala Matlåda']").val(urlParams.get('km'));
+    }
+    if (urlParams.has('bcc')) {
+      $("input[name='Butter Chicken Currylåda']").val(urlParams.get('bcc'));
+    }
+    if (urlParams.has('mcc')) {
+      $("input[name='Chicken Madras Currylåda']").val(urlParams.get('pcc'));
     }
     if (urlParams.has('ptc')) {
       $("input[name='Paneer Tikka Masala Matlåda']").val(urlParams.get('ptc'));
@@ -92,29 +98,22 @@
     if (urlParams.has('kkc')) {
       $("input[name='Ennai Kathirikai Kuzhambu Currylåda']").val(urlParams.get('kkc'));
     }
-    if (urlParams.has('bcc')) {
-      $("input[name='Butter Chicken Currylåda']").val(urlParams.get('bcc'));
-    }
-    if (urlParams.has('pcc')) {
-      $("input[name='Chicken Madras Currylåda']").val(urlParams.get('pcc'));
-    }
-    if (urlParams.has('cm')) {
-      $("input[name='Chana Masala Matlåda']").val(urlParams.get('cm'));
-    }
     if (urlParams.has('cmc')) {
       $("input[name='Chana Masala Currylåda']").val(urlParams.get('cmc'));
     }
-    if (urlParams.has('sr')) {
-      $("input[name='Sambar Rice Matlåda']").val(urlParams.get('sr'));
+    if (urlParams.has('kmc')) {
+      $("input[name='Lentil Kofta Masala Currylåda']").val(urlParams.get('kmc'));
     }
-    if (urlParams.has('src')) {
-      $("input[name='Sambar Currylåda']").val(urlParams.get('src'));
+    if (urlParams.has('ch')) {
+      $("input[name='Chappatilåda']").val(urlParams.get('ch'));
+    }
+    if (urlParams.has('na')) {
+      $("input[name='Naanbröd']").val(urlParams.get('na'));
+    }
+    if (urlParams.has('gna')) {
+      $("input[name='Vitlök Naanbröd']").val(urlParams.get('gna'));
     }
     $("#terms").prop("checked", true);
-    var slink = swishgen(amount,mobil,eaddr);
-    $('#swish-uri').text(slink);
-    $('.orderid').text(mobil);
-    $('.ordertotal').text(amount);
   });
   function pickclick() {
     $("#contact-form .sblock").hide();
