@@ -19,7 +19,7 @@
     }
     if (urlParams.has('i')) {
       var pcode = urlParams.get('i');
-      $("input[name='postcode']").val(pcode);    
+      $("input[name='postcode']").val(pcode).change();    
     }
     if (urlParams.has('c')) {
       var city = urlParams.get('c');
@@ -116,7 +116,7 @@
     $("#terms").prop("checked", true);
   });
   function pickclick() {
-    $("#contact-form .sblock").hide();
+    //$("#contact-form .sblock").hide();
     $("#contact-form .spblock").show();
     $("#contact-form .cblock").show();
     $("#contact-form .cblock h3 .msg").html("Ändra din order (dina tidigare val är redan ifylld)");
