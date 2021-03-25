@@ -19,7 +19,8 @@
     }
     if (urlParams.has('i')) {
       var pcode = urlParams.get('i');
-      $("input[name='postcode']").val(pcode).change();    
+      $("input[name='postcode']").val(pcode);
+      $("#postcode_ro").val(pcode);
     }
     if (urlParams.has('c')) {
       var city = urlParams.get('c');
