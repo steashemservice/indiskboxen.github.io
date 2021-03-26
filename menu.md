@@ -16,7 +16,7 @@ order: 999
 				<div class="menuitem">
 				<img src="/assets/food/cm.jpg">
 				<h3>Chana Masala (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,23 kg CO<sub>2</sub>e</h3>
-			   	<p>kikärter med lök, tomat, kryddor och citronsaft</p>
+			   	<p>kikärtor med lök, tomat, kryddor och citronsaft</p>
 			        <p>chickpea curry with onion, tomato, garam masala and lemon juice</p>
 				<p><b>Ingredienser</b> Ris 35%, Kikärtor, Sås 30% (Lök, Tomat, Vitlök, Ingefära, Rapsolja, Citronsaft, Salt och Garam Masala Kryddor)</p>
 			        <p><b>Allergener</b> Kan innehålla spår av Senapsfrö</p>	
