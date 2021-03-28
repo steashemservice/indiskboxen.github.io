@@ -99,7 +99,8 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 		</header>
 		<header class="major">
       			<h2>Full av smakar och nyttigheter</h2>
-			<p>Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Indier har också använt örter och kryddor som medicin. Indiska Boxens egna Garam Masala kryddor mals färskt i vårt kök, vilket ger friska och unika smakupplevelser.</p>
+			<p class="pnl">Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Indier har också använt örter och kryddor som medicin.</p>
+			<p>Indiska Boxens egna Garam Masala kryddor mals färskt i vårt kök, vilket ger friska och unika smakupplevelser.</p>
     		        <p><a href="#order">Beställ indiska boxen idag</a>!</p>
                 </header>
         </div>
