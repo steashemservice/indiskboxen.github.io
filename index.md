@@ -82,15 +82,15 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
   	<div class="inner">
 		<header class="major">
       			<h2>Ät Klimatsmart</h2>
-			<p>10 miljarder ton mat produceras årligen. Livsmedelsindustrin står för över en fjärdedel (26%) av den globala utsläppen av växthusgaser. Vi slösar bort en tredjedel av all mat som produceras, årliga koldioxidutsläpp från matsvinn motsvarar 3 miljoner bilar.</p>
-			<p>Indiska Boxen erbjuder mat lagad ifrån grunden som är unik och smakfull. Inspiration från södra Indien där vegansk matkultur finns i flera generationer.  Maten ifrån Indiska Boxen är inte bara god och klimatsmart, utan även hälsosam.</p>
-			<p>På vilket sätt är Indiska Boxen klimatsmart?<br/>
-			<i class="fas fa-fw fa-globe-americas"></i>Varje matlåda ifrån Indiska Boxen släpper ut max 0,6 kg CO2e per portion, vilket kan jämföras med en svensk maträtt som släpper ut 2 kg CO2e. Källa WWF.<br/>
-			<i class="fas fa-fw fa-globe-americas"></i>Maten fryses ner direkt efter tillagning, det gör att maten får en naturligt lång hållbarhet.<br/>
-			<i class="fas fa-fw fa-globe-americas"></i>One pot rätter utan matsvinn vid tillagning.<br/>
-			<i class="fas fa-fw fa-globe-americas"></i>Portionspackad mat  förhindrar matsvinn.<br/>
-			<i class="fas fa-fw fa-globe-americas"></i>Maten packas i miljövänliga förpackningar.<br/>
-			<i class="fas fa-fw fa-globe-americas"></i>Leveranserna är planerade, ruttoptimerade samt samlade till en och samma dag med flera måltider per kund.</p>
+			<p class="pnl">10 miljarder ton mat produceras årligen. Livsmedelsindustrin står för över en fjärdedel (26%) av den globala utsläppen av växthusgaser. Vi slösar bort en tredjedel av all mat som produceras, årliga koldioxidutsläpp från matsvinn motsvarar 3 miljoner bilar.</p>
+			<p class="pnl">Indiska Boxen erbjuder mat lagad ifrån grunden som är unik och smakfull. Inspiration från södra Indien där vegansk matkultur finns i flera generationer.  Maten ifrån Indiska Boxen är inte bara god och klimatsmart, utan även hälsosam.</p>
+			<p>På vilket sätt är Indiska Boxen klimatsmart?</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Varje matlåda ifrån Indiska Boxen släpper ut max 0,6 kg CO2e per portion, vilket kan jämföras med en svensk maträtt som släpper ut 2 kg CO2e. Källa WWF.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Maten fryses ner direkt efter tillagning, det gör att maten får en naturligt lång hållbarhet.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>One pot rätter utan matsvinn vid tillagning.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Portionspackad mat  förhindrar matsvinn.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Maten packas i miljövänliga förpackningar.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Leveranserna är planerade, ruttoptimerade samt samlade till en och samma dag med flera måltider per kund.</p>
 			<a href="menu" class="button next"><i class="fa fa-fw fa-utensils"></i> se vår meny</a>
 			<div class="video-container">
 			<div class="embed-container">
@@ -99,8 +99,8 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 		</header>
 		<header class="major">
       			<h2>Full av smakar och nyttigheter</h2>
-			<p>Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Indier har också använt örter och kryddor som medicin. Indiska Boxens egna Garam Masala kryddor mals färskt i vårt kök, vilket ger friska och unika smakupplevelser.<br/>
-    		        <a href="#order">Beställ indiska boxen idag</a>!</p>
+			<p>Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Indier har också använt örter och kryddor som medicin. Indiska Boxens egna Garam Masala kryddor mals färskt i vårt kök, vilket ger friska och unika smakupplevelser.</p>
+    		        <p><a href="#order">Beställ indiska boxen idag</a>!</p>
                 </header>
         </div>
 </section>
