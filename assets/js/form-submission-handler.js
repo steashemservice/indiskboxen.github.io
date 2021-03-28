@@ -430,7 +430,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
 (function($) {
   function get_delivery_date() {
     var date = new Date();
-    date.setDate(date.getDate()+2);
+    date.setDate(date.getDate()+3);
     while(date.getDay() !== 0) {
       date.setDate(date.getDate()+1);
     }
@@ -443,10 +443,10 @@ function stripegen(gway,fname,lname,addr,total,order) {
       //} else if(day>28) {
       //  date.setDate(day+14);
       //}
-      if(day>21) {
-        date.setDate(day+7);
-        if(date.getDate()<=31 && date.getDate()>21) {
-          date.setDate(day+14);
+      if(day>14) {
+        date.setDate(day+14);
+        if(date.getDate()<=31) {
+          date.setDate(day+7);
         }
       }
       time = date.toDateString()+' KL 12-21';
