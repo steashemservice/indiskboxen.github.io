@@ -142,7 +142,7 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
       <h2>Våra erbjudanden</h2>
 		  <ul>
 	            <li> 79 kr/matlåda och 129 kr/currylåda. Fri hemleverans (För beställningar under 5 lådor tillkommer en leveransavgift på 59 kr).</li>
-		    <li> 74 kr/matlåda och 124 kr/currylåda med prenumeration av 5 lådor eller mer<. Fri hemleverans.</li>
+		    <li> 74 kr/matlåda och 124 kr/currylåda med prenumeration av 5 lådor eller mer. Fri hemleverans.</li>
 		    <li> 69 kr/matlåda och 119 kr/currylåda med prenumeration av 10 lådor eller mer. Fri hemleverans.</li>
 	          </ul>
 		</header>
