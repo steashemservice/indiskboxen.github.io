@@ -82,8 +82,15 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
   	<div class="inner">
 		<header class="major">
       			<h2>Ät Klimatsmart</h2>
-			<p>Indiska Boxen erbjuder portionspackat frysta matlådor som har låg klimatpåverkan och förlängd livslängd. Vi förhindrar matsvinn genom att frysa in nylagad mat. Vi tror på ett proaktivt tillvägagångssätt som fokuserar på att eliminera matsvinn innan de har en chans att dyka upp.</p>
-			<p>Fryst mat bidrar till att minska matsvinn genom att plocka fram precis antal portioner som behövs och låta resten ligga kvar i frysen. Du sparar pengar och miljön. Varje box från Indiska boxen släpper ut mellan 0,3-0,6 CO2e, vilket han jämföras med en biffrätt som släpper ut 5 CO2e (<a href="https://www.wwf.se/mat-och-jordbruk/vad-ska-jag-ata/">Vad ska jag äta</a>). Vi har fler smakrika vegetarisk/vegan rätter att välja emellan.</p>
+			<p>10 miljarder ton mat produceras årligen. Livsmedelsindustrin står för över en fjärdedel (26%) av den globala utsläppen av växthusgaser. Vi slösar bort en tredjedel av all mat som produceras, årliga koldioxidutsläpp från matsvinn motsvarar 3 miljoner bilar.</p>
+			<p>Indiska Boxen erbjuder mat lagad ifrån grunden som är unik och smakfull. Inspiration från södra Indien där vegansk matkultur finns i flera generationer.  Maten ifrån Indiska Boxen är inte bara god och klimatsmart, utan även hälsosam.</p>
+			<p>På vilket sätt är Indiska Boxen klimatsmart?</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Varje matlåda ifrån Indiska Boxen släpper ut max 0,6 kg CO2e per portion, vilket kan jämföras med en svensk maträtt som släpper ut 2 kg CO2e. Källa WWF.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Maten fryses ner direkt efter tillagning, det gör att maten får en naturligt lång hållbarhet.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>One pot rätter utan matsvinn vid tillagning.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Portionspackad mat  förhindrar matsvinn.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Maten packas i miljövänliga förpackningar.</p>
+			<p><i class="fas fa-fw fa-globe-americas"></i>Leveranserna är planerade, ruttoptimerade samt samlade till en och samma dag (varje söndag) med flera måltider.</p>
 			<a href="menu" class="button next"><i class="fa fa-fw fa-utensils"></i> se vår meny</a>
 			<div class="video-container">
 			<div class="embed-container">
@@ -92,8 +99,8 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 		</header>
 		<header class="major">
       			<h2>Full av smakar och nyttigheter</h2>
-		  	<p>Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Kryddor och aromater är hjärtat i indisk matlagning. Indier har också använt örter och kryddor som medicin. Frysning är ett naturligt sätt att bevara mat, därför behövs inga konserveringsmedel. Maten får en naturlig lång hållbarhet och behåller samtidigt smak, arom, näringsvärde och konsistens.<br/>
-    		        Indiska boxen är smakrikt och klimatsmart <a href="#order">beställ indiska boxen idag</a>!</p>
+			<p>Indisk mat kännetecknas av den omfattande användningen av kryddor som är viktiga för att tillhandahålla autentiska, utsökta och unika smaker. Indier har också använt örter och kryddor som medicin. Indiska Boxens egna Garam Masala kryddor mals färskt i vårt kök, vilket ger smakrika och unika smakupplevelser.<br/>
+    		        <a href="#order">Beställ indiska boxen idag</a>!</p>
                 </header>
         </div>
 </section>
