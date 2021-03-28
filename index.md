@@ -115,14 +115,14 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 	<i class="icon alt fas fa-truck" ></i>   
    	<header class="major">
           <h2>2. Vi levererar din mat till din dörr</h2>
-	  <p>När du går med i prenumeration första gången, får du leverans det datum du väljer. För nästa leverans skickas ett SMS/Email med en länk för att göra din betalning och välja din nästa leveransdatum. SMS/Email skickas sista söndagen på månaden.</p>
+	  <p>När du går med i prenumeration första gången, får du leverans det datum du väljer. Nästa leverans skickas första söndagen av varje månad, med möjlighet att ändra leveransdatum och matlådor.</p>
         </header>
      </section>
      <section>
 	<i class="icon alt fas fa-utensils" ></i>   
         <header class="major">
           <h2>3. njut av den goda indiska maten</h2>
-	  <p>Värm i micro och njut den maträtt du vill äta för dagen och ta ett steg närmare en hälsosam livsstil.</p>
+	  <p>Värm i mikrovågsugn i 8 min på 800W och njut den maträtt du vill äta för dagen och ta ett steg närmare en hälsosam livsstil.</p>
         </header>
      </section>
    </section>
