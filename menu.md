@@ -56,7 +56,7 @@ order: 999
 				<div class="menuitem">
 				<img src="/assets/food/vk.jpg">
 				<h3>Chole Vegetable Korma (vegan) <i class="fas fa-fw fa-globe-americas"></i>0,28 kg CO<sub>2</sub>e</h3>
-			  	<p>smakrik vegetarisk korma tillagad med grönsaker, kikärter och välsmakande kryddor i kokosmjölk</p>
+			  	<p>smakrik vegetarisk korma tillagad med grönsaker, kikärtor och välsmakande kryddor i kokosmjölk</p>
 			  	<p>korma cooked with vegetables, chickpeas and tasty spices in coconut milk</p>
 			  	<p><b>Ingredienser</b> Ris 35%, Blandade Grönsaker, Kikärtor, Sås 30% (Lök, Tomat, Kokos, Kokosmjölk, Mandelmjöl, Vitlök, Ingefära, Rapsolja, Salt och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Cashewnötter, Mandelmjöl, Kan innehålla spår av Senapsfrö</p>
@@ -69,11 +69,10 @@ order: 999
 			  	<p><b>Ingredienser</b> Ris 35%, Aubergine 35%, Sås 30% (Lök, Tomat, Gula Linser, Kokos, Kokosmjölk, Vitlök, Ingefära, Rapsolja, Senapsfrön, Salt och Garam Masala Kryddor)</p>
 			  	<p><b>Allergener</b> Senapsfrö</p>
 				</div>
-                                
-				<div class="menuitem">
+                                <div class="menuitem">
 				<img src="/assets/food/bc.jpg">
 				<h3>Butter Chicken <i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</h3>
-			  	<p>yoghurtmarinerad kycklinglårfilé tillagade i smör och smakrik tomatsås</p>
+			  	<p>yoghurtmarinerad kycklingfilé tillagade i smör och smakrik tomatsås</p>
 			  	<p>yogurt marinated chicken fillet in tasty tomato butter sauce</p>
 			  	<p><b>Ingredienser</b> Ris 35%, Svensk Kycklinglårfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, Laktosfri Grädde, Vitlök, Ingefära, Garam Masala Kryddor, Bockhornsklöver Blad och Salt)</p>
 			  	<p><b>Allergener</b> Mjölk, Laktos, Kan innehålla spår av Senapsfrö</p>
@@ -81,13 +80,12 @@ order: 999
 				<div class="menuitem">
 				<img src="/assets/food/MC.jpg">
 				<h3>Chicken Madras <i class="fas fa-fw fa-globe-americas"></i>0,57 kg CO<sub>2</sub>e</h3>
-			  	<p>yoghurtmarinerad kycklinglårfilé tillagad i smakrik kokoskryddsås med doft av ingefära,spiskummin och koriander</p>
+			  	<p>yoghurtmarinerad kycklingfilé tillagad i smakrik kokoskryddsås med doft av ingefära,spiskummin och koriander</p>
 			  	<p>yogurt marinated chicken fillet in rich, fragrant coconut curry</p>
 			  	<p><b>Ingredienser</b> Ris 35%, Svensk Kycklinglårfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, Kokos, Kokosmjölk, Vitlök, Ingefära, Garam Masala Kryddor och Salt)</p>
 			  	<p><b>Allergener</b> Mjölk, Laktos, Kan innehålla spår av Senapsfrö</p>
 				</div>
-                                
-			</div>
+                        </div>
     		</div>
 	</section>
 	<section id="spicebanner" class="major">
@@ -96,13 +94,9 @@ order: 999
 				<h2>Hälsofördelarna med indiska kryddor som ingår i alla våra matlådar</h2>
 				<ul>
 					<li>Gurkmeja med den härliga gula färgen är antioxidant med antiinflammatoriska egenskaper</li>
-
 					<li>Spiskummin hjälpa till vid ökar din naturliga förbränning och sänk din kolesterolnivå</li>
-
 					<li>Korrianderfrön har anti-oxidationsegenskaper och kostfiber som främjar det sunda arbetet i levern och underlättar tarmens upptagning av näring</li>
-
 					<li>Vitlök anses nämligen kunna förebygga åderförfettning, sänka blodtrycket och skydda mot blodpropp och cancer</li>
-
 					<li>Ingefära används för att hjälper matsmältningen, minska illamående och hjälpa till att bekämpa influensa Och förkylning</li>
 				</ul>
 			</header>
