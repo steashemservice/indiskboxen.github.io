@@ -108,14 +108,14 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 	<i class="icon alt fas fa-shopping-cart" ></i>     
 	<header class="major">
           <h2>1. beställning</h2>
-      	  <p>Du väljer vilka rätter du vill beställa och hur många portioner som önskas per månad. Skicka din beställning för att starta din prenumeration. Ändra/avsluta prenumerationen när du vill, fram till tre dagar innan nästa leverans. </p>
+      	  <p>Du väljer vilka rätter du vill beställa och hur många portioner som önskas per månad. Skicka din beställning för att starta din prenumeration.</p>
     	</header>
      </section>
      <section>
 	<i class="icon alt fas fa-truck" ></i>   
    	<header class="major">
           <h2>2. Vi levererar din mat till din dörr</h2>
-	  <p>När du går med i prenumeration första gången, får du leverans det datum du väljer. Nästa leverans skickas första söndagen av varje månad, med möjlighet att ändra leveransdatum och matlådor.</p>
+	  <p>När du går med i prenumeration första gången, får du leverans det datum du väljer. Nästa leverans skickas första söndagen av varje månad, med möjlighet att ändra leveransdatum och matlådor. Ändra/avsluta prenumerationen när du vill, fram till tre dagar innan nästa leverans.</p>
         </header>
      </section>
      <section>
