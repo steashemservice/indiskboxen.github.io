@@ -88,9 +88,9 @@ function stripegen(gway,fname,lname,addr,total,order) {
     $('.orderid').text(elements['order'].value);
     //elements['swish'].value="swish://payment?data="+preq(elements['total'].value,elements['order'].value)+"&callbackurl="+encodeURIComponent("https://www.indiskaboxen.se/postcall?email="+elements['email'].value+"&order="+elements['order'].value+"&total="+elements['total'].value)+"&callbackresultparameter=res";
     $('#swish-uri').text(swishgen(elements['total'].value,elements['order'].value,elements['email'].value));
-    //if(elements['subscription'].value === 'on') {
-    //  gway = 'addcard';
-    //}
+    if(elements['subscription'].value === 'on') {
+      gway = 'addcard';
+    }
     $('#stripe-uri').attr("href",stripegen(gway,elements['firstname'].value,elements['lastname'].value,elements['email'].value,elements['total'].value,elements['order'].value));
     var trap,honeypot;
     var fields = Object.keys(elements).filter(function(k) {
