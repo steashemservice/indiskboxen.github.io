@@ -55,6 +55,11 @@ function stripegen(gway,fname,lname,addr,total,order) {
       $("#subscription").prop("checked", true);
       $("#contact-form .spblock").hide();
     }
+    if (urlParams.has('u')) {
+      var turl = "https://app.indiskaboxen.se/"+urlParams.get('u');
+      $("input[name='tinyurl']").val(turl);
+      window.history.replaceState(null, null, turl);
+    }
     //if (urlParams.has('bc')) {
     //  $("input[name='Butter Chicken Matlåda']").val(urlParams.get('bc'));
     //}
