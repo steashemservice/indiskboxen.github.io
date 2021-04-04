@@ -7,49 +7,51 @@ function stripegen(gway,fname,lname,addr,total,order) {
     const sPageURL = window.location.search;
     window.history.replaceState(null, null, window.location.pathname);
     const urlParams = new URLSearchParams(sPageURL);
-    if (urlParams.has('n')) {
-      var name = urlParams.get('n');
-      $("input[name='firstname']").val(name);
-    } else {
-      window.location.replace("https://www.indiskaboxen.se/#order");
-    }
-    if (urlParams.has('l')) {
-      var lname = urlParams.get('l');
-      $("input[name='lastname']").val(lname);
-    }
-    if (urlParams.has('a')) {
-      var addr = urlParams.get('a');
-      $("input[name='address']").val(addr);
-    }
-    if (urlParams.has('i')) {
-      var pcode = urlParams.get('i');
-      $("input[name='postcode']").val(pcode);
-      $("#postcode_ro").val(pcode);
-    }
-    if (urlParams.has('c')) {
-      var city = urlParams.get('c');
-      $("input[name='city']").val(city);
-    }
-    if (urlParams.has('d')) {
-      var code = urlParams.get('d');
-      $("input[name='doorcode']").val(code);
-    }
-    if (urlParams.has('o')) {
-      var co = urlParams.get('o');
-      $("input[name='co']").val(co);
-    }
-    if (urlParams.has('f')) {
-      var floor = urlParams.get('f');
-      $("input[name='floor']").val(floor);
-    }
+    //if (urlParams.has('n')) {
+    //  var name = urlParams.get('n');
+    //  $("input[name='firstname']").val(name);
+    //} else {
+    //  window.location.replace("https://www.indiskaboxen.se/#order");
+    //}
+    //if (urlParams.has('l')) {
+    //  var lname = urlParams.get('l');
+    //  $("input[name='lastname']").val(lname);
+    //}
+    //if (urlParams.has('a')) {
+    //  var addr = urlParams.get('a');
+    //  $("input[name='address']").val(addr);
+    //}
+    //if (urlParams.has('i')) {
+    //  var pcode = urlParams.get('i');
+    //  $("input[name='postcode']").val(pcode);
+    //  $("#postcode_ro").val(pcode);
+    //}
+    //if (urlParams.has('c')) {
+    //  var city = urlParams.get('c');
+    //  $("input[name='city']").val(city);
+    //}
+    //if (urlParams.has('d')) {
+    //  var code = urlParams.get('d');
+    //  $("input[name='doorcode']").val(code);
+    //}
+    //if (urlParams.has('o')) {
+    //  var co = urlParams.get('o');
+    //  $("input[name='co']").val(co);
+    //}
+    //if (urlParams.has('f')) {
+    //  var floor = urlParams.get('f');
+    //  $("input[name='floor']").val(floor);
+    //}
     if (urlParams.has('e')) {
       var eaddr = urlParams.get('e');
       $("input[name='email']").val(eaddr);
+    } else {
+      window.location.replace("https://www.indiskaboxen.se/#order");
     }
-    if (urlParams.has('p')) {
-      var mobil = urlParams.get('p');
-      $("input[name='phone']").val(mobil);
-    }
+    //if (urlParams.has('p')) {
+    //  var mobil = urlParams.get('p');
+    //  $("input[name='phone']").val(mobil);
+    //}
     if (urlParams.has('s')) {
       if (urlParams.get('s') === 'on')
       $("#subscription").prop("checked", true);
