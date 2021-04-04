@@ -15,7 +15,7 @@ order: 999
 			<header class="major">
 				<h1>{{ page.title }}</h1>
 			</header>
-			{% include order.html %}
+			{% include suborder.html %}
 		</div>
 	</section>
 </div>
