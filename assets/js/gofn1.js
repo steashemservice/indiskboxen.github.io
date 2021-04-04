@@ -53,9 +53,10 @@ function stripegen(gway,fname,lname,addr,total,order) {
     //  $("input[name='phone']").val(mobil);
     //}
     if (urlParams.has('s')) {
-      if (urlParams.get('s') === 'on')
-      $("#subscription").prop("checked", true);
-      $("#contact-form .spblock").hide();
+      if (urlParams.get('s') === 'on') {
+        $("#subscription").prop("checked", true);
+        $("#contact-form .spblock").hide();
+      }
     }
     $("input[name='tinyurl']").val("on");
     //if (urlParams.has('bc')) {
