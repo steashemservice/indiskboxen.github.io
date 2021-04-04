@@ -126,7 +126,6 @@ function stripegen(gway,fname,lname,addr,total,order) {
   });
   function pickclick() {
     $("#contact-form .sblock").hide();
-    $("#contact-form .spblock").show();
     $("#contact-form .cblock").show();
     $("#contact-form .cblock h3 .msg").html("Ändra din order");
     $( ".quantity" ).trigger( "change" );
