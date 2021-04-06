@@ -37,7 +37,7 @@ order: 1
   			</div>
                         <h3>Hur prenumerationen fungerat?</h3>
 			<div>
-      				<p>När du går med i prenumeration första gången, får du leverans det datum du väljer. Nästa leverans skickas första söndagen av varje månad, med möjlighet att ändra leveransdatum och matlådor med länk i e-post skickas vid första köpt. Ändra/avsluta prenumerationen när du vill, fram till tre dagar innan nästa leverans. Vid betalning med kort dras pengarna direkt vid det första köptillfället. Kommande månader dras pengarna automatiskt från kortet två dagar innan nästa leverans varje månad.</p>
+      				<p>När du går med i prenumeration första gången, får du leverans det datum du väljer. Nästa leverans skickas första söndagen av varje månad, med möjlighet att ändra leveransdatum och matlådor via länk i e-post skickas vid första köpet. Ändra/avsluta prenumerationen när du vill, fram till tre dagar innan nästa leverans. Vid betalning med kort dras pengarna direkt vid det första köptillfället. Kommande månader dras pengarna automatiskt från kortet två dagar innan nästa leverans varje månad.</p>
   			</div>
 			<h3>Hur pausar eller avslutar jag mitt abonnemang?</h3>
 			<div>
