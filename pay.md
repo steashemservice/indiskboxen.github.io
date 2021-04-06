@@ -34,6 +34,7 @@ order: 999
 			<div>
 				<h2>Betalkort</h2>
 				<iframe style="height: 300px; width: 100%;" allowpaymentrequest id="gFrame" src="https://script.google.com/macros/s/AKfycbzDz5bpLAOYri6kbhe1NcRvTIzHArm_hhtITKloobfokWgOAmuA/exec"></iframe>
+				<p>Indiska Boxens kortbetalningspartner är Stripe. Indisks Boxen tar aldrig del av dina personliga kontokortsuppgifter utan detta hanteras endast av Stripe. Person- och betalningsuppgifter som lämnas på Indiska Boxen är krypterade med den högsta säkerhetsnivån enligt den standard som gäller vid handel på Internet. Kortbetalning görs i förskott.</p>
 			</div>
 		</div>
 	</section>
