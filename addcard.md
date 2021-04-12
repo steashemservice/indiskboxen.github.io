@@ -21,7 +21,7 @@ order: 999
 			<div>
 				<h2>Betalkort</h2>
 				<p>Vid betalning med kort dras pengarna direkt vid det första köptillfället. Kommande månader dras pengarna automatiskt från kortet två dagar innan nästa leverans varje månad.</p>
-				<iframe style="height: 300px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbyMX9KB8QTTA3eH0Z-rc51UfYVJRF94lQ_TrGUtxhOpDh_WieHT/exec"></iframe>
+				<iframe style="height: 340px; width: 100%;" id="gFrame" src="https://script.google.com/macros/s/AKfycbyMX9KB8QTTA3eH0Z-rc51UfYVJRF94lQ_TrGUtxhOpDh_WieHT/exec"></iframe>
 				<p>Indiska Boxens kortbetalningspartner är Stripe. Indisks Boxen tar aldrig del av dina personliga kontokortsuppgifter utan detta hanteras endast av Stripe. Person och betalningsuppgifter som lämnas på Indiska Boxen är krypterade med den högsta säkerhetsnivån enligt den standard som gäller vid handel på Internet. Kortbetalning görs i förskott.</p>
 			</div>
 		</div>
