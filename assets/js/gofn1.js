@@ -7,7 +7,9 @@ function stripegen(gway,fname,lname,addr,total,order) {
     const sPageURL = window.location.search;
     window.history.replaceState(null, null, window.location.pathname);
     const urlParams = new URLSearchParams(sPageURL);
-    //if (urlParams.has('n')) {
+    if (urlParams.has('n')) {
+      window.location.replace("https://www.indiskaboxen.se/419");
+    }
     //  var name = urlParams.get('n');
     //  $("input[name='firstname']").val(name);
     //} else {
