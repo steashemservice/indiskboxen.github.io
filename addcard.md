@@ -1,6 +1,6 @@
 ---
 layout: card
-title: KORT
+title: PAYMENT
 description: 
 image: 
 nav-menu: false
