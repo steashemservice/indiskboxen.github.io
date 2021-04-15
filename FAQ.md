@@ -33,7 +33,7 @@ order: 1
                         </div>
 			<h3>Hur betalar jag?</h3>
 			<div>
-      				<p>Vi tar Swish och Kort. Om du inte redan har betalat du kan betala för din beställning med Swish till vår Swish nummer 123 478 05 32. Fyll ditt beställningsnummer i meddelandet. Indiska Boxens kortbetalningspartner är Stripe. Indisks Boxen tar aldrig del av dina personliga kontokortsuppgifter utan detta hanteras endast av Stripe. Person och betalningsuppgifter som lämnas på Indiska Boxen är krypterade med den högsta säkerhetsnivån enligt den standard som gäller vid handel på Internet. Kortbetalning görs i förskott.</p>
+      				<p>Vi tar Swish och Kort. Om du inte redan har betalat du kan betala för din beställning med Swish till vår Swish nummer 123 478 05 32. Fyll ditt beställningsnummer i meddelandet. Indiska Boxens kortbetalningspartner är Stripe. Indiska Boxen tar aldrig del av dina personliga kontokortsuppgifter utan detta hanteras endast av Stripe. Person och betalningsuppgifter som lämnas på Indiska Boxen är krypterade med den högsta säkerhetsnivån enligt den standard som gäller vid handel på Internet. Kortbetalning görs i förskott.</p>
   			</div>
                         <h3>Hur prenumerationen fungerar?</h3>
 			<div>
