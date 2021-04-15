@@ -35,7 +35,7 @@ order: 1
 			<div>
       				<p>Vi tar Swish och Kort. Om du inte redan har betalat du kan betala för din beställning med Swish till vår Swish nummer 123 478 05 32. Fyll ditt beställningsnummer i meddelandet. Indiska Boxens kortbetalningspartner är Stripe. Indisks Boxen tar aldrig del av dina personliga kontokortsuppgifter utan detta hanteras endast av Stripe. Person och betalningsuppgifter som lämnas på Indiska Boxen är krypterade med den högsta säkerhetsnivån enligt den standard som gäller vid handel på Internet. Kortbetalning görs i förskott.</p>
   			</div>
-                        <h3>Hur prenumerationen fungerat?</h3>
+                        <h3>Hur prenumerationen fungerar?</h3>
 			<div>
       				<p>När du går med i prenumeration första gången, får du leverans det datum du väljer. Nästa leverans skickas första söndagen av varje månad, med möjlighet att ändra leveransdatum och matlådor via länk i e-post skickas vid första köpet. Ändra/avsluta prenumerationen när du vill, fram till tre dagar innan nästa leverans. Vid betalning med kort dras pengarna direkt vid det första köptillfället. Kommande månader dras pengarna automatiskt från kortet två dagar innan nästa leverans varje månad.</p>
   			</div>
