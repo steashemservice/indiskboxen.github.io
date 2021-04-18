@@ -443,7 +443,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
       //} else if(day>28) {
       //  date.setDate(day+14);
       //}
-      if(day>22) {
+      if(day>24) {
         date.setDate(day+7);
       }
       time = date.toDateString()+' KL 12-21';
