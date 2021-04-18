@@ -444,7 +444,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
       //  date.setDate(day+14);
       //}
       if(day>21) {
-        date.setDate(day+4);
+        date.setDate(day+7);
         if(date.getDate()>21) {
           date.setDate(day+7);
         }
