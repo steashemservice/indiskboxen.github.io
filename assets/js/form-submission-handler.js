@@ -181,25 +181,30 @@ function stripegen(gway,fname,lname,addr,total,order) {
   function summarize(box) {
     var lines = "";
     var subch = 0;
-    var dis = 10;
-    if ($("#subscription").prop('checked')) {
-      subch =1;
-      if (box<10) {
-        dis = 5;
-      }
+    var dis = 0;
+    if (box >9) {
+      dis = 10;
+    } else if (box >4) {
+      dis = 5;
     }
+    //if ($("#subscription").prop('checked')) {
+    //  subch =1;
+    //  if (box<10) {
+    //    dis = 5;
+    //  }
+    //}
     $(".quantity").not(".special,.chappati,.snacks").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*79-(subch*$(this).val()*dis))+' kr</td></tr>';
+        lines += '<td>'+($(this).val()*79-($(this).val()*dis))+' kr</td></tr>';
       }
     });
     $(".special").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*129-(subch*$(this).val()*dis))+' kr</td></tr>';
+        lines += '<td>'+($(this).val()*129-($(this).val()*dis))+' kr</td></tr>';
       }
     });
     $(".chappati").each(function(){
@@ -242,14 +247,19 @@ function stripegen(gway,fname,lname,addr,total,order) {
     $("#productsel").val(box);
     var min = 1;
     var dis = 0;
-    if ($("#subscription").prop('checked')) {
-      min = 10;
+    if (box>9) {
       dis = 10;
-      if (box<10) {
-        min = 5;
-        dis = 5;
-      }
-      stext = ' med prenumeration';
+    } else if (box>4) {
+      dis = 5;
+    }
+    if ($("#subscription").prop('checked')) {
+      //min = 10;
+      //dis = 10;
+      //if (box<10) {
+      //  min = 5;
+      //  dis = 5;
+      //}
+      //stext = ' med prenumeration';
       $("#subscription").val('on');
     } else {
       $("#subscription").val('');
