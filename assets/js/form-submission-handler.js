@@ -180,15 +180,15 @@ function stripegen(gway,fname,lname,addr,total,order) {
   }
   function summarize(box) {
     var lines = "";
-    var subch = 0;
     var dis = 0;
+    var mprice = "79 kr";
+    var cprice = "129 kr";
     if (box >9) {
       dis = 10;
-    } else if (box >4) {
-      dis = 5;
+      mprice = "<s>79 kr</s> 69 kr";
+      cprice = "<s>129 kr</s> 119 kr";
     }
     //if ($("#subscription").prop('checked')) {
-    //  subch =1;
     //  if (box<10) {
     //    dis = 5;
     //  }
@@ -196,6 +196,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
     $(".quantity").not(".special,.chappati,.snacks").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
+        lines += '<td>'+mprice+'</td></tr>';
         lines += '<td>'+$(this).val()+' st</td>';
         lines += '<td>'+($(this).val()*79-($(this).val()*dis))+' kr</td></tr>';
       }
@@ -203,6 +204,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
     $(".special").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
+        lines += '<td>'+cprice+'</td></tr>';
         lines += '<td>'+$(this).val()+' st</td>';
         lines += '<td>'+($(this).val()*129-($(this).val()*dis))+' kr</td></tr>';
       }
@@ -210,6 +212,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
     $(".chappati").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
+        lines += '<td>'+$(this).parent().find('input').attr("data-price")+' kr</td></tr>';
         lines += '<td>'+$(this).val()+' st</td>';
         lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
       }
@@ -217,6 +220,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
     $(".snacks").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:60%">'+$(this).attr("name")+'</td>';
+        lines += '<td>'+$(this).parent().find('input').attr("data-price")+' kr</td></tr>';
         lines += '<td>'+$(this).val()+' st</td>';
         lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
       }
@@ -249,8 +253,6 @@ function stripegen(gway,fname,lname,addr,total,order) {
     var dis = 0;
     if (box>9) {
       dis = 10;
-    } else if (box>4) {
-      dis = 5;
     }
     if ($("#subscription").prop('checked')) {
       //min = 10;
