@@ -21,7 +21,7 @@ lang: se
 			<li><a href="#order" class="button scrolly">69 kr/matlåda (10 boxar eller mer)<br/><span>119 kr/currylåda (2 portioner)</span></a></li>
                 </ul>
             </div>
-	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans (För beställningar under 5 matlådor tillkommer en leveransavgift på 59 kr)<br/><i class="fa fa-fw fa-info"></i> Beställ minst 10 boxar (kombinera fritt mellan mat- och currylåda) till lägre pris och få dom för 69:-/119:-. <br/><i class="fa fa-fw fa-calendar-alt"></i> Med prenumeration av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</p>
+	    <p style="text-transform: uppercase;"><i class="fa fa-fw fa-biking"></i> fri hemleverans (För beställningar under 5 matlådor tillkommer en leveransavgift på 59 kr)<br/><i class="fa fa-fw fa-info"></i> Beställ minst 10 boxar (kombinera fritt mellan mat- och currylåda) till lägre pris och få dom för 69:-/119:-. <br/><i class="fa fa-fw fa-calendar-alt"></i> Leverans varje söndag. Med prenumeration (valfritt) av matlådorna sker leverans varje månad så länge du önskar utan bindningstid</p>
         </div>
     </section>
     
