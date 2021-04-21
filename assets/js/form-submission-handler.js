@@ -195,7 +195,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
     //}
     $(".quantity").not(".special,.chappati,.snacks").each(function(){
       if ($(this).val()>0) {
-        lines += '<tr><td style="width:50%">'+$(this).attr("name")+'</td>';
+        lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+mprice+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
         lines += '<td>'+($(this).val()*79-($(this).val()*dis))+' kr</td></tr>';
@@ -203,7 +203,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
     });
     $(".special").each(function(){
       if ($(this).val()>0) {
-        lines += '<tr><td style="width:50%">'+$(this).attr("name")+'</td>';
+        lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+cprice+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
         lines += '<td>'+($(this).val()*129-($(this).val()*dis))+' kr</td></tr>';
@@ -211,7 +211,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
     });
     $(".chappati").each(function(){
       if ($(this).val()>0) {
-        lines += '<tr><td style="width:50%">'+$(this).attr("name")+'</td>';
+        lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).parent().find('input').attr("data-price")+' kr</td>';
         lines += '<td>'+$(this).val()+' st</td>';
         lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
@@ -219,7 +219,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
     });
     $(".snacks").each(function(){
       if ($(this).val()>0) {
-        lines += '<tr><td style="width:50%">'+$(this).attr("name")+'</td>';
+        lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+$(this).parent().find('input').attr("data-price")+' kr</td>';
         lines += '<td>'+$(this).val()+' st</td>';
         lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
