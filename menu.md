@@ -74,7 +74,7 @@ order: 999
 				<h3>Butter Chicken <i class="fas fa-fw fa-globe-americas"></i>0,6 kg CO<sub>2</sub>e</h3>
 			  	<p>yoghurtmarinerad kycklingfilé tillagade i smör och smakrik tomatsås</p>
 			  	<p>yogurt marinated chicken fillet in tasty tomato butter sauce</p>
-			  	<p><b>Ingredienser</b> Ris 35%, Svensk Kycklinglårfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, Laktosfri Grädde, Vitlök, Ingefära, Garam Masala Kryddor, Bockhornsklöver Blad och Salt)</p>
+			  	<p><b>Ingredienser</b> Ris 35%, Svensk kycklingfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, Laktosfri Grädde, Vitlök, Ingefära, Garam Masala Kryddor, Bockhornsklöver Blad och Salt)</p>
 			  	<p><b>Allergener</b> Mjölk, Laktos, Kan innehålla spår av Senapsfrö</p>
 				</div>
 				<div class="menuitem">
@@ -82,7 +82,7 @@ order: 999
 				<h3>Chicken Madras <i class="fas fa-fw fa-globe-americas"></i>0,57 kg CO<sub>2</sub>e</h3>
 			  	<p>yoghurtmarinerad kycklingfilé tillagad i smakrik kokoskryddsås med doft av ingefära,spiskummin och koriander</p>
 			  	<p>yogurt marinated chicken fillet in rich, fragrant coconut curry</p>
-			  	<p><b>Ingredienser</b> Ris 35%, Svensk Kycklinglårfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, Kokos, Kokosmjölk, Vitlök, Ingefära, Garam Masala Kryddor och Salt)</p>
+			  	<p><b>Ingredienser</b> Ris 35%, Svensk kycklingfilé 30%, Sås 35% (Tomat, Lök, Yogurt, Smör, Kokos, Kokosmjölk, Vitlök, Ingefära, Garam Masala Kryddor och Salt)</p>
 			  	<p><b>Allergener</b> Mjölk, Laktos, Kan innehålla spår av Senapsfrö</p>
 				</div>
                         </div>
