@@ -13,6 +13,9 @@ function stripegen(gway,fname,lname,addr,total,order) {
   var slink = "https://www.indiskaboxen.se/"+gway+"?name="+fname+"%20"+lname+"&email="+addr+"&amount="+total+"00&order="+order;
   return slink;
 }
+function paysel(id) {
+  $(id).show();
+}
 (function($) {
   function goToUri(uri) {
     $('#swish-qr').show();
