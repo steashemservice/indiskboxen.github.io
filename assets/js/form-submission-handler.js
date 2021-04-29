@@ -14,12 +14,7 @@ function stripegen(gway,fname,lname,addr,total,order) {
   return slink;
 }
 function paysel(id) {
-  var x = $(id);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  $(id).toggle();
 }
 (function($) {
   function goToUri(uri) {
