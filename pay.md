@@ -18,7 +18,7 @@ order: 999
 			<div>
 				<h4>Beställningsnummer: <span class="orderid"></span><br>Summa att betala: <span class="ordertotal"></span> kr</h4>
 			</div>
-			<h2><a onclick="payselect('swishsel')">Betala med Swish</a></h2>
+			<h2><a onclick="paysel('swishsel')">Betala med Swish</a></h2>
 			<div id="swishsel">
 				<a class="link swish-link">
 					<img src="{{ site.baseurl }}/assets/images/Swish.png" alt-src="Betala med Swish">
@@ -31,7 +31,7 @@ order: 999
 				  	</div>
   				</div>
  			</div>
-			<h2><a onclick="payselect('stripesel')">Betalkort</a></h2>
+			<h2><a onclick="paysel('stripesel')">Betalkort</a></h2>
 			<div id="stripesel">
 				<iframe style="height: 340px; width: 100%;" allowpaymentrequest id="gFrame" src="https://script.google.com/macros/s/AKfycbzDz5bpLAOYri6kbhe1NcRvTIzHArm_hhtITKloobfokWgOAmuA/exec"></iframe>
 				<p>Indiska Boxens kortbetalningspartner är Stripe. Indiska Boxen tar aldrig del av dina personliga kontokortsuppgifter utan detta hanteras endast av Stripe. Person och betalningsuppgifter som lämnas på Indiska Boxen är krypterade med den högsta säkerhetsnivån enligt den standard som gäller vid handel på Internet. Kortbetalning görs i förskott.</p>
