@@ -188,7 +188,7 @@ function paysel(id) {
     var dis = 0;
     var mprice = "79 kr";
     var cprice = "129 kr";
-    if (faf) {
+    if (faf == true) {
       dis = 20;
       mprice = "<s>79 kr</s> 59 kr";
       cprice = "<s>129 kr</s> 99 kr";
@@ -215,7 +215,7 @@ function paysel(id) {
         lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+cprice+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        if (faf) {
+        if (faf == true) {
           lines += '<td>'+($(this).val()*129-($(this).val()*30))+' kr</td></tr>';
         } else {
           lines += '<td>'+($(this).val()*129-($(this).val()*dis))+' kr</td></tr>';
