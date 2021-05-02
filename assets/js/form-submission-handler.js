@@ -296,7 +296,9 @@ function paysel(id) {
       $("#orderbtn").prop('disabled', true);
       return false;
     } else {
-      if (box < 5){
+      if (faf == true) {
+        $(".minorderdeliv").hide();
+      } else if (box < 5){
         $(".minorderdeliv").show();
         $("#total").val(total+59);
         $('.ordertotal').text(total+59);
