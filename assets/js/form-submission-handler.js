@@ -105,6 +105,8 @@ function paysel(id) {
         return false;
       } else if (elements[k].name === "postcode_ro") {
         return false;
+      } else if (elements[k].name === "discount") {
+        return false;
       } else if (elements[k].value === "0") {
         return false;
       }
@@ -181,12 +183,16 @@ function paysel(id) {
       statusCode: {}
     });
   }
-  function summarize(box) {
+  function summarize(box,faf) {
     var lines = "";
     var dis = 0;
     var mprice = "79 kr";
     var cprice = "129 kr";
-    if (box >9) {
+    if (faf) {
+      dis = 20;
+      mprice = "<s>79 kr</s> 59 kr";
+      cprice = "<s>129 kr</s> 99 kr";
+    } else if(box >9) {
       dis = 10;
       mprice = "<s>79 kr</s> 69 kr";
       cprice = "<s>129 kr</s> 119 kr";
@@ -209,7 +215,11 @@ function paysel(id) {
         lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
         lines += '<td>'+cprice+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*129-($(this).val()*dis))+' kr</td></tr>';
+        if (faf) {
+          lines += '<td>'+($(this).val()*129-($(this).val()*30))+' kr</td></tr>';
+        } else {
+          lines += '<td>'+($(this).val()*129-($(this).val()*dis))+' kr</td></tr>';
+        }
       }
     });
     $(".chappati").each(function(){
@@ -253,9 +263,17 @@ function paysel(id) {
     var box = sum+curry;
     $("#productsel").val(box);
     var min = 1;
-    var dis = 0;
-    if (box>9) {
-      dis = 10;
+    var faf = false;
+    if ($("#discount").val().toLowerCase() === 'faf25') {
+      total += 59*sum;
+      total += 99*curry;
+      faf = true;
+    } else if (box>9) {
+      total += 69*sum;
+      total += 119*curry;
+    } else {
+      total += 79*sum;
+      total += 129*curry;
     }
     if ($("#subscription").prop('checked')) {
       //min = 10;
@@ -269,11 +287,9 @@ function paysel(id) {
     } else {
       $("#subscription").val('');
     }
-    total += (79-dis)*sum;
-    total += (129-dis)*curry;
     $("#total").val(total);
     $('.ordertotal').text(total);
-    summarize(box);
+    summarize(box,faf);
     if (box < min) {
       //$(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> 0 lådor valda. Beställ minst 1 lådor.').show();
       $(".minorder").html('<i class="fa fa-fw fa-exclamation"></i> '+box+' av '+min+' lådor valda. Beställ minst '+min+' lådor'+stext+'.').show();
@@ -293,7 +309,7 @@ function paysel(id) {
       return true;
     }
   }
-  $(".quantity,#subscription").change(function(e) {
+  $(".quantity,#subscription,#discount").change(function(e) {
     foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
