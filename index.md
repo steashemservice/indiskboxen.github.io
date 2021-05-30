@@ -35,6 +35,9 @@ lang: se
 		</div>
 	</div>-->
 	<div class="mySlides slidefade">
+		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fanna.martensson.102%2Fposts%2F3869373669779055&show_text=true&width=500" width="500" height="244" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+	</div>
+	<div class="mySlides slidefade">
 		<div class="fb-post" data-href="https://www.facebook.com/marta.m.atram/posts/10158449508666137" data-width="auto" data-show-text="false"><blockquote cite="https://www.facebook.com/marta.m.atram/posts/10158449508666137" class="fb-xfbml-parse-ignore"><p>Currylåda + nykokt ris + färsk koriander + chapatibröd = SANT ❤️
 
 Tack Indiskaboxen att ni har redat mina luncher hemma under den här pandemin! 🙏🏻</p>Posted by <a href="#" role="button">Marta Merdi</a> on&nbsp;<a href="https://www.facebook.com/marta.m.atram/posts/10158449508666137">Monday, March 29, 2021</a></blockquote></div>
