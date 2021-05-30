@@ -37,7 +37,7 @@ lang: se
 	<div class="mySlides slidefade">
 		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fanna.martensson.102%2Fposts%2F3869373669779055&show_text=true&width=500" width="500" height="244" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 	</div>
-	<div class="mySlides slidefade">
+	<!--div class="mySlides slidefade">
 		<div class="fb-post" data-href="https://www.facebook.com/marta.m.atram/posts/10158449508666137" data-width="auto" data-show-text="false"><blockquote cite="https://www.facebook.com/marta.m.atram/posts/10158449508666137" class="fb-xfbml-parse-ignore"><p>Currylåda + nykokt ris + färsk koriander + chapatibröd = SANT ❤️
 
 Tack Indiskaboxen att ni har redat mina luncher hemma under den här pandemin! 🙏🏻</p>Posted by <a href="#" role="button">Marta Merdi</a> on&nbsp;<a href="https://www.facebook.com/marta.m.atram/posts/10158449508666137">Monday, March 29, 2021</a></blockquote></div>
@@ -49,11 +49,7 @@ Trots att dom inte levererar till mitt område så gjorde dom det ändå pga per
 	</div>
         <div class="mySlides slidefade">
 		<div class="fb-post" data-href="https://www.facebook.com/pingvinfabriken/posts/10157704264093148" data-show-text="false" data-width="auto"><blockquote cite="https://www.facebook.com/pingvinfabriken/posts/10157704264093148" class="fb-xfbml-parse-ignore"><p>Jag ger den 5/5!✨ Vi beställde för två veckor sedan på prov - prisvärt och gott! Smidigt att beställa och betala med...</p>Posted by <a href="#" role="button">Moa Andersson</a> on&nbsp;<a href="https://www.facebook.com/pingvinfabriken/posts/10157704264093148">Sunday, November 15, 2020</a></blockquote></div>
-  		<!--<div class="slidetxt">
-			<h2>Moa A</h2>
-			<p> Jag ger den 5/5!✨ Vi beställde för två veckor sedan på prov - prisvärt och gott! Smidigt att beställa och betala med swish på hemsidan, bra uppdatering via sms innan leverans. Enda anledningen till att vi inte beställt igen är att vi håller på att äta ut frysen för att få plats med fler ♥️</p>
-		</div>-->
-	</div>
+  	</div>
         <div class="mySlides slidefade">
 		<div class="fb-post" data-href="https://www.facebook.com/jasmin.blossom/posts/10158689723107165" data-show-text="false" data-width="auto"><blockquote cite="https://www.facebook.com/jasmin.blossom/posts/10158689723107165" class="fb-xfbml-parse-ignore"><p>Mycket fräschare och varierade smaker än standardmenyer hos indiska krogar i stan! Smakar hemlagat!</p>Posted by <a href="#" role="button">Jasmin Blossom</a> on&nbsp;<a href="https://www.facebook.com/jasmin.blossom/posts/10158689723107165">Tuesday, November 10, 2020</a></blockquote></div>
 	</div>
@@ -69,7 +65,7 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 	</div>
 	<div class="mySlides slidefade">
 		<div class="fb-post" data-href="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886" data-show-text="false" data-width="auto"><blockquote cite="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886" class="fb-xfbml-parse-ignore"><p>Fantastiskt god indisk mat, perfekt för mig som jobbar hemifrån och saknat en god curry!</p>Posted by <a href="#" role="button">Adam Wallin Fd Axelsson</a> on&nbsp;<a href="https://www.facebook.com/adam.axelsson.37/posts/10157845465070886">Tuesday, December 1, 2020</a></blockquote></div>
-	</div>
+	</div-->
 	<!--<div class="slidetitle"><h3>{{ site.total }}</h3><span class="visborder">boxes delivered</span><br/><a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a></div>-->
 	<!--<div class="mySlides slidefade">
   		<img class="slideimg" src="/assets/food/palakpaneer.jpg" style="width:100%">
