@@ -35,7 +35,7 @@
 		text-transform: uppercase;
 		white-space: nowrap;
                 @include breakpoint(large) {
-			font-size: 1em;
+			//font-size: 1em;
 		}
 		@include breakpoint(small) {
                         width: 100%;
