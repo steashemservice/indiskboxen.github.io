@@ -23,7 +23,6 @@ order: 9
       <h2>Team</h2>
     </header>
   <p>Two IT engineers from Stockholm who love food:</p>
-  <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="dilipvajravelu" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://se.linkedin.com/in/dilipvajravelu?trk=profile-badge">Dilip Vajravelu</a></div>
   <ul style="list-style-type:none;">
     <li><img src="/assets/images/person1.jpeg" style="height: 200px;"></li>
     <li>Dilip who has a genuine love of cooking Indian food</li>
