@@ -265,6 +265,7 @@ function paysel(id) {
     var snacks = 0;
     var stext = '';
     var total = 0;
+    var box = 0;
     if ($("#subscription").prop('checked')) {
       //min = 10;
       //dis = 10;
@@ -307,7 +308,7 @@ function paysel(id) {
     $(".snacks").each(function(){
         total += $(this).val()*$(this).parent().find('input').attr("data-price");
     });
-    var box = sum+curry;
+    box += sum+curry;
     $("#productsel").val(box);
     var min = 1;
     var faf = false;
