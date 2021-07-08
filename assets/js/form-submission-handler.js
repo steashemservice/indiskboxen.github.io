@@ -346,7 +346,7 @@ function paysel(id) {
       return true;
     }
   }
-  $(".quantity,#subscription,#discount").change(function(e) {
+  $(".quantity,#subscription,#discount,#vegan,#veg,#regular").change(function(e) {
     foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
