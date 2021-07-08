@@ -238,19 +238,19 @@ function paysel(id) {
         lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
       }
     });
-    if ($("#vegan currylådor").prop('checked')) {
+    if ($("#vegancurrylådor").prop('checked')) {
       lines += '<tr><td style="width:40%">vegan currylådor</td>';
       lines += '<td>99 kr</td>';
       lines += '<td>10 st</td>';
       lines += '<td>990 kr</td></tr>';
     }
-    if ($("#vegetarian currylådor").prop('checked')) {
+    if ($("#vegetariancurrylådor").prop('checked')) {
       lines += '<tr><td style="width:40%">Blandning av vegan och paneer currylådor</td>';
       lines += '<td>109 kr</td>';
       lines += '<td>10 st</td>';
       lines += '<td>1090 kr</td></tr>';
     }
-    if ($("#mix currylådor").prop('checked')) {
+    if ($("#mixcurrylådor").prop('checked')) {
       lines += '<tr><td style="width:40%">Blandning av vegan, paneer och kyckling currylådor</td>';
       lines += '<td>109 kr</td>';
       lines += '<td>10 st</td>';
@@ -278,15 +278,15 @@ function paysel(id) {
       $(".syes").show();
       $(".sno").hide();
       var subcho = 0;
-      if ($("#vegan currylådor").prop('checked')) {
+      if ($("#vegancurrylådor").prop('checked')) {
         total += 990;
         box += 10;
       }
-      if ($("#vegetarian  currylådor").prop('checked')) {
+      if ($("#vegetariancurrylådor").prop('checked')) {
         total += 1090;
         box += 10;
       }
-      if ($("#mix currylådor").prop('checked')) {
+      if ($("#mixcurrylådor").prop('checked')) {
         total += 1090;
         box += 10;
       }
@@ -347,10 +347,7 @@ function paysel(id) {
       return true;
     }
   }
-  $(".quantity,#subscription,#discount").change(function(e) {
-    foverflow();
-  });
-  $("#vegan currylådor,#vegetarian currylådor,#mix currylådor"). change(function(e) {
+  $(".quantity,#subscription,#discount,#vegancurrylådor,#vegetariancurrylådor,#mixcurrylådor").change(function(e) {
     foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
