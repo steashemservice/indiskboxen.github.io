@@ -277,18 +277,21 @@ function paysel(id) {
       $("#subscription").val('on');
       $(".syes").show();
       $(".sno").hide();
-      var subcho = 0;
+      alert("here1");
       if ($("#vegan currylådor").prop('checked')) {
         total += 990;
         box += 10;
+        alert("here2"+total);
       }
       if ($("#vegetarian currylådor").prop('checked')) {
         total += 1090;
         box += 10;
+        alert("here3"+total);
       }
       if ($("#mix currylådor").prop('checked')) {
         total += 1090;
         box += 10;
+        alert("here2"+total);
       }
     } else {
       $("#subscription").val('');
