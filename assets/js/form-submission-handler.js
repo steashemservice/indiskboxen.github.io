@@ -238,6 +238,24 @@ function paysel(id) {
         lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
       }
     });
+    if ($("#vegan").prop('checked')) {
+      lines += '<tr><td style="width:40%">vegan currylådor</td>';
+      lines += '<td>99 kr</td>';
+      lines += '<td>10 st</td>';
+      lines += '<td>990 kr</td></tr>';
+    }
+    if ($("#veg").prop('checked')) {
+      lines += '<tr><td style="width:40%">Blandning av vegan och paneer currylådor</td>';
+      lines += '<td>109 kr</td>';
+      lines += '<td>10 st</td>';
+      lines += '<td>1090 kr</td></tr>';
+    }
+    if ($("#regular").prop('checked')) {
+      lines += '<tr><td style="width:40%">Blandning av vegan, paneer och kyckling currylådor</td>';
+      lines += '<td>109 kr</td>';
+      lines += '<td>10 st</td>';
+      lines += '<td>1090 kr</td></tr>';
+    }
     $("#summary").html(lines);
   };
   function foverflow() {
@@ -247,6 +265,35 @@ function paysel(id) {
     var snacks = 0;
     var stext = '';
     var total = 0;
+    if ($("#subscription").prop('checked')) {
+      //min = 10;
+      //dis = 10;
+      //if (box<10) {
+      //  min = 5;
+      //  dis = 5;
+      //}
+      //stext = ' med prenumeration';
+      $("#subscription").val('on');
+      $(".syes").show();
+      $(".sno").hide();
+      var subcho = 0;
+      if ($("#vegan").prop('checked')) {
+        total += 99;
+        box += 10;
+      }
+      if ($("#veg").prop('checked')) {
+        total += 109;
+        box += 10;
+      }
+      if ($("#regular").prop('checked')) {
+        total += 109;
+        box += 10;
+      }
+    } else {
+      $("#subscription").val('');
+      $(".syes").hide();
+      $(".sno").show();
+    }
     $(".quantity").not(".special,.chappati,.snacks").each(function(){
         sum += +$(this).val();
     });
@@ -274,18 +321,6 @@ function paysel(id) {
     } else {
       total += 79*sum;
       total += 129*curry;
-    }
-    if ($("#subscription").prop('checked')) {
-      //min = 10;
-      //dis = 10;
-      //if (box<10) {
-      //  min = 5;
-      //  dis = 5;
-      //}
-      //stext = ' med prenumeration';
-      $("#subscription").val('on');
-    } else {
-      $("#subscription").val('');
     }
     $("#total").val(total);
     $('.ordertotal').text(total);
