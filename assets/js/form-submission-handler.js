@@ -347,7 +347,10 @@ function paysel(id) {
       return true;
     }
   }
-  $('.quantity,#subscription,#discount,"#vegan currylådor","#vegetarian currylådor","#mix currylådor"').change(function(e) {
+  $(".quantity,#subscription,#discount").change(function(e) {
+    foverflow();
+  });
+  $("#vegan currylådor,#vegetarian currylådor,#mix currylådor"). change(function(e) {
     foverflow();
   });
   function handlecontactFormSubmit(event) {  // handles form submit without any jquery
