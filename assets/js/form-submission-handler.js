@@ -278,15 +278,15 @@ function paysel(id) {
       $(".sno").hide();
       var subcho = 0;
       if ($("#vegan").prop('checked')) {
-        total += 99;
+        total += 990;
         box += 10;
       }
       if ($("#veg").prop('checked')) {
-        total += 109;
+        total += 1090;
         box += 10;
       }
       if ($("#regular").prop('checked')) {
-        total += 109;
+        total += 1090;
         box += 10;
       }
     } else {
