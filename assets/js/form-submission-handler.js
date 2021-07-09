@@ -238,19 +238,19 @@ function paysel(id) {
         lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
       }
     });
-    if ($("#vegan currylådor").prop('checked')) {
+    if ($("#vegancurrylådor").prop('checked')) {
       lines += '<tr><td style="width:40%">vegan currylådor</td>';
       lines += '<td>99 kr</td>';
       lines += '<td>10 st</td>';
       lines += '<td>990 kr</td></tr>';
     }
-    if ($("#vegetarian currylådor").prop('checked')) {
+    if ($("#vegetariancurrylådor").prop('checked')) {
       lines += '<tr><td style="width:40%">Blandning av vegan och paneer currylådor</td>';
       lines += '<td>109 kr</td>';
       lines += '<td>10 st</td>';
       lines += '<td>1090 kr</td></tr>';
     }
-    if ($("#mix currylådor").prop('checked')) {
+    if ($("#mixcurrylådor").prop('checked')) {
       lines += '<tr><td style="width:40%">Blandning av vegan, paneer och kyckling currylådor</td>';
       lines += '<td>109 kr</td>';
       lines += '<td>10 st</td>';
@@ -278,17 +278,17 @@ function paysel(id) {
       $(".syes").show();
       $(".sno").hide();
       alert("here1");
-      if ($("#vegan currylådor").prop('checked')) {
+      if ($("#vegancurrylådor").prop('checked')) {
         total += 990;
         box += 10;
         alert("here2"+total);
       }
-      if ($("#vegetarian currylådor").prop('checked')) {
+      if ($("#vegetariancurrylådor").prop('checked')) {
         total += 1090;
         box += 10;
         alert("here3"+total);
       }
-      if ($("#mix currylådor").prop('checked')) {
+      if ($("#mixcurrylådor").prop('checked')) {
         total += 1090;
         box += 10;
         alert("here2"+total);
