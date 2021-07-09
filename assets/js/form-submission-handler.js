@@ -256,6 +256,9 @@ function paysel(id) {
     var stext = '';
     var total = 0;
     var box = 0;
+    $("#vegancurrylådor").val('');
+    $("#vegetariancurrylådor").val('');
+    $("#mixcurrylådor").val('');
     if ($("#subscription").prop('checked')) {
       //min = 10;
       //dis = 10;
