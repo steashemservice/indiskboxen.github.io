@@ -238,24 +238,14 @@ function paysel(id) {
         lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
       }
     });
-    if ($("#vegancurrylådor").prop('checked')) {
-      lines += '<tr><td style="width:40%">vegan currylådor</td>';
-      lines += '<td>99 kr</td>';
-      lines += '<td>10 st</td>';
-      lines += '<td>990 kr</td></tr>';
-    }
-    if ($("#vegetariancurrylådor").prop('checked')) {
-      lines += '<tr><td style="width:40%">Blandning av vegan och paneer currylådor</td>';
-      lines += '<td>109 kr</td>';
-      lines += '<td>10 st</td>';
-      lines += '<td>1090 kr</td></tr>';
-    }
-    if ($("#mixcurrylådor").prop('checked')) {
-      lines += '<tr><td style="width:40%">Blandning av vegan, paneer och kyckling currylådor</td>';
-      lines += '<td>109 kr</td>';
-      lines += '<td>10 st</td>';
-      lines += '<td>1090 kr</td></tr>';
-    }
+    $(".subsel").each(function(){
+      if ($(this).val()>0) {
+        lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
+        lines += '<td>'+$(this).parent().find('input').attr("data-price")+' kr</td>';
+        lines += '<td>'+$(this).val()+' st</td>';
+        lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
+      }
+    });
     $("#summary").html(lines);
   };
   function foverflow() {
@@ -277,21 +267,20 @@ function paysel(id) {
       $("#subscription").val('on');
       $(".syes").show();
       $(".sno").hide();
-      alert("here1");
       if ($("#vegancurrylådor").prop('checked')) {
         total += 990;
         box += 10;
-        alert("here2"+total);
+        $("#vegancurrylådor").val(10);
       }
       if ($("#vegetariancurrylådor").prop('checked')) {
         total += 1090;
         box += 10;
-        alert("here3"+total);
+        $("#vegetariancurrylådor").val(10);
       }
       if ($("#mixcurrylådor").prop('checked')) {
         total += 1090;
         box += 10;
-        alert("here2"+total);
+        $("#mixcurrylådor").val(10);
       }
     } else {
       $("#subscription").val('');
