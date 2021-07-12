@@ -240,7 +240,7 @@ function paysel(id) {
     });
     $(".subsel").each(function(){
       if ($(this).val()=='on') {
-        lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
+        lines += '<tr><td style="width:40%">Currylådor (Prenumeration)</td>';
         lines += '<td>99 kr</td>';
         lines += '<td>10 st</td>';
         lines += '<td>990 kr</td></tr>';
