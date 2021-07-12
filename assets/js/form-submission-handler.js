@@ -256,9 +256,7 @@ function paysel(id) {
     var stext = '';
     var total = 0;
     var box = 0;
-    $("#vegancurrylådor").val('');
-    $("#vegetariancurrylådor").val('');
-    $("#mixcurrylådor").val('');
+    $("#vegan").val('');
     if ($("#subscription").prop('checked')) {
       //min = 10;
       //dis = 10;
@@ -270,20 +268,10 @@ function paysel(id) {
       $("#subscription").val('on');
       $(".syes").show();
       $(".sno").hide();
-      if ($("#vegancurrylådor").prop('checked')) {
-        total += 990;
-        box += 10;
-        $("#vegancurrylådor").val(10);
-      }
-      if ($("#vegetariancurrylådor").prop('checked')) {
-        total += 1090;
-        box += 10;
-        $("#vegetariancurrylådor").val(10);
-      }
-      if ($("#mixcurrylådor").prop('checked')) {
-        total += 1090;
-        box += 10;
-        $("#mixcurrylådor").val(10);
+      total += 990;
+      box += 10;
+      if ($("#vegan").prop('checked')) {
+        $("#vegan").val('yes');
       }
     } else {
       $("#subscription").val('');
