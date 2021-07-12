@@ -239,11 +239,11 @@ function paysel(id) {
       }
     });
     $(".subsel").each(function(){
-      if ($(this).val()>0) {
+      if ($(this).val()=='on') {
         lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
-        lines += '<td>'+$(this).parent().find('input').attr("data-price")+' kr</td>';
-        lines += '<td>'+$(this).val()+' st</td>';
-        lines += '<td>'+($(this).val()*($(this).parent().find('input').attr("data-price")))+' kr</td></tr>';
+        lines += '<td>99 kr</td>';
+        lines += '<td>10 st</td>';
+        lines += '<td>990 kr</td></tr>';
       }
     });
     $("#summary").html(lines);
