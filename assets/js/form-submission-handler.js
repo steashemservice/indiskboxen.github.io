@@ -495,7 +495,7 @@ function paysel(id) {
       //} else if(day>28) {
       //  date.setDate(day+14);
       //}
-      if(day>24) {
+      if(day>24 || day<7) {
         date.setDate(day+7);
       }
       time = date.toDateString()+' KL 12-21';
